@@ -51,12 +51,12 @@ export default function Navbar() {
               className="h-[35px] w-auto"
             />
           </span>
-          <span className="leading-tight">
-            <span className="block font-display text-base font-semibold tracking-tight">
-              Observatorio Urabá
+          <span className="max-w-[15rem] leading-tight">
+            <span className="block font-display text-sm font-semibold leading-tight tracking-tight sm:text-[15px]">
+              Observatorio de Deforestación CORPOURABA
             </span>
-            <span className="block text-[11px] uppercase tracking-widest text-[color:var(--tinta-suave)]">
-              CORPOURABA · 2000–2024
+            <span className="block text-[10px] uppercase tracking-widest text-[color:var(--tinta-suave)]">
+              Monitoreo de bosques · 2000–2024
             </span>
           </span>
         </Link>
