@@ -210,7 +210,8 @@ export default function DeforestacionPorTerritorio() {
 
             <p className="mt-4 text-xs text-[color:var(--tinta-suave)]">
               «Deforestación mapeada»: polígonos ≥1 ha de los 12 periodos con detección espacial
-              (~87 % de la deforestación medida). El % es sobre el área de cada unidad cuando se
+              (aprox. 65 % de la deforestación total; los otros 6 periodos —incluido el pico
+              2015-2016— no tienen geometría). El % es sobre el área de cada unidad cuando se
               conoce. Fuentes y método en el centro de datos.
             </p>
           </>

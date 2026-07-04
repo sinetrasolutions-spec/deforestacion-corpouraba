@@ -567,7 +567,7 @@ export default function LienzoParches() {
             Descargar GeoJSON del periodo
           </a>
           <p className="mt-3 text-[10px] leading-snug text-[color:var(--tinta-suave)]">
-            Polígonos ≥1 ha. Cubren 12 de 18 periodos (~87 % de la deforestación medida).
+            Polígonos ≥1 ha de 12 de los 18 periodos (aprox. 65 % de la deforestación total; faltan el pico 2015-2016 y otros 5 periodos sin geometría).
           </p>
         </aside>
       )}

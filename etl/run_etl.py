@@ -355,6 +355,12 @@ def hotspots_from_raster(raw: Path, out_dir: Path, periodo: str,
     joined = gpd.sjoin(cent, mpios, how="left", predicate="within")
     gdf["municipio"] = joined["municipio_key"].map(
         lambda k: MUNICIPIOS[k][0] if pd.notna(k) and k in MUNICIPIOS else None).values
+    # El ráster cubre todo Antioquia: recortar a la jurisdicción (parches con
+    # municipio asignado). Evita inflar los hotspots con deforestación externa.
+    fuera = gdf["municipio"].isna().sum()
+    if fuera:
+        log(f"  {periodo}: {fuera} parches fuera de la jurisdicción descartados")
+    gdf = gdf[gdf["municipio"].notna()]
     gdf = gdf.to_crs(WGS84)[["municipio", "ha", "geometry"]]
     path = out_dir / f"{periodo}.geojson"
     gdf.to_file(path, driver="GeoJSON", COORDINATE_PRECISION=5)
