@@ -1,0 +1,430 @@
+{
+ "titulo": "Observatorio de Deforestación CORPOURABA 2000–2024",
+ "generado": "2026-07-03T20:05:09.947778+00:00",
+ "crs_salida": "EPSG:4326",
+ "crs_origen": "EPSG:3115 / MAGNA-SIRGAS Bogotá (métricos)",
+ "clases": {
+  "Bosque Estable": "BOSQUE ESTABLE",
+  "Deforestación": "DEFORESTACION",
+  "No Bosque Estable": "NO BOSQUE ESTABLE",
+  "Regeneración": "REGENERACION",
+  "Sin Información": "SIN INFORMACION"
+ },
+ "gridcode": {
+  "1": "Bosque Estable",
+  "2": "Deforestación",
+  "3": "Sin Información",
+  "4": "Regeneración",
+  "5": "No Bosque Estable"
+ },
+ "periodos": [
+  {
+   "id": "2000-2002",
+   "ano_inicio": 2000,
+   "ano_fin": 2002,
+   "anos": 2,
+   "fuente": "excel"
+  },
+  {
+   "id": "2002-2004",
+   "ano_inicio": 2002,
+   "ano_fin": 2004,
+   "anos": 2,
+   "fuente": "shapefile"
+  },
+  {
+   "id": "2004-2006",
+   "ano_inicio": 2004,
+   "ano_fin": 2006,
+   "anos": 2,
+   "fuente": "shapefile"
+  },
+  {
+   "id": "2006-2008",
+   "ano_inicio": 2006,
+   "ano_fin": 2008,
+   "anos": 2,
+   "fuente": "shapefile"
+  },
+  {
+   "id": "2008-2010",
+   "ano_inicio": 2008,
+   "ano_fin": 2010,
+   "anos": 2,
+   "fuente": "shapefile"
+  },
+  {
+   "id": "2010-2012",
+   "ano_inicio": 2010,
+   "ano_fin": 2012,
+   "anos": 2,
+   "fuente": "estimado"
+  },
+  {
+   "id": "2012-2013",
+   "ano_inicio": 2012,
+   "ano_fin": 2013,
+   "anos": 1,
+   "fuente": "raster (zonal stats)"
+  },
+  {
+   "id": "2013-2014",
+   "ano_inicio": 2013,
+   "ano_fin": 2014,
+   "anos": 1,
+   "fuente": "shapefile"
+  },
+  {
+   "id": "2014-2015",
+   "ano_inicio": 2014,
+   "ano_fin": 2015,
+   "anos": 1,
+   "fuente": "excel"
+  },
+  {
+   "id": "2015-2016",
+   "ano_inicio": 2015,
+   "ano_fin": 2016,
+   "anos": 1,
+   "fuente": "cuencas (parcial)"
+  },
+  {
+   "id": "2016-2017",
+   "ano_inicio": 2016,
+   "ano_fin": 2017,
+   "anos": 1,
+   "fuente": "shapefile"
+  },
+  {
+   "id": "2017-2018",
+   "ano_inicio": 2017,
+   "ano_fin": 2018,
+   "anos": 1,
+   "fuente": "shapefile"
+  },
+  {
+   "id": "2018-2019",
+   "ano_inicio": 2018,
+   "ano_fin": 2019,
+   "anos": 1,
+   "fuente": "estimado"
+  },
+  {
+   "id": "2019-2020",
+   "ano_inicio": 2019,
+   "ano_fin": 2020,
+   "anos": 1,
+   "fuente": "shapefile"
+  },
+  {
+   "id": "2020-2021",
+   "ano_inicio": 2020,
+   "ano_fin": 2021,
+   "anos": 1,
+   "fuente": "shapefile"
+  },
+  {
+   "id": "2021-2022",
+   "ano_inicio": 2021,
+   "ano_fin": 2022,
+   "anos": 1,
+   "fuente": "shapefile"
+  },
+  {
+   "id": "2022-2023",
+   "ano_inicio": 2022,
+   "ano_fin": 2023,
+   "anos": 1,
+   "fuente": "shapefile"
+  },
+  {
+   "id": "2023-2024",
+   "ano_inicio": 2023,
+   "ano_fin": 2024,
+   "anos": 1,
+   "fuente": "estimado"
+  }
+ ],
+ "municipios": [
+  {
+   "key": "ABRIAQUI",
+   "nombre": "Abriaquí",
+   "codigo_dane": "05004",
+   "subregion": "Nutibara"
+  },
+  {
+   "key": "APARTADO",
+   "nombre": "Apartadó",
+   "codigo_dane": "05045",
+   "subregion": "Centro"
+  },
+  {
+   "key": "ARBOLETES",
+   "nombre": "Arboletes",
+   "codigo_dane": "05051",
+   "subregion": "Caribe"
+  },
+  {
+   "key": "CANASGORDAS",
+   "nombre": "Cañasgordas",
+   "codigo_dane": "05138",
+   "subregion": "Nutibara"
+  },
+  {
+   "key": "CAREPA",
+   "nombre": "Carepa",
+   "codigo_dane": "05147",
+   "subregion": "Centro"
+  },
+  {
+   "key": "CHIGORODO",
+   "nombre": "Chigorodó",
+   "codigo_dane": "05172",
+   "subregion": "Centro"
+  },
+  {
+   "key": "DABEIBA",
+   "nombre": "Dabeiba",
+   "codigo_dane": "05234",
+   "subregion": "Nutibara"
+  },
+  {
+   "key": "FRONTINO",
+   "nombre": "Frontino",
+   "codigo_dane": "05284",
+   "subregion": "Nutibara"
+  },
+  {
+   "key": "GIRALDO",
+   "nombre": "Giraldo",
+   "codigo_dane": "05306",
+   "subregion": "Nutibara"
+  },
+  {
+   "key": "MURINDO",
+   "nombre": "Murindó",
+   "codigo_dane": "05475",
+   "subregion": "Atrato"
+  },
+  {
+   "key": "MUTATA",
+   "nombre": "Mutatá",
+   "codigo_dane": "05480",
+   "subregion": "Centro"
+  },
+  {
+   "key": "NECOCLI",
+   "nombre": "Necoclí",
+   "codigo_dane": "05490",
+   "subregion": "Caribe"
+  },
+  {
+   "key": "PEQUE",
+   "nombre": "Peque",
+   "codigo_dane": "05543",
+   "subregion": "Nutibara"
+  },
+  {
+   "key": "SAN JUAN DE URABA",
+   "nombre": "San Juan de Urabá",
+   "codigo_dane": "05659",
+   "subregion": "Caribe"
+  },
+  {
+   "key": "SAN PEDRO DE URABA",
+   "nombre": "San Pedro de Urabá",
+   "codigo_dane": "05665",
+   "subregion": "Caribe"
+  },
+  {
+   "key": "TURBO",
+   "nombre": "Turbo",
+   "codigo_dane": "05837",
+   "subregion": "Centro"
+  },
+  {
+   "key": "URAMITA",
+   "nombre": "Uramita",
+   "codigo_dane": "05842",
+   "subregion": "Nutibara"
+  },
+  {
+   "key": "URRAO",
+   "nombre": "Urrao",
+   "codigo_dane": "05847",
+   "subregion": "Urrao"
+  },
+  {
+   "key": "VIGIA DEL FUERTE",
+   "nombre": "Vigía del Fuerte",
+   "codigo_dane": "05873",
+   "subregion": "Atrato"
+  }
+ ],
+ "vacios_estimados": [
+  "2010-2012",
+  "2018-2019",
+  "2023-2024"
+ ],
+ "nota_estimados": "2010-2012, 2018-2019 y 2023-2024 carecen de datos municipales en el paquete original; se estiman por interpolación/tendencia de la tasa anual y se marcan con estimado=true. 2010-2012 se calibra además con el total departamental real del RAT del ráster (× participación histórica de la jurisdicción ~18%). Usar solo como referencia, no como cifra oficial.",
+ "nota_2015_2016": "2015-2016 proviene del cruce con cuencas (cobertura parcial). Se calibra con factores municipio×clase derivados de 2016-2017 (único periodo con ambas fuentes) y se marca estimado=true. Murindó y Vigía del Fuerte se interpolan.",
+ "hotspots_features": {
+  "2012-2013": 4160,
+  "2002-2004": 1119,
+  "2004-2006": 902,
+  "2006-2008": 808,
+  "2008-2010": 834,
+  "2013-2014": 794,
+  "2016-2017": 1252,
+  "2017-2018": 457,
+  "2019-2020": 569,
+  "2020-2021": 419,
+  "2021-2022": 803,
+  "2022-2023": 396
+ },
+ "overlays_unidades": {
+  "areas_protegidas": 21,
+  "resguardos": 39,
+  "consejos": 7,
+  "cuencas": 7
+ },
+ "qa_calculos": [
+  {
+   "periodo": "2000-2002",
+   "hoja": "Cálculos2002",
+   "archivo": "Defor2000_2002_Mpios_Dat.xls",
+   "total_referencia_ha": 1590.3,
+   "diferencia_abs_ha": 0.0,
+   "diferencia_pct": 0.0
+  },
+  {
+   "periodo": "2004-2006",
+   "hoja": "Cálculos2006",
+   "archivo": "Defor2004_2006_Mpios_Dat.xls",
+   "total_referencia_ha": 3028.2,
+   "diferencia_abs_ha": 6.5,
+   "diferencia_pct": 0.22
+  },
+  {
+   "periodo": "2008-2010",
+   "hoja": "Cálculos2010",
+   "archivo": "Defor2008_2010_Mpios_Dat.xls",
+   "total_referencia_ha": 2927.9,
+   "diferencia_abs_ha": 6.6,
+   "diferencia_pct": 0.22
+  },
+  {
+   "periodo": "2014-2015",
+   "hoja": "Cálculos2015",
+   "archivo": "Defor2014_2015_Mpios_Dat.xls",
+   "total_referencia_ha": 2887.5,
+   "diferencia_abs_ha": 0.0,
+   "diferencia_pct": 0.0
+  },
+  {
+   "periodo": "2016-2017",
+   "hoja": "Cálculos2017",
+   "archivo": "Defor2016_2017_Mpios_Dat.xls",
+   "total_referencia_ha": 3942.2,
+   "diferencia_abs_ha": 11.5,
+   "diferencia_pct": 0.29
+  },
+  {
+   "periodo": "2017-2018",
+   "hoja": "Cálculos2018",
+   "archivo": "Defor2017_2018_Mpios_Dat.xls",
+   "total_referencia_ha": 1768.7,
+   "diferencia_abs_ha": 3.6,
+   "diferencia_pct": 0.2
+  },
+  {
+   "periodo": "2019-2020",
+   "hoja": "Cálculos2020",
+   "archivo": "Defor2019_2020_Mpios_Dat.xls",
+   "total_referencia_ha": 1740.6,
+   "diferencia_abs_ha": 3.3,
+   "diferencia_pct": 0.19
+  },
+  {
+   "periodo": "2020-2021",
+   "hoja": "Cálculos2021",
+   "archivo": "Defor2020_2021_Mpios_Dat.xls",
+   "total_referencia_ha": 1092.8,
+   "diferencia_abs_ha": 2.1,
+   "diferencia_pct": 0.19
+  },
+  {
+   "periodo": "2021-2022",
+   "hoja": "Cálculos2022",
+   "archivo": "Defor2021_2022_Mpios_Dat.xls",
+   "total_referencia_ha": 2330.2,
+   "diferencia_abs_ha": 4.6,
+   "diferencia_pct": 0.2
+  },
+  {
+   "periodo": "2022-2023",
+   "hoja": "Cálculos2023",
+   "archivo": "Defor2022_2023_Mpios_Dat.xls",
+   "total_referencia_ha": 1158.4,
+   "diferencia_abs_ha": 2.2,
+   "diferencia_pct": 0.19
+  }
+ ],
+ "log": [
+  "[1/6] Límites municipales desde 2021-2022/Defor2021_2022_Mpios_Proj.shp ...",
+  "  OK: 19 municipios",
+  "[2/6] Serie municipal por periodo ...",
+  "  2000-2002: excel (Defor2000_2002_Mpios.shp) → 1,864,026 ha",
+  "  2002-2004: shapefile (Defor2002_2004_Mpios_Proj_Corr.shp) → 1,860,423 ha",
+  "  2004-2006: shapefile (Defor2004_2006_Mpios_Proj_Corr.shp) → 1,860,423 ha",
+  "  2006-2008: shapefile (Defor2006_2008_Mpios_V2_Proj_Corr.shp) → 1,860,423 ha",
+  "  2008-2010: shapefile (Defor2008_2010_Mpios_Proj_Correj.shp) → 1,860,427 ha",
+  "  2012-2013: zonal stats ráster → 1,862,723 ha",
+  "  2013-2014: shapefile (Corregida14.shp) → 1,863,458 ha",
+  "  [WARN] 2014-2015: sin match municipio/clase: 46769/'Total' (1860191.4 ha descartadas)",
+  "  2014-2015: excel (Defor2014_2015_Mpios.shp) → 1,860,191 ha",
+  "  2015-2016: excel de cuencas → 17/19 municipios (cobertura parcial)",
+  "  2016-2017: shapefile (Defor2016_2017_Mpios_Proj_Correg.shp) → 1,860,433 ha",
+  "  2017-2018: shapefile (Defor2017_2018_Mpios_Proj_Correg.shp) → 1,860,434 ha",
+  "  2019-2020: shapefile (Defor2019_2020_Mpios_Proj_Correg.shp) → 1,860,435 ha",
+  "  2020-2021: shapefile (Defor2020_2021_Mpios_Proj_Correg.shp) → 1,860,436 ha",
+  "  2021-2022: shapefile (Defor2021_2022_Mpios_Proj_Correg.shp) → 1,860,434 ha",
+  "  2022-2023: shapefile (Defor2022_2023_Mpios_Proj_Correg.shp) → 1,860,446 ha",
+  "  2015-2016: calibración por cuencas 2,248 ha -> 4,751 ha (factores municipio×clase desde 2016-2017)",
+  "  2015-2016: 2 municipios sin cobertura de cuencas estimados por interpolación: ['Murindó', 'Vigía del Fuerte']",
+  "[3/6] Estimación de vacíos (solo clase Deforestación, flag estimado) ...",
+  "  2010-2012: estimado para 19 municipios",
+  "  2018-2019: estimado para 19 municipios",
+  "  2023-2024: estimado para 19 municipios",
+  "  2010-2012: defo. dptal real 17,546 ha × participación jurisdicción 17.9% = objetivo 3,135 ha (factor 0.839)",
+  "[4/6] Hotspots de deforestación por periodo ...",
+  "  2012-2013: 4160 polígonos ≥1 ha desde ráster (1189 KB)",
+  "  2002-2004: 1119 polígonos ≥1 ha (320 KB)",
+  "  2004-2006: 902 polígonos ≥1 ha (260 KB)",
+  "  2006-2008: 808 polígonos ≥1 ha (227 KB)",
+  "  2008-2010: 834 polígonos ≥1 ha (238 KB)",
+  "  2013-2014: 794 polígonos ≥1 ha (227 KB)",
+  "  2016-2017: 1252 polígonos ≥1 ha (344 KB)",
+  "  2017-2018: 457 polígonos ≥1 ha (126 KB)",
+  "  2019-2020: 569 polígonos ≥1 ha (151 KB)",
+  "  2020-2021: 419 polígonos ≥1 ha (110 KB)",
+  "  2021-2022: 803 polígonos ≥1 ha (214 KB)",
+  "  2022-2023: 396 polígonos ≥1 ha (103 KB)",
+  "[5/6] Capas de contexto (overlays) ...",
+  "  areas_protegidas: 21 unidades (105 KB)",
+  "  resguardos: 39 unidades (121 KB)",
+  "  consejos: 7 unidades (47 KB)",
+  "  cuencas: 7 unidades (94 KB)",
+  "[6/6] QA contra hojas 'Cálculos' de los Excel originales ...",
+  "  2000-2002 vs Cálculos2002: dif 0.00% [OK]",
+  "  2004-2006 vs Cálculos2006: dif 0.22% [OK]",
+  "  2008-2010 vs Cálculos2010: dif 0.22% [OK]",
+  "  2014-2015 vs Cálculos2015: dif 0.00% [OK]",
+  "  2016-2017 vs Cálculos2017: dif 0.29% [OK]",
+  "  2017-2018 vs Cálculos2018: dif 0.20% [OK]",
+  "  2019-2020 vs Cálculos2020: dif 0.19% [OK]",
+  "  2020-2021 vs Cálculos2021: dif 0.19% [OK]",
+  "  2021-2022 vs Cálculos2022: dif 0.20% [OK]",
+  "  2022-2023 vs Cálculos2023: dif 0.19% [OK]"
+ ]
+}

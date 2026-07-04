@@ -1,0 +1,71 @@
+{
+ "tema": "Deforestación mapeada por POMCA (LIMITES_POMCAS × hotspots ≥1 ha)",
+ "n_pomcas": 7,
+ "periodos": [
+  "2002-2004",
+  "2004-2006",
+  "2006-2008",
+  "2008-2010",
+  "2012-2013",
+  "2013-2014",
+  "2016-2017",
+  "2017-2018",
+  "2019-2020",
+  "2020-2021",
+  "2021-2022",
+  "2022-2023"
+ ],
+ "deforestacion_total_ha": 8724.3,
+ "nota": "Deforestación mapeada (hotspots ≥1 ha, 12 de 18 periodos). Un parche puede caer en más de un POMCA solo en las fronteras; la intersección geométrica reparte el área sin duplicar.",
+ "ranking": [
+  {
+   "pomca": "Río León",
+   "deforestacion_ha": 3860.1,
+   "n_poligonos": 1492,
+   "area_ha": 219721.1,
+   "pct_del_pomca": 1.757
+  },
+  {
+   "pomca": "Río Turbo-Currulao",
+   "deforestacion_ha": 2225.2,
+   "n_poligonos": 826,
+   "area_ha": 89341.6,
+   "pct_del_pomca": 2.491
+  },
+  {
+   "pomca": "Río Sucio Alto",
+   "deforestacion_ha": 1747.2,
+   "n_poligonos": 958,
+   "area_ha": 217475.1,
+   "pct_del_pomca": 0.803
+  },
+  {
+   "pomca": "Río San Juan",
+   "deforestacion_ha": 493.8,
+   "n_poligonos": 98,
+   "area_ha": 141033.5,
+   "pct_del_pomca": 0.35
+  },
+  {
+   "pomca": "Directos al Cauca entre Río San Juan e Ituago",
+   "deforestacion_ha": 307.2,
+   "n_poligonos": 158,
+   "area_ha": 245726.0,
+   "pct_del_pomca": 0.125
+  },
+  {
+   "pomca": "Río Mulaticos",
+   "deforestacion_ha": 49.5,
+   "n_poligonos": 26,
+   "area_ha": 13397.7,
+   "pct_del_pomca": 0.369
+  },
+  {
+   "pomca": "Río Canaletes, Los Córdobas y otros arroyos",
+   "deforestacion_ha": 41.4,
+   "n_poligonos": 6,
+   "area_ha": 128508.1,
+   "pct_del_pomca": 0.032
+  }
+ ]
+}

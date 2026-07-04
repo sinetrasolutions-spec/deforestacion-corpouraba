@@ -1,0 +1,466 @@
+{
+  "tema": "Cuencas hidrográficas — deforestación 2000-2024 (CORPOURABA)",
+  "generado": "2026-07-04T04:40:04.861011+00:00",
+  "cuencas_total": 7,
+  "cuencas": {
+    "1": "Turbo Currulao",
+    "2": "Sucio Alto",
+    "3": "San Juan",
+    "4": "Mulaticos",
+    "5": "León",
+    "6": "Cauca",
+    "7": "Canalete"
+  },
+  "calidad_area": {
+    "hallazgo": "La columna 'AREA_ha'/'AREA HA' es en varios periodos el área del polígono de cobertura ANTES de recortarlo contra la cuenca (pre-clip): en 2022-2023 suma 2.766.595 ha vs 723.026 ha reales de la geometría. El área solo se toma de geometría o de columnas cuyo total coincide con la referencia.",
+    "area_ref_geometrica_7cuencas_ha": 722980.3,
+    "tolerancia_validacion_columna": 0.12,
+    "calidad_por_periodo": {
+      "2000-2002": {
+        "fuente_tipo": "xlsx",
+        "metodo": "columna_area",
+        "area_total_ha": 722858.0,
+        "area_confiable": true,
+        "flag_calidad": "columna_validada_ok"
+      },
+      "2002-2004": {
+        "fuente_tipo": "shp",
+        "metodo": "geometria",
+        "area_total_ha": 722977.6,
+        "area_confiable": true,
+        "flag_calidad": "geometria_metrica"
+      },
+      "2004-2006": {
+        "fuente_tipo": "shp",
+        "metodo": "geometria",
+        "area_total_ha": 722976.9,
+        "area_confiable": true,
+        "flag_calidad": "geometria_metrica"
+      },
+      "2006-2008": {
+        "fuente_tipo": "xlsx",
+        "metodo": "columna_area",
+        "area_total_ha": 722858.5,
+        "area_confiable": true,
+        "flag_calidad": "columna_validada_ok"
+      },
+      "2008-2010": {
+        "fuente_tipo": "shp",
+        "metodo": "geometria",
+        "area_total_ha": 722977.3,
+        "area_confiable": true,
+        "flag_calidad": "geometria_metrica"
+      },
+      "2015-2016": {
+        "fuente_tipo": "shp",
+        "metodo": "geometria",
+        "area_total_ha": 722980.3,
+        "area_confiable": true,
+        "flag_calidad": "geometria_metrica"
+      },
+      "2016-2017": {
+        "fuente_tipo": "shp",
+        "metodo": "geometria",
+        "area_total_ha": 722980.3,
+        "area_confiable": true,
+        "flag_calidad": "geometria_metrica"
+      },
+      "2017-2018": {
+        "fuente_tipo": "shp",
+        "metodo": "geometria",
+        "area_total_ha": 722980.3,
+        "area_confiable": true,
+        "flag_calidad": "geometria_metrica"
+      },
+      "2019-2020": {
+        "fuente_tipo": "shp",
+        "metodo": "geometria",
+        "area_total_ha": 722981.0,
+        "area_confiable": true,
+        "flag_calidad": "geometria_metrica"
+      },
+      "2020-2021": {
+        "fuente_tipo": "shp",
+        "metodo": "geometria",
+        "area_total_ha": 722981.5,
+        "area_confiable": true,
+        "flag_calidad": "geometria_metrica"
+      },
+      "2021-2022": {
+        "fuente_tipo": "xlsx",
+        "metodo": "columna_area",
+        "area_total_ha": 2749066.7,
+        "area_confiable": false,
+        "flag_calidad": "columna_area_preclip_no_confiable"
+      },
+      "2022-2023": {
+        "fuente_tipo": "shp",
+        "metodo": "geometria",
+        "area_total_ha": 723025.6,
+        "area_confiable": true,
+        "flag_calidad": "geometria_metrica"
+      },
+      "2023-2024": {
+        "fuente_tipo": "dbf",
+        "metodo": "conteo",
+        "area_total_ha": null,
+        "area_confiable": false,
+        "flag_calidad": "solo_conteo_sin_area"
+      }
+    }
+  },
+  "cobertura": {
+    "nota": "Las 7 cuencas cubren SOLO parte de la jurisdicción (franja de Urabá y flancos noroccidentales). No es comparable con el total regional de 19 municipios. Área de referencia: geometría 2022-2023.",
+    "area_monitoreada_cuencas_ha": 723025.6,
+    "area_jurisdiccion_ha_aprox": 1860272.9,
+    "cobertura_pct_de_jurisdiccion": 38.9
+  },
+  "periodos_con_datos": [
+    "2000-2002",
+    "2002-2004",
+    "2004-2006",
+    "2006-2008",
+    "2008-2010",
+    "2015-2016",
+    "2016-2017",
+    "2017-2018",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2023",
+    "2023-2024"
+  ],
+  "periodos_area_confiable": [
+    "2000-2002",
+    "2002-2004",
+    "2004-2006",
+    "2006-2008",
+    "2008-2010",
+    "2015-2016",
+    "2016-2017",
+    "2017-2018",
+    "2019-2020",
+    "2020-2021",
+    "2022-2023"
+  ],
+  "periodos_area_no_confiable": [
+    "2021-2022",
+    "2023-2024"
+  ],
+  "periodos_vacios_declarados": [
+    "2010-2012",
+    "2012-2013",
+    "2013-2014",
+    "2014-2015",
+    "2018-2019"
+  ],
+  "fuentes_por_periodo": {
+    "2000-2002": "xlsx:Defor2000_2002_Cuenca_Dat.xlsx",
+    "2002-2004": "shp:Defor2002_2004_Cuenca.shp",
+    "2004-2006": "shp:Defor2004_2006_Cuenc.shp",
+    "2006-2008": "xlsx:Defor2006_2008_Cuenc_Dat.xlsx",
+    "2008-2010": "shp:Defor2008_2010_Cuenc.shp",
+    "2015-2016": "shp:Defor2015_2016_Cuenc.shp",
+    "2016-2017": "shp:Defor2016_2017_Cuenc.shp",
+    "2017-2018": "shp:Defor2017_2018_Cuenc.shp",
+    "2019-2020": "shp:Defor2019_2020_Cuenc.shp",
+    "2020-2021": "shp:Defor2020_2021_Cuenc.shp",
+    "2021-2022": "xlsx:Defor2021-2022_Cuenc_Dat.xlsx",
+    "2022-2023": "shp:Defor2022_2023_Cuenc.shp",
+    "2023-2024": "dbf:Defor2023-2024_Cuenc.dbf"
+  },
+  "coherencia": {
+    "nota": "Deforestación acumulada DENTRO de las cuencas, sumando solo los 11 periodos con área confiable. Es menor que el total regional (~46.041 ha, 2000-2024) porque las cuencas cubren una fracción del territorio y faltan 5 periodos (2010-2015 y 2018-2019) sin capa, más 2021-2022 (área pre-clip) y 2023-2024 (sin área) excluidos.",
+    "deforestacion_total_en_cuencas_ha_confiable": 11642.1,
+    "referencia_regional_2000_2024_ha": 46041,
+    "deforestacion_por_periodo_confiable": [
+      {
+        "periodo": "2000-2002",
+        "ano_inicio": 2000,
+        "ano_fin": 2002,
+        "hectareas": 359.0
+      },
+      {
+        "periodo": "2002-2004",
+        "ano_inicio": 2002,
+        "ano_fin": 2004,
+        "hectareas": 1719.0
+      },
+      {
+        "periodo": "2004-2006",
+        "ano_inicio": 2004,
+        "ano_fin": 2006,
+        "hectareas": 1148.7
+      },
+      {
+        "periodo": "2006-2008",
+        "ano_inicio": 2006,
+        "ano_fin": 2008,
+        "hectareas": 1179.4
+      },
+      {
+        "periodo": "2008-2010",
+        "ano_inicio": 2008,
+        "ano_fin": 2010,
+        "hectareas": 1088.5
+      },
+      {
+        "periodo": "2015-2016",
+        "ano_inicio": 2015,
+        "ano_fin": 2016,
+        "hectareas": 2247.8
+      },
+      {
+        "periodo": "2016-2017",
+        "ano_inicio": 2016,
+        "ano_fin": 2017,
+        "hectareas": 1366.5
+      },
+      {
+        "periodo": "2017-2018",
+        "ano_inicio": 2017,
+        "ano_fin": 2018,
+        "hectareas": 1366.5
+      },
+      {
+        "periodo": "2019-2020",
+        "ano_inicio": 2019,
+        "ano_fin": 2020,
+        "hectareas": 535.4
+      },
+      {
+        "periodo": "2020-2021",
+        "ano_inicio": 2020,
+        "ano_fin": 2021,
+        "hectareas": 305.6
+      },
+      {
+        "periodo": "2022-2023",
+        "ano_inicio": 2022,
+        "ano_fin": 2023,
+        "hectareas": 325.8
+      }
+    ]
+  },
+  "ranking_por_hectareas": [
+    {
+      "cuenca": "León",
+      "deforestacion_total_ha": 6333.4,
+      "pct_de_area": 2.92,
+      "tendencia": "empeora"
+    },
+    {
+      "cuenca": "Turbo Currulao",
+      "deforestacion_total_ha": 2604.6,
+      "pct_de_area": 2.92,
+      "tendencia": "estable"
+    },
+    {
+      "cuenca": "Sucio Alto",
+      "deforestacion_total_ha": 1913.4,
+      "pct_de_area": 0.88,
+      "tendencia": "empeora"
+    },
+    {
+      "cuenca": "San Juan",
+      "deforestacion_total_ha": 496.4,
+      "pct_de_area": 0.36,
+      "tendencia": "estable"
+    },
+    {
+      "cuenca": "Cauca",
+      "deforestacion_total_ha": 203.0,
+      "pct_de_area": 0.47,
+      "tendencia": "empeora"
+    },
+    {
+      "cuenca": "Mulaticos",
+      "deforestacion_total_ha": 59.1,
+      "pct_de_area": 0.44,
+      "tendencia": "estable"
+    },
+    {
+      "cuenca": "Canalete",
+      "deforestacion_total_ha": 32.1,
+      "pct_de_area": 0.42,
+      "tendencia": "mejora"
+    }
+  ],
+  "ranking_por_pct_area": [
+    {
+      "cuenca": "Turbo Currulao",
+      "pct_de_area": 2.92,
+      "deforestacion_total_ha": 2604.6
+    },
+    {
+      "cuenca": "León",
+      "pct_de_area": 2.92,
+      "deforestacion_total_ha": 6333.4
+    },
+    {
+      "cuenca": "Sucio Alto",
+      "pct_de_area": 0.88,
+      "deforestacion_total_ha": 1913.4
+    },
+    {
+      "cuenca": "Cauca",
+      "pct_de_area": 0.47,
+      "deforestacion_total_ha": 203.0
+    },
+    {
+      "cuenca": "Mulaticos",
+      "pct_de_area": 0.44,
+      "deforestacion_total_ha": 59.1
+    },
+    {
+      "cuenca": "Canalete",
+      "pct_de_area": 0.42,
+      "deforestacion_total_ha": 32.1
+    },
+    {
+      "cuenca": "San Juan",
+      "pct_de_area": 0.36,
+      "deforestacion_total_ha": 496.4
+    }
+  ],
+  "detalle_cuencas": [
+    {
+      "idcu": 1,
+      "cuenca": "Turbo Currulao",
+      "area_monitoreada_ha_ref2022_2023": 89119.9,
+      "bosque_estable_ha_2022_2023": 16004.4,
+      "deforestacion_total_ha_confiable": 2604.6,
+      "deforestacion_pct_de_area": 2.92,
+      "deforestacion_anual_temprana_00_10_ha": 174.86,
+      "deforestacion_anual_reciente_15_23_ha": 142.68,
+      "ratio_reciente_vs_temprano": 0.82,
+      "regeneracion_total_ha_confiable": 72061.7,
+      "balance_neto_regen_menos_defo_ha": 69457.1,
+      "tendencia": "estable",
+      "pendiente_ha_anual_por_ano": -4.188,
+      "n_periodos_confiables_con_defo": 11
+    },
+    {
+      "idcu": 2,
+      "cuenca": "Sucio Alto",
+      "area_monitoreada_ha_ref2022_2023": 217269.5,
+      "bosque_estable_ha_2022_2023": 87802.4,
+      "deforestacion_total_ha_confiable": 1913.4,
+      "deforestacion_pct_de_area": 0.88,
+      "deforestacion_anual_temprana_00_10_ha": 60.88,
+      "deforestacion_anual_reciente_15_23_ha": 217.45,
+      "ratio_reciente_vs_temprano": 3.57,
+      "regeneracion_total_ha_confiable": 128374.8,
+      "balance_neto_regen_menos_defo_ha": 126461.4,
+      "tendencia": "empeora",
+      "pendiente_ha_anual_por_ano": 8.007,
+      "n_periodos_confiables_con_defo": 11
+    },
+    {
+      "idcu": 3,
+      "cuenca": "San Juan",
+      "area_monitoreada_ha_ref2022_2023": 136108.2,
+      "bosque_estable_ha_2022_2023": 3874.2,
+      "deforestacion_total_ha_confiable": 496.4,
+      "deforestacion_pct_de_area": 0.36,
+      "deforestacion_anual_temprana_00_10_ha": 30.22,
+      "deforestacion_anual_reciente_15_23_ha": 32.38,
+      "ratio_reciente_vs_temprano": 1.07,
+      "regeneracion_total_ha_confiable": 131955.0,
+      "balance_neto_regen_menos_defo_ha": 131458.5,
+      "tendencia": "estable",
+      "pendiente_ha_anual_por_ano": 0.989,
+      "n_periodos_confiables_con_defo": 11
+    },
+    {
+      "idcu": 4,
+      "cuenca": "Mulaticos",
+      "area_monitoreada_ha_ref2022_2023": 13397.7,
+      "bosque_estable_ha_2022_2023": 1398.4,
+      "deforestacion_total_ha_confiable": 59.1,
+      "deforestacion_pct_de_area": 0.44,
+      "deforestacion_anual_temprana_00_10_ha": 4.47,
+      "deforestacion_anual_reciente_15_23_ha": 3.89,
+      "ratio_reciente_vs_temprano": 0.87,
+      "regeneracion_total_ha_confiable": 11952.0,
+      "balance_neto_regen_menos_defo_ha": 11892.9,
+      "tendencia": "estable",
+      "pendiente_ha_anual_por_ano": -0.069,
+      "n_periodos_confiables_con_defo": 10
+    },
+    {
+      "idcu": 5,
+      "cuenca": "León",
+      "area_monitoreada_ha_ref2022_2023": 216725.4,
+      "bosque_estable_ha_2022_2023": 55856.5,
+      "deforestacion_total_ha_confiable": 6333.4,
+      "deforestacion_pct_de_area": 2.92,
+      "deforestacion_anual_temprana_00_10_ha": 270.06,
+      "deforestacion_anual_reciente_15_23_ha": 605.47,
+      "ratio_reciente_vs_temprano": 2.24,
+      "regeneracion_total_ha_confiable": 160147.0,
+      "balance_neto_regen_menos_defo_ha": 153813.6,
+      "tendencia": "empeora",
+      "pendiente_ha_anual_por_ano": 10.341,
+      "n_periodos_confiables_con_defo": 11
+    },
+    {
+      "idcu": 6,
+      "cuenca": "Cauca",
+      "area_monitoreada_ha_ref2022_2023": 42740.6,
+      "bosque_estable_ha_2022_2023": 9309.1,
+      "deforestacion_total_ha_confiable": 203.0,
+      "deforestacion_pct_de_area": 0.47,
+      "deforestacion_anual_temprana_00_10_ha": 6.86,
+      "deforestacion_anual_reciente_15_23_ha": 22.4,
+      "ratio_reciente_vs_temprano": 3.27,
+      "regeneracion_total_ha_confiable": 33377.5,
+      "balance_neto_regen_menos_defo_ha": 33174.5,
+      "tendencia": "empeora",
+      "pendiente_ha_anual_por_ano": 0.76,
+      "n_periodos_confiables_con_defo": 11
+    },
+    {
+      "idcu": 7,
+      "cuenca": "Canalete",
+      "area_monitoreada_ha_ref2022_2023": 7664.3,
+      "bosque_estable_ha_2022_2023": 194.6,
+      "deforestacion_total_ha_confiable": 32.1,
+      "deforestacion_pct_de_area": 0.42,
+      "deforestacion_anual_temprana_00_10_ha": 7.56,
+      "deforestacion_anual_reciente_15_23_ha": 1.91,
+      "ratio_reciente_vs_temprano": 0.25,
+      "regeneracion_total_ha_confiable": 7446.9,
+      "balance_neto_regen_menos_defo_ha": 7414.7,
+      "tendencia": "mejora",
+      "pendiente_ha_anual_por_ano": -1.007,
+      "n_periodos_confiables_con_defo": 3
+    }
+  ],
+  "log": [
+    "[1/4] Lectura de capas de cuencas por periodo ...",
+    "  2010-2012: SIN capa de cuencas utilizable -> vacío declarado",
+    "  2012-2013: SIN capa de cuencas utilizable -> vacío declarado",
+    "  2013-2014: SIN capa de cuencas utilizable -> vacío declarado",
+    "  2014-2015: SIN capa de cuencas utilizable -> vacío declarado",
+    "  2018-2019: SIN capa de cuencas utilizable -> vacío declarado",
+    "  referencia geométrica área total 7 cuencas = 722,980 ha (mediana de 9 periodos con geometría)",
+    "  2000-2002: xlsx/columna_area -> 7 cuencas, 722858 ha  [OK]",
+    "  2002-2004: shp/geometria -> 7 cuencas, 722978 ha  [OK]",
+    "  2004-2006: shp/geometria -> 7 cuencas, 722977 ha  [OK]",
+    "  2006-2008: xlsx/columna_area -> 7 cuencas, 722858 ha  [OK]",
+    "  2008-2010: shp/geometria -> 7 cuencas, 722977 ha  [OK]",
+    "  2015-2016: shp/geometria -> 7 cuencas, 722980 ha  [OK]",
+    "  2016-2017: shp/geometria -> 7 cuencas, 722980 ha  [OK]",
+    "  2017-2018: shp/geometria -> 7 cuencas, 722980 ha  [OK]",
+    "  2019-2020: shp/geometria -> 7 cuencas, 722981 ha  [OK]",
+    "  2020-2021: shp/geometria -> 7 cuencas, 722981 ha  [OK]",
+    "  2021-2022: xlsx/columna_area -> 7 cuencas, 2749067 ha  [AREA NO CONFIABLE]",
+    "  2022-2023: shp/geometria -> 7 cuencas, 723026 ha  [OK]",
+    "  2023-2024: dbf/conteo -> 7 cuencas, sin área  [SOLO CONTEO]",
+    "  cuencas_serie.csv: 324 filas | periodos con dato: 13",
+    "[2/4] Área por cuenca y cobertura de la jurisdicción ...",
+    "[3/4] Deforestación por cuenca, % de área y tendencia (área confiable) ...",
+    "[4/4] Cobertura y coherencia con la serie regional ..."
+  ]
+}

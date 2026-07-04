@@ -1,0 +1,793 @@
+{
+  "tema": "Deforestacion en areas protegidas — CORPOURABA 2000-2024",
+  "generado": "2026-07-04T04:38:03.734629+00:00",
+  "unidad": "hectareas (area geometrica EPSG:3115); % adimensional",
+  "cobertura_temporal": {
+    "periodos_geometria_utiles": [
+      "2002-2004",
+      "2004-2006",
+      "2008-2010",
+      "2015-2016",
+      "2016-2017",
+      "2017-2018",
+      "2019-2020",
+      "2020-2021",
+      "2021-2022",
+      "2022-2023"
+    ],
+    "n_periodos_geometria_utiles": 10,
+    "periodo_duplicado_excluido": {
+      "2006-2008": "2002-2004"
+    },
+    "periodo_solo_conteo": [
+      "2023-2024"
+    ],
+    "periodos_ausentes_en_paquete": [
+      "2000-2002",
+      "2010-2012",
+      "2012-2013",
+      "2013-2014",
+      "2014-2015",
+      "2018-2019"
+    ]
+  },
+  "n_areas_protegidas": 21,
+  "areas_protegidas": [
+    "Alto de Insor | Distrito Regional de Manejo Integrado",
+    "Buenos Aires | Reserva Natural de la Sociedad Civil",
+    "Carauta | Reserva Forestal Protectora Nacional",
+    "Colibrí del Sol | Reserva Natural de la Sociedad Civil",
+    "De Las Aves Colibrí del Sol | Reserva Natural de la Sociedad Civil",
+    "De Urrao | Reserva Forestal Protectora Nacional",
+    "El Raudal | Reserva Natural de la Sociedad Civil",
+    "Ensenada de Rionegro, los Bajos Aledanos | Distrito Regional de Manejo Integrado",
+    "Humedales entre los Rios Leon y Suriqui | Parque Regional Natural",
+    "La Rayuela | Reserva Natural de la Sociedad Civil",
+    "La Rivera | Reserva Natural de la Sociedad Civil",
+    "La Violeta | Reserva Natural de la Sociedad Civil",
+    "Las Brisas | Reserva Natural de la Sociedad Civil",
+    "Las Orquideas | Parque Nacional Natural",
+    "Los Horizontales | Reserva Natural de la Sociedad Civil",
+    "Los Katío | Parque Nacional Natural",
+    "Musinga | Reserva Natural de la Sociedad Civil",
+    "Paramillo | Parque Nacional Natural",
+    "Peque | Distrito de Conservación de Suelos",
+    "Río León | Reserva Forestal Protectora Nacional",
+    "Serranía de Abibe | Distrito Regional de Manejo Integrado"
+  ],
+  "deforestacion_ap_total_ha": 3362.2,
+  "deforestacion_jurisdiccion_ha_mismos_periodos": 26644.2,
+  "pct_global_dentro_ap": 12.62,
+  "pct_dentro_ap_pendiente_por_ano": -0.183,
+  "ranking_ap_por_deforestacion": [
+    {
+      "nombre": "Serranía de Abibe",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "defo_ha_total": 1902.7,
+      "periodos_con_dato": 10,
+      "defo_ha_anual_media": 153.5,
+      "periodo_pico": "2015-2016",
+      "defo_ha_pico": 585.5
+    },
+    {
+      "nombre": "Carauta",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "defo_ha_total": 513.9,
+      "periodos_con_dato": 10,
+      "defo_ha_anual_media": 47.2,
+      "periodo_pico": "2016-2017",
+      "defo_ha_pico": 198.4
+    },
+    {
+      "nombre": "Las Orquideas",
+      "categoria": "Parque Nacional Natural",
+      "defo_ha_total": 334.4,
+      "periodos_con_dato": 10,
+      "defo_ha_anual_media": 32.1,
+      "periodo_pico": "2016-2017",
+      "defo_ha_pico": 112.3
+    },
+    {
+      "nombre": "Ensenada de Rionegro, los Bajos Aledanos",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "defo_ha_total": 291.9,
+      "periodos_con_dato": 6,
+      "defo_ha_anual_media": 26.7,
+      "periodo_pico": "2002-2004",
+      "defo_ha_pico": 155.5
+    },
+    {
+      "nombre": "De Urrao",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "defo_ha_total": 109.3,
+      "periodos_con_dato": 10,
+      "defo_ha_anual_media": 9.3,
+      "periodo_pico": "2016-2017",
+      "defo_ha_pico": 44.2
+    },
+    {
+      "nombre": "Río León",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "defo_ha_total": 107.8,
+      "periodos_con_dato": 7,
+      "defo_ha_anual_media": 10.2,
+      "periodo_pico": "2004-2006",
+      "defo_ha_pico": 38.9
+    },
+    {
+      "nombre": "Peque",
+      "categoria": "Distrito de Conservación de Suelos",
+      "defo_ha_total": 55.4,
+      "periodos_con_dato": 9,
+      "defo_ha_anual_media": 5.9,
+      "periodo_pico": "2016-2017",
+      "defo_ha_pico": 18.3
+    },
+    {
+      "nombre": "Humedales entre los Rios Leon y Suriqui",
+      "categoria": "Parque Regional Natural",
+      "defo_ha_total": 14.6,
+      "periodos_con_dato": 5,
+      "defo_ha_anual_media": 2.2,
+      "periodo_pico": "2008-2010",
+      "defo_ha_pico": 5.2
+    },
+    {
+      "nombre": "Paramillo",
+      "categoria": "Parque Nacional Natural",
+      "defo_ha_total": 12.6,
+      "periodos_con_dato": 9,
+      "defo_ha_anual_media": 1.0,
+      "periodo_pico": "2017-2018",
+      "defo_ha_pico": 3.6
+    },
+    {
+      "nombre": "Alto de Insor",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "defo_ha_total": 10.8,
+      "periodos_con_dato": 4,
+      "defo_ha_anual_media": 2.3,
+      "periodo_pico": "2016-2017",
+      "defo_ha_pico": 4.6
+    },
+    {
+      "nombre": "Los Katío",
+      "categoria": "Parque Nacional Natural",
+      "defo_ha_total": 7.0,
+      "periodos_con_dato": 3,
+      "defo_ha_anual_media": 2.0,
+      "periodo_pico": "2015-2016",
+      "defo_ha_pico": 4.9
+    },
+    {
+      "nombre": "De Las Aves Colibrí del Sol",
+      "categoria": "Reserva Natural de la Sociedad Civil",
+      "defo_ha_total": 1.0,
+      "periodos_con_dato": 1,
+      "defo_ha_anual_media": 0.5,
+      "periodo_pico": "2004-2006",
+      "defo_ha_pico": 1.0
+    },
+    {
+      "nombre": "Musinga",
+      "categoria": "Reserva Natural de la Sociedad Civil",
+      "defo_ha_total": 0.8,
+      "periodos_con_dato": 1,
+      "defo_ha_anual_media": 0.4,
+      "periodo_pico": "2004-2006",
+      "defo_ha_pico": 0.8
+    },
+    {
+      "nombre": "La Rivera",
+      "categoria": "Reserva Natural de la Sociedad Civil",
+      "defo_ha_total": 0.0,
+      "periodos_con_dato": 1,
+      "defo_ha_anual_media": 0.0,
+      "periodo_pico": "2002-2004",
+      "defo_ha_pico": 0.0
+    },
+    {
+      "nombre": "Los Horizontales",
+      "categoria": "Reserva Natural de la Sociedad Civil",
+      "defo_ha_total": 0.0,
+      "periodos_con_dato": 1,
+      "defo_ha_anual_media": 0.0,
+      "periodo_pico": "2020-2021",
+      "defo_ha_pico": 0.0
+    }
+  ],
+  "ranking_por_categoria": [
+    {
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "defo_ha_total": 2205.4,
+      "n_areas": 3
+    },
+    {
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "defo_ha_total": 731.0,
+      "n_areas": 3
+    },
+    {
+      "categoria": "Parque Nacional Natural",
+      "defo_ha_total": 354.0,
+      "n_areas": 3
+    },
+    {
+      "categoria": "Distrito de Conservación de Suelos",
+      "defo_ha_total": 55.4,
+      "n_areas": 1
+    },
+    {
+      "categoria": "Parque Regional Natural",
+      "defo_ha_total": 14.6,
+      "n_areas": 1
+    },
+    {
+      "categoria": "Reserva Natural de la Sociedad Civil",
+      "defo_ha_total": 1.8,
+      "n_areas": 4
+    }
+  ],
+  "top_celdas_ap_x_periodo": [
+    {
+      "nombre": "Serranía de Abibe",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2015-2016",
+      "hectareas": 585.5,
+      "hectareas_anuales": 585.5
+    },
+    {
+      "nombre": "Serranía de Abibe",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2008-2010",
+      "hectareas": 279.4,
+      "hectareas_anuales": 139.7
+    },
+    {
+      "nombre": "Serranía de Abibe",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2002-2004",
+      "hectareas": 263.2,
+      "hectareas_anuales": 131.6
+    },
+    {
+      "nombre": "Serranía de Abibe",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2016-2017",
+      "hectareas": 207.8,
+      "hectareas_anuales": 207.8
+    },
+    {
+      "nombre": "Carauta",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "periodo": "2016-2017",
+      "hectareas": 198.4,
+      "hectareas_anuales": 198.4
+    },
+    {
+      "nombre": "Serranía de Abibe",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2004-2006",
+      "hectareas": 193.4,
+      "hectareas_anuales": 96.7
+    },
+    {
+      "nombre": "Serranía de Abibe",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2017-2018",
+      "hectareas": 165.6,
+      "hectareas_anuales": 165.6
+    },
+    {
+      "nombre": "Ensenada de Rionegro, los Bajos Aledanos",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2002-2004",
+      "hectareas": 155.5,
+      "hectareas_anuales": 77.8
+    },
+    {
+      "nombre": "Las Orquideas",
+      "categoria": "Parque Nacional Natural",
+      "periodo": "2016-2017",
+      "hectareas": 112.3,
+      "hectareas_anuales": 112.3
+    },
+    {
+      "nombre": "Serranía de Abibe",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2021-2022",
+      "hectareas": 86.4,
+      "hectareas_anuales": 86.4
+    },
+    {
+      "nombre": "Carauta",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "periodo": "2015-2016",
+      "hectareas": 82.6,
+      "hectareas_anuales": 82.6
+    },
+    {
+      "nombre": "Las Orquideas",
+      "categoria": "Parque Nacional Natural",
+      "periodo": "2021-2022",
+      "hectareas": 79.9,
+      "hectareas_anuales": 79.9
+    },
+    {
+      "nombre": "Ensenada de Rionegro, los Bajos Aledanos",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2008-2010",
+      "hectareas": 59.1,
+      "hectareas_anuales": 29.5
+    },
+    {
+      "nombre": "Carauta",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "periodo": "2021-2022",
+      "hectareas": 57.8,
+      "hectareas_anuales": 57.8
+    },
+    {
+      "nombre": "Ensenada de Rionegro, los Bajos Aledanos",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2004-2006",
+      "hectareas": 48.8,
+      "hectareas_anuales": 24.4
+    },
+    {
+      "nombre": "Serranía de Abibe",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2022-2023",
+      "hectareas": 44.7,
+      "hectareas_anuales": 44.7
+    },
+    {
+      "nombre": "De Urrao",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "periodo": "2016-2017",
+      "hectareas": 44.2,
+      "hectareas_anuales": 44.2
+    },
+    {
+      "nombre": "Carauta",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "periodo": "2008-2010",
+      "hectareas": 43.1,
+      "hectareas_anuales": 21.5
+    },
+    {
+      "nombre": "Serranía de Abibe",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "periodo": "2019-2020",
+      "hectareas": 42.1,
+      "hectareas_anuales": 42.1
+    },
+    {
+      "nombre": "Río León",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "periodo": "2004-2006",
+      "hectareas": 38.9,
+      "hectareas_anuales": 19.4
+    }
+  ],
+  "pct_dentro_ap_por_periodo": [
+    {
+      "periodo": "2002-2004",
+      "ano_inicio": 2002,
+      "ano_fin": 2004,
+      "defo_ap_ha": 474.2,
+      "defo_jurisdiccion_ha": 3717.9,
+      "pct_dentro_ap": 12.75,
+      "jurisdiccion_estimada": false
+    },
+    {
+      "periodo": "2004-2006",
+      "ano_inicio": 2004,
+      "ano_fin": 2006,
+      "defo_ap_ha": 320.5,
+      "defo_jurisdiccion_ha": 3021.7,
+      "pct_dentro_ap": 10.61,
+      "jurisdiccion_estimada": false
+    },
+    {
+      "periodo": "2008-2010",
+      "ano_inicio": 2008,
+      "ano_fin": 2010,
+      "defo_ap_ha": 446.3,
+      "defo_jurisdiccion_ha": 2921.4,
+      "pct_dentro_ap": 15.28,
+      "jurisdiccion_estimada": false
+    },
+    {
+      "periodo": "2015-2016",
+      "ano_inicio": 2015,
+      "ano_fin": 2016,
+      "defo_ap_ha": 730.4,
+      "defo_jurisdiccion_ha": 4969.8,
+      "pct_dentro_ap": 14.7,
+      "jurisdiccion_estimada": true
+    },
+    {
+      "periodo": "2016-2017",
+      "ano_inicio": 2016,
+      "ano_fin": 2017,
+      "defo_ap_ha": 600.3,
+      "defo_jurisdiccion_ha": 3938.4,
+      "pct_dentro_ap": 15.24,
+      "jurisdiccion_estimada": false
+    },
+    {
+      "periodo": "2017-2018",
+      "ano_inicio": 2017,
+      "ano_fin": 2018,
+      "defo_ap_ha": 232.1,
+      "defo_jurisdiccion_ha": 1765.2,
+      "pct_dentro_ap": 13.15,
+      "jurisdiccion_estimada": false
+    },
+    {
+      "periodo": "2019-2020",
+      "ano_inicio": 2019,
+      "ano_fin": 2020,
+      "defo_ap_ha": 127.3,
+      "defo_jurisdiccion_ha": 1737.3,
+      "pct_dentro_ap": 7.33,
+      "jurisdiccion_estimada": false
+    },
+    {
+      "periodo": "2020-2021",
+      "ano_inicio": 2020,
+      "ano_fin": 2021,
+      "defo_ap_ha": 81.2,
+      "defo_jurisdiccion_ha": 1090.8,
+      "pct_dentro_ap": 7.44,
+      "jurisdiccion_estimada": false
+    },
+    {
+      "periodo": "2021-2022",
+      "ano_inicio": 2021,
+      "ano_fin": 2022,
+      "defo_ap_ha": 236.4,
+      "defo_jurisdiccion_ha": 2325.6,
+      "pct_dentro_ap": 10.17,
+      "jurisdiccion_estimada": false
+    },
+    {
+      "periodo": "2022-2023",
+      "ano_inicio": 2022,
+      "ano_fin": 2023,
+      "defo_ap_ha": 113.4,
+      "defo_jurisdiccion_ha": 1156.2,
+      "pct_dentro_ap": 9.8,
+      "jurisdiccion_estimada": false
+    }
+  ],
+  "aceleracion_2019_2023_vs_2015_2018": [
+    {
+      "nombre": "Ensenada de Rionegro, los Bajos Aledanos",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "tasa_anual_2019_2023": 15.6,
+      "tasa_anual_2015_2018": 6.46,
+      "delta_ha_anual": 9.14,
+      "factor": 2.41
+    },
+    {
+      "nombre": "Humedales entre los Rios Leon y Suriqui",
+      "categoria": "Parque Regional Natural",
+      "tasa_anual_2019_2023": 3.13,
+      "tasa_anual_2015_2018": 0.9,
+      "delta_ha_anual": 2.23,
+      "factor": 3.48
+    },
+    {
+      "nombre": "Los Horizontales",
+      "categoria": "Reserva Natural de la Sociedad Civil",
+      "tasa_anual_2019_2023": 0.04,
+      "tasa_anual_2015_2018": 0.0,
+      "delta_ha_anual": 0.04,
+      "factor": NaN
+    },
+    {
+      "nombre": "Paramillo",
+      "categoria": "Parque Nacional Natural",
+      "tasa_anual_2019_2023": 0.85,
+      "tasa_anual_2015_2018": 1.24,
+      "delta_ha_anual": -0.39,
+      "factor": 0.68
+    },
+    {
+      "nombre": "Peque",
+      "categoria": "Distrito de Conservación de Suelos",
+      "tasa_anual_2019_2023": 6.72,
+      "tasa_anual_2015_2018": 7.84,
+      "delta_ha_anual": -1.12,
+      "factor": 0.86
+    },
+    {
+      "nombre": "Alto de Insor",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "tasa_anual_2019_2023": 1.62,
+      "tasa_anual_2015_2018": 4.63,
+      "delta_ha_anual": -3.0,
+      "factor": 0.35
+    },
+    {
+      "nombre": "Los Katío",
+      "categoria": "Parque Nacional Natural",
+      "tasa_anual_2019_2023": 0.0,
+      "tasa_anual_2015_2018": 4.9,
+      "delta_ha_anual": -4.9,
+      "factor": 0.0
+    },
+    {
+      "nombre": "Las Orquideas",
+      "categoria": "Parque Nacional Natural",
+      "tasa_anual_2019_2023": 40.74,
+      "tasa_anual_2015_2018": 48.28,
+      "delta_ha_anual": -7.53,
+      "factor": 0.84
+    },
+    {
+      "nombre": "Río León",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "tasa_anual_2019_2023": 2.04,
+      "tasa_anual_2015_2018": 15.58,
+      "delta_ha_anual": -13.54,
+      "factor": 0.13
+    },
+    {
+      "nombre": "De Urrao",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "tasa_anual_2019_2023": 4.3,
+      "tasa_anual_2015_2018": 19.86,
+      "delta_ha_anual": -15.57,
+      "factor": 0.22
+    },
+    {
+      "nombre": "Carauta",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "tasa_anual_2019_2023": 27.92,
+      "tasa_anual_2015_2018": 105.92,
+      "delta_ha_anual": -78.0,
+      "factor": 0.26
+    },
+    {
+      "nombre": "Serranía de Abibe",
+      "categoria": "Distrito Regional de Manejo Integrado",
+      "tasa_anual_2019_2023": 51.94,
+      "tasa_anual_2015_2018": 319.63,
+      "delta_ha_anual": -267.69,
+      "factor": 0.16
+    }
+  ],
+  "series_areas_de_interes": {
+    "PNN Paramillo": {
+      "nombre_dato": "Paramillo",
+      "categoria": "Parque Nacional Natural",
+      "defo_ha_total_periodos_utiles": 12.57,
+      "defo_ha_por_periodo": {
+        "2002-2004": 2.38,
+        "2004-2006": 3.14,
+        "2008-2010": 0.77,
+        "2015-2016": 0.01,
+        "2016-2017": 0.07,
+        "2017-2018": 3.65,
+        "2020-2021": 2.16,
+        "2021-2022": 0.3,
+        "2022-2023": 0.09
+      },
+      "tasa_anual_media_2015_2018": 1.24,
+      "tasa_anual_media_2019_2023": 0.85,
+      "conteo_poligonos_defo_2023_2024": 1
+    },
+    "PNN Los Katíos": {
+      "nombre_dato": "Los Katío",
+      "categoria": "Parque Nacional Natural",
+      "defo_ha_total_periodos_utiles": 6.99,
+      "defo_ha_por_periodo": {
+        "2002-2004": 1.29,
+        "2008-2010": 0.8,
+        "2015-2016": 4.9
+      },
+      "tasa_anual_media_2015_2018": 4.9,
+      "tasa_anual_media_2019_2023": 0.0,
+      "conteo_poligonos_defo_2023_2024": 0
+    },
+    "PNN Las Orquídeas": {
+      "nombre_dato": "Las Orquideas",
+      "categoria": "Parque Nacional Natural",
+      "defo_ha_total_periodos_utiles": 334.39,
+      "defo_ha_por_periodo": {
+        "2002-2004": 8.38,
+        "2004-2006": 1.06,
+        "2008-2010": 17.15,
+        "2015-2016": 15.8,
+        "2016-2017": 112.3,
+        "2017-2018": 16.73,
+        "2019-2020": 36.42,
+        "2020-2021": 18.51,
+        "2021-2022": 79.94,
+        "2022-2023": 28.1
+      },
+      "tasa_anual_media_2015_2018": 48.28,
+      "tasa_anual_media_2019_2023": 40.74,
+      "conteo_poligonos_defo_2023_2024": 20
+    },
+    "RFPN Río León": {
+      "nombre_dato": "Río León",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "defo_ha_total_periodos_utiles": 107.75,
+      "defo_ha_por_periodo": {
+        "2002-2004": 12.17,
+        "2004-2006": 38.87,
+        "2008-2010": 21.48,
+        "2015-2016": 16.44,
+        "2016-2017": 14.71,
+        "2020-2021": 1.32,
+        "2022-2023": 2.76
+      },
+      "tasa_anual_media_2015_2018": 15.58,
+      "tasa_anual_media_2019_2023": 2.04,
+      "conteo_poligonos_defo_2023_2024": 2
+    },
+    "RFPN Urrao (De Urrao)": {
+      "nombre_dato": "De Urrao",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "defo_ha_total_periodos_utiles": 109.29,
+      "defo_ha_por_periodo": {
+        "2002-2004": 11.69,
+        "2004-2006": 6.98,
+        "2008-2010": 13.85,
+        "2015-2016": 11.21,
+        "2016-2017": 44.15,
+        "2017-2018": 4.23,
+        "2019-2020": 2.81,
+        "2020-2021": 1.88,
+        "2021-2022": 3.69,
+        "2022-2023": 8.8
+      },
+      "tasa_anual_media_2015_2018": 19.86,
+      "tasa_anual_media_2019_2023": 4.29,
+      "conteo_poligonos_defo_2023_2024": 2
+    },
+    "RFPN Carauta": {
+      "nombre_dato": "Carauta",
+      "categoria": "Reserva Forestal Protectora Nacional",
+      "defo_ha_total_periodos_utiles": 513.92,
+      "defo_ha_por_periodo": {
+        "2002-2004": 14.82,
+        "2004-2006": 26.55,
+        "2008-2010": 43.08,
+        "2015-2016": 82.57,
+        "2016-2017": 198.37,
+        "2017-2018": 36.83,
+        "2019-2020": 17.95,
+        "2020-2021": 14.51,
+        "2021-2022": 57.79,
+        "2022-2023": 21.45
+      },
+      "tasa_anual_media_2015_2018": 105.92,
+      "tasa_anual_media_2019_2023": 27.93,
+      "conteo_poligonos_defo_2023_2024": 31
+    }
+  },
+  "qa_por_periodo": [
+    {
+      "periodo": "2002-2004",
+      "fuente": "shapefile",
+      "n_pol": 9498,
+      "ha_total": 226324.2,
+      "defo_ha": 474.1,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": false
+    },
+    {
+      "periodo": "2004-2006",
+      "fuente": "shapefile",
+      "n_pol": 7011,
+      "ha_total": 226323.6,
+      "defo_ha": 320.6,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": false
+    },
+    {
+      "periodo": "2006-2008",
+      "fuente": "shapefile",
+      "n_pol": 9498,
+      "ha_total": 226324.2,
+      "defo_ha": 474.1,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": true
+    },
+    {
+      "periodo": "2008-2010",
+      "fuente": "shapefile",
+      "n_pol": 7610,
+      "ha_total": 226325.1,
+      "defo_ha": 446.3,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": false
+    },
+    {
+      "periodo": "2015-2016",
+      "fuente": "shapefile",
+      "n_pol": 6475,
+      "ha_total": 226328.5,
+      "defo_ha": 730.4,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": false
+    },
+    {
+      "periodo": "2016-2017",
+      "fuente": "shapefile",
+      "n_pol": 6563,
+      "ha_total": 226328.1,
+      "defo_ha": 600.3,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": false
+    },
+    {
+      "periodo": "2017-2018",
+      "fuente": "shapefile",
+      "n_pol": 5032,
+      "ha_total": 226327.7,
+      "defo_ha": 232.0,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": false
+    },
+    {
+      "periodo": "2019-2020",
+      "fuente": "shapefile",
+      "n_pol": 4267,
+      "ha_total": 226328.7,
+      "defo_ha": 127.3,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": false
+    },
+    {
+      "periodo": "2020-2021",
+      "fuente": "shapefile",
+      "n_pol": 4257,
+      "ha_total": 226328.8,
+      "defo_ha": 81.2,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": false
+    },
+    {
+      "periodo": "2021-2022",
+      "fuente": "shapefile",
+      "n_pol": 4406,
+      "ha_total": 226328.5,
+      "defo_ha": 236.4,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": false
+    },
+    {
+      "periodo": "2022-2023",
+      "fuente": "shapefile",
+      "n_pol": 3865,
+      "ha_total": 226328.5,
+      "defo_ha": 113.4,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": false
+    },
+    {
+      "periodo": "2023-2024",
+      "fuente": "dbf_huerfano",
+      "n_pol": 3892,
+      "ha_total": null,
+      "defo_n_poligonos": 87,
+      "poligonos_sin_clase": 0,
+      "es_duplicado": false
+    }
+  ],
+  "notas": [
+    "Clase derivada del gridcode oficial (1=Bosque Estable,2=Deforestacion,3=Sin Informacion,4=Regeneracion,5=No Bosque Estable); mas robusto que Tipo_Cober/Cobertura.",
+    "Area desde geometria EPSG:3115; validado contra columna 'AREA HA' del Excel 2022-2023 con desviacion 0.018%. Cada NOMBRE mapea a una unica CATEGORIA.",
+    "2006-2008 (capa AProteg, shp y Excel) es DUPLICADO EXACTO de 2002-2004 (474.1 ha, n=9498, identico area por area). Se conserva en el CSV con es_duplicado=true y se EXCLUYE de todos los agregados. El municipal 2006-2008 NO esta duplicado (2539 ha).",
+    "2023-2024 es .dbf huerfano sin geometria ni columna de area: SOLO conteos de poligonos por clase (gridcode 1,2,4). Sin hectareas ni %.",
+    "2000-2002, 2010-2012, 2012-2013, 2013-2014, 2014-2015 y 2018-2019 no traen capa AProteg utilizable; esos periodos no entran en la serie ni en el %.",
+    "El % dentro de AP compara defo de la capa AProteg contra serie_regional.csv (defo municipal), misma clasificacion por periodo. En 2015-2016 el denominador municipal es estimado/calibrado por cuencas (jurisdiccion_estimada=true): menor confianza.",
+    "PNN Paramillo entra a CORPOURABA solo por un borde: su huella y su deforestacion dentro de la jurisdiccion son pequenas; la mayor parte del PNN esta en otras CAR."
+  ]
+}

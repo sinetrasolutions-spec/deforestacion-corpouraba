@@ -1,0 +1,6 @@
+# Dependencias adicionales para el modo PostGIS (DATABASE_URL) y etl/load_postgis.py
+# Instalar junto con requirements.txt
+sqlalchemy>=2.0,<3.0
+geoalchemy2>=0.14,<1.0
+psycopg2-binary>=2.9,<3.0
+geopandas>=0.14,<2.0

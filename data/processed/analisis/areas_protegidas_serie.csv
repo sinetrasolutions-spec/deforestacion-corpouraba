@@ -1,0 +1,671 @@
+﻿periodo,ano_inicio,ano_fin,nombre,categoria,clase,hectareas,hectareas_anuales,n_poligonos,fuente,flag_calidad,es_duplicado,usado_en_agregados
+2002-2004,2002,2004,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,4404.82,2202.41,67,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Alto de Insor,Distrito Regional de Manejo Integrado,No Bosque Estable,2473.16,1236.58,62,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,8753.53,4376.76,401,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Deforestación,155.51,77.75,181,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,No Bosque Estable,16430.32,8215.16,342,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,19274.54,9637.27,1595,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,263.23,131.61,242,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Serranía de Abibe,Distrito Regional de Manejo Integrado,No Bosque Estable,20257.7,10128.85,1370,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Serranía de Abibe,Distrito Regional de Manejo Integrado,Sin Información,326.24,163.12,270,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Peque,Distrito de Conservación de Suelos,Bosque Estable,3555.14,1777.57,281,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Peque,Distrito de Conservación de Suelos,Deforestación,2.37,1.19,2,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Peque,Distrito de Conservación de Suelos,No Bosque Estable,16844.01,8422.01,208,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Peque,Distrito de Conservación de Suelos,Sin Información,4.54,2.27,4,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Las Orquideas,Parque Nacional Natural,Bosque Estable,25193.01,12596.51,252,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Las Orquideas,Parque Nacional Natural,Deforestación,8.38,4.19,14,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Las Orquideas,Parque Nacional Natural,No Bosque Estable,3542.14,1771.07,746,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Las Orquideas,Parque Nacional Natural,Sin Información,9.4,4.7,20,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Los Katío,Parque Nacional Natural,Bosque Estable,1709.38,854.69,296,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Los Katío,Parque Nacional Natural,Deforestación,1.29,0.64,1,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Los Katío,Parque Nacional Natural,No Bosque Estable,11239.35,5619.67,104,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Los Katío,Parque Nacional Natural,Sin Información,0.34,0.17,2,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Paramillo,Parque Nacional Natural,Bosque Estable,14962.35,7481.17,57,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Paramillo,Parque Nacional Natural,Deforestación,2.38,1.19,4,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Paramillo,Parque Nacional Natural,No Bosque Estable,977.46,488.73,116,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Paramillo,Parque Nacional Natural,Sin Información,23.8,11.9,26,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,4424.99,2212.5,44,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Deforestación,2.27,1.13,1,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,No Bosque Estable,797.46,398.73,79,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,16796.23,8398.12,605,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Carauta,Reserva Forestal Protectora Nacional,Deforestación,14.82,7.41,18,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Carauta,Reserva Forestal Protectora Nacional,No Bosque Estable,10601.43,5300.71,1003,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Carauta,Reserva Forestal Protectora Nacional,Sin Información,10.91,5.46,29,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,21239.83,10619.91,227,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,11.69,5.85,7,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,De Urrao,Reserva Forestal Protectora Nacional,No Bosque Estable,7034.11,3517.05,391,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,De Urrao,Reserva Forestal Protectora Nacional,Sin Información,21.45,10.73,49,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,334.76,167.38,175,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Río León,Reserva Forestal Protectora Nacional,Deforestación,12.17,6.09,18,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Río León,Reserva Forestal Protectora Nacional,No Bosque Estable,10398.4,5199.2,33,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,80.68,40.34,3,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Buenos Aires,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.18,2.59,7,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,156.28,78.14,1,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,8.73,4.37,4,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,642.22,321.11,16,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,686.74,343.37,14,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,23.66,11.83,1,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,El Raudal,Reserva Natural de la Sociedad Civil,No Bosque Estable,4.31,2.16,4,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,1.18,0.59,1,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,La Rayuela,Reserva Natural de la Sociedad Civil,No Bosque Estable,2.81,1.4,1,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,13.07,6.53,1,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,La Rivera,Reserva Natural de la Sociedad Civil,Deforestación,0.05,0.02,1,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,La Rivera,Reserva Natural de la Sociedad Civil,No Bosque Estable,6.44,3.22,3,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,La Violeta,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.35,0.18,1,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,13.63,6.81,1,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Las Brisas,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.33,0.17,1,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,405.72,202.86,9,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Los Horizontales,Reserva Natural de la Sociedad Civil,No Bosque Estable,714.51,357.26,26,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,911.01,455.5,26,shapefile,geometria_epsg3115,False,True
+2002-2004,2002,2004,Musinga,Reserva Natural de la Sociedad Civil,No Bosque Estable,532.34,266.17,35,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,4405.38,2202.69,57,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Alto de Insor,Distrito Regional de Manejo Integrado,No Bosque Estable,2472.6,1236.3,50,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,8954.79,4477.39,316,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Deforestación,48.81,24.4,39,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,No Bosque Estable,16335.65,8167.82,325,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,19535.31,9767.66,1059,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,193.38,96.69,129,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Serranía de Abibe,Distrito Regional de Manejo Integrado,No Bosque Estable,20097.83,10048.92,1088,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Serranía de Abibe,Distrito Regional de Manejo Integrado,Sin Información,295.52,147.76,100,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Peque,Distrito de Conservación de Suelos,Bosque Estable,3558.43,1779.22,236,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Peque,Distrito de Conservación de Suelos,No Bosque Estable,16843.68,8421.84,163,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Peque,Distrito de Conservación de Suelos,Sin Información,4.01,2.01,2,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Las Orquideas,Parque Nacional Natural,Bosque Estable,25228.87,12614.43,211,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Las Orquideas,Parque Nacional Natural,Deforestación,1.06,0.53,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Las Orquideas,Parque Nacional Natural,No Bosque Estable,3518.93,1759.46,519,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Las Orquideas,Parque Nacional Natural,Sin Información,4.08,2.04,3,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Los Katío,Parque Nacional Natural,Bosque Estable,1726.58,863.29,292,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Los Katío,Parque Nacional Natural,No Bosque Estable,11223.77,5611.89,102,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Paramillo,Parque Nacional Natural,Bosque Estable,14989.15,7494.57,48,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Paramillo,Parque Nacional Natural,Deforestación,3.14,1.57,2,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Paramillo,Parque Nacional Natural,No Bosque Estable,967.52,483.76,79,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Paramillo,Parque Nacional Natural,Sin Información,5.53,2.76,16,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,4432.0,2216.0,40,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,No Bosque Estable,792.65,396.33,66,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,16845.53,8422.77,488,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Carauta,Reserva Forestal Protectora Nacional,Deforestación,26.55,13.27,20,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Carauta,Reserva Forestal Protectora Nacional,No Bosque Estable,10550.31,5275.15,741,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Carauta,Reserva Forestal Protectora Nacional,Sin Información,1.01,0.5,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,21267.1,10633.55,184,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,6.98,3.49,8,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,De Urrao,Reserva Forestal Protectora Nacional,No Bosque Estable,7021.69,3510.84,299,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,De Urrao,Reserva Forestal Protectora Nacional,Sin Información,11.4,5.7,10,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,356.54,178.27,136,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Río León,Reserva Forestal Protectora Nacional,Deforestación,38.87,19.44,18,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Río León,Reserva Forestal Protectora Nacional,No Bosque Estable,10349.69,5174.85,35,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,79.05,39.52,3,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Buenos Aires,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.12,2.56,6,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Buenos Aires,Reserva Natural de la Sociedad Civil,Sin Información,1.7,0.85,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,156.33,78.16,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,8.69,4.34,4,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,641.4,320.7,12,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Deforestación,0.98,0.49,2,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,686.57,343.29,14,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,24.16,12.08,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,El Raudal,Reserva Natural de la Sociedad Civil,No Bosque Estable,3.81,1.9,3,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,1.18,0.59,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,La Rayuela,Reserva Natural de la Sociedad Civil,No Bosque Estable,2.81,1.4,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,13.08,6.54,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,La Rivera,Reserva Natural de la Sociedad Civil,No Bosque Estable,6.48,3.24,3,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,La Violeta,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.35,0.18,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,13.63,6.81,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Las Brisas,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.33,0.17,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,405.78,202.89,9,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Los Horizontales,Reserva Natural de la Sociedad Civil,No Bosque Estable,714.45,357.22,25,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,910.21,455.11,13,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Musinga,Reserva Natural de la Sociedad Civil,Deforestación,0.78,0.39,1,shapefile,geometria_epsg3115,False,True
+2004-2006,2004,2006,Musinga,Reserva Natural de la Sociedad Civil,No Bosque Estable,532.36,266.18,24,shapefile,geometria_epsg3115,False,True
+2006-2008,2006,2008,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,4404.82,2202.41,67,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Alto de Insor,Distrito Regional de Manejo Integrado,No Bosque Estable,2473.16,1236.58,62,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,8753.53,4376.76,401,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Deforestación,155.51,77.75,181,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,No Bosque Estable,16430.32,8215.16,342,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,19274.54,9637.27,1595,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,263.23,131.61,242,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Serranía de Abibe,Distrito Regional de Manejo Integrado,No Bosque Estable,20257.7,10128.85,1370,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Serranía de Abibe,Distrito Regional de Manejo Integrado,Sin Información,326.24,163.12,270,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Peque,Distrito de Conservación de Suelos,Bosque Estable,3555.14,1777.57,281,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Peque,Distrito de Conservación de Suelos,Deforestación,2.37,1.19,2,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Peque,Distrito de Conservación de Suelos,No Bosque Estable,16844.01,8422.01,208,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Peque,Distrito de Conservación de Suelos,Sin Información,4.54,2.27,4,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Las Orquideas,Parque Nacional Natural,Bosque Estable,25193.01,12596.51,252,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Las Orquideas,Parque Nacional Natural,Deforestación,8.38,4.19,14,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Las Orquideas,Parque Nacional Natural,No Bosque Estable,3542.14,1771.07,746,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Las Orquideas,Parque Nacional Natural,Sin Información,9.4,4.7,20,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Los Katío,Parque Nacional Natural,Bosque Estable,1709.38,854.69,296,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Los Katío,Parque Nacional Natural,Deforestación,1.29,0.64,1,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Los Katío,Parque Nacional Natural,No Bosque Estable,11239.35,5619.67,104,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Los Katío,Parque Nacional Natural,Sin Información,0.34,0.17,2,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Paramillo,Parque Nacional Natural,Bosque Estable,14962.35,7481.17,57,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Paramillo,Parque Nacional Natural,Deforestación,2.38,1.19,4,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Paramillo,Parque Nacional Natural,No Bosque Estable,977.46,488.73,116,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Paramillo,Parque Nacional Natural,Sin Información,23.8,11.9,26,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,4424.99,2212.5,44,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Deforestación,2.27,1.13,1,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,No Bosque Estable,797.46,398.73,79,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,16796.23,8398.12,605,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Carauta,Reserva Forestal Protectora Nacional,Deforestación,14.82,7.41,18,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Carauta,Reserva Forestal Protectora Nacional,No Bosque Estable,10601.43,5300.71,1003,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Carauta,Reserva Forestal Protectora Nacional,Sin Información,10.91,5.46,29,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,21239.83,10619.91,227,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,11.69,5.85,7,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,De Urrao,Reserva Forestal Protectora Nacional,No Bosque Estable,7034.11,3517.05,391,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,De Urrao,Reserva Forestal Protectora Nacional,Sin Información,21.45,10.73,49,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,334.76,167.38,175,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Río León,Reserva Forestal Protectora Nacional,Deforestación,12.17,6.09,18,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Río León,Reserva Forestal Protectora Nacional,No Bosque Estable,10398.4,5199.2,33,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,80.68,40.34,3,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Buenos Aires,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.18,2.59,7,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,156.28,78.14,1,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,8.73,4.37,4,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,642.22,321.11,16,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,686.74,343.37,14,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,23.66,11.83,1,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,El Raudal,Reserva Natural de la Sociedad Civil,No Bosque Estable,4.31,2.16,4,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,1.18,0.59,1,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,La Rayuela,Reserva Natural de la Sociedad Civil,No Bosque Estable,2.81,1.4,1,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,13.07,6.53,1,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,La Rivera,Reserva Natural de la Sociedad Civil,Deforestación,0.05,0.02,1,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,La Rivera,Reserva Natural de la Sociedad Civil,No Bosque Estable,6.44,3.22,3,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,La Violeta,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.35,0.18,1,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,13.63,6.81,1,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Las Brisas,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.33,0.17,1,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,405.72,202.86,9,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Los Horizontales,Reserva Natural de la Sociedad Civil,No Bosque Estable,714.51,357.26,26,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,911.01,455.5,26,shapefile,duplicado_de_2002-2004,True,False
+2006-2008,2006,2008,Musinga,Reserva Natural de la Sociedad Civil,No Bosque Estable,532.34,266.17,35,shapefile,duplicado_de_2002-2004,True,False
+2008-2010,2008,2010,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,4418.7,2209.35,58,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Alto de Insor,Distrito Regional de Manejo Integrado,Deforestación,2.95,1.47,1,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Alto de Insor,Distrito Regional de Manejo Integrado,No Bosque Estable,2456.33,1228.17,52,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,8644.46,4322.23,330,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Deforestación,59.07,29.54,51,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,No Bosque Estable,16595.96,8297.98,330,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Sin Información,40.4,20.2,42,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,19005.85,9502.93,1070,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,279.42,139.71,209,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Serranía de Abibe,Distrito Regional de Manejo Integrado,No Bosque Estable,20334.21,10167.11,1152,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Serranía de Abibe,Distrito Regional de Manejo Integrado,Sin Información,502.56,251.28,322,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Peque,Distrito de Conservación de Suelos,Bosque Estable,3570.3,1785.15,230,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Peque,Distrito de Conservación de Suelos,Deforestación,2.59,1.3,4,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Peque,Distrito de Conservación de Suelos,No Bosque Estable,16805.05,8402.52,165,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Peque,Distrito de Conservación de Suelos,Sin Información,28.18,14.09,25,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Las Orquideas,Parque Nacional Natural,Bosque Estable,25211.25,12605.62,214,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Las Orquideas,Parque Nacional Natural,Deforestación,17.15,8.57,25,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Las Orquideas,Parque Nacional Natural,No Bosque Estable,3506.63,1753.32,519,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Las Orquideas,Parque Nacional Natural,Sin Información,17.91,8.95,15,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Los Katío,Parque Nacional Natural,Bosque Estable,1690.77,845.38,258,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Los Katío,Parque Nacional Natural,Deforestación,0.8,0.4,1,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Los Katío,Parque Nacional Natural,No Bosque Estable,11248.96,5624.48,97,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Los Katío,Parque Nacional Natural,Sin Información,9.94,4.97,6,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Paramillo,Parque Nacional Natural,Bosque Estable,14979.52,7489.76,50,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Paramillo,Parque Nacional Natural,Deforestación,0.77,0.39,5,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Paramillo,Parque Nacional Natural,No Bosque Estable,968.65,484.32,90,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Paramillo,Parque Nacional Natural,Sin Información,16.95,8.48,25,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,4420.27,2210.13,39,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Deforestación,5.17,2.59,5,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,No Bosque Estable,799.21,399.61,66,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,16839.63,8419.82,512,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Carauta,Reserva Forestal Protectora Nacional,Deforestación,43.08,21.54,51,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Carauta,Reserva Forestal Protectora Nacional,No Bosque Estable,10480.79,5240.4,756,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Carauta,Reserva Forestal Protectora Nacional,Sin Información,59.89,29.95,39,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,21245.26,10622.63,193,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,13.85,6.93,16,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,De Urrao,Reserva Forestal Protectora Nacional,No Bosque Estable,7024.64,3512.32,295,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,De Urrao,Reserva Forestal Protectora Nacional,Sin Información,23.41,11.7,26,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,302.52,151.26,81,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Río León,Reserva Forestal Protectora Nacional,Deforestación,21.48,10.74,31,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Río León,Reserva Forestal Protectora Nacional,No Bosque Estable,10420.48,5210.24,28,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Río León,Reserva Forestal Protectora Nacional,Sin Información,0.85,0.42,1,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,80.74,40.37,3,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Buenos Aires,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.12,2.56,6,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,156.28,78.14,1,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,8.73,4.37,4,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,641.23,320.61,12,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,687.73,343.86,14,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,24.16,12.08,1,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,El Raudal,Reserva Natural de la Sociedad Civil,No Bosque Estable,3.81,1.9,3,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,1.18,0.59,1,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,La Rayuela,Reserva Natural de la Sociedad Civil,No Bosque Estable,2.81,1.4,1,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,13.1,6.55,1,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,La Rivera,Reserva Natural de la Sociedad Civil,No Bosque Estable,6.45,3.23,3,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,La Violeta,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.35,0.18,1,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,13.63,6.81,1,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Las Brisas,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.33,0.17,1,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,405.49,202.74,9,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Los Horizontales,Reserva Natural de la Sociedad Civil,No Bosque Estable,714.74,357.37,25,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,911.66,455.83,13,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Musinga,Reserva Natural de la Sociedad Civil,No Bosque Estable,530.67,265.33,24,shapefile,geometria_epsg3115,False,True
+2008-2010,2008,2010,Musinga,Reserva Natural de la Sociedad Civil,Sin Información,1.02,0.51,1,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,4497.12,4497.12,78,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Alto de Insor,Distrito Regional de Manejo Integrado,No Bosque Estable,2380.86,2380.86,79,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,7165.84,7165.84,132,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Deforestación,11.97,11.97,11,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,No Bosque Estable,18163.05,18163.05,181,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Sin Información,0.15,0.15,2,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,18096.23,18096.23,1111,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,585.5,585.5,213,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Serranía de Abibe,Distrito Regional de Manejo Integrado,No Bosque Estable,20773.78,20773.78,1162,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Serranía de Abibe,Distrito Regional de Manejo Integrado,Sin Información,667.42,667.42,128,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Peque,Distrito de Conservación de Suelos,Bosque Estable,3610.72,3610.72,276,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Peque,Distrito de Conservación de Suelos,Deforestación,2.04,2.04,3,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Peque,Distrito de Conservación de Suelos,No Bosque Estable,16724.31,16724.31,152,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Peque,Distrito de Conservación de Suelos,Sin Información,69.05,69.05,18,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Las Orquideas,Parque Nacional Natural,Bosque Estable,25181.36,25181.36,159,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Las Orquideas,Parque Nacional Natural,Deforestación,15.8,15.8,18,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Las Orquideas,Parque Nacional Natural,No Bosque Estable,3325.9,3325.9,443,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Las Orquideas,Parque Nacional Natural,Sin Información,229.88,229.88,39,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Los Katío,Parque Nacional Natural,Bosque Estable,1197.96,1197.96,84,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Los Katío,Parque Nacional Natural,Deforestación,4.9,4.9,2,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Los Katío,Parque Nacional Natural,No Bosque Estable,11748.3,11748.3,17,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Paramillo,Parque Nacional Natural,Bosque Estable,14665.68,14665.68,41,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Paramillo,Parque Nacional Natural,Deforestación,0.01,0.01,1,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Paramillo,Parque Nacional Natural,No Bosque Estable,953.51,953.51,98,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Paramillo,Parque Nacional Natural,Sin Información,346.4,346.4,19,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,3976.12,3976.12,25,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,No Bosque Estable,1248.78,1248.78,49,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,17139.22,17139.22,477,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Carauta,Reserva Forestal Protectora Nacional,Deforestación,82.57,82.57,34,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Carauta,Reserva Forestal Protectora Nacional,No Bosque Estable,10158.76,10158.76,661,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Carauta,Reserva Forestal Protectora Nacional,Sin Información,42.84,42.84,14,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,21277.95,21277.95,216,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,11.21,11.21,9,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,De Urrao,Reserva Forestal Protectora Nacional,No Bosque Estable,7002.47,7002.47,309,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,De Urrao,Reserva Forestal Protectora Nacional,Sin Información,15.94,15.94,12,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,291.07,291.07,66,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Río León,Reserva Forestal Protectora Nacional,Deforestación,16.44,16.44,4,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Río León,Reserva Forestal Protectora Nacional,No Bosque Estable,10434.39,10434.39,14,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Río León,Reserva Forestal Protectora Nacional,Sin Información,3.7,3.7,3,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,80.22,80.22,3,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Buenos Aires,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.64,5.64,5,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,156.06,156.06,1,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,8.95,8.95,5,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,639.2,639.2,12,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,689.75,689.75,15,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,24.97,24.97,1,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,El Raudal,Reserva Natural de la Sociedad Civil,No Bosque Estable,3.0,3.0,1,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,0.77,0.77,1,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,La Rayuela,Reserva Natural de la Sociedad Civil,No Bosque Estable,3.22,3.22,1,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,13.81,13.81,1,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,La Rivera,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.75,5.75,2,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,La Violeta,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.35,0.35,1,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,13.63,13.63,1,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Las Brisas,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.33,0.33,1,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,345.39,345.39,17,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Los Horizontales,Reserva Natural de la Sociedad Civil,No Bosque Estable,774.92,774.92,18,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,976.94,976.94,11,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Musinga,Reserva Natural de la Sociedad Civil,No Bosque Estable,464.87,464.87,17,shapefile,geometria_epsg3115,False,True
+2015-2016,2015,2016,Musinga,Reserva Natural de la Sociedad Civil,Sin Información,1.54,1.54,1,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,4453.63,4453.63,71,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Alto de Insor,Distrito Regional de Manejo Integrado,Deforestación,4.63,4.63,3,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Alto de Insor,Distrito Regional de Manejo Integrado,No Bosque Estable,2419.72,2419.72,70,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,7182.3,7182.3,135,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,No Bosque Estable,18159.11,18159.11,163,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,17761.51,17761.51,1057,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,207.79,207.79,133,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Serranía de Abibe,Distrito Regional de Manejo Integrado,No Bosque Estable,21412.17,21412.17,1108,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Serranía de Abibe,Distrito Regional de Manejo Integrado,Regeneración,19.94,19.94,4,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Serranía de Abibe,Distrito Regional de Manejo Integrado,Sin Información,720.92,720.92,140,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Peque,Distrito de Conservación de Suelos,Bosque Estable,3515.23,3515.23,276,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Peque,Distrito de Conservación de Suelos,Deforestación,18.32,18.32,24,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Peque,Distrito de Conservación de Suelos,No Bosque Estable,16803.35,16803.35,157,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Peque,Distrito de Conservación de Suelos,Sin Información,69.25,69.25,18,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Las Orquideas,Parque Nacional Natural,Bosque Estable,25022.46,25022.46,186,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Las Orquideas,Parque Nacional Natural,Deforestación,112.3,112.3,150,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Las Orquideas,Parque Nacional Natural,No Bosque Estable,3379.44,3379.44,422,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Las Orquideas,Parque Nacional Natural,Sin Información,238.73,238.73,43,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Los Katío,Parque Nacional Natural,Bosque Estable,1198.82,1198.82,85,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Los Katío,Parque Nacional Natural,No Bosque Estable,11752.33,11752.33,20,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Paramillo,Parque Nacional Natural,Bosque Estable,14642.6,14642.6,33,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Paramillo,Parque Nacional Natural,Deforestación,0.07,0.07,2,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Paramillo,Parque Nacional Natural,No Bosque Estable,976.39,976.39,92,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Paramillo,Parque Nacional Natural,Sin Información,346.51,346.51,17,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,3973.52,3973.52,23,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,No Bosque Estable,1251.41,1251.41,47,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,16658.89,16658.89,450,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Carauta,Reserva Forestal Protectora Nacional,Deforestación,198.37,198.37,268,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Carauta,Reserva Forestal Protectora Nacional,No Bosque Estable,10522.55,10522.55,562,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Carauta,Reserva Forestal Protectora Nacional,Sin Información,43.59,43.59,13,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,21190.91,21190.91,228,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,44.15,44.15,33,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,De Urrao,Reserva Forestal Protectora Nacional,No Bosque Estable,6973.97,6973.97,305,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,De Urrao,Reserva Forestal Protectora Nacional,Sin Información,98.3,98.3,29,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,251.82,251.82,52,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Río León,Reserva Forestal Protectora Nacional,Deforestación,14.71,14.71,12,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Río León,Reserva Forestal Protectora Nacional,No Bosque Estable,10475.37,10475.37,8,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Río León,Reserva Forestal Protectora Nacional,Sin Información,3.7,3.7,3,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,80.17,80.17,4,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Buenos Aires,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.7,5.7,6,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,156.96,156.96,1,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,8.05,8.05,5,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,634.87,634.87,12,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,674.02,674.02,15,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Sin Información,20.07,20.07,2,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,24.96,24.96,1,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,El Raudal,Reserva Natural de la Sociedad Civil,No Bosque Estable,3.01,3.01,1,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,0.77,0.77,1,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,La Rayuela,Reserva Natural de la Sociedad Civil,No Bosque Estable,3.22,3.22,1,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,13.75,13.75,1,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,La Rivera,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.81,5.81,2,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,La Violeta,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.35,0.35,1,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,13.63,13.63,1,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Las Brisas,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.33,0.33,1,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,346.6,346.6,17,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Los Horizontales,Reserva Natural de la Sociedad Civil,No Bosque Estable,773.71,773.71,18,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,971.01,971.01,14,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Musinga,Reserva Natural de la Sociedad Civil,No Bosque Estable,470.8,470.8,16,shapefile,geometria_epsg3115,False,True
+2016-2017,2016,2017,Musinga,Reserva Natural de la Sociedad Civil,Sin Información,1.54,1.54,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,4452.21,4452.21,71,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Alto de Insor,Distrito Regional de Manejo Integrado,No Bosque Estable,2424.45,2424.45,67,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Alto de Insor,Distrito Regional de Manejo Integrado,Sin Información,1.32,1.32,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,7309.78,7309.78,140,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Deforestación,0.96,0.96,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,No Bosque Estable,18014.31,18014.31,137,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Sin Información,16.15,16.15,2,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,15587.16,15587.16,465,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,165.61,165.61,56,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Serranía de Abibe,Distrito Regional de Manejo Integrado,No Bosque Estable,24269.14,24269.14,387,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Serranía de Abibe,Distrito Regional de Manejo Integrado,Regeneración,1.63,1.63,5,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Serranía de Abibe,Distrito Regional de Manejo Integrado,Sin Información,98.34,98.34,23,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Peque,Distrito de Conservación de Suelos,Bosque Estable,3423.97,3423.97,303,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Peque,Distrito de Conservación de Suelos,Deforestación,3.15,3.15,4,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Peque,Distrito de Conservación de Suelos,No Bosque Estable,16861.9,16861.9,136,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Peque,Distrito de Conservación de Suelos,Sin Información,117.03,117.03,110,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Las Orquideas,Parque Nacional Natural,Bosque Estable,25144.62,25144.62,176,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Las Orquideas,Parque Nacional Natural,Deforestación,16.73,16.73,10,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Las Orquideas,Parque Nacional Natural,No Bosque Estable,3569.31,3569.31,495,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Las Orquideas,Parque Nacional Natural,Sin Información,22.28,22.28,9,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Los Katío,Parque Nacional Natural,Bosque Estable,1165.65,1165.65,47,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Los Katío,Parque Nacional Natural,No Bosque Estable,11785.5,11785.5,3,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Paramillo,Parque Nacional Natural,Bosque Estable,14415.1,14415.1,131,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Paramillo,Parque Nacional Natural,Deforestación,3.65,3.65,2,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Paramillo,Parque Nacional Natural,No Bosque Estable,960.81,960.81,90,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Paramillo,Parque Nacional Natural,Sin Información,586.07,586.07,445,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,3968.93,3968.93,11,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Deforestación,0.9,0.9,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,No Bosque Estable,1255.08,1255.08,15,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,16581.68,16581.68,369,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Carauta,Reserva Forestal Protectora Nacional,Deforestación,36.83,36.83,20,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Carauta,Reserva Forestal Protectora Nacional,No Bosque Estable,10784.37,10784.37,582,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Carauta,Reserva Forestal Protectora Nacional,Sin Información,20.52,20.52,10,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,21146.9,21146.9,216,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,4.23,4.23,4,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,De Urrao,Reserva Forestal Protectora Nacional,No Bosque Estable,7138.58,7138.58,312,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,De Urrao,Reserva Forestal Protectora Nacional,Sin Información,17.89,17.89,11,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,223.64,223.64,24,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Río León,Reserva Forestal Protectora Nacional,No Bosque Estable,10522.1,10522.1,5,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,80.23,80.23,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Buenos Aires,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.63,5.63,4,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,156.06,156.06,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,8.95,8.95,5,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,639.88,639.88,12,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,689.07,689.07,15,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,25.06,25.06,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,El Raudal,Reserva Natural de la Sociedad Civil,No Bosque Estable,2.91,2.91,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,0.77,0.77,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,La Rayuela,Reserva Natural de la Sociedad Civil,No Bosque Estable,3.23,3.23,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,13.82,13.82,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,La Rivera,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.73,5.73,2,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,La Violeta,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.35,0.35,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,13.63,13.63,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Las Brisas,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.33,0.33,1,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,717.51,717.51,14,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Los Horizontales,Reserva Natural de la Sociedad Civil,No Bosque Estable,402.67,402.67,49,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,973.08,973.08,14,shapefile,geometria_epsg3115,False,True
+2017-2018,2017,2018,Musinga,Reserva Natural de la Sociedad Civil,No Bosque Estable,470.27,470.27,11,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,4452.31,4452.31,69,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Alto de Insor,Distrito Regional de Manejo Integrado,No Bosque Estable,2425.67,2425.67,67,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,7297.63,7297.63,143,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Deforestación,15.6,15.6,3,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,No Bosque Estable,18027.86,18027.86,142,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Sin Información,0.15,0.15,2,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,15489.82,15489.82,466,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,42.13,42.13,28,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Serranía de Abibe,Distrito Regional de Manejo Integrado,No Bosque Estable,24587.9,24587.9,402,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Serranía de Abibe,Distrito Regional de Manejo Integrado,Sin Información,2.84,2.84,2,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Peque,Distrito de Conservación de Suelos,Bosque Estable,3515.45,3515.45,274,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Peque,Distrito de Conservación de Suelos,Deforestación,12.41,12.41,4,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Peque,Distrito de Conservación de Suelos,No Bosque Estable,16878.27,16878.27,134,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Las Orquideas,Parque Nacional Natural,Bosque Estable,24978.37,24978.37,166,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Las Orquideas,Parque Nacional Natural,Deforestación,36.42,36.42,20,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Las Orquideas,Parque Nacional Natural,No Bosque Estable,3717.89,3717.89,479,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Las Orquideas,Parque Nacional Natural,Sin Información,20.24,20.24,15,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Los Katío,Parque Nacional Natural,Bosque Estable,1165.65,1165.65,47,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Los Katío,Parque Nacional Natural,No Bosque Estable,11785.5,11785.5,3,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Paramillo,Parque Nacional Natural,Bosque Estable,14981.41,14981.41,25,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Paramillo,Parque Nacional Natural,No Bosque Estable,984.35,984.35,92,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,3968.79,3968.79,11,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,No Bosque Estable,1256.12,1256.12,12,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,16377.13,16377.13,388,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Carauta,Reserva Forestal Protectora Nacional,Deforestación,17.95,17.95,14,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Carauta,Reserva Forestal Protectora Nacional,No Bosque Estable,11026.21,11026.21,574,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Carauta,Reserva Forestal Protectora Nacional,Sin Información,2.11,2.11,4,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,20995.21,20995.21,222,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,2.81,2.81,2,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,De Urrao,Reserva Forestal Protectora Nacional,No Bosque Estable,7309.57,7309.57,294,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,223.64,223.64,24,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Río León,Reserva Forestal Protectora Nacional,No Bosque Estable,10522.1,10522.1,5,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,80.23,80.23,1,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Buenos Aires,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.63,5.63,4,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,156.06,156.06,1,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,8.95,8.95,5,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,626.48,626.48,13,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,702.48,702.48,13,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,25.05,25.05,1,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,El Raudal,Reserva Natural de la Sociedad Civil,No Bosque Estable,2.92,2.92,1,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,0.77,0.77,1,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,La Rayuela,Reserva Natural de la Sociedad Civil,No Bosque Estable,3.23,3.23,1,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,13.82,13.82,1,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,La Rivera,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.73,5.73,2,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,La Violeta,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.35,0.35,1,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,13.63,13.63,1,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Las Brisas,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.33,0.33,1,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,713.08,713.08,14,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Los Horizontales,Reserva Natural de la Sociedad Civil,No Bosque Estable,407.1,407.1,48,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,973.08,973.08,14,shapefile,geometria_epsg3115,False,True
+2019-2020,2019,2020,Musinga,Reserva Natural de la Sociedad Civil,No Bosque Estable,470.27,470.27,11,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,4452.31,4452.31,69,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Alto de Insor,Distrito Regional de Manejo Integrado,Regeneración,2425.67,2425.67,67,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,7297.63,7297.63,143,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Regeneración,18043.46,18043.46,142,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Sin Información,0.15,0.15,2,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,15439.35,15439.35,473,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,34.61,34.61,19,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Serranía de Abibe,Distrito Regional de Manejo Integrado,Regeneración,24629.07,24629.07,409,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Serranía de Abibe,Distrito Regional de Manejo Integrado,Sin Información,19.66,19.66,9,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Peque,Distrito de Conservación de Suelos,Bosque Estable,3506.55,3506.55,275,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Peque,Distrito de Conservación de Suelos,Deforestación,8.16,8.16,2,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Peque,Distrito de Conservación de Suelos,Regeneración,16891.43,16891.43,132,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Las Orquideas,Parque Nacional Natural,Bosque Estable,24976.6,24976.6,165,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Las Orquideas,Parque Nacional Natural,Deforestación,18.51,18.51,10,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Las Orquideas,Parque Nacional Natural,Regeneración,3757.83,3757.83,485,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Los Katío,Parque Nacional Natural,Bosque Estable,1165.65,1165.65,47,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Los Katío,Parque Nacional Natural,Regeneración,11785.5,11785.5,3,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Paramillo,Parque Nacional Natural,Bosque Estable,14979.31,14979.31,26,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Paramillo,Parque Nacional Natural,Deforestación,2.16,2.16,4,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Paramillo,Parque Nacional Natural,Regeneración,984.34,984.34,92,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,3968.79,3968.79,11,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Regeneración,1256.12,1256.12,12,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,16345.48,16345.48,390,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Carauta,Reserva Forestal Protectora Nacional,Deforestación,14.51,14.51,9,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Carauta,Reserva Forestal Protectora Nacional,Regeneración,11063.42,11063.42,577,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,20986.51,20986.51,221,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,1.88,1.88,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,De Urrao,Reserva Forestal Protectora Nacional,Regeneración,7319.21,7319.21,296,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,222.39,222.39,25,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Río León,Reserva Forestal Protectora Nacional,Deforestación,1.32,1.32,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Río León,Reserva Forestal Protectora Nacional,Regeneración,10522.02,10522.02,5,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,80.23,80.23,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Buenos Aires,Reserva Natural de la Sociedad Civil,Regeneración,5.63,5.63,4,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,156.06,156.06,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Regeneración,8.95,8.95,5,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,626.48,626.48,13,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Regeneración,702.48,702.48,13,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,25.05,25.05,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,El Raudal,Reserva Natural de la Sociedad Civil,Regeneración,2.92,2.92,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,0.77,0.77,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,La Rayuela,Reserva Natural de la Sociedad Civil,Regeneración,3.23,3.23,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,13.82,13.82,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,La Rivera,Reserva Natural de la Sociedad Civil,Regeneración,5.73,5.73,2,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,La Violeta,Reserva Natural de la Sociedad Civil,Regeneración,0.35,0.35,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,13.63,13.63,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Las Brisas,Reserva Natural de la Sociedad Civil,Regeneración,0.33,0.33,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,712.98,712.98,14,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Los Horizontales,Reserva Natural de la Sociedad Civil,Deforestación,0.04,0.04,1,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Los Horizontales,Reserva Natural de la Sociedad Civil,Regeneración,407.17,407.17,48,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,973.08,973.08,14,shapefile,geometria_epsg3115,False,True
+2020-2021,2020,2021,Musinga,Reserva Natural de la Sociedad Civil,Regeneración,470.27,470.27,11,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,4438.03,4438.03,68,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Alto de Insor,Distrito Regional de Manejo Integrado,Deforestación,1.32,1.32,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Alto de Insor,Distrito Regional de Manejo Integrado,No Bosque Estable,2438.63,2438.63,65,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,7292.61,7292.61,151,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,No Bosque Estable,18045.57,18045.57,145,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Sin Información,3.4,3.4,32,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,15322.28,15322.28,512,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,86.37,86.37,49,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Serranía de Abibe,Distrito Regional de Manejo Integrado,No Bosque Estable,24682.08,24682.08,412,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Serranía de Abibe,Distrito Regional de Manejo Integrado,Sin Información,31.71,31.71,19,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Peque,Distrito de Conservación de Suelos,Bosque Estable,3479.11,3479.11,277,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Peque,Distrito de Conservación de Suelos,Deforestación,3.07,3.07,2,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Peque,Distrito de Conservación de Suelos,No Bosque Estable,16923.85,16923.85,129,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Las Orquideas,Parque Nacional Natural,Bosque Estable,24890.89,24890.89,168,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Las Orquideas,Parque Nacional Natural,Deforestación,79.94,79.94,13,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Las Orquideas,Parque Nacional Natural,No Bosque Estable,3780.52,3780.52,487,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Las Orquideas,Parque Nacional Natural,Sin Información,1.58,1.58,2,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Los Katío,Parque Nacional Natural,Bosque Estable,1165.05,1165.05,47,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Los Katío,Parque Nacional Natural,No Bosque Estable,11786.1,11786.1,4,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Paramillo,Parque Nacional Natural,Bosque Estable,14924.2,14924.2,28,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Paramillo,Parque Nacional Natural,Deforestación,0.3,0.3,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Paramillo,Parque Nacional Natural,No Bosque Estable,1040.59,1040.59,90,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Paramillo,Parque Nacional Natural,Sin Información,0.5,0.5,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,3964.49,3964.49,10,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Deforestación,3.94,3.94,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,No Bosque Estable,1255.74,1255.74,12,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Sin Información,0.69,0.69,8,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,16176.14,16176.14,389,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Carauta,Reserva Forestal Protectora Nacional,Deforestación,57.79,57.79,41,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Carauta,Reserva Forestal Protectora Nacional,No Bosque Estable,11189.47,11189.47,571,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,20980.15,20980.15,212,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,3.69,3.69,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,De Urrao,Reserva Forestal Protectora Nacional,No Bosque Estable,7323.75,7323.75,298,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,221.23,221.23,25,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Río León,Reserva Forestal Protectora Nacional,No Bosque Estable,10524.5,10524.5,3,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,80.13,80.13,2,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Buenos Aires,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.74,5.74,5,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,156.55,156.55,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,8.47,8.47,5,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,623.77,623.77,12,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,705.19,705.19,14,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,25.07,25.07,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,El Raudal,Reserva Natural de la Sociedad Civil,No Bosque Estable,2.9,2.9,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,0.77,0.77,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,La Rayuela,Reserva Natural de la Sociedad Civil,No Bosque Estable,3.23,3.23,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,13.8,13.8,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,La Rivera,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.76,5.76,2,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,La Violeta,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.35,0.35,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,13.63,13.63,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Las Brisas,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.33,0.33,1,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,709.71,709.71,15,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Los Horizontales,Reserva Natural de la Sociedad Civil,No Bosque Estable,410.5,410.5,41,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,973.99,973.99,15,shapefile,geometria_epsg3115,False,True
+2021-2022,2021,2022,Musinga,Reserva Natural de la Sociedad Civil,No Bosque Estable,469.36,469.36,12,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,4434.11,4434.11,63,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Alto de Insor,Distrito Regional de Manejo Integrado,Deforestación,1.93,1.93,9,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Alto de Insor,Distrito Regional de Manejo Integrado,No Bosque Estable,2441.98,2441.98,62,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,7273.33,7273.33,148,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,No Bosque Estable,18066.72,18066.72,155,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Sin Información,0.76,0.76,6,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,14954.8,14954.8,616,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,44.66,44.66,33,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Serranía de Abibe,Distrito Regional de Manejo Integrado,No Bosque Estable,25123.13,25123.13,496,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Peque,Distrito de Conservación de Suelos,Bosque Estable,3464.51,3464.51,276,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Peque,Distrito de Conservación de Suelos,Deforestación,3.24,3.24,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Peque,Distrito de Conservación de Suelos,No Bosque Estable,16938.39,16938.39,130,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Las Orquideas,Parque Nacional Natural,Bosque Estable,24871.26,24871.26,65,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Las Orquideas,Parque Nacional Natural,Deforestación,28.1,28.1,9,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Las Orquideas,Parque Nacional Natural,No Bosque Estable,3853.58,3853.58,333,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Los Katío,Parque Nacional Natural,Bosque Estable,1167.64,1167.64,48,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Los Katío,Parque Nacional Natural,No Bosque Estable,11783.5,11783.5,4,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Paramillo,Parque Nacional Natural,Bosque Estable,14942.61,14942.61,25,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Paramillo,Parque Nacional Natural,Deforestación,0.09,0.09,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Paramillo,Parque Nacional Natural,No Bosque Estable,1023.38,1023.38,86,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,3963.2,3963.2,11,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Deforestación,2.32,2.32,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,No Bosque Estable,1259.16,1259.16,14,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Sin Información,0.25,0.25,2,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,16140.56,16140.56,338,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Carauta,Reserva Forestal Protectora Nacional,Deforestación,21.45,21.45,20,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Carauta,Reserva Forestal Protectora Nacional,No Bosque Estable,11261.39,11261.39,482,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,20988.88,20988.88,94,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,8.8,8.8,7,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,De Urrao,Reserva Forestal Protectora Nacional,No Bosque Estable,7309.83,7309.83,167,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,215.53,215.53,25,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Río León,Reserva Forestal Protectora Nacional,Deforestación,2.76,2.76,2,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Río León,Reserva Forestal Protectora Nacional,No Bosque Estable,10527.43,10527.43,3,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,79.82,79.82,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Buenos Aires,Reserva Natural de la Sociedad Civil,No Bosque Estable,6.04,6.04,4,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,156.2,156.2,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,8.81,8.81,5,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,627.82,627.82,10,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,No Bosque Estable,701.14,701.14,10,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,24.94,24.94,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,El Raudal,Reserva Natural de la Sociedad Civil,No Bosque Estable,3.03,3.03,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,0.78,0.78,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,La Rayuela,Reserva Natural de la Sociedad Civil,No Bosque Estable,3.21,3.21,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,14.06,14.06,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,La Rivera,Reserva Natural de la Sociedad Civil,No Bosque Estable,5.49,5.49,3,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,La Violeta,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.35,0.35,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,13.88,13.88,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Las Brisas,Reserva Natural de la Sociedad Civil,No Bosque Estable,0.04,0.04,1,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,710.69,710.69,14,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Los Horizontales,Reserva Natural de la Sociedad Civil,No Bosque Estable,409.52,409.52,49,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,970.56,970.56,14,shapefile,geometria_epsg3115,False,True
+2022-2023,2022,2023,Musinga,Reserva Natural de la Sociedad Civil,No Bosque Estable,472.79,472.79,14,shapefile,geometria_epsg3115,False,True
+2023-2024,2023,2024,Alto de Insor,Distrito Regional de Manejo Integrado,Bosque Estable,,,61,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Alto de Insor,Distrito Regional de Manejo Integrado,Regeneración,,,68,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Bosque Estable,,,146,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Deforestación,,,6,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,"Ensenada de Rionegro, los Bajos Aledanos",Distrito Regional de Manejo Integrado,Regeneración,,,152,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Serranía de Abibe,Distrito Regional de Manejo Integrado,Bosque Estable,,,621,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Serranía de Abibe,Distrito Regional de Manejo Integrado,Deforestación,,,24,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Serranía de Abibe,Distrito Regional de Manejo Integrado,Regeneración,,,496,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Peque,Distrito de Conservación de Suelos,Bosque Estable,,,279,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Peque,Distrito de Conservación de Suelos,Regeneración,,,129,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Las Orquideas,Parque Nacional Natural,Bosque Estable,,,62,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Las Orquideas,Parque Nacional Natural,Deforestación,,,20,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Las Orquideas,Parque Nacional Natural,Regeneración,,,348,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Los Katío,Parque Nacional Natural,Bosque Estable,,,47,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Los Katío,Parque Nacional Natural,Regeneración,,,3,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Paramillo,Parque Nacional Natural,Bosque Estable,,,28,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Paramillo,Parque Nacional Natural,Deforestación,,,1,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Paramillo,Parque Nacional Natural,Regeneración,,,97,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Bosque Estable,,,10,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Humedales entre los Rios Leon y Suriqui,Parque Regional Natural,Regeneración,,,16,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Carauta,Reserva Forestal Protectora Nacional,Bosque Estable,,,332,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Carauta,Reserva Forestal Protectora Nacional,Deforestación,,,31,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Carauta,Reserva Forestal Protectora Nacional,Regeneración,,,492,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,De Urrao,Reserva Forestal Protectora Nacional,Bosque Estable,,,91,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,De Urrao,Reserva Forestal Protectora Nacional,Deforestación,,,2,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,De Urrao,Reserva Forestal Protectora Nacional,Regeneración,,,177,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Río León,Reserva Forestal Protectora Nacional,Bosque Estable,,,25,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Río León,Reserva Forestal Protectora Nacional,Deforestación,,,2,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Río León,Reserva Forestal Protectora Nacional,Regeneración,,,3,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Buenos Aires,Reserva Natural de la Sociedad Civil,Bosque Estable,,,1,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Buenos Aires,Reserva Natural de la Sociedad Civil,Regeneración,,,4,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,,,1,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Colibrí del Sol,Reserva Natural de la Sociedad Civil,Regeneración,,,5,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Bosque Estable,,,9,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,De Las Aves Colibrí del Sol,Reserva Natural de la Sociedad Civil,Regeneración,,,10,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,El Raudal,Reserva Natural de la Sociedad Civil,Bosque Estable,,,1,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,El Raudal,Reserva Natural de la Sociedad Civil,Regeneración,,,1,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,La Rayuela,Reserva Natural de la Sociedad Civil,Bosque Estable,,,1,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,La Rayuela,Reserva Natural de la Sociedad Civil,Regeneración,,,1,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,La Rivera,Reserva Natural de la Sociedad Civil,Bosque Estable,,,1,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,La Rivera,Reserva Natural de la Sociedad Civil,Regeneración,,,2,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,La Violeta,Reserva Natural de la Sociedad Civil,Regeneración,,,1,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Las Brisas,Reserva Natural de la Sociedad Civil,Bosque Estable,,,1,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Las Brisas,Reserva Natural de la Sociedad Civil,Regeneración,,,2,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Los Horizontales,Reserva Natural de la Sociedad Civil,Bosque Estable,,,15,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Los Horizontales,Reserva Natural de la Sociedad Civil,Deforestación,,,1,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Los Horizontales,Reserva Natural de la Sociedad Civil,Regeneración,,,39,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Musinga,Reserva Natural de la Sociedad Civil,Bosque Estable,,,14,dbf_huerfano,solo_conteo_sin_area,False,False
+2023-2024,2023,2024,Musinga,Reserva Natural de la Sociedad Civil,Regeneración,,,13,dbf_huerfano,solo_conteo_sin_area,False,False

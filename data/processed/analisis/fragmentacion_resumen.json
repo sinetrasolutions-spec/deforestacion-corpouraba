@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "tema": "Fragmentacion y recurrencia espacial de la deforestacion",
+    "fuente": "data/processed/hotspots/*.geojson (parches deforestacion >=1 ha)",
+    "jurisdiccion": "CORPOURABA - 19 municipios",
+    "periodos_disponibles": [
+      "2002-2004",
+      "2004-2006",
+      "2006-2008",
+      "2008-2010",
+      "2012-2013",
+      "2013-2014",
+      "2016-2017",
+      "2017-2018",
+      "2019-2020",
+      "2020-2021",
+      "2021-2022",
+      "2022-2023"
+    ],
+    "n_periodos": 12,
+    "periodos_faltantes": [
+      "2000-2002",
+      "2010-2012",
+      "2014-2015",
+      "2015-2016",
+      "2018-2019",
+      "2023-2024"
+    ],
+    "base_area": "columna 'ha' (coherente con serie validada); geometria GeoJSON generalizada ~6-8% menor, usada solo para operaciones espaciales",
+    "crs_trabajo": "EPSG:3115 (metrico) -> export EPSG:4326",
+    "tamano_celda": "2 x 2 km (400 ha)",
+    "notas_calidad": {
+      "2012-2013": "raster_departamental_recortado: 3406 parches / 8522.6 ha fuera de los 19 mpios CORPOURABA (excluidos)"
+    },
+    "total_ha_jurisdiccion_12periodos": 25169.2,
+    "total_parches_jurisdiccion": 9107
+  },
+  "concentracion_vs_atomizacion": {
+    "n_parches_total": 9107,
+    "ha_total": 25169.2,
+    "tamano_medio_ha": 2.764,
+    "tamano_mediano_ha": 1.71,
+    "pct_parches_menores_2ha": 60.37,
+    "share_ha_en_parches_menores_2ha": 30.32,
+    "pct_parches_menores_5ha": 91.93,
+    "share_ha_en_parches_menores_5ha": 64.02,
+    "pct_parches_mayores_10ha": 2.45,
+    "share_ha_en_parches_mayores_10ha": 22.54,
+    "gini_tamano_parche": 0.4359,
+    "share_ha_top1pct_parches": 15.94,
+    "share_ha_top5pct_parches": 29.7,
+    "interpretacion": "Atomizada en numero: 91.93% de los parches son <5 ha, pero concentran solo 64.02% del area; el 29.7% del area deforestada se concentra en el 5% de parches mas grandes (Gini=0.4359). Dualidad: numericamente atomizada, pero el area se concentra en pocos parches grandes."
+  },
+  "tendencia_tamano_parche": {
+    "pendiente_tamano_medio_ha_por_ano": -0.008,
+    "pendiente_tamano_mediano_ha_por_ano": 0.0036,
+    "pendiente_densidad_parches_1000ha_por_ano": 1.396,
+    "pendiente_pct_parches_grandes_por_ano": -0.0514,
+    "tamano_medio_periodo_temprano_<=2010": 2.7,
+    "tamano_medio_periodo_reciente_>=2016": 2.661,
+    "pct_grandes_temprano_<=2010": 2.73,
+    "pct_grandes_reciente_>=2016": 2.06,
+    "serie_por_periodo": [
+      {
+        "periodo": "2002-2004",
+        "ano_inicio": 2002,
+        "ano_fin": 2004,
+        "n_parches": 1119,
+        "ha_total": 3041.4,
+        "tamano_medio_ha": 2.718,
+        "tamano_mediano_ha": 1.69,
+        "tamano_max_ha": 104.63,
+        "pct_parches_grandes": 2.59,
+        "share_ha_grandes": 23.08,
+        "densidad_parches_1000ha": 367.92,
+        "n_parches_fuera_juris": 0,
+        "ha_fuera_juris": 0.0
+      },
+      {
+        "periodo": "2004-2006",
+        "ano_inicio": 2004,
+        "ano_fin": 2006,
+        "n_parches": 902,
+        "ha_total": 2529.82,
+        "tamano_medio_ha": 2.805,
+        "tamano_mediano_ha": 1.805,
+        "tamano_max_ha": 37.87,
+        "pct_parches_grandes": 3.1,
+        "share_ha_grandes": 19.34,
+        "densidad_parches_1000ha": 356.55,
+        "n_parches_fuera_juris": 0,
+        "ha_fuera_juris": 0.0
+      },
+      {
+        "periodo": "2006-2008",
+        "ano_inicio": 2006,
+        "ano_fin": 2008,
+        "n_parches": 808,
+        "ha_total": 1946.5,
+        "tamano_medio_ha": 2.409,
+        "tamano_mediano_ha": 1.61,
+        "tamano_max_ha": 71.24,
+        "pct_parches_grandes": 2.1,
+        "share_ha_grandes": 15.47,
+        "densidad_parches_1000ha": 415.1,
+        "n_parches_fuera_juris": 0,
+        "ha_fuera_juris": 0.0
+      },
+      {
+        "periodo": "2008-2010",
+        "ano_inicio": 2008,
+        "ano_fin": 2010,
+        "n_parches": 834,
+        "ha_total": 2392.89,
+        "tamano_medio_ha": 2.869,
+        "tamano_mediano_ha": 1.69,
+        "tamano_max_ha": 164.11,
+        "pct_parches_grandes": 3.12,
+        "share_ha_grandes": 25.08,
+        "densidad_parches_1000ha": 348.53,
+        "n_parches_fuera_juris": 0,
+        "ha_fuera_juris": 0.0
+      },
+      {
+        "periodo": "2012-2013",
+        "ano_inicio": 2012,
+        "ano_fin": 2013,
+        "n_parches": 754,
+        "ha_total": 1796.84,
+        "tamano_medio_ha": 2.383,
+        "tamano_mediano_ha": 1.49,
+        "tamano_max_ha": 71.58,
+        "pct_parches_grandes": 1.46,
+        "share_ha_grandes": 16.02,
+        "densidad_parches_1000ha": 419.63,
+        "n_parches_fuera_juris": 3406,
+        "ha_fuera_juris": 8522.6
+      },
+      {
+        "periodo": "2013-2014",
+        "ano_inicio": 2013,
+        "ano_fin": 2014,
+        "n_parches": 794,
+        "ha_total": 3195.82,
+        "tamano_medio_ha": 4.025,
+        "tamano_mediano_ha": 1.775,
+        "tamano_max_ha": 738.46,
+        "pct_parches_grandes": 3.65,
+        "share_ha_grandes": 45.96,
+        "densidad_parches_1000ha": 248.45,
+        "n_parches_fuera_juris": 0,
+        "ha_fuera_juris": 0.0
+      },
+      {
+        "periodo": "2016-2017",
+        "ano_inicio": 2016,
+        "ano_fin": 2017,
+        "n_parches": 1252,
+        "ha_total": 3174.04,
+        "tamano_medio_ha": 2.535,
+        "tamano_mediano_ha": 1.71,
+        "tamano_max_ha": 53.99,
+        "pct_parches_grandes": 2.24,
+        "share_ha_grandes": 16.38,
+        "densidad_parches_1000ha": 394.45,
+        "n_parches_fuera_juris": 0,
+        "ha_fuera_juris": 0.0
+      },
+      {
+        "periodo": "2017-2018",
+        "ano_inicio": 2017,
+        "ano_fin": 2018,
+        "n_parches": 457,
+        "ha_total": 1607.05,
+        "tamano_medio_ha": 3.517,
+        "tamano_mediano_ha": 1.85,
+        "tamano_max_ha": 204.42,
+        "pct_parches_grandes": 3.06,
+        "share_ha_grandes": 32.59,
+        "densidad_parches_1000ha": 284.37,
+        "n_parches_fuera_juris": 0,
+        "ha_fuera_juris": 0.0
+      },
+      {
+        "periodo": "2019-2020",
+        "ano_inicio": 2019,
+        "ano_fin": 2020,
+        "n_parches": 569,
+        "ha_total": 1539.61,
+        "tamano_medio_ha": 2.706,
+        "tamano_mediano_ha": 1.82,
+        "tamano_max_ha": 49.8,
+        "pct_parches_grandes": 2.46,
+        "share_ha_grandes": 18.0,
+        "densidad_parches_1000ha": 369.57,
+        "n_parches_fuera_juris": 0,
+        "ha_fuera_juris": 0.0
+      },
+      {
+        "periodo": "2020-2021",
+        "ano_inicio": 2020,
+        "ano_fin": 2021,
+        "n_parches": 419,
+        "ha_total": 978.51,
+        "tamano_medio_ha": 2.335,
+        "tamano_mediano_ha": 1.78,
+        "tamano_max_ha": 17.07,
+        "pct_parches_grandes": 1.19,
+        "share_ha_grandes": 6.53,
+        "densidad_parches_1000ha": 428.2,
+        "n_parches_fuera_juris": 0,
+        "ha_fuera_juris": 0.0
+      },
+      {
+        "periodo": "2021-2022",
+        "ano_inicio": 2021,
+        "ano_fin": 2022,
+        "n_parches": 803,
+        "ha_total": 2047.36,
+        "tamano_medio_ha": 2.55,
+        "tamano_mediano_ha": 1.75,
+        "tamano_max_ha": 65.24,
+        "pct_parches_grandes": 2.12,
+        "share_ha_grandes": 15.8,
+        "densidad_parches_1000ha": 392.21,
+        "n_parches_fuera_juris": 0,
+        "ha_fuera_juris": 0.0
+      },
+      {
+        "periodo": "2022-2023",
+        "ano_inicio": 2022,
+        "ano_fin": 2023,
+        "n_parches": 396,
+        "ha_total": 919.32,
+        "tamano_medio_ha": 2.322,
+        "tamano_mediano_ha": 1.66,
+        "tamano_max_ha": 57.6,
+        "pct_parches_grandes": 1.26,
+        "share_ha_grandes": 12.5,
+        "densidad_parches_1000ha": 430.75,
+        "n_parches_fuera_juris": 0,
+        "ha_fuera_juris": 0.0
+      }
+    ]
+  },
+  "recurrencia": {
+    "n_celdas_jurisdiccion": 5066,
+    "n_celdas_con_deforestacion": 2578,
+    "pct_jurisdiccion_tocada": 50.9,
+    "distribucion_conteo_periodos": {
+      "0": 2488,
+      "1": 963,
+      "2": 576,
+      "3": 383,
+      "4": 280,
+      "5": 179,
+      "6": 94,
+      "7": 51,
+      "8": 31,
+      "9": 16,
+      "10": 5
+    },
+    "n_celdas_persistentes_>=3": 1039,
+    "ha_acumuladas_en_persistentes": 18179.4,
+    "pct_ha_en_persistentes": 72.2,
+    "conteo_periodos_max": 10,
+    "municipios_mas_celdas_persistentes": [
+      {
+        "municipio": "Urrao",
+        "celdas_persistentes": 179,
+        "ha_acumuladas": 2492.63,
+        "conteo_max": 10
+      },
+      {
+        "municipio": "Turbo",
+        "celdas_persistentes": 165,
+        "ha_acumuladas": 3714.86,
+        "conteo_max": 9
+      },
+      {
+        "municipio": "Dabeiba",
+        "celdas_persistentes": 152,
+        "ha_acumuladas": 2261.98,
+        "conteo_max": 10
+      },
+      {
+        "municipio": "Mutatá",
+        "celdas_persistentes": 102,
+        "ha_acumuladas": 2585.67,
+        "conteo_max": 10
+      },
+      {
+        "municipio": "Frontino",
+        "celdas_persistentes": 84,
+        "ha_acumuladas": 995.18,
+        "conteo_max": 9
+      },
+      {
+        "municipio": "Apartadó",
+        "celdas_persistentes": 69,
+        "ha_acumuladas": 1248.05,
+        "conteo_max": 9
+      },
+      {
+        "municipio": "Murindó",
+        "celdas_persistentes": 64,
+        "ha_acumuladas": 1116.1299999999999,
+        "conteo_max": 9
+      },
+      {
+        "municipio": "Chigorodó",
+        "celdas_persistentes": 57,
+        "ha_acumuladas": 855.8,
+        "conteo_max": 9
+      },
+      {
+        "municipio": "Necoclí",
+        "celdas_persistentes": 51,
+        "ha_acumuladas": 995.5,
+        "conteo_max": 6
+      },
+      {
+        "municipio": "Carepa",
+        "celdas_persistentes": 37,
+        "ha_acumuladas": 1084.51,
+        "conteo_max": 7
+      },
+      {
+        "municipio": "Vigía del Fuerte",
+        "celdas_persistentes": 32,
+        "ha_acumuladas": 389.56,
+        "conteo_max": 9
+      },
+      {
+        "municipio": "Cañasgordas",
+        "celdas_persistentes": 16,
+        "ha_acumuladas": 138.18,
+        "conteo_max": 6
+      },
+      {
+        "municipio": "Uramita",
+        "celdas_persistentes": 9,
+        "ha_acumuladas": 123.24000000000001,
+        "conteo_max": 6
+      },
+      {
+        "municipio": "Peque",
+        "celdas_persistentes": 8,
+        "ha_acumuladas": 51.300000000000004,
+        "conteo_max": 4
+      },
+      {
+        "municipio": "Abriaquí",
+        "celdas_persistentes": 6,
+        "ha_acumuladas": 32.16,
+        "conteo_max": 4
+      },
+      {
+        "municipio": "San Pedro de Urabá",
+        "celdas_persistentes": 5,
+        "ha_acumuladas": 59.67,
+        "conteo_max": 5
+      },
+      {
+        "municipio": "Arboletes",
+        "celdas_persistentes": 3,
+        "ha_acumuladas": 34.97,
+        "conteo_max": 3
+      }
+    ],
+    "top_celdas_persistentes": [
+      {
+        "cell_id": 5383,
+        "conteo_periodos": 10,
+        "ha_acumuladas": 127.22,
+        "municipio": "Mutatá",
+        "subregion": "Centro",
+        "periodos": "2002-2004,2004-2006,2006-2008,2008-2010,2012-2013,2013-2014,2016-2017,2017-2018,2019-2020,2021-2022"
+      },
+      {
+        "cell_id": 6344,
+        "conteo_periodos": 10,
+        "ha_acumuladas": 124.52,
+        "municipio": "Dabeiba",
+        "subregion": "Nutibara",
+        "periodos": "2002-2004,2004-2006,2006-2008,2008-2010,2012-2013,2013-2014,2016-2017,2017-2018,2019-2020,2021-2022"
+      },
+      {
+        "cell_id": 5542,
+        "conteo_periodos": 10,
+        "ha_acumuladas": 67.15,
+        "municipio": "Mutatá",
+        "subregion": "Centro",
+        "periodos": "2002-2004,2004-2006,2006-2008,2008-2010,2012-2013,2016-2017,2019-2020,2020-2021,2021-2022,2022-2023"
+      },
+      {
+        "cell_id": 6453,
+        "conteo_periodos": 10,
+        "ha_acumuladas": 51.85,
+        "municipio": "Urrao",
+        "subregion": "Urrao",
+        "periodos": "2004-2006,2006-2008,2012-2013,2013-2014,2016-2017,2017-2018,2019-2020,2020-2021,2021-2022,2022-2023"
+      },
+      {
+        "cell_id": 6506,
+        "conteo_periodos": 10,
+        "ha_acumuladas": 41.48,
+        "municipio": "Mutatá",
+        "subregion": "Centro",
+        "periodos": "2002-2004,2004-2006,2006-2008,2008-2010,2012-2013,2016-2017,2017-2018,2019-2020,2020-2021,2021-2022"
+      },
+      {
+        "cell_id": 5543,
+        "conteo_periodos": 9,
+        "ha_acumuladas": 79.64,
+        "municipio": "Mutatá",
+        "subregion": "Centro",
+        "periodos": "2002-2004,2004-2006,2006-2008,2008-2010,2012-2013,2013-2014,2016-2017,2017-2018,2021-2022"
+      },
+      {
+        "cell_id": 6232,
+        "conteo_periodos": 9,
+        "ha_acumuladas": 78.47,
+        "municipio": "Apartadó",
+        "subregion": "Centro",
+        "periodos": "2006-2008,2012-2013,2013-2014,2016-2017,2017-2018,2019-2020,2020-2021,2021-2022,2022-2023"
+      },
+      {
+        "cell_id": 6503,
+        "conteo_periodos": 9,
+        "ha_acumuladas": 70.51,
+        "municipio": "Dabeiba",
+        "subregion": "Nutibara",
+        "periodos": "2002-2004,2004-2006,2006-2008,2008-2010,2016-2017,2017-2018,2019-2020,2020-2021,2021-2022"
+      },
+      {
+        "cell_id": 5545,
+        "conteo_periodos": 9,
+        "ha_acumuladas": 63.98,
+        "municipio": "Mutatá",
+        "subregion": "Centro",
+        "periodos": "2002-2004,2006-2008,2008-2010,2013-2014,2016-2017,2017-2018,2019-2020,2020-2021,2021-2022"
+      },
+      {
+        "cell_id": 5544,
+        "conteo_periodos": 9,
+        "ha_acumuladas": 56.9,
+        "municipio": "Mutatá",
+        "subregion": "Centro",
+        "periodos": "2002-2004,2006-2008,2008-2010,2012-2013,2013-2014,2016-2017,2017-2018,2019-2020,2021-2022"
+      },
+      {
+        "cell_id": 3416,
+        "conteo_periodos": 9,
+        "ha_acumuladas": 49.99,
+        "municipio": "Vigía del Fuerte",
+        "subregion": "Atrato",
+        "periodos": "2002-2004,2004-2006,2006-2008,2008-2010,2012-2013,2016-2017,2019-2020,2020-2021,2021-2022"
+      },
+      {
+        "cell_id": 6292,
+        "conteo_periodos": 9,
+        "ha_acumuladas": 41.09,
+        "municipio": "Urrao",
+        "subregion": "Urrao",
+        "periodos": "2002-2004,2012-2013,2013-2014,2016-2017,2017-2018,2019-2020,2020-2021,2021-2022,2022-2023"
+      },
+      {
+        "cell_id": 3918,
+        "conteo_periodos": 9,
+        "ha_acumuladas": 39.79,
+        "municipio": "Murindó",
+        "subregion": "Atrato",
+        "periodos": "2004-2006,2006-2008,2013-2014,2016-2017,2017-2018,2019-2020,2020-2021,2021-2022,2022-2023"
+      },
+      {
+        "cell_id": 5278,
+        "conteo_periodos": 9,
+        "ha_acumuladas": 38.52,
+        "municipio": "Turbo",
+        "subregion": "Centro",
+        "periodos": "2002-2004,2004-2006,2006-2008,2008-2010,2012-2013,2013-2014,2020-2021,2021-2022,2022-2023"
+      },
+      {
+        "cell_id": 5076,
+        "conteo_periodos": 9,
+        "ha_acumuladas": 31.35,
+        "municipio": "Chigorodó",
+        "subregion": "Centro",
+        "periodos": "2002-2004,2004-2006,2006-2008,2008-2010,2013-2014,2016-2017,2017-2018,2020-2021,2021-2022"
+      }
+    ]
+  },
+  "ranking_municipios_fragmentacion": [
+    {
+      "municipio": "Turbo",
+      "n_parches": 1641,
+      "ha_total": 5945.03,
+      "periodos_activos": 12,
+      "tamano_max_ha": 738.46,
+      "tamano_medio_ha": 3.623
+    },
+    {
+      "municipio": "Urrao",
+      "n_parches": 1482,
+      "ha_total": 3254.08,
+      "periodos_activos": 12,
+      "tamano_max_ha": 33.12,
+      "tamano_medio_ha": 2.196
+    },
+    {
+      "municipio": "Dabeiba",
+      "n_parches": 1155,
+      "ha_total": 2839.42,
+      "periodos_activos": 12,
+      "tamano_max_ha": 112.14,
+      "tamano_medio_ha": 2.458
+    },
+    {
+      "municipio": "Mutatá",
+      "n_parches": 933,
+      "ha_total": 2850.93,
+      "periodos_activos": 12,
+      "tamano_max_ha": 49.8,
+      "tamano_medio_ha": 3.056
+    },
+    {
+      "municipio": "Frontino",
+      "n_parches": 718,
+      "ha_total": 1601.71,
+      "periodos_activos": 12,
+      "tamano_max_ha": 65.24,
+      "tamano_medio_ha": 2.231
+    },
+    {
+      "municipio": "Necoclí",
+      "n_parches": 563,
+      "ha_total": 1568.28,
+      "periodos_activos": 12,
+      "tamano_max_ha": 62.58,
+      "tamano_medio_ha": 2.786
+    },
+    {
+      "municipio": "Murindó",
+      "n_parches": 545,
+      "ha_total": 1376.35,
+      "periodos_activos": 12,
+      "tamano_max_ha": 37.87,
+      "tamano_medio_ha": 2.525
+    },
+    {
+      "municipio": "Chigorodó",
+      "n_parches": 504,
+      "ha_total": 1122.21,
+      "periodos_activos": 12,
+      "tamano_max_ha": 51.5,
+      "tamano_medio_ha": 2.227
+    },
+    {
+      "municipio": "Apartadó",
+      "n_parches": 451,
+      "ha_total": 1290.94,
+      "periodos_activos": 12,
+      "tamano_max_ha": 23.81,
+      "tamano_medio_ha": 2.862
+    },
+    {
+      "municipio": "Vigía del Fuerte",
+      "n_parches": 297,
+      "ha_total": 671.3,
+      "periodos_activos": 12,
+      "tamano_max_ha": 20.17,
+      "tamano_medio_ha": 2.26
+    },
+    {
+      "municipio": "Carepa",
+      "n_parches": 266,
+      "ha_total": 1153.98,
+      "periodos_activos": 11,
+      "tamano_max_ha": 204.42,
+      "tamano_medio_ha": 4.338
+    },
+    {
+      "municipio": "Cañasgordas",
+      "n_parches": 178,
+      "ha_total": 331.71,
+      "periodos_activos": 11,
+      "tamano_max_ha": 8.24,
+      "tamano_medio_ha": 1.864
+    },
+    {
+      "municipio": "Uramita",
+      "n_parches": 109,
+      "ha_total": 230.04999999999998,
+      "periodos_activos": 11,
+      "tamano_max_ha": 23.47,
+      "tamano_medio_ha": 2.111
+    },
+    {
+      "municipio": "Peque",
+      "n_parches": 78,
+      "ha_total": 197.78,
+      "periodos_activos": 12,
+      "tamano_max_ha": 11.98,
+      "tamano_medio_ha": 2.536
+    },
+    {
+      "municipio": "Abriaquí",
+      "n_parches": 60,
+      "ha_total": 121.41,
+      "periodos_activos": 10,
+      "tamano_max_ha": 6.69,
+      "tamano_medio_ha": 2.023
+    },
+    {
+      "municipio": "Arboletes",
+      "n_parches": 60,
+      "ha_total": 419.53,
+      "periodos_activos": 11,
+      "tamano_max_ha": 71.24,
+      "tamano_medio_ha": 6.992
+    },
+    {
+      "municipio": "San Pedro de Urabá",
+      "n_parches": 45,
+      "ha_total": 127.78,
+      "periodos_activos": 12,
+      "tamano_max_ha": 12.99,
+      "tamano_medio_ha": 2.84
+    },
+    {
+      "municipio": "Giraldo",
+      "n_parches": 12,
+      "ha_total": 26.69,
+      "periodos_activos": 4,
+      "tamano_max_ha": 7.4,
+      "tamano_medio_ha": 2.224
+    },
+    {
+      "municipio": "San Juan de Urabá",
+      "n_parches": 10,
+      "ha_total": 39.980000000000004,
+      "periodos_activos": 7,
+      "tamano_max_ha": 11.86,
+      "tamano_medio_ha": 3.998
+    }
+  ],
+  "respuestas": {
+    "atomiza_o_concentra": "Atomizada en numero: 91.93% de los parches son <5 ha, pero concentran solo 64.02% del area; el 29.7% del area deforestada se concentra en el 5% de parches mas grandes (Gini=0.4359). Dualidad: numericamente atomizada, pero el area se concentra en pocos parches grandes.",
+    "tendencia_tamano": "Tamano medio de parche pasa de 2.7 ha (<=2010) a 2.661 ha (>=2016); pendiente -0.0080 ha/ano. % parches grandes (>10 ha): 2.73% -> 2.06%.",
+    "frentes_persistentes": "1039 celdas de 2x2 km con deforestacion en >=3 periodos (18179 ha acumuladas, 72.2% del area). Municipios con mas frentes persistentes: Urrao (celdas x179, 2493 ha); Turbo (celdas x165, 3715 ha); Dabeiba (celdas x152, 2262 ha); Mutatá (celdas x102, 2586 ha); Frontino (celdas x84, 995 ha)."
+  }
+}

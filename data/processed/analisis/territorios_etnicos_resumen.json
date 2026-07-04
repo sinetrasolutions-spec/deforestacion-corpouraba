@@ -1,0 +1,507 @@
+{
+ "titulo": "Territorios étnicos y dinámica del bosque — CORPOURABA 2000-2024",
+ "generado_por": "etl/analisis/territorios_etnicos.py",
+ "universo": {
+  "resguardos_distintos": 39,
+  "pueblos": [
+   "Embera",
+   "Embera Chamí-Zenú",
+   "Embera Katío",
+   "Senú/Zenú",
+   "Tule/Guna (Cuna)"
+  ],
+  "consejos_distintos": 7
+ },
+ "cobertura_fuentes": {
+  "resguardos": {
+   "2000-2002": "excel/solo_conteo",
+   "2002-2004": "shapefile/geometria",
+   "2004-2006": "shapefile/geometria",
+   "2006-2008": "shapefile/geometria",
+   "2008-2010": "shapefile/geometria",
+   "2010-2012": "ausente",
+   "2012-2013": "ausente",
+   "2013-2014": "ausente",
+   "2014-2015": "ausente",
+   "2015-2016": "shapefile/geometria",
+   "2016-2017": "shapefile/geometria",
+   "2017-2018": "shapefile/geometria",
+   "2018-2019": "ausente",
+   "2019-2020": "shapefile/geometria",
+   "2020-2021": "shapefile/geometria",
+   "2021-2022": "shapefile/geometria",
+   "2022-2023": "shapefile/geometria",
+   "2023-2024": "ausente"
+  },
+  "consejos": {
+   "2000-2002": "ausente",
+   "2002-2004": "shapefile/geometria",
+   "2004-2006": "shapefile/geometria",
+   "2006-2008": "shapefile/geometria",
+   "2008-2010": "shapefile/geometria",
+   "2010-2012": "ausente",
+   "2012-2013": "ausente",
+   "2013-2014": "ausente",
+   "2014-2015": "excel/solo_conteo",
+   "2015-2016": "dbf/solo_conteo",
+   "2016-2017": "shapefile/geometria",
+   "2017-2018": "shapefile/geometria",
+   "2018-2019": "ausente",
+   "2019-2020": "shapefile/geometria",
+   "2020-2021": "shapefile/geometria",
+   "2021-2022": "shapefile/geometria",
+   "2022-2023": "shapefile/geometria",
+   "2023-2024": "excel/tabla_area"
+  }
+ },
+ "totales": {
+  "defo_resguardos_ha_suma_periodos_con_area": 4513.5,
+  "defo_consejos_ha_suma_periodos_con_area": 2269.3,
+  "regen_resguardos_ha": 25.0,
+  "regen_consejos_ha": 22.6
+ },
+ "fraccion_etnica_por_periodo": [
+  {
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "ano_fin": 2004,
+   "defo_resguardos_ha": 209.7,
+   "defo_consejos_ha": 185.4,
+   "defo_etnica_ha": 395.1,
+   "defo_jurisdiccion_ha": 3717.9,
+   "pct_etnica": 10.6,
+   "cobertura": "completa"
+  },
+  {
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "ano_fin": 2006,
+   "defo_resguardos_ha": 458.3,
+   "defo_consejos_ha": 246.7,
+   "defo_etnica_ha": 705.0,
+   "defo_jurisdiccion_ha": 3021.7,
+   "pct_etnica": 23.3,
+   "cobertura": "completa"
+  },
+  {
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "ano_fin": 2008,
+   "defo_resguardos_ha": 196.1,
+   "defo_consejos_ha": 76.1,
+   "defo_etnica_ha": 272.2,
+   "defo_jurisdiccion_ha": 2539.5,
+   "pct_etnica": 10.7,
+   "cobertura": "completa"
+  },
+  {
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "ano_fin": 2010,
+   "defo_resguardos_ha": 243.9,
+   "defo_consejos_ha": 368.7,
+   "defo_etnica_ha": 612.6,
+   "defo_jurisdiccion_ha": 2921.4,
+   "pct_etnica": 21.0,
+   "cobertura": "completa"
+  },
+  {
+   "periodo": "2015-2016",
+   "ano_inicio": 2015,
+   "ano_fin": 2016,
+   "defo_resguardos_ha": 475.0,
+   "defo_consejos_ha": null,
+   "defo_etnica_ha": 475.0,
+   "defo_jurisdiccion_ha": 4969.8,
+   "pct_etnica": 9.6,
+   "cobertura": "parcial"
+  },
+  {
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "ano_fin": 2017,
+   "defo_resguardos_ha": 852.9,
+   "defo_consejos_ha": 308.2,
+   "defo_etnica_ha": 1161.1,
+   "defo_jurisdiccion_ha": 3938.4,
+   "pct_etnica": 29.5,
+   "cobertura": "completa"
+  },
+  {
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "ano_fin": 2018,
+   "defo_resguardos_ha": 273.7,
+   "defo_consejos_ha": 202.6,
+   "defo_etnica_ha": 476.3,
+   "defo_jurisdiccion_ha": 1765.2,
+   "pct_etnica": 27.0,
+   "cobertura": "completa"
+  },
+  {
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "ano_fin": 2020,
+   "defo_resguardos_ha": 412.8,
+   "defo_consejos_ha": 183.0,
+   "defo_etnica_ha": 595.8,
+   "defo_jurisdiccion_ha": 1737.3,
+   "pct_etnica": 34.3,
+   "cobertura": "completa"
+  },
+  {
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "ano_fin": 2021,
+   "defo_resguardos_ha": 290.5,
+   "defo_consejos_ha": 183.7,
+   "defo_etnica_ha": 474.1,
+   "defo_jurisdiccion_ha": 1090.8,
+   "pct_etnica": 43.5,
+   "cobertura": "completa"
+  },
+  {
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "ano_fin": 2022,
+   "defo_resguardos_ha": 754.6,
+   "defo_consejos_ha": 262.8,
+   "defo_etnica_ha": 1017.4,
+   "defo_jurisdiccion_ha": 2325.6,
+   "pct_etnica": 43.7,
+   "cobertura": "completa"
+  },
+  {
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "ano_fin": 2023,
+   "defo_resguardos_ha": 346.1,
+   "defo_consejos_ha": 140.4,
+   "defo_etnica_ha": 486.4,
+   "defo_jurisdiccion_ha": 1156.2,
+   "pct_etnica": 42.1,
+   "cobertura": "completa"
+  },
+  {
+   "periodo": "2023-2024",
+   "ano_inicio": 2023,
+   "ano_fin": 2024,
+   "defo_resguardos_ha": null,
+   "defo_consejos_ha": 111.7,
+   "defo_etnica_ha": 111.7,
+   "defo_jurisdiccion_ha": 1596.8,
+   "pct_etnica": 7.0,
+   "cobertura": "parcial"
+  }
+ ],
+ "tendencia_fraccion_etnica": {
+  "pct_promedio_2002_2010": 16.4,
+  "pct_promedio_2019_2023": 40.9,
+  "periodos_usados": [
+   "2002-2004",
+   "2004-2006",
+   "2006-2008",
+   "2008-2010",
+   "2016-2017",
+   "2017-2018",
+   "2019-2020",
+   "2020-2021",
+   "2021-2022",
+   "2022-2023"
+  ]
+ },
+ "top_resguardos_deforestacion": [
+  {
+   "resguardo": "Resguardo Indígena Embera Katio del Rio Murindo",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 583.4,
+   "area_territorio_ha_2022_2023": 18231.9,
+   "pct_del_territorio": 3.2
+  },
+  {
+   "resguardo": "Resguardo Indígena Emebra - Katio de Chaquenoda",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 558.4,
+   "area_territorio_ha_2022_2023": 15192.5,
+   "pct_del_territorio": 3.68
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera-Katio de Andabu",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 421.0,
+   "area_territorio_ha_2022_2023": 23388.6,
+   "pct_del_territorio": 1.8
+  },
+  {
+   "resguardo": "Resguardo Indígena Yaberarado",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 344.0,
+   "area_territorio_ha_2022_2023": 8363.4,
+   "pct_del_territorio": 4.11
+  },
+  {
+   "resguardo": "Resguardo Indígena Murri-pantanos",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 314.7,
+   "area_territorio_ha_2022_2023": 31309.0,
+   "pct_del_territorio": 1.01
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera-Katio de Majoré- Ambura",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 273.9,
+   "area_territorio_ha_2022_2023": 6944.2,
+   "pct_del_territorio": 3.94
+  },
+  {
+   "resguardo": "Resguardo indígena Caiman Nuevo",
+   "pueblo": "Tule/Guna (Cuna)",
+   "hectareas_total": 260.3,
+   "area_territorio_ha_2022_2023": 9051.0,
+   "pct_del_territorio": 2.88
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera-Katio de Jaikerazavi",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 238.4,
+   "area_territorio_ha_2022_2023": 31718.8,
+   "pct_del_territorio": 0.75
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera-Katio de Polines",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 212.3,
+   "area_territorio_ha_2022_2023": 4277.2,
+   "pct_del_territorio": 4.96
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera - Catio del Rio Chajerado",
+   "pueblo": "Embera",
+   "hectareas_total": 196.0,
+   "area_territorio_ha_2022_2023": 41804.8,
+   "pct_del_territorio": 0.47
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera de los Rios Pavarando y Amparrado Medio",
+   "pueblo": "Embera",
+   "hectareas_total": 187.4,
+   "area_territorio_ha_2022_2023": 21652.7,
+   "pct_del_territorio": 0.87
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera - Katio de Chontadural - Cañero",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 172.5,
+   "area_territorio_ha_2022_2023": 5332.5,
+   "pct_del_territorio": 3.23
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera de Chimurro y Nendo",
+   "pueblo": "Embera",
+   "hectareas_total": 171.1,
+   "area_territorio_ha_2022_2023": 13184.4,
+   "pct_del_territorio": 1.3
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera Katio de Sever",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 104.9,
+   "area_territorio_ha_2022_2023": 10203.6,
+   "pct_del_territorio": 1.03
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera-Katio de Amparrado Alto Medio",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 94.6,
+   "area_territorio_ha_2022_2023": 18025.6,
+   "pct_del_territorio": 0.52
+  }
+ ],
+ "deforestacion_por_pueblo": [
+  {
+   "pueblo": "Embera Katío",
+   "defo_total_ha": 3478.3
+  },
+  {
+   "pueblo": "Embera",
+   "defo_total_ha": 762.0
+  },
+  {
+   "pueblo": "Tule/Guna (Cuna)",
+   "defo_total_ha": 260.3
+  },
+  {
+   "pueblo": "Embera Chamí-Zenú",
+   "defo_total_ha": 7.9
+  },
+  {
+   "pueblo": "Senú/Zenú",
+   "defo_total_ha": 5.0
+  }
+ ],
+ "top_consejos_deforestacion": [
+  {
+   "consejo": "Consejo Comunitario Mayor del Medio Atrato - ACIA",
+   "hectareas_total": 1255.1,
+   "area_territorio_ha_2022_2023": 174778.3,
+   "pct_del_territorio": 0.72
+  },
+  {
+   "consejo": "Consejo Comunitario Por El Desarrollo Integral",
+   "hectareas_total": 328.4,
+   "area_territorio_ha_2022_2023": 10015.5,
+   "pct_del_territorio": 3.28
+  },
+  {
+   "consejo": "Consejo Comunitario de Bocas De Atrato y Leoncito",
+   "hectareas_total": 311.3,
+   "area_territorio_ha_2022_2023": 33812.1,
+   "pct_del_territorio": 0.92
+  },
+  {
+   "consejo": "Consejo Comunitario Por La Identidad Cultural",
+   "hectareas_total": 245.9,
+   "area_territorio_ha_2022_2023": 12505.0,
+   "pct_del_territorio": 1.97
+  },
+  {
+   "consejo": "Consejo Comunitario Manatíes",
+   "hectareas_total": 125.1,
+   "area_territorio_ha_2022_2023": 4397.3,
+   "pct_del_territorio": 2.84
+  },
+  {
+   "consejo": "Consejo Comunitario de Los Mangos",
+   "hectareas_total": 3.5,
+   "area_territorio_ha_2022_2023": 364.6,
+   "pct_del_territorio": 0.96
+  },
+  {
+   "consejo": "Consejo Comunitario Afrodescendientes Etnia Negra de la Serranía de Abibe Rios León y Sucio - COCOSARLES",
+   "hectareas_total": 0.1,
+   "area_territorio_ha_2022_2023": 50.4,
+   "pct_del_territorio": 0.2
+  }
+ ],
+ "top_regeneracion_resguardos": [
+  {
+   "resguardo": "Resguardo indígena Caiman Nuevo",
+   "pueblo": "Tule/Guna (Cuna)",
+   "hectareas_total": 5.1
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera-Katio de Amparrado Alto Medio",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 4.3
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera de los Rios Pavarando y Amparrado Medio",
+   "pueblo": "Embera",
+   "hectareas_total": 3.9
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera - Catio del Rio Chajerado",
+   "pueblo": "Embera",
+   "hectareas_total": 3.0
+  },
+  {
+   "resguardo": "Resguardo Indígena Murri-pantanos",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 2.7
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera Katio del Rio Murindo",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 1.5
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera de los Rios Jengado-Apartado",
+   "pueblo": "Embera",
+   "hectareas_total": 1.0
+  },
+  {
+   "resguardo": "Resguardo Indígena Embera de Chuscal y Tuguridocito",
+   "pueblo": "Embera",
+   "hectareas_total": 0.9
+  },
+  {
+   "resguardo": "Resguardo Embera Katio de Cañaverales - Antado",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 0.8
+  },
+  {
+   "resguardo": "Resguardo Indígena Emebra - Katio de Chaquenoda",
+   "pueblo": "Embera Katío",
+   "hectareas_total": 0.8
+  }
+ ],
+ "top_regeneracion_consejos": [
+  {
+   "consejo": "Consejo Comunitario Mayor del Medio Atrato - ACIA",
+   "hectareas_total": 14.1
+  },
+  {
+   "consejo": "Consejo Comunitario Por El Desarrollo Integral",
+   "hectareas_total": 6.2
+  },
+  {
+   "consejo": "Consejo Comunitario Por La Identidad Cultural",
+   "hectareas_total": 2.3
+  }
+ ],
+ "qa_solape_resguardos_consejos": {
+  "periodo": "2022-2023",
+  "area_resguardos_ha": 325698.0,
+  "area_consejos_ha": 235923.2,
+  "solape_ha": 700.5
+ },
+ "advertencias": [
+  "2010-2012, 2012-2013 y 2013-2014 sin ninguna fuente étnica; 2018-2019 no existe como carpeta en el paquete crudo.",
+  "Resguardos 2000-2002: Excel sin columna de área → solo conteo de polígonos.",
+  "Resguardos 2014-2015 y 2023-2024: sin datos (solo metadatos .qmd/.shx huérfanos).",
+  "Consejos 2000-2002: sin datos. Consejos 2014-2015 (Excel) y 2015-2016 (dbf huérfano) sin columna de área → solo conteo de polígonos.",
+  "2023-2024 usa un gridcode distinto al estándar (4=No Bosque Estable); la clase se tomó del texto Tipo_Cober, no del gridcode.",
+  "La fracción étnica compara contra serie_regional.csv (incluye periodos estimados); en periodos de cobertura 'parcial' falta una de las dos capas.",
+  "Suma de periodos multi-anuales: los periodos 2000-2010 son bienales; usar hectareas_anuales para comparar intensidades."
+ ],
+ "log": [
+  "=== Series por territorio étnico ===",
+  "  resguardos 2000-2002: excel/solo_conteo → 39 territorios, solo conteos",
+  "  resguardos 2002-2004: shapefile/geometria → 39 territorios, 326086 ha",
+  "  resguardos 2004-2006: shapefile/geometria → 39 territorios, 326086 ha",
+  "  resguardos 2006-2008: shapefile/geometria → 39 territorios, 326086 ha",
+  "  resguardos 2008-2010: shapefile/geometria → 39 territorios, 326086 ha",
+  "  resguardos 2010-2012: SIN FUENTE",
+  "  resguardos 2012-2013: SIN FUENTE",
+  "  resguardos 2013-2014: SIN FUENTE",
+  "  resguardos 2014-2015: SIN FUENTE",
+  "  resguardos 2015-2016: shapefile/geometria → 39 territorios, 326086 ha",
+  "  resguardos 2016-2017: shapefile/geometria → 39 territorios, 326085 ha",
+  "  resguardos 2017-2018: shapefile/geometria → 39 territorios, 326087 ha",
+  "  resguardos 2018-2019: SIN FUENTE",
+  "  resguardos 2019-2020: shapefile/geometria → 39 territorios, 326088 ha",
+  "  resguardos 2020-2021: shapefile/geometria → 39 territorios, 326088 ha",
+  "  resguardos 2021-2022: shapefile/geometria → 39 territorios, 326087 ha",
+  "  resguardos 2022-2023: shapefile/geometria → 39 territorios, 326087 ha",
+  "  resguardos 2023-2024: SIN FUENTE",
+  "  consejos 2000-2002: SIN FUENTE",
+  "  consejos 2002-2004: shapefile/geometria → 7 territorios, 235921 ha",
+  "  consejos 2004-2006: shapefile/geometria → 7 territorios, 235922 ha",
+  "  consejos 2006-2008: shapefile/geometria → 7 territorios, 235921 ha",
+  "  consejos 2008-2010: shapefile/geometria → 7 territorios, 235923 ha",
+  "  consejos 2010-2012: SIN FUENTE",
+  "  consejos 2012-2013: SIN FUENTE",
+  "  consejos 2013-2014: SIN FUENTE",
+  "  consejos 2014-2015: excel/solo_conteo → 7 territorios, solo conteos",
+  "  consejos 2015-2016: dbf/solo_conteo → 7 territorios, solo conteos",
+  "  consejos 2016-2017: shapefile/geometria → 7 territorios, 235923 ha",
+  "  consejos 2017-2018: shapefile/geometria → 7 territorios, 235923 ha",
+  "  consejos 2018-2019: SIN FUENTE",
+  "  consejos 2019-2020: shapefile/geometria → 7 territorios, 235923 ha",
+  "  consejos 2020-2021: shapefile/geometria → 7 territorios, 235923 ha",
+  "  consejos 2021-2022: shapefile/geometria → 7 territorios, 235923 ha",
+  "  consejos 2022-2023: shapefile/geometria → 7 territorios, 235923 ha",
+  "  consejos 2023-2024: excel/tabla_area → 7 territorios, 235908 ha",
+  "CSV: resguardos_serie (1412 filas), consejos_serie (275 filas)"
+ ]
+}

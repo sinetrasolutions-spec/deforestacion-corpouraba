@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================================================
+   Observatorio de Deforestación CORPOURABA — estilos globales [f-core]
+   Tema claro/oscuro con variables CSS. La clase `dark` vive en <html>
+   (persistida en localStorage con clave 'tema'; default = sistema).
+   ========================================================================== */
+
+:root {
+  --fondo: #FBFAF6;          /* papel cálido, aire editorial */
+  --superficie: #FFFFFF;     /* tarjetas y paneles */
+  --tinta: #18271F;          /* texto principal */
+  --tinta-suave: #51665A;    /* texto secundario */
+  --borde: #E3E8E1;          /* bordes y divisores */
+}
+
+.dark {
+  --fondo: #0A1410;
+  --superficie: #102019;
+  --tinta: #EAF3EC;
+  --tinta-suave: #9DB3A6;
+  --borde: #22382C;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--fondo);
+  color: var(--tinta);
+  font-family: var(--font-body), system-ui, -apple-system, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Selección de texto con verde bosque */
+::selection {
+  background-color: #2E8B57;
+  color: #ffffff;
+}
+
+/* Anillo de foco accesible (contraste AA en ambos temas) */
+:focus-visible {
+  outline: 2px solid #2E8B57;
+  outline-offset: 2px;
+}
+.dark :focus-visible {
+  outline-color: #7BC796;
+}
+
+/* ==========================================================================
+   Leaflet — ajustes necesarios para el módulo /mapa
+   (el CSS base 'leaflet/dist/leaflet.css' se importa en layout.tsx)
+   ========================================================================== */
+
+/* El contenedor crea su propio stacking context para que los z-index
+   internos de Leaflet (hasta 1000) no compitan con el navbar de la app. */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  isolation: isolate;
+  background-color: #E8EFE9;
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+.dark .leaflet-container {
+  background-color: #0D1A14;
+}
+
+/* Popups y controles coherentes con el tema oscuro */
+.dark .leaflet-popup-content-wrapper,
+.dark .leaflet-popup-tip {
+  background-color: #102019;
+  color: #EAF3EC;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+}
+.dark .leaflet-bar a {
+  background-color: #102019;
+  color: #EAF3EC;
+  border-color: #22382C;
+}
+.dark .leaflet-bar a:hover,
+.dark .leaflet-bar a:focus {
+  background-color: #1A2F25;
+}
+.dark .leaflet-control-attribution {
+  background-color: rgba(10, 20, 16, 0.72);
+  color: #9DB3A6;
+}
+.dark .leaflet-control-attribution a {
+  color: #7BC796;
+}
+
+/* Tooltips de Leaflet con tipografía de la app */
+.leaflet-tooltip {
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+.dark .leaflet-tooltip {
+  background-color: #102019;
+  color: #EAF3EC;
+  border-color: #22382C;
+}
+.dark .leaflet-tooltip-top::before {
+  border-top-color: #22382C;
+}
+
+/* ==========================================================================
+   Animaciones sutiles (respetan prefers-reduced-motion)
+   ========================================================================== */
+
+/* Deriva lenta de las curvas topográficas del hero */
+@keyframes deriva-contorno {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-46px, -24px, 0); }
+}
+@keyframes deriva-contorno-inversa {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(38px, 20px, 0); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .contorno-animado {
+    animation: deriva-contorno 26s ease-in-out infinite alternate;
+  }
+  .contorno-animado-lento {
+    animation: deriva-contorno-inversa 34s ease-in-out infinite alternate;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ==========================================================================
+   Selector de rango de doble manija (filtro de periodos del dashboard).
+   Dos <input type=range> superpuestos sobre un mismo riel: el input no
+   captura clics salvo en su manija, para poder arrastrar ambas por separado.
+   ========================================================================== */
+.rango-dual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: transparent;
+  pointer-events: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.rango-dual::-webkit-slider-runnable-track,
+.rango-dual::-moz-range-track {
+  background: transparent;
+  border: none;
+}
+.rango-dual::-webkit-slider-thumb {
+  pointer-events: auto;
+  -webkit-appearance: none;
+  height: 18px;
+  width: 18px;
+  border-radius: 9999px;
+  background: #1f7347;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.rango-dual::-moz-range-thumb {
+  pointer-events: auto;
+  height: 18px;
+  width: 18px;
+  border-radius: 9999px;
+  background: #1f7347;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.dark .rango-dual::-webkit-slider-thumb,
+.dark .rango-dual::-moz-range-thumb {
+  border-color: #102019;
+  background: #7bc796;
+}

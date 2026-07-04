@@ -1,0 +1,980 @@
+{
+ "bosque_hoy_vs_2000": [
+  {
+   "municipio": "Turbo",
+   "bosque_2000_2002_ha": 74841.5,
+   "bosque_2022_2023_ha": 56417.3,
+   "cobertura_2000_2002_pct": 25.9,
+   "cobertura_2022_2023_pct": 19.6,
+   "delta_ha": -18424.2,
+   "delta_pct": -24.6,
+   "delta_cobertura_pp": -6.3
+  },
+  {
+   "municipio": "Murindó",
+   "bosque_2000_2002_ha": 105373.3,
+   "bosque_2022_2023_ha": 98850.0,
+   "cobertura_2000_2002_pct": 88.0,
+   "cobertura_2022_2023_pct": 79.2,
+   "delta_ha": -6523.3,
+   "delta_pct": -6.2,
+   "delta_cobertura_pp": -8.9
+  },
+  {
+   "municipio": "Necoclí",
+   "bosque_2000_2002_ha": 22055.7,
+   "bosque_2022_2023_ha": 16807.0,
+   "cobertura_2000_2002_pct": 17.6,
+   "cobertura_2022_2023_pct": 13.4,
+   "delta_ha": -5248.7,
+   "delta_pct": -23.8,
+   "delta_cobertura_pp": -4.2
+  },
+  {
+   "municipio": "Dabeiba",
+   "bosque_2000_2002_ha": 142038.3,
+   "bosque_2022_2023_ha": 138373.4,
+   "cobertura_2000_2002_pct": 74.4,
+   "cobertura_2022_2023_pct": 71.0,
+   "delta_ha": -3664.8,
+   "delta_pct": -2.6,
+   "delta_cobertura_pp": -3.4
+  },
+  {
+   "municipio": "Carepa",
+   "bosque_2000_2002_ha": 6956.6,
+   "bosque_2022_2023_ha": 3947.9,
+   "cobertura_2000_2002_pct": 18.1,
+   "cobertura_2022_2023_pct": 10.3,
+   "delta_ha": -3008.7,
+   "delta_pct": -43.2,
+   "delta_cobertura_pp": -7.9
+  },
+  {
+   "municipio": "Chigorodó",
+   "bosque_2000_2002_ha": 21398.0,
+   "bosque_2022_2023_ha": 18696.7,
+   "cobertura_2000_2002_pct": 30.4,
+   "cobertura_2022_2023_pct": 26.5,
+   "delta_ha": -2701.3,
+   "delta_pct": -12.6,
+   "delta_cobertura_pp": -3.9
+  },
+  {
+   "municipio": "Apartadó",
+   "bosque_2000_2002_ha": 17703.4,
+   "bosque_2022_2023_ha": 15029.8,
+   "cobertura_2000_2002_pct": 33.3,
+   "cobertura_2022_2023_pct": 28.2,
+   "delta_ha": -2673.6,
+   "delta_pct": -15.1,
+   "delta_cobertura_pp": -5.1
+  },
+  {
+   "municipio": "Mutatá",
+   "bosque_2000_2002_ha": 67022.7,
+   "bosque_2022_2023_ha": 65512.6,
+   "cobertura_2000_2002_pct": 65.5,
+   "cobertura_2022_2023_pct": 61.9,
+   "delta_ha": -1510.1,
+   "delta_pct": -2.3,
+   "delta_cobertura_pp": -3.6
+  },
+  {
+   "municipio": "Frontino",
+   "bosque_2000_2002_ha": 91701.2,
+   "bosque_2022_2023_ha": 90855.4,
+   "cobertura_2000_2002_pct": 66.9,
+   "cobertura_2022_2023_pct": 65.7,
+   "delta_ha": -845.8,
+   "delta_pct": -0.9,
+   "delta_cobertura_pp": -1.2
+  },
+  {
+   "municipio": "Peque",
+   "bosque_2000_2002_ha": 14305.6,
+   "bosque_2022_2023_ha": 13822.3,
+   "cobertura_2000_2002_pct": 33.0,
+   "cobertura_2022_2023_pct": 31.9,
+   "delta_ha": -483.3,
+   "delta_pct": -3.4,
+   "delta_cobertura_pp": -1.1
+  },
+  {
+   "municipio": "Uramita",
+   "bosque_2000_2002_ha": 4638.4,
+   "bosque_2022_2023_ha": 4242.3,
+   "cobertura_2000_2002_pct": 17.4,
+   "cobertura_2022_2023_pct": 16.0,
+   "delta_ha": -396.1,
+   "delta_pct": -8.5,
+   "delta_cobertura_pp": -1.5
+  },
+  {
+   "municipio": "Abriaquí",
+   "bosque_2000_2002_ha": 13423.9,
+   "bosque_2022_2023_ha": 13573.2,
+   "cobertura_2000_2002_pct": 45.2,
+   "cobertura_2022_2023_pct": 45.8,
+   "delta_ha": 149.2,
+   "delta_pct": 1.1,
+   "delta_cobertura_pp": 0.5
+  },
+  {
+   "municipio": "Cañasgordas",
+   "bosque_2000_2002_ha": 11950.8,
+   "bosque_2022_2023_ha": 12135.4,
+   "cobertura_2000_2002_pct": 32.8,
+   "cobertura_2022_2023_pct": 33.3,
+   "delta_ha": 184.5,
+   "delta_pct": 1.5,
+   "delta_cobertura_pp": 0.5
+  },
+  {
+   "municipio": "Giraldo",
+   "bosque_2000_2002_ha": 1305.0,
+   "bosque_2022_2023_ha": 1515.6,
+   "cobertura_2000_2002_pct": 14.0,
+   "cobertura_2022_2023_pct": 16.2,
+   "delta_ha": 210.6,
+   "delta_pct": 16.1,
+   "delta_cobertura_pp": 2.3
+  },
+  {
+   "municipio": "San Juan de Urabá",
+   "bosque_2000_2002_ha": 243.8,
+   "bosque_2022_2023_ha": 510.9,
+   "cobertura_2000_2002_pct": 1.0,
+   "cobertura_2022_2023_pct": 2.0,
+   "delta_ha": 267.1,
+   "delta_pct": 109.5,
+   "delta_cobertura_pp": 1.1
+  },
+  {
+   "municipio": "Arboletes",
+   "bosque_2000_2002_ha": 1237.9,
+   "bosque_2022_2023_ha": 1711.8,
+   "cobertura_2000_2002_pct": 1.7,
+   "cobertura_2022_2023_pct": 2.3,
+   "delta_ha": 473.9,
+   "delta_pct": 38.3,
+   "delta_cobertura_pp": 0.6
+  },
+  {
+   "municipio": "San Pedro de Urabá",
+   "bosque_2000_2002_ha": 1530.9,
+   "bosque_2022_2023_ha": 2219.9,
+   "cobertura_2000_2002_pct": 2.7,
+   "cobertura_2022_2023_pct": 3.9,
+   "delta_ha": 689.1,
+   "delta_pct": 45.0,
+   "delta_cobertura_pp": 1.2
+  },
+  {
+   "municipio": "Vigía del Fuerte",
+   "bosque_2000_2002_ha": 141239.8,
+   "bosque_2022_2023_ha": 143753.8,
+   "cobertura_2000_2002_pct": 89.7,
+   "cobertura_2022_2023_pct": 86.9,
+   "delta_ha": 2514.0,
+   "delta_pct": 1.8,
+   "delta_cobertura_pp": -2.8
+  },
+  {
+   "municipio": "Urrao",
+   "bosque_2000_2002_ha": 169147.5,
+   "bosque_2022_2023_ha": 172330.0,
+   "cobertura_2000_2002_pct": 68.4,
+   "cobertura_2022_2023_pct": 67.8,
+   "delta_ha": 3182.4,
+   "delta_pct": 1.9,
+   "delta_cobertura_pp": -0.6
+  }
+ ],
+ "regional_bosque_2000_2002_ha": 908114.3,
+ "regional_bosque_2022_2023_ha": 870305.2,
+ "regional_delta_ha": -37809.1,
+ "regional_delta_pct": -4.16,
+ "regeneracion_vs_perdida": [
+  {
+   "municipio": "Arboletes",
+   "defo_total_ha": 435.2,
+   "regen_total_ha": 82.0,
+   "cambio_neto_total_ha": 353.1,
+   "ratio_regen_defo_pct": 18.8
+  },
+  {
+   "municipio": "Urrao",
+   "defo_total_ha": 4520.0,
+   "regen_total_ha": 431.5,
+   "cambio_neto_total_ha": 4088.5,
+   "ratio_regen_defo_pct": 9.6
+  },
+  {
+   "municipio": "San Pedro de Urabá",
+   "defo_total_ha": 145.1,
+   "regen_total_ha": 10.1,
+   "cambio_neto_total_ha": 135.0,
+   "ratio_regen_defo_pct": 6.9
+  },
+  {
+   "municipio": "San Juan de Urabá",
+   "defo_total_ha": 42.6,
+   "regen_total_ha": 1.8,
+   "cambio_neto_total_ha": 40.8,
+   "ratio_regen_defo_pct": 4.2
+  },
+  {
+   "municipio": "Necoclí",
+   "defo_total_ha": 2082.4,
+   "regen_total_ha": 47.0,
+   "cambio_neto_total_ha": 2035.4,
+   "ratio_regen_defo_pct": 2.3
+  },
+  {
+   "municipio": "Vigía del Fuerte",
+   "defo_total_ha": 971.8,
+   "regen_total_ha": 21.6,
+   "cambio_neto_total_ha": 950.2,
+   "ratio_regen_defo_pct": 2.2
+  },
+  {
+   "municipio": "Uramita",
+   "defo_total_ha": 365.5,
+   "regen_total_ha": 6.1,
+   "cambio_neto_total_ha": 359.5,
+   "ratio_regen_defo_pct": 1.7
+  },
+  {
+   "municipio": "Murindó",
+   "defo_total_ha": 1747.3,
+   "regen_total_ha": 21.6,
+   "cambio_neto_total_ha": 1725.7,
+   "ratio_regen_defo_pct": 1.2
+  },
+  {
+   "municipio": "Apartadó",
+   "defo_total_ha": 1580.2,
+   "regen_total_ha": 14.6,
+   "cambio_neto_total_ha": 1565.6,
+   "ratio_regen_defo_pct": 0.9
+  },
+  {
+   "municipio": "Mutatá",
+   "defo_total_ha": 3785.5,
+   "regen_total_ha": 22.0,
+   "cambio_neto_total_ha": 3763.4,
+   "ratio_regen_defo_pct": 0.6
+  },
+  {
+   "municipio": "Turbo",
+   "defo_total_ha": 8823.8,
+   "regen_total_ha": 46.3,
+   "cambio_neto_total_ha": 8777.5,
+   "ratio_regen_defo_pct": 0.5
+  },
+  {
+   "municipio": "Frontino",
+   "defo_total_ha": 2258.1,
+   "regen_total_ha": 7.9,
+   "cambio_neto_total_ha": 2250.3,
+   "ratio_regen_defo_pct": 0.4
+  },
+  {
+   "municipio": "Dabeiba",
+   "defo_total_ha": 3846.1,
+   "regen_total_ha": 12.2,
+   "cambio_neto_total_ha": 3833.8,
+   "ratio_regen_defo_pct": 0.3
+  },
+  {
+   "municipio": "Cañasgordas",
+   "defo_total_ha": 493.4,
+   "regen_total_ha": 1.0,
+   "cambio_neto_total_ha": 492.4,
+   "ratio_regen_defo_pct": 0.2
+  },
+  {
+   "municipio": "Abriaquí",
+   "defo_total_ha": 197.1,
+   "regen_total_ha": 0.0,
+   "cambio_neto_total_ha": 197.1,
+   "ratio_regen_defo_pct": 0.0
+  },
+  {
+   "municipio": "Giraldo",
+   "defo_total_ha": 42.6,
+   "regen_total_ha": 0.0,
+   "cambio_neto_total_ha": 42.6,
+   "ratio_regen_defo_pct": 0.0
+  },
+  {
+   "municipio": "Chigorodó",
+   "defo_total_ha": 1484.2,
+   "regen_total_ha": 0.0,
+   "cambio_neto_total_ha": 1484.2,
+   "ratio_regen_defo_pct": 0.0
+  },
+  {
+   "municipio": "Carepa",
+   "defo_total_ha": 1407.7,
+   "regen_total_ha": 0.0,
+   "cambio_neto_total_ha": 1407.7,
+   "ratio_regen_defo_pct": 0.0
+  },
+  {
+   "municipio": "Peque",
+   "defo_total_ha": 313.9,
+   "regen_total_ha": 0.0,
+   "cambio_neto_total_ha": 313.9,
+   "ratio_regen_defo_pct": 0.0
+  }
+ ],
+ "regional_defo_real_ha": 34542.5,
+ "regional_regen_real_ha": 725.7,
+ "perdieron_mas_mitad": [],
+ "tasa_por_subregion_tendencia": {
+  "Atrato": {
+   "tasa_media_2000_2008_pct_anual": 0.0425,
+   "tasa_media_2017_2023_pct_anual": 0.0959,
+   "cambio": "acelera"
+  },
+  "Caribe": {
+   "tasa_media_2000_2008_pct_anual": 1.0297,
+   "tasa_media_2017_2023_pct_anual": 0.3026,
+   "cambio": "desacelera"
+  },
+  "Centro": {
+   "tasa_media_2000_2008_pct_anual": 0.4905,
+   "tasa_media_2017_2023_pct_anual": 0.3471,
+   "cambio": "desacelera"
+  },
+  "Nutibara": {
+   "tasa_media_2000_2008_pct_anual": 0.0526,
+   "tasa_media_2017_2023_pct_anual": 0.1915,
+   "cambio": "acelera"
+  },
+  "Urrao": {
+   "tasa_media_2000_2008_pct_anual": 0.0741,
+   "tasa_media_2017_2023_pct_anual": 0.1525,
+   "cambio": "acelera"
+  }
+ },
+ "tasa_subregion_periodo": [
+  {
+   "subregion": "Atrato",
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "defo_ha": 77.43,
+   "bosque_prev_ha": 246613.08,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.0157
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "defo_ha": 426.87,
+   "bosque_prev_ha": 245961.27,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.0868
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "defo_ha": 75.67,
+   "bosque_prev_ha": 248039.7,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.0153
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "defo_ha": 257.83,
+   "bosque_prev_ha": 247069.06,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.0522
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2012-2013",
+   "ano_inicio": 2012,
+   "defo_ha": 44.16,
+   "bosque_prev_ha": 250389.6,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.0176
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2013-2014",
+   "ano_inicio": 2013,
+   "defo_ha": 189.78,
+   "bosque_prev_ha": 235227.3,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.0807
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2014-2015",
+   "ano_inicio": 2014,
+   "defo_ha": 84.29,
+   "bosque_prev_ha": 245050.39,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.0344
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "defo_ha": 353.51,
+   "bosque_prev_ha": 218835.1,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1615
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "defo_ha": 263.38,
+   "bosque_prev_ha": 180942.25,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1456
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "defo_ha": 188.41,
+   "bosque_prev_ha": 242439.5,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.0777
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "defo_ha": 207.38,
+   "bosque_prev_ha": 237650.56,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.0873
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "defo_ha": 293.09,
+   "bosque_prev_ha": 237718.26,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1233
+  },
+  {
+   "subregion": "Atrato",
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "defo_ha": 105.74,
+   "bosque_prev_ha": 231179.97,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.0457
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "defo_ha": 481.82,
+   "bosque_prev_ha": 25068.33,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.961
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "defo_ha": 695.44,
+   "bosque_prev_ha": 23862.22,
+   "n_anos": 2,
+   "tasa_pct_anual": 1.4572
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "defo_ha": 488.93,
+   "bosque_prev_ha": 23007.85,
+   "n_anos": 2,
+   "tasa_pct_anual": 1.0625
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "defo_ha": 279.12,
+   "bosque_prev_ha": 21863.79,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.6383
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2012-2013",
+   "ano_inicio": 2012,
+   "defo_ha": 100.67,
+   "bosque_prev_ha": 21251.96,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.4737
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2013-2014",
+   "ano_inicio": 2013,
+   "defo_ha": 128.55,
+   "bosque_prev_ha": 17081.89,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.7526
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2014-2015",
+   "ano_inicio": 2014,
+   "defo_ha": 6.55,
+   "bosque_prev_ha": 14801.14,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.0443
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "defo_ha": 51.32,
+   "bosque_prev_ha": 17059.7,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.3008
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "defo_ha": 15.1,
+   "bosque_prev_ha": 15716.21,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.0961
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "defo_ha": 63.3,
+   "bosque_prev_ha": 22521.64,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.2811
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "defo_ha": 71.77,
+   "bosque_prev_ha": 21558.13,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.3329
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "defo_ha": 61.3,
+   "bosque_prev_ha": 22075.72,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.2777
+  },
+  {
+   "subregion": "Caribe",
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "defo_ha": 115.51,
+   "bosque_prev_ha": 21996.57,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.5251
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "defo_ha": 2441.43,
+   "bosque_prev_ha": 187922.15,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.6496
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "defo_ha": 1394.5,
+   "bosque_prev_ha": 184670.63,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.3776
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "defo_ha": 1540.61,
+   "bosque_prev_ha": 185186.23,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.416
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "defo_ha": 1878.33,
+   "bosque_prev_ha": 180966.67,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.519
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2012-2013",
+   "ano_inicio": 2012,
+   "defo_ha": 777.97,
+   "bosque_prev_ha": 179988.75,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.4322
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2013-2014",
+   "ano_inicio": 2013,
+   "defo_ha": 1769.73,
+   "bosque_prev_ha": 176216.74,
+   "n_anos": 1,
+   "tasa_pct_anual": 1.0043
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2014-2015",
+   "ano_inicio": 2014,
+   "defo_ha": 2143.94,
+   "bosque_prev_ha": 170658.41,
+   "n_anos": 1,
+   "tasa_pct_anual": 1.2563
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "defo_ha": 1826.55,
+   "bosque_prev_ha": 171034.92,
+   "n_anos": 1,
+   "tasa_pct_anual": 1.0679
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "defo_ha": 927.46,
+   "bosque_prev_ha": 163894.69,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.5659
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "defo_ha": 595.55,
+   "bosque_prev_ha": 163251.1,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.3648
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "defo_ha": 267.39,
+   "bosque_prev_ha": 162430.29,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1646
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "defo_ha": 744.31,
+   "bosque_prev_ha": 162076.9,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.4592
+  },
+  {
+   "subregion": "Centro",
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "defo_ha": 291.71,
+   "bosque_prev_ha": 160980.65,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1812
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "defo_ha": 443.26,
+   "bosque_prev_ha": 278058.19,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.0797
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "defo_ha": 195.53,
+   "bosque_prev_ha": 264224.37,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.037
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "defo_ha": 266.57,
+   "bosque_prev_ha": 280124.57,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.0476
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "defo_ha": 258.79,
+   "bosque_prev_ha": 280173.2,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.0462
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2012-2013",
+   "ano_inicio": 2012,
+   "defo_ha": 1155.0,
+   "bosque_prev_ha": 282255.64,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.4092
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2013-2014",
+   "ano_inicio": 2013,
+   "defo_ha": 717.38,
+   "bosque_prev_ha": 276043.66,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.2599
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2014-2015",
+   "ano_inicio": 2014,
+   "defo_ha": 533.61,
+   "bosque_prev_ha": 279864.41,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1907
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "defo_ha": 1050.68,
+   "bosque_prev_ha": 268047.21,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.392
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "defo_ha": 321.4,
+   "bosque_prev_ha": 238642.44,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1347
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "defo_ha": 638.99,
+   "bosque_prev_ha": 274270.94,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.233
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "defo_ha": 336.86,
+   "bosque_prev_ha": 262008.31,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1286
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "defo_ha": 964.09,
+   "bosque_prev_ha": 276819.24,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.3483
+  },
+  {
+   "subregion": "Nutibara",
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "defo_ha": 306.23,
+   "bosque_prev_ha": 271761.02,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1127
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "defo_ha": 273.97,
+   "bosque_prev_ha": 169147.51,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.081
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "defo_ha": 309.31,
+   "bosque_prev_ha": 168096.28,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.092
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "defo_ha": 167.73,
+   "bosque_prev_ha": 168299.74,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.0498
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "defo_ha": 247.29,
+   "bosque_prev_ha": 167708.99,
+   "n_anos": 2,
+   "tasa_pct_anual": 0.0737
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2012-2013",
+   "ano_inicio": 2012,
+   "defo_ha": 196.14,
+   "bosque_prev_ha": 172128.0,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.114
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2013-2014",
+   "ano_inicio": 2013,
+   "defo_ha": 771.55,
+   "bosque_prev_ha": 173713.4,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.4442
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2014-2015",
+   "ano_inicio": 2014,
+   "defo_ha": 119.1,
+   "bosque_prev_ha": 174774.04,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.0681
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "defo_ha": 656.33,
+   "bosque_prev_ha": 174166.67,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.3768
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "defo_ha": 237.82,
+   "bosque_prev_ha": 162703.85,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1462
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "defo_ha": 251.04,
+   "bosque_prev_ha": 173157.57,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.145
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "defo_ha": 207.36,
+   "bosque_prev_ha": 172210.75,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1204
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "defo_ha": 262.84,
+   "bosque_prev_ha": 171568.4,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1532
+  },
+  {
+   "subregion": "Urrao",
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "defo_ha": 337.03,
+   "bosque_prev_ha": 170545.94,
+   "n_anos": 1,
+   "tasa_pct_anual": 0.1976
+  }
+ ],
+ "_meta": {
+  "generado": "2026-07-04T04:31:39.576027+00:00",
+  "periodos_con_bosque": [
+   "2000-2002",
+   "2002-2004",
+   "2004-2006",
+   "2006-2008",
+   "2008-2010",
+   "2012-2013",
+   "2013-2014",
+   "2014-2015",
+   "2016-2017",
+   "2017-2018",
+   "2019-2020",
+   "2020-2021",
+   "2021-2022",
+   "2022-2023"
+  ],
+  "periodos_solo_defo": [
+   "2010-2012",
+   "2015-2016",
+   "2018-2019",
+   "2023-2024"
+  ],
+  "periodo_base": "2000-2002",
+  "periodo_actual_bosque": "2022-2023",
+  "nota_cobertura": "pct_cobertura_bosque = bosque_estable / (bosque + no_bosque + defo + regen). Normaliza por la variable superficie 'Sin Información' de cada bienio, por lo que es más comparable que la ha bruta de bosque.",
+  "nota_tasa": "tasa_perdida_relativa = 100 * (defo/n_años) / bosque_estable del periodo previo con dato (% anual del bosque en pie perdido).",
+  "advertencia_bosque_estable": "El área 'Bosque Estable' de cada bienio depende de la cobertura 'Sin Información' de ese año; sus fluctuaciones NO son todas cambio real de bosque. 2015-2016 (cuencas parcial) y 2016-2017 (Sin Info alta) son atípicos de cobertura, no de deforestación."
+ }
+}

@@ -1,0 +1,625 @@
+﻿tipo,id_territorio,nombre,pueblo,periodo,ano_inicio,ano_fin,deforestacion_ha,n_poligonos,pct_del_territorio,area_oficial_ha,pct_en_jurisdiccion,municipios
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2002-2004,2002,2004,61.76,24,0.18,34338.5,99.5,Turbo
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2004-2006,2004,2006,45.36,9,0.132,34338.5,99.5,Turbo
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2006-2008,2006,2008,1.56,1,0.005,34338.5,99.5,Turbo
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2008-2010,2008,2010,170.75,4,0.497,34338.5,99.5,Turbo
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2012-2013,2012,2013,0.0,0,0.0,34338.5,99.5,Turbo
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2013-2014,2013,2014,740.93,5,2.158,34338.5,99.5,Turbo
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2016-2017,2016,2017,2.43,2,0.007,34338.5,99.5,Turbo
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2017-2018,2017,2018,0.0,0,0.0,34338.5,99.5,Turbo
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2019-2020,2019,2020,0.0,0,0.0,34338.5,99.5,Turbo
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2020-2021,2020,2021,0.0,0,0.0,34338.5,99.5,Turbo
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2021-2022,2021,2022,0.0,0,0.0,34338.5,99.5,Turbo
+consejo_comunitario,20030,Bocas De Atrato Y Leoncito,,2022-2023,2022,2023,0.0,0,0.0,34338.5,99.5,Turbo
+consejo_comunitario,20035,La Grande,,2002-2004,2002,2004,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20035,La Grande,,2004-2006,2004,2006,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20035,La Grande,,2006-2008,2006,2008,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20035,La Grande,,2008-2010,2008,2010,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20035,La Grande,,2012-2013,2012,2013,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20035,La Grande,,2013-2014,2013,2014,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20035,La Grande,,2016-2017,2016,2017,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20035,La Grande,,2017-2018,2017,2018,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20035,La Grande,,2019-2020,2019,2020,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20035,La Grande,,2020-2021,2020,2021,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20035,La Grande,,2021-2022,2021,2022,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20035,La Grande,,2022-2023,2022,2023,0.0,0,0.0,0.1,0.0,Fuera de la jurisdicción
+consejo_comunitario,20036,Los Mangos,,2002-2004,2002,2004,0.0,0,0.0,364.6,100.0,Turbo
+consejo_comunitario,20036,Los Mangos,,2004-2006,2004,2006,0.0,0,0.0,364.6,100.0,Turbo
+consejo_comunitario,20036,Los Mangos,,2006-2008,2006,2008,1.86,1,0.51,364.6,100.0,Turbo
+consejo_comunitario,20036,Los Mangos,,2008-2010,2008,2010,0.0,0,0.0,364.6,100.0,Turbo
+consejo_comunitario,20036,Los Mangos,,2012-2013,2012,2013,0.0,0,0.0,364.6,100.0,Turbo
+consejo_comunitario,20036,Los Mangos,,2013-2014,2013,2014,0.0,0,0.0,364.6,100.0,Turbo
+consejo_comunitario,20036,Los Mangos,,2016-2017,2016,2017,0.0,0,0.0,364.6,100.0,Turbo
+consejo_comunitario,20036,Los Mangos,,2017-2018,2017,2018,0.0,0,0.0,364.6,100.0,Turbo
+consejo_comunitario,20036,Los Mangos,,2019-2020,2019,2020,0.0,0,0.0,364.6,100.0,Turbo
+consejo_comunitario,20036,Los Mangos,,2020-2021,2020,2021,0.0,0,0.0,364.6,100.0,Turbo
+consejo_comunitario,20036,Los Mangos,,2021-2022,2021,2022,0.0,0,0.0,364.6,100.0,Turbo
+consejo_comunitario,20036,Los Mangos,,2022-2023,2022,2023,0.0,0,0.0,364.6,100.0,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2002-2004,2002,2004,5.74,2,0.318,1802.2,23.5,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2004-2006,2004,2006,0.0,0,0.0,1802.2,23.5,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2006-2008,2006,2008,0.0,0,0.0,1802.2,23.5,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2008-2010,2008,2010,7.67,4,0.426,1802.2,23.5,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2012-2013,2012,2013,0.0,0,0.0,1802.2,23.5,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2013-2014,2013,2014,0.0,0,0.0,1802.2,23.5,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2016-2017,2016,2017,0.0,0,0.0,1802.2,23.5,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2017-2018,2017,2018,0.0,0,0.0,1802.2,23.5,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2019-2020,2019,2020,0.0,0,0.0,1802.2,23.5,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2020-2021,2020,2021,0.0,0,0.0,1802.2,23.5,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2021-2022,2021,2022,0.0,0,0.0,1802.2,23.5,Turbo
+consejo_comunitario,20037,Los Ríos La Larga Y Tumaradó,,2022-2023,2022,2023,0.0,0,0.0,1802.2,23.5,Turbo
+consejo_comunitario,20038,Manatíes,,2002-2004,2002,2004,11.13,2,0.255,4366.4,100.0,Turbo
+consejo_comunitario,20038,Manatíes,,2004-2006,2004,2006,0.0,0,0.0,4366.4,100.0,Turbo
+consejo_comunitario,20038,Manatíes,,2006-2008,2006,2008,1.28,1,0.029,4366.4,100.0,Turbo
+consejo_comunitario,20038,Manatíes,,2008-2010,2008,2010,11.02,6,0.252,4366.4,100.0,Turbo
+consejo_comunitario,20038,Manatíes,,2012-2013,2012,2013,26.03,3,0.596,4366.4,100.0,Turbo
+consejo_comunitario,20038,Manatíes,,2013-2014,2013,2014,37.89,3,0.868,4366.4,100.0,Turbo
+consejo_comunitario,20038,Manatíes,,2016-2017,2016,2017,28.6,11,0.655,4366.4,100.0,Turbo
+consejo_comunitario,20038,Manatíes,,2017-2018,2017,2018,6.41,3,0.147,4366.4,100.0,Turbo
+consejo_comunitario,20038,Manatíes,,2019-2020,2019,2020,25.77,1,0.59,4366.4,100.0,Turbo
+consejo_comunitario,20038,Manatíes,,2020-2021,2020,2021,0.0,0,0.0,4366.4,100.0,Turbo
+consejo_comunitario,20038,Manatíes,,2021-2022,2021,2022,3.63,2,0.083,4366.4,100.0,Turbo
+consejo_comunitario,20038,Manatíes,,2022-2023,2022,2023,0.0,0,0.0,4366.4,100.0,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2002-2004,2002,2004,2.24,1,0.07,3188.4,96.4,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2004-2006,2004,2006,9.43,3,0.296,3188.4,96.4,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2006-2008,2006,2008,0.0,0,0.0,3188.4,96.4,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2008-2010,2008,2010,12.7,4,0.398,3188.4,96.4,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2012-2013,2012,2013,0.0,0,0.0,3188.4,96.4,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2013-2014,2013,2014,0.0,0,0.0,3188.4,96.4,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2016-2017,2016,2017,0.0,0,0.0,3188.4,96.4,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2017-2018,2017,2018,0.0,0,0.0,3188.4,96.4,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2019-2020,2019,2020,0.0,0,0.0,3188.4,96.4,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2020-2021,2020,2021,0.0,0,0.0,3188.4,96.4,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2021-2022,2021,2022,0.0,0,0.0,3188.4,96.4,Turbo
+consejo_comunitario,20124,Mayor Del Bajo Atrato,,2022-2023,2022,2023,0.0,0,0.0,3188.4,96.4,Turbo
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2002-2004,2002,2004,45.87,25,0.026,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2004-2006,2004,2006,140.64,51,0.079,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2006-2008,2006,2008,42.67,22,0.024,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2008-2010,2008,2010,67.82,31,0.038,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2012-2013,2012,2013,27.02,19,0.015,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2013-2014,2013,2014,110.52,54,0.062,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2016-2017,2016,2017,157.02,82,0.089,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2017-2018,2017,2018,91.73,45,0.052,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2019-2020,2019,2020,81.61,35,0.046,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2020-2021,2020,2021,102.84,52,0.058,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2021-2022,2021,2022,109.72,49,0.062,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20007,Mayor Del Medio Atrato - Acia,,2022-2023,2022,2023,79.05,43,0.045,177153.1,99.4,"Vigía del Fuerte, Murindó, Urrao"
+consejo_comunitario,20125,Por El Desarrollo Integral,,2002-2004,2002,2004,0.0,0,0.0,11670.5,88.4,Murindó
+consejo_comunitario,20125,Por El Desarrollo Integral,,2004-2006,2004,2006,24.08,11,0.206,11670.5,88.4,Murindó
+consejo_comunitario,20125,Por El Desarrollo Integral,,2006-2008,2006,2008,3.31,2,0.028,11670.5,88.4,Murindó
+consejo_comunitario,20125,Por El Desarrollo Integral,,2008-2010,2008,2010,77.08,25,0.66,11670.5,88.4,Murindó
+consejo_comunitario,20125,Por El Desarrollo Integral,,2012-2013,2012,2013,0.0,0,0.0,11670.5,88.4,Murindó
+consejo_comunitario,20125,Por El Desarrollo Integral,,2013-2014,2013,2014,14.8,8,0.127,11670.5,88.4,Murindó
+consejo_comunitario,20125,Por El Desarrollo Integral,,2016-2017,2016,2017,28.68,17,0.246,11670.5,88.4,Murindó
+consejo_comunitario,20125,Por El Desarrollo Integral,,2017-2018,2017,2018,56.47,18,0.484,11670.5,88.4,Murindó
+consejo_comunitario,20125,Por El Desarrollo Integral,,2019-2020,2019,2020,38.38,16,0.329,11670.5,88.4,Murindó
+consejo_comunitario,20125,Por El Desarrollo Integral,,2020-2021,2020,2021,35.42,17,0.304,11670.5,88.4,Murindó
+consejo_comunitario,20125,Por El Desarrollo Integral,,2021-2022,2021,2022,24.1,17,0.207,11670.5,88.4,Murindó
+consejo_comunitario,20125,Por El Desarrollo Integral,,2022-2023,2022,2023,1.43,1,0.012,11670.5,88.4,Murindó
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2002-2004,2002,2004,7.17,4,0.057,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2004-2006,2004,2006,2.45,3,0.019,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2006-2008,2006,2008,5.92,5,0.047,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2008-2010,2008,2010,7.06,3,0.056,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2012-2013,2012,2013,10.71,5,0.085,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2013-2014,2013,2014,20.47,7,0.163,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2016-2017,2016,2017,31.97,17,0.254,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2017-2018,2017,2018,22.43,17,0.178,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2019-2020,2019,2020,13.01,7,0.103,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2020-2021,2020,2021,17.91,7,0.142,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2021-2022,2021,2022,66.39,26,0.528,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20073,Por La Identidad Cultural (Mandé),,2022-2023,2022,2023,14.77,8,0.117,12581.9,99.9,"Urrao, Frontino"
+consejo_comunitario,20045,Río Jiguamiandó,,2002-2004,2002,2004,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20045,Río Jiguamiandó,,2004-2006,2004,2006,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20045,Río Jiguamiandó,,2006-2008,2006,2008,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20045,Río Jiguamiandó,,2008-2010,2008,2010,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20045,Río Jiguamiandó,,2012-2013,2012,2013,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20045,Río Jiguamiandó,,2013-2014,2013,2014,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20045,Río Jiguamiandó,,2016-2017,2016,2017,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20045,Río Jiguamiandó,,2017-2018,2017,2018,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20045,Río Jiguamiandó,,2019-2020,2019,2020,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20045,Río Jiguamiandó,,2020-2021,2020,2021,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20045,Río Jiguamiandó,,2021-2022,2021,2022,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20045,Río Jiguamiandó,,2022-2023,2022,2023,0.0,0,0.0,130.3,40.0,Dabeiba
+consejo_comunitario,20054,Turriquitadó,,2002-2004,2002,2004,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20054,Turriquitadó,,2004-2006,2004,2006,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20054,Turriquitadó,,2006-2008,2006,2008,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20054,Turriquitadó,,2008-2010,2008,2010,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20054,Turriquitadó,,2012-2013,2012,2013,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20054,Turriquitadó,,2013-2014,2013,2014,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20054,Turriquitadó,,2016-2017,2016,2017,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20054,Turriquitadó,,2017-2018,2017,2018,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20054,Turriquitadó,,2019-2020,2019,2020,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20054,Turriquitadó,,2020-2021,2020,2021,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20054,Turriquitadó,,2021-2022,2021,2022,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20054,Turriquitadó,,2022-2023,2022,2023,0.0,0,0.0,32.9,15.8,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2002-2004,2002,2004,0.0,0,0.0,11.6,58.9,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2004-2006,2004,2006,0.0,0,0.0,11.6,58.9,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2006-2008,2006,2008,0.0,0,0.0,11.6,58.9,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2008-2010,2008,2010,0.0,0,0.0,11.6,58.9,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2012-2013,2012,2013,0.0,0,0.0,11.6,58.9,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2013-2014,2013,2014,0.0,0,0.0,11.6,58.9,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2016-2017,2016,2017,0.0,0,0.0,11.6,58.9,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2017-2018,2017,2018,0.0,0,0.0,11.6,58.9,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2019-2020,2019,2020,0.0,0,0.0,11.6,58.9,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2020-2021,2020,2021,0.0,0,0.0,11.6,58.9,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2021-2022,2021,2022,0.0,0,0.0,11.6,58.9,Murindó
+consejo_comunitario,20055,Vígia De Curvaradó Y Santa Rosa De Limón,,2022-2023,2022,2023,0.0,0,0.0,11.6,58.9,Murindó
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2002-2004,2002,2004,0.0,0,0.0,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2004-2006,2004,2006,1.63,1,0.009,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2006-2008,2006,2008,0.0,0,0.0,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2008-2010,2008,2010,1.01,1,0.006,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2012-2013,2012,2013,3.83,3,0.022,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2013-2014,2013,2014,0.0,0,0.0,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2016-2017,2016,2017,13.28,9,0.075,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2017-2018,2017,2018,8.75,3,0.049,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2019-2020,2019,2020,5.29,5,0.03,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2020-2021,2020,2021,6.85,4,0.039,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2021-2022,2021,2022,26.31,16,0.148,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10069,Amparrado Alto Medio,Embera Katío,2022-2023,2022,2023,1.09,2,0.006,17786.1,100.0,"Dabeiba, Frontino, Murindó"
+resguardo,10023,Andabu,Embera Katío,2002-2004,2002,2004,16.65,9,0.101,16505.6,99.9,Urrao
+resguardo,10023,Andabu,Embera Katío,2004-2006,2004,2006,32.14,16,0.195,16505.6,99.9,Urrao
+resguardo,10023,Andabu,Embera Katío,2006-2008,2006,2008,7.45,4,0.045,16505.6,99.9,Urrao
+resguardo,10023,Andabu,Embera Katío,2008-2010,2008,2010,9.22,7,0.056,16505.6,99.9,Urrao
+resguardo,10023,Andabu,Embera Katío,2012-2013,2012,2013,14.81,7,0.09,16505.6,99.9,Urrao
+resguardo,10023,Andabu,Embera Katío,2013-2014,2013,2014,48.94,27,0.297,16505.6,99.9,Urrao
+resguardo,10023,Andabu,Embera Katío,2016-2017,2016,2017,68.14,36,0.413,16505.6,99.9,Urrao
+resguardo,10023,Andabu,Embera Katío,2017-2018,2017,2018,20.81,14,0.126,16505.6,99.9,Urrao
+resguardo,10023,Andabu,Embera Katío,2019-2020,2019,2020,27.47,15,0.166,16505.6,99.9,Urrao
+resguardo,10023,Andabu,Embera Katío,2020-2021,2020,2021,24.46,15,0.148,16505.6,99.9,Urrao
+resguardo,10023,Andabu,Embera Katío,2021-2022,2021,2022,28.53,17,0.173,16505.6,99.9,Urrao
+resguardo,10023,Andabu,Embera Katío,2022-2023,2022,2023,62.96,36,0.381,16505.6,99.9,Urrao
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2002-2004,2002,2004,7.68,8,0.095,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2004-2006,2004,2006,36.25,20,0.449,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2006-2008,2006,2008,13.2,8,0.163,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2008-2010,2008,2010,7.42,4,0.092,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2012-2013,2012,2013,22.36,6,0.277,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2013-2014,2013,2014,22.21,13,0.275,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2016-2017,2016,2017,0.06,1,0.001,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2017-2018,2017,2018,0.0,0,0.0,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2019-2020,2019,2020,20.85,9,0.258,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2020-2021,2020,2021,14.34,7,0.178,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2021-2022,2021,2022,16.0,11,0.198,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10025,Caiman Nuevo O Atlantico,Tule/Guna (Cuna),2022-2023,2022,2023,20.46,12,0.253,8074.9,99.7,"Turbo, Necoclí"
+resguardo,10026,Canime,Senú/Zenú,2002-2004,2002,2004,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10026,Canime,Senú/Zenú,2004-2006,2004,2006,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10026,Canime,Senú/Zenú,2006-2008,2006,2008,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10026,Canime,Senú/Zenú,2008-2010,2008,2010,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10026,Canime,Senú/Zenú,2012-2013,2012,2013,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10026,Canime,Senú/Zenú,2013-2014,2013,2014,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10026,Canime,Senú/Zenú,2016-2017,2016,2017,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10026,Canime,Senú/Zenú,2017-2018,2017,2018,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10026,Canime,Senú/Zenú,2019-2020,2019,2020,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10026,Canime,Senú/Zenú,2020-2021,2020,2021,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10026,Canime,Senú/Zenú,2021-2022,2021,2022,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10026,Canime,Senú/Zenú,2022-2023,2022,2023,0.0,0,0.0,26.1,100.0,Arboletes
+resguardo,10027,Cañaverales Antado,Embera Katío,2002-2004,2002,2004,0.0,0,0.0,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10027,Cañaverales Antado,Embera Katío,2004-2006,2004,2006,0.0,0,0.0,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10027,Cañaverales Antado,Embera Katío,2006-2008,2006,2008,0.0,0,0.0,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10027,Cañaverales Antado,Embera Katío,2008-2010,2008,2010,8.49,4,0.17,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10027,Cañaverales Antado,Embera Katío,2012-2013,2012,2013,0.0,0,0.0,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10027,Cañaverales Antado,Embera Katío,2013-2014,2013,2014,1.24,1,0.025,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10027,Cañaverales Antado,Embera Katío,2016-2017,2016,2017,4.66,4,0.093,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10027,Cañaverales Antado,Embera Katío,2017-2018,2017,2018,2.92,2,0.059,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10027,Cañaverales Antado,Embera Katío,2019-2020,2019,2020,6.05,3,0.121,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10027,Cañaverales Antado,Embera Katío,2020-2021,2020,2021,0.0,0,0.0,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10027,Cañaverales Antado,Embera Katío,2021-2022,2021,2022,5.32,4,0.107,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10027,Cañaverales Antado,Embera Katío,2022-2023,2022,2023,3.82,3,0.077,4989.3,100.0,"Dabeiba, Frontino"
+resguardo,10028,Chaquenoda,Embera Katío,2002-2004,2002,2004,7.44,4,0.049,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10028,Chaquenoda,Embera Katío,2004-2006,2004,2006,10.8,7,0.071,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10028,Chaquenoda,Embera Katío,2006-2008,2006,2008,8.74,4,0.058,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10028,Chaquenoda,Embera Katío,2008-2010,2008,2010,6.31,3,0.042,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10028,Chaquenoda,Embera Katío,2012-2013,2012,2013,26.07,14,0.172,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10028,Chaquenoda,Embera Katío,2013-2014,2013,2014,31.03,12,0.205,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10028,Chaquenoda,Embera Katío,2016-2017,2016,2017,121.33,56,0.801,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10028,Chaquenoda,Embera Katío,2017-2018,2017,2018,32.76,17,0.216,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10028,Chaquenoda,Embera Katío,2019-2020,2019,2020,23.42,15,0.155,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10028,Chaquenoda,Embera Katío,2020-2021,2020,2021,23.78,13,0.157,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10028,Chaquenoda,Embera Katío,2021-2022,2021,2022,122.25,31,0.807,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10028,Chaquenoda,Embera Katío,2022-2023,2022,2023,38.63,14,0.255,15143.7,100.0,"Frontino, Dabeiba"
+resguardo,10072,Chimurro Y Nendo,Embera,2002-2004,2002,2004,13.15,7,0.099,13337.2,100.0,Dabeiba
+resguardo,10072,Chimurro Y Nendo,Embera,2004-2006,2004,2006,3.92,3,0.029,13337.2,100.0,Dabeiba
+resguardo,10072,Chimurro Y Nendo,Embera,2006-2008,2006,2008,1.86,1,0.014,13337.2,100.0,Dabeiba
+resguardo,10072,Chimurro Y Nendo,Embera,2008-2010,2008,2010,0.0,1,0.0,13337.2,100.0,Dabeiba
+resguardo,10072,Chimurro Y Nendo,Embera,2012-2013,2012,2013,7.09,5,0.053,13337.2,100.0,Dabeiba
+resguardo,10072,Chimurro Y Nendo,Embera,2013-2014,2013,2014,7.59,5,0.057,13337.2,100.0,Dabeiba
+resguardo,10072,Chimurro Y Nendo,Embera,2016-2017,2016,2017,12.58,6,0.094,13337.2,100.0,Dabeiba
+resguardo,10072,Chimurro Y Nendo,Embera,2017-2018,2017,2018,2.74,3,0.021,13337.2,100.0,Dabeiba
+resguardo,10072,Chimurro Y Nendo,Embera,2019-2020,2019,2020,23.31,12,0.175,13337.2,100.0,Dabeiba
+resguardo,10072,Chimurro Y Nendo,Embera,2020-2021,2020,2021,12.58,7,0.094,13337.2,100.0,Dabeiba
+resguardo,10072,Chimurro Y Nendo,Embera,2021-2022,2021,2022,38.18,17,0.286,13337.2,100.0,Dabeiba
+resguardo,10072,Chimurro Y Nendo,Embera,2022-2023,2022,2023,9.69,6,0.073,13337.2,100.0,Dabeiba
+resguardo,10029,Chontadural Cañero,Embera Katío,2002-2004,2002,2004,17.17,10,0.319,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10029,Chontadural Cañero,Embera Katío,2004-2006,2004,2006,37.78,8,0.702,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10029,Chontadural Cañero,Embera Katío,2006-2008,2006,2008,15.5,1,0.288,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10029,Chontadural Cañero,Embera Katío,2008-2010,2008,2010,20.23,5,0.376,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10029,Chontadural Cañero,Embera Katío,2012-2013,2012,2013,1.02,1,0.019,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10029,Chontadural Cañero,Embera Katío,2013-2014,2013,2014,2.12,1,0.039,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10029,Chontadural Cañero,Embera Katío,2016-2017,2016,2017,11.15,8,0.207,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10029,Chontadural Cañero,Embera Katío,2017-2018,2017,2018,7.75,3,0.144,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10029,Chontadural Cañero,Embera Katío,2019-2020,2019,2020,9.97,6,0.185,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10029,Chontadural Cañero,Embera Katío,2020-2021,2020,2021,10.19,6,0.189,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10029,Chontadural Cañero,Embera Katío,2021-2022,2021,2022,8.7,5,0.162,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10029,Chontadural Cañero,Embera Katío,2022-2023,2022,2023,3.41,1,0.063,5384.7,96.1,"Mutatá, Dabeiba"
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2002-2004,2002,2004,0.0,0,0.0,3054.5,100.0,Dabeiba
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2004-2006,2004,2006,0.0,0,0.0,3054.5,100.0,Dabeiba
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2006-2008,2006,2008,0.0,0,0.0,3054.5,100.0,Dabeiba
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2008-2010,2008,2010,0.0,0,0.0,3054.5,100.0,Dabeiba
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2012-2013,2012,2013,10.27,4,0.336,3054.5,100.0,Dabeiba
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2013-2014,2013,2014,0.0,0,0.0,3054.5,100.0,Dabeiba
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2016-2017,2016,2017,1.67,1,0.055,3054.5,100.0,Dabeiba
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2017-2018,2017,2018,0.0,0,0.0,3054.5,100.0,Dabeiba
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2019-2020,2019,2020,0.0,0,0.0,3054.5,100.0,Dabeiba
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2020-2021,2020,2021,2.01,1,0.066,3054.5,100.0,Dabeiba
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2021-2022,2021,2022,1.79,1,0.059,3054.5,100.0,Dabeiba
+resguardo,10030,Choromandó Alto y Medio,Embera Katío,2022-2023,2022,2023,4.17,3,0.137,3054.5,100.0,Dabeiba
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2002-2004,2002,2004,0.0,0,0.0,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2004-2006,2004,2006,0.0,0,0.0,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2006-2008,2006,2008,0.0,0,0.0,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2008-2010,2008,2010,4.51,3,0.095,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2012-2013,2012,2013,8.66,2,0.182,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2013-2014,2013,2014,5.87,3,0.124,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2016-2017,2016,2017,13.19,8,0.278,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2017-2018,2017,2018,5.02,3,0.106,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2019-2020,2019,2020,12.14,7,0.256,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2020-2021,2020,2021,3.51,1,0.074,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2021-2022,2021,2022,0.86,1,0.018,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10031,Chuscal Y Tuguridocito,Embera,2022-2023,2022,2023,13.65,6,0.287,4749.3,100.0,"Dabeiba, Frontino"
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2002-2004,2002,2004,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2004-2006,2004,2006,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2006-2008,2006,2008,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2008-2010,2008,2010,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2012-2013,2012,2013,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2013-2014,2013,2014,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2016-2017,2016,2017,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2017-2018,2017,2018,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2019-2020,2019,2020,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2020-2021,2020,2021,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2021-2022,2021,2022,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10045,Comunidad Indigena Embera Chami Y Zenu De La Palma,Embera Chamí-Zenú,2022-2023,2022,2023,0.0,0,0.0,115.9,100.0,Apartadó
+resguardo,10032,Coribi Bedado,Embera Katío,2002-2004,2002,2004,2.94,2,2.792,105.3,100.0,Mutatá
+resguardo,10032,Coribi Bedado,Embera Katío,2004-2006,2004,2006,2.4,2,2.279,105.3,100.0,Mutatá
+resguardo,10032,Coribi Bedado,Embera Katío,2006-2008,2006,2008,0.0,0,0.0,105.3,100.0,Mutatá
+resguardo,10032,Coribi Bedado,Embera Katío,2008-2010,2008,2010,0.0,0,0.0,105.3,100.0,Mutatá
+resguardo,10032,Coribi Bedado,Embera Katío,2012-2013,2012,2013,0.0,0,0.0,105.3,100.0,Mutatá
+resguardo,10032,Coribi Bedado,Embera Katío,2013-2014,2013,2014,0.0,0,0.0,105.3,100.0,Mutatá
+resguardo,10032,Coribi Bedado,Embera Katío,2016-2017,2016,2017,0.0,0,0.0,105.3,100.0,Mutatá
+resguardo,10032,Coribi Bedado,Embera Katío,2017-2018,2017,2018,0.0,0,0.0,105.3,100.0,Mutatá
+resguardo,10032,Coribi Bedado,Embera Katío,2019-2020,2019,2020,0.0,0,0.0,105.3,100.0,Mutatá
+resguardo,10032,Coribi Bedado,Embera Katío,2020-2021,2020,2021,0.0,0,0.0,105.3,100.0,Mutatá
+resguardo,10032,Coribi Bedado,Embera Katío,2021-2022,2021,2022,0.0,0,0.0,105.3,100.0,Mutatá
+resguardo,10032,Coribi Bedado,Embera Katío,2022-2023,2022,2023,0.0,0,0.0,105.3,100.0,Mutatá
+resguardo,10048,Dokerazavi,Embera,2002-2004,2002,2004,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10048,Dokerazavi,Embera,2004-2006,2004,2006,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10048,Dokerazavi,Embera,2006-2008,2006,2008,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10048,Dokerazavi,Embera,2008-2010,2008,2010,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10048,Dokerazavi,Embera,2012-2013,2012,2013,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10048,Dokerazavi,Embera,2013-2014,2013,2014,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10048,Dokerazavi,Embera,2016-2017,2016,2017,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10048,Dokerazavi,Embera,2017-2018,2017,2018,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10048,Dokerazavi,Embera,2019-2020,2019,2020,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10048,Dokerazavi,Embera,2020-2021,2020,2021,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10048,Dokerazavi,Embera,2021-2022,2021,2022,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10048,Dokerazavi,Embera,2022-2023,2022,2023,0.0,0,0.0,684.7,100.0,Turbo
+resguardo,10034,El Salado,Embera,2002-2004,2002,2004,0.89,1,0.015,6089.9,100.0,Vigía del Fuerte
+resguardo,10034,El Salado,Embera,2004-2006,2004,2006,0.0,0,0.0,6089.9,100.0,Vigía del Fuerte
+resguardo,10034,El Salado,Embera,2006-2008,2006,2008,0.0,0,0.0,6089.9,100.0,Vigía del Fuerte
+resguardo,10034,El Salado,Embera,2008-2010,2008,2010,4.3,4,0.071,6089.9,100.0,Vigía del Fuerte
+resguardo,10034,El Salado,Embera,2012-2013,2012,2013,0.0,0,0.0,6089.9,100.0,Vigía del Fuerte
+resguardo,10034,El Salado,Embera,2013-2014,2013,2014,0.0,0,0.0,6089.9,100.0,Vigía del Fuerte
+resguardo,10034,El Salado,Embera,2016-2017,2016,2017,0.0,0,0.0,6089.9,100.0,Vigía del Fuerte
+resguardo,10034,El Salado,Embera,2017-2018,2017,2018,0.0,0,0.0,6089.9,100.0,Vigía del Fuerte
+resguardo,10034,El Salado,Embera,2019-2020,2019,2020,9.61,2,0.158,6089.9,100.0,Vigía del Fuerte
+resguardo,10034,El Salado,Embera,2020-2021,2020,2021,0.0,0,0.0,6089.9,100.0,Vigía del Fuerte
+resguardo,10034,El Salado,Embera,2021-2022,2021,2022,0.0,0,0.0,6089.9,100.0,Vigía del Fuerte
+resguardo,10034,El Salado,Embera,2022-2023,2022,2023,0.0,0,0.0,6089.9,100.0,Vigía del Fuerte
+resguardo,10035,Embera Drua,Embera Katío,2002-2004,2002,2004,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10035,Embera Drua,Embera Katío,2004-2006,2004,2006,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10035,Embera Drua,Embera Katío,2006-2008,2006,2008,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10035,Embera Drua,Embera Katío,2008-2010,2008,2010,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10035,Embera Drua,Embera Katío,2012-2013,2012,2013,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10035,Embera Drua,Embera Katío,2013-2014,2013,2014,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10035,Embera Drua,Embera Katío,2016-2017,2016,2017,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10035,Embera Drua,Embera Katío,2017-2018,2017,2018,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10035,Embera Drua,Embera Katío,2019-2020,2019,2020,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10035,Embera Drua,Embera Katío,2020-2021,2020,2021,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10035,Embera Drua,Embera Katío,2021-2022,2021,2022,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10035,Embera Drua,Embera Katío,2022-2023,2022,2023,0.0,0,0.0,17.1,100.0,Dabeiba
+resguardo,10036,Guaguando,Embera,2002-2004,2002,2004,0.0,0,0.0,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10036,Guaguando,Embera,2004-2006,2004,2006,0.0,0,0.0,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10036,Guaguando,Embera,2006-2008,2006,2008,0.0,0,0.0,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10036,Guaguando,Embera,2008-2010,2008,2010,1.41,1,0.011,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10036,Guaguando,Embera,2012-2013,2012,2013,0.0,0,0.0,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10036,Guaguando,Embera,2013-2014,2013,2014,1.65,2,0.013,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10036,Guaguando,Embera,2016-2017,2016,2017,1.1,1,0.009,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10036,Guaguando,Embera,2017-2018,2017,2018,0.0,0,0.0,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10036,Guaguando,Embera,2019-2020,2019,2020,5.89,4,0.046,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10036,Guaguando,Embera,2020-2021,2020,2021,0.0,0,0.0,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10036,Guaguando,Embera,2021-2022,2021,2022,0.0,0,0.0,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10036,Guaguando,Embera,2022-2023,2022,2023,0.0,0,0.0,12803.5,100.0,"Vigía del Fuerte, Urrao"
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2002-2004,2002,2004,11.99,6,0.035,34629.2,96.7,Mutatá
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2004-2006,2004,2006,0.16,1,0.0,34629.2,96.7,Mutatá
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2006-2008,2006,2008,19.72,8,0.057,34629.2,96.7,Mutatá
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2008-2010,2008,2010,4.16,2,0.012,34629.2,96.7,Mutatá
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2012-2013,2012,2013,1.3,1,0.004,34629.2,96.7,Mutatá
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2013-2014,2013,2014,2.74,2,0.008,34629.2,96.7,Mutatá
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2016-2017,2016,2017,22.68,13,0.065,34629.2,96.7,Mutatá
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2017-2018,2017,2018,4.25,3,0.012,34629.2,96.7,Mutatá
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2019-2020,2019,2020,22.4,16,0.065,34629.2,96.7,Mutatá
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2020-2021,2020,2021,24.12,12,0.07,34629.2,96.7,Mutatá
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2021-2022,2021,2022,38.04,15,0.11,34629.2,96.7,Mutatá
+resguardo,10040,Jaikerazavi (Abibe Mutata),Embera Katío,2022-2023,2022,2023,11.51,7,0.033,34629.2,96.7,Mutatá
+resguardo,10041,Jenaturado,Embera Katío,2002-2004,2002,2004,0.0,0,0.0,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10041,Jenaturado,Embera Katío,2004-2006,2004,2006,0.0,0,0.0,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10041,Jenaturado,Embera Katío,2006-2008,2006,2008,0.0,0,0.0,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10041,Jenaturado,Embera Katío,2008-2010,2008,2010,0.0,0,0.0,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10041,Jenaturado,Embera Katío,2012-2013,2012,2013,0.0,0,0.0,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10041,Jenaturado,Embera Katío,2013-2014,2013,2014,0.0,0,0.0,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10041,Jenaturado,Embera Katío,2016-2017,2016,2017,2.5,1,0.42,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10041,Jenaturado,Embera Katío,2017-2018,2017,2018,0.0,0,0.0,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10041,Jenaturado,Embera Katío,2019-2020,2019,2020,0.0,0,0.0,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10041,Jenaturado,Embera Katío,2020-2021,2020,2021,0.0,0,0.0,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10041,Jenaturado,Embera Katío,2021-2022,2021,2022,0.93,1,0.156,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10041,Jenaturado,Embera Katío,2022-2023,2022,2023,0.0,0,0.0,595.5,100.0,"Dabeiba, Frontino"
+resguardo,10042,Jengado Apartado,Embera,2002-2004,2002,2004,0.32,1,0.007,4478.5,100.0,Vigía del Fuerte
+resguardo,10042,Jengado Apartado,Embera,2004-2006,2004,2006,1.27,1,0.028,4478.5,100.0,Vigía del Fuerte
+resguardo,10042,Jengado Apartado,Embera,2006-2008,2006,2008,0.0,0,0.0,4478.5,100.0,Vigía del Fuerte
+resguardo,10042,Jengado Apartado,Embera,2008-2010,2008,2010,0.0,0,0.0,4478.5,100.0,Vigía del Fuerte
+resguardo,10042,Jengado Apartado,Embera,2012-2013,2012,2013,1.02,1,0.023,4478.5,100.0,Vigía del Fuerte
+resguardo,10042,Jengado Apartado,Embera,2013-2014,2013,2014,6.47,4,0.144,4478.5,100.0,Vigía del Fuerte
+resguardo,10042,Jengado Apartado,Embera,2016-2017,2016,2017,1.05,1,0.023,4478.5,100.0,Vigía del Fuerte
+resguardo,10042,Jengado Apartado,Embera,2017-2018,2017,2018,2.41,1,0.054,4478.5,100.0,Vigía del Fuerte
+resguardo,10042,Jengado Apartado,Embera,2019-2020,2019,2020,1.05,1,0.023,4478.5,100.0,Vigía del Fuerte
+resguardo,10042,Jengado Apartado,Embera,2020-2021,2020,2021,7.64,4,0.171,4478.5,100.0,Vigía del Fuerte
+resguardo,10042,Jengado Apartado,Embera,2021-2022,2021,2022,0.0,0,0.0,4478.5,100.0,Vigía del Fuerte
+resguardo,10042,Jengado Apartado,Embera,2022-2023,2022,2023,1.31,1,0.029,4478.5,100.0,Vigía del Fuerte
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2002-2004,2002,2004,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2004-2006,2004,2006,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2006-2008,2006,2008,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2008-2010,2008,2010,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2012-2013,2012,2013,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2013-2014,2013,2014,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2016-2017,2016,2017,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2017-2018,2017,2018,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2019-2020,2019,2020,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2020-2021,2020,2021,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2021-2022,2021,2022,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10283,La Cristalina (Chocó),Embera Chamí,2022-2023,2022,2023,0.0,0,0.0,0.2,100.0,Fuera de la jurisdicción
+resguardo,10073,Las Playas,Embera Katío,2002-2004,2002,2004,0.0,0,0.0,200.8,100.0,Apartadó
+resguardo,10073,Las Playas,Embera Katío,2004-2006,2004,2006,0.0,0,0.0,200.8,100.0,Apartadó
+resguardo,10073,Las Playas,Embera Katío,2006-2008,2006,2008,5.3,1,2.639,200.8,100.0,Apartadó
+resguardo,10073,Las Playas,Embera Katío,2008-2010,2008,2010,0.0,0,0.0,200.8,100.0,Apartadó
+resguardo,10073,Las Playas,Embera Katío,2012-2013,2012,2013,0.0,0,0.0,200.8,100.0,Apartadó
+resguardo,10073,Las Playas,Embera Katío,2013-2014,2013,2014,0.0,0,0.0,200.8,100.0,Apartadó
+resguardo,10073,Las Playas,Embera Katío,2016-2017,2016,2017,0.86,1,0.428,200.8,100.0,Apartadó
+resguardo,10073,Las Playas,Embera Katío,2017-2018,2017,2018,0.0,0,0.0,200.8,100.0,Apartadó
+resguardo,10073,Las Playas,Embera Katío,2019-2020,2019,2020,0.0,0,0.0,200.8,100.0,Apartadó
+resguardo,10073,Las Playas,Embera Katío,2020-2021,2020,2021,0.0,0,0.0,200.8,100.0,Apartadó
+resguardo,10073,Las Playas,Embera Katío,2021-2022,2021,2022,0.0,0,0.0,200.8,100.0,Apartadó
+resguardo,10073,Las Playas,Embera Katío,2022-2023,2022,2023,0.0,1,0.0,200.8,100.0,Apartadó
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2002-2004,2002,2004,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2004-2006,2004,2006,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2006-2008,2006,2008,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2008-2010,2008,2010,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2012-2013,2012,2013,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2013-2014,2013,2014,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2016-2017,2016,2017,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2017-2018,2017,2018,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2019-2020,2019,2020,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2020-2021,2020,2021,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2021-2022,2021,2022,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10047,Los Almendros (El Bagre),Senú/Zenú,2022-2023,2022,2023,0.0,0,0.0,24.8,100.0,San Juan de Urabá
+resguardo,10049,Majore Ambura,Embera Katío,2002-2004,2002,2004,1.45,1,0.021,6800.2,100.0,Urrao
+resguardo,10049,Majore Ambura,Embera Katío,2004-2006,2004,2006,5.66,3,0.083,6800.2,100.0,Urrao
+resguardo,10049,Majore Ambura,Embera Katío,2006-2008,2006,2008,3.41,2,0.05,6800.2,100.0,Urrao
+resguardo,10049,Majore Ambura,Embera Katío,2008-2010,2008,2010,22.08,11,0.325,6800.2,100.0,Urrao
+resguardo,10049,Majore Ambura,Embera Katío,2012-2013,2012,2013,6.04,5,0.089,6800.2,100.0,Urrao
+resguardo,10049,Majore Ambura,Embera Katío,2013-2014,2013,2014,35.6,17,0.524,6800.2,100.0,Urrao
+resguardo,10049,Majore Ambura,Embera Katío,2016-2017,2016,2017,33.83,17,0.497,6800.2,100.0,Urrao
+resguardo,10049,Majore Ambura,Embera Katío,2017-2018,2017,2018,5.95,3,0.087,6800.2,100.0,Urrao
+resguardo,10049,Majore Ambura,Embera Katío,2019-2020,2019,2020,26.11,14,0.384,6800.2,100.0,Urrao
+resguardo,10049,Majore Ambura,Embera Katío,2020-2021,2020,2021,24.01,13,0.353,6800.2,100.0,Urrao
+resguardo,10049,Majore Ambura,Embera Katío,2021-2022,2021,2022,46.05,23,0.677,6800.2,100.0,Urrao
+resguardo,10049,Majore Ambura,Embera Katío,2022-2023,2022,2023,25.67,15,0.377,6800.2,100.0,Urrao
+resguardo,10070,Monzhomando,Embera Katío,2002-2004,2002,2004,0.0,0,0.0,187.1,100.0,Dabeiba
+resguardo,10070,Monzhomando,Embera Katío,2004-2006,2004,2006,0.0,0,0.0,187.1,100.0,Dabeiba
+resguardo,10070,Monzhomando,Embera Katío,2006-2008,2006,2008,0.0,0,0.0,187.1,100.0,Dabeiba
+resguardo,10070,Monzhomando,Embera Katío,2008-2010,2008,2010,0.0,0,0.0,187.1,100.0,Dabeiba
+resguardo,10070,Monzhomando,Embera Katío,2012-2013,2012,2013,0.0,0,0.0,187.1,100.0,Dabeiba
+resguardo,10070,Monzhomando,Embera Katío,2013-2014,2013,2014,0.0,0,0.0,187.1,100.0,Dabeiba
+resguardo,10070,Monzhomando,Embera Katío,2016-2017,2016,2017,0.0,0,0.0,187.1,100.0,Dabeiba
+resguardo,10070,Monzhomando,Embera Katío,2017-2018,2017,2018,0.0,0,0.0,187.1,100.0,Dabeiba
+resguardo,10070,Monzhomando,Embera Katío,2019-2020,2019,2020,0.4,1,0.214,187.1,100.0,Dabeiba
+resguardo,10070,Monzhomando,Embera Katío,2020-2021,2020,2021,0.0,0,0.0,187.1,100.0,Dabeiba
+resguardo,10070,Monzhomando,Embera Katío,2021-2022,2021,2022,0.0,0,0.0,187.1,100.0,Dabeiba
+resguardo,10070,Monzhomando,Embera Katío,2022-2023,2022,2023,0.0,0,0.0,187.1,100.0,Dabeiba
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2002-2004,2002,2004,0.0,0,0.0,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2004-2006,2004,2006,205.83,34,1.12,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2006-2008,2006,2008,15.1,3,0.082,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2008-2010,2008,2010,47.18,25,0.257,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2012-2013,2012,2013,0.0,0,0.0,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2013-2014,2013,2014,12.9,6,0.07,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2016-2017,2016,2017,80.56,42,0.438,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2017-2018,2017,2018,17.19,9,0.094,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2019-2020,2019,2020,12.93,10,0.07,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2020-2021,2020,2021,21.34,12,0.116,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2021-2022,2021,2022,49.85,27,0.271,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10050,Murindo (Rio Murindo),Embera Katío,2022-2023,2022,2023,5.38,4,0.029,18381.7,99.9,"Murindó, Dabeiba"
+resguardo,10051,Murripantanos,Embera Katío,2002-2004,2002,2004,2.28,2,0.007,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10051,Murripantanos,Embera Katío,2004-2006,2004,2006,8.84,5,0.028,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10051,Murripantanos,Embera Katío,2006-2008,2006,2008,15.23,3,0.048,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10051,Murripantanos,Embera Katío,2008-2010,2008,2010,4.37,2,0.014,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10051,Murripantanos,Embera Katío,2012-2013,2012,2013,2.09,2,0.007,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10051,Murripantanos,Embera Katío,2013-2014,2013,2014,23.41,9,0.074,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10051,Murripantanos,Embera Katío,2016-2017,2016,2017,34.79,16,0.11,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10051,Murripantanos,Embera Katío,2017-2018,2017,2018,23.78,15,0.075,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10051,Murripantanos,Embera Katío,2019-2020,2019,2020,18.2,13,0.057,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10051,Murripantanos,Embera Katío,2020-2021,2020,2021,29.53,12,0.093,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10051,Murripantanos,Embera Katío,2021-2022,2021,2022,84.01,44,0.265,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10051,Murripantanos,Embera Katío,2022-2023,2022,2023,10.06,8,0.032,31730.4,100.0,"Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó"
+resguardo,10046,Narikizavi,Embera Katío,2002-2004,2002,2004,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10046,Narikizavi,Embera Katío,2004-2006,2004,2006,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10046,Narikizavi,Embera Katío,2006-2008,2006,2008,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10046,Narikizavi,Embera Katío,2008-2010,2008,2010,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10046,Narikizavi,Embera Katío,2012-2013,2012,2013,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10046,Narikizavi,Embera Katío,2013-2014,2013,2014,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10046,Narikizavi,Embera Katío,2016-2017,2016,2017,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10046,Narikizavi,Embera Katío,2017-2018,2017,2018,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10046,Narikizavi,Embera Katío,2019-2020,2019,2020,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10046,Narikizavi,Embera Katío,2020-2021,2020,2021,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10046,Narikizavi,Embera Katío,2021-2022,2021,2022,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10046,Narikizavi,Embera Katío,2022-2023,2022,2023,0.0,0,0.0,275.8,100.0,Dabeiba
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2002-2004,2002,2004,0.0,0,0.0,260.9,100.0,Frontino
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2004-2006,2004,2006,0.0,0,0.0,260.9,100.0,Frontino
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2006-2008,2006,2008,0.0,0,0.0,260.9,100.0,Frontino
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2008-2010,2008,2010,0.0,0,0.0,260.9,100.0,Frontino
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2012-2013,2012,2013,0.0,0,0.0,260.9,100.0,Frontino
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2013-2014,2013,2014,0.0,0,0.0,260.9,100.0,Frontino
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2016-2017,2016,2017,1.16,1,0.445,260.9,100.0,Frontino
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2017-2018,2017,2018,0.0,0,0.0,260.9,100.0,Frontino
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2019-2020,2019,2020,0.0,0,0.0,260.9,100.0,Frontino
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2020-2021,2020,2021,0.0,0,0.0,260.9,100.0,Frontino
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2021-2022,2021,2022,0.0,0,0.0,260.9,100.0,Frontino
+resguardo,10052,Nusido Comunidad Llano Rio Verde,Embera,2022-2023,2022,2023,0.0,0,0.0,260.9,100.0,Frontino
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2002-2004,2002,2004,0.0,0,0.0,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2004-2006,2004,2006,0.0,0,0.0,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2006-2008,2006,2008,0.0,0,0.0,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2008-2010,2008,2010,0.71,1,0.003,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2012-2013,2012,2013,1.75,2,0.008,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2013-2014,2013,2014,20.9,11,0.095,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2016-2017,2016,2017,12.36,8,0.056,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2017-2018,2017,2018,5.55,4,0.025,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2019-2020,2019,2020,23.42,12,0.106,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2020-2021,2020,2021,24.04,14,0.109,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2021-2022,2021,2022,56.01,28,0.254,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10054,Pavarando Y Amparrado Medio,Embera,2022-2023,2022,2023,4.99,5,0.023,22039.7,97.9,"Dabeiba, Murindó, Mutatá"
+resguardo,10055,Polines,Embera Katío,2002-2004,2002,2004,0.24,4,0.007,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10055,Polines,Embera Katío,2004-2006,2004,2006,13.0,12,0.384,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10055,Polines,Embera Katío,2006-2008,2006,2008,3.83,3,0.113,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10055,Polines,Embera Katío,2008-2010,2008,2010,5.87,4,0.174,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10055,Polines,Embera Katío,2012-2013,2012,2013,0.49,2,0.014,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10055,Polines,Embera Katío,2013-2014,2013,2014,6.77,3,0.2,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10055,Polines,Embera Katío,2016-2017,2016,2017,26.32,13,0.778,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10055,Polines,Embera Katío,2017-2018,2017,2018,0.0,0,0.0,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10055,Polines,Embera Katío,2019-2020,2019,2020,6.78,5,0.2,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10055,Polines,Embera Katío,2020-2021,2020,2021,0.0,0,0.0,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10055,Polines,Embera Katío,2021-2022,2021,2022,10.53,5,0.311,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10055,Polines,Embera Katío,2022-2023,2022,2023,2.09,2,0.062,3382.8,100.0,"Chigorodó, Carepa"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2002-2004,2002,2004,0.0,0,0.0,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2004-2006,2004,2006,0.0,0,0.0,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2006-2008,2006,2008,0.0,0,0.0,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2008-2010,2008,2010,0.0,0,0.0,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2012-2013,2012,2013,0.0,0,0.0,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2013-2014,2013,2014,0.0,0,0.0,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2016-2017,2016,2017,0.0,1,0.0,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2017-2018,2017,2018,0.0,0,0.0,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2019-2020,2019,2020,0.15,1,0.146,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2020-2021,2020,2021,0.0,0,0.0,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2021-2022,2021,2022,0.0,0,0.0,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10806,"Rio Alto De San Juan (Compuesto Por 3 Comunidades: Ebano Tacanal, El Polvillo Y Naranjal)",Senú/Zenú,2022-2023,2022,2023,0.0,0,0.0,102.7,99.9,"San Pedro de Urabá, Turbo"
+resguardo,10317,Rio Bebara,Embera,2002-2004,2002,2004,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10317,Rio Bebara,Embera,2004-2006,2004,2006,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10317,Rio Bebara,Embera,2006-2008,2006,2008,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10317,Rio Bebara,Embera,2008-2010,2008,2010,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10317,Rio Bebara,Embera,2012-2013,2012,2013,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10317,Rio Bebara,Embera,2013-2014,2013,2014,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10317,Rio Bebara,Embera,2016-2017,2016,2017,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10317,Rio Bebara,Embera,2017-2018,2017,2018,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10317,Rio Bebara,Embera,2019-2020,2019,2020,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10317,Rio Bebara,Embera,2020-2021,2020,2021,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10317,Rio Bebara,Embera,2021-2022,2021,2022,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10317,Rio Bebara,Embera,2022-2023,2022,2023,0.0,0,0.0,46.8,54.9,Urrao
+resguardo,10056,Rio Chajerado,Embera,2002-2004,2002,2004,4.11,2,0.01,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10056,Rio Chajerado,Embera,2004-2006,2004,2006,1.45,1,0.003,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10056,Rio Chajerado,Embera,2006-2008,2006,2008,2.85,1,0.007,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10056,Rio Chajerado,Embera,2008-2010,2008,2010,5.0,4,0.012,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10056,Rio Chajerado,Embera,2012-2013,2012,2013,9.53,4,0.023,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10056,Rio Chajerado,Embera,2013-2014,2013,2014,23.86,11,0.057,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10056,Rio Chajerado,Embera,2016-2017,2016,2017,38.35,16,0.092,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10056,Rio Chajerado,Embera,2017-2018,2017,2018,45.68,11,0.109,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10056,Rio Chajerado,Embera,2019-2020,2019,2020,3.61,2,0.009,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10056,Rio Chajerado,Embera,2020-2021,2020,2021,5.19,4,0.012,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10056,Rio Chajerado,Embera,2021-2022,2021,2022,26.26,18,0.063,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10056,Rio Chajerado,Embera,2022-2023,2022,2023,3.9,2,0.009,41759.6,100.0,"Murindó, Dabeiba, Vigía del Fuerte, Frontino"
+resguardo,10057,Rio Jarapeto,Embera,2002-2004,2002,2004,4.3,2,0.076,5652.1,100.0,Vigía del Fuerte
+resguardo,10057,Rio Jarapeto,Embera,2004-2006,2004,2006,1.13,1,0.02,5652.1,100.0,Vigía del Fuerte
+resguardo,10057,Rio Jarapeto,Embera,2006-2008,2006,2008,0.0,0,0.0,5652.1,100.0,Vigía del Fuerte
+resguardo,10057,Rio Jarapeto,Embera,2008-2010,2008,2010,1.04,1,0.018,5652.1,100.0,Vigía del Fuerte
+resguardo,10057,Rio Jarapeto,Embera,2012-2013,2012,2013,0.0,0,0.0,5652.1,100.0,Vigía del Fuerte
+resguardo,10057,Rio Jarapeto,Embera,2013-2014,2013,2014,1.1,1,0.019,5652.1,100.0,Vigía del Fuerte
+resguardo,10057,Rio Jarapeto,Embera,2016-2017,2016,2017,8.29,1,0.147,5652.1,100.0,Vigía del Fuerte
+resguardo,10057,Rio Jarapeto,Embera,2017-2018,2017,2018,5.18,3,0.092,5652.1,100.0,Vigía del Fuerte
+resguardo,10057,Rio Jarapeto,Embera,2019-2020,2019,2020,6.85,3,0.121,5652.1,100.0,Vigía del Fuerte
+resguardo,10057,Rio Jarapeto,Embera,2020-2021,2020,2021,0.0,0,0.0,5652.1,100.0,Vigía del Fuerte
+resguardo,10057,Rio Jarapeto,Embera,2021-2022,2021,2022,0.0,0,0.0,5652.1,100.0,Vigía del Fuerte
+resguardo,10057,Rio Jarapeto,Embera,2022-2023,2022,2023,0.0,0,0.0,5652.1,100.0,Vigía del Fuerte
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2002-2004,2002,2004,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2004-2006,2004,2006,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2006-2008,2006,2008,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2008-2010,2008,2010,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2012-2013,2012,2013,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2013-2014,2013,2014,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2016-2017,2016,2017,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2017-2018,2017,2018,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2019-2020,2019,2020,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2020-2021,2020,2021,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2021-2022,2021,2022,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10058,Santa Maria El Charcon,Embera Katío,2022-2023,2022,2023,0.0,0,0.0,137.4,100.0,Uramita
+resguardo,10059,Sever,Embera Katío,2002-2004,2002,2004,10.73,7,0.105,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10059,Sever,Embera Katío,2004-2006,2004,2006,0.0,0,0.0,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10059,Sever,Embera Katío,2006-2008,2006,2008,1.2,1,0.012,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10059,Sever,Embera Katío,2008-2010,2008,2010,0.0,0,0.0,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10059,Sever,Embera Katío,2012-2013,2012,2013,1.52,1,0.015,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10059,Sever,Embera Katío,2013-2014,2013,2014,11.57,3,0.113,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10059,Sever,Embera Katío,2016-2017,2016,2017,19.57,8,0.192,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10059,Sever,Embera Katío,2017-2018,2017,2018,3.19,1,0.031,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10059,Sever,Embera Katío,2019-2020,2019,2020,20.81,9,0.204,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10059,Sever,Embera Katío,2020-2021,2020,2021,2.13,1,0.021,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10059,Sever,Embera Katío,2021-2022,2021,2022,26.37,13,0.258,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10059,Sever,Embera Katío,2022-2023,2022,2023,3.07,2,0.03,10203.6,100.0,"Dabeiba, Mutatá"
+resguardo,10357,Urada Jiguamiando,Embera,2002-2004,2002,2004,0.0,0,0.0,69.6,47.0,Murindó
+resguardo,10357,Urada Jiguamiando,Embera,2004-2006,2004,2006,0.0,0,0.0,69.6,47.0,Murindó
+resguardo,10357,Urada Jiguamiando,Embera,2006-2008,2006,2008,0.0,0,0.0,69.6,47.0,Murindó
+resguardo,10357,Urada Jiguamiando,Embera,2008-2010,2008,2010,0.18,1,0.259,69.6,47.0,Murindó
+resguardo,10357,Urada Jiguamiando,Embera,2012-2013,2012,2013,0.0,0,0.0,69.6,47.0,Murindó
+resguardo,10357,Urada Jiguamiando,Embera,2013-2014,2013,2014,0.0,0,0.0,69.6,47.0,Murindó
+resguardo,10357,Urada Jiguamiando,Embera,2016-2017,2016,2017,0.0,0,0.0,69.6,47.0,Murindó
+resguardo,10357,Urada Jiguamiando,Embera,2017-2018,2017,2018,0.0,0,0.0,69.6,47.0,Murindó
+resguardo,10357,Urada Jiguamiando,Embera,2019-2020,2019,2020,0.0,0,0.0,69.6,47.0,Murindó
+resguardo,10357,Urada Jiguamiando,Embera,2020-2021,2020,2021,0.0,0,0.0,69.6,47.0,Murindó
+resguardo,10357,Urada Jiguamiando,Embera,2021-2022,2021,2022,0.0,0,0.0,69.6,47.0,Murindó
+resguardo,10357,Urada Jiguamiando,Embera,2022-2023,2022,2023,0.0,0,0.0,69.6,47.0,Murindó
+resguardo,10074,Valle De Perdidas,Embera Katío,2002-2004,2002,2004,0.0,0,0.0,8680.7,99.9,"Urrao, Frontino"
+resguardo,10074,Valle De Perdidas,Embera Katío,2004-2006,2004,2006,0.0,0,0.0,8680.7,99.9,"Urrao, Frontino"
+resguardo,10074,Valle De Perdidas,Embera Katío,2006-2008,2006,2008,1.3,1,0.015,8680.7,99.9,"Urrao, Frontino"
+resguardo,10074,Valle De Perdidas,Embera Katío,2008-2010,2008,2010,1.27,1,0.015,8680.7,99.9,"Urrao, Frontino"
+resguardo,10074,Valle De Perdidas,Embera Katío,2012-2013,2012,2013,0.88,1,0.01,8680.7,99.9,"Urrao, Frontino"
+resguardo,10074,Valle De Perdidas,Embera Katío,2013-2014,2013,2014,9.23,5,0.106,8680.7,99.9,"Urrao, Frontino"
+resguardo,10074,Valle De Perdidas,Embera Katío,2016-2017,2016,2017,20.12,15,0.232,8680.7,99.9,"Urrao, Frontino"
+resguardo,10074,Valle De Perdidas,Embera Katío,2017-2018,2017,2018,4.56,4,0.053,8680.7,99.9,"Urrao, Frontino"
+resguardo,10074,Valle De Perdidas,Embera Katío,2019-2020,2019,2020,10.51,7,0.121,8680.7,99.9,"Urrao, Frontino"
+resguardo,10074,Valle De Perdidas,Embera Katío,2020-2021,2020,2021,2.24,2,0.026,8680.7,99.9,"Urrao, Frontino"
+resguardo,10074,Valle De Perdidas,Embera Katío,2021-2022,2021,2022,0.0,0,0.0,8680.7,99.9,"Urrao, Frontino"
+resguardo,10074,Valle De Perdidas,Embera Katío,2022-2023,2022,2023,3.29,2,0.038,8680.7,99.9,"Urrao, Frontino"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2002-2004,2002,2004,28.49,19,0.298,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2004-2006,2004,2006,7.38,6,0.077,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2006-2008,2006,2008,29.14,19,0.305,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2008-2010,2008,2010,9.99,9,0.104,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2012-2013,2012,2013,4.8,2,0.05,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2013-2014,2013,2014,8.36,5,0.087,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2016-2017,2016,2017,65.81,37,0.688,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2017-2018,2017,2018,10.09,5,0.106,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2019-2020,2019,2020,3.69,3,0.039,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2020-2021,2020,2021,6.62,3,0.069,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2021-2022,2021,2022,26.15,15,0.273,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10067,Yaberarado (Abibe Chigorodo),Embera Katío,2022-2023,2022,2023,3.86,3,0.04,9562.1,98.8,"Chigorodó, Mutatá"
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2002-2004,2002,2004,0.0,0,0.0,289.7,100.0,Necoclí
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2004-2006,2004,2006,0.0,0,0.0,289.7,100.0,Necoclí
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2006-2008,2006,2008,0.0,0,0.0,289.7,100.0,Necoclí
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2008-2010,2008,2010,0.0,0,0.0,289.7,100.0,Necoclí
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2012-2013,2012,2013,0.0,0,0.0,289.7,100.0,Necoclí
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2013-2014,2013,2014,0.0,0,0.0,289.7,100.0,Necoclí
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2016-2017,2016,2017,0.0,0,0.0,289.7,100.0,Necoclí
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2017-2018,2017,2018,0.0,0,0.0,289.7,100.0,Necoclí
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2019-2020,2019,2020,0.0,0,0.0,289.7,100.0,Necoclí
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2020-2021,2020,2021,0.0,0,0.0,289.7,100.0,Necoclí
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2021-2022,2021,2022,0.0,0,0.0,289.7,100.0,Necoclí
+resguardo,10061,Zenu Del Volao,Senú/Zenú,2022-2023,2022,2023,0.0,0,0.0,289.7,100.0,Necoclí

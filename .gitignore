@@ -1,0 +1,28 @@
+# Dependencias
+node_modules/
+frontend/node_modules/
+
+# Build de Next.js
+frontend/.next/
+frontend/out/
+frontend/next-env.d.ts
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+*.log
+.vercel
+
+# Temporales
+frontend/data/processed/**/*.tmp
+_informe_preview.pdf
+informe_datos.json
+
+# NOTA: frontend/data/processed/ SÍ se versiona (datos que consumen las rutas API en Vercel)

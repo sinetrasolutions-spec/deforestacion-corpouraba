@@ -1,0 +1,210 @@
+﻿periodo,ano_inicio,ano_fin,municipio,codigo_dane,subregion,n_parches,ha_total,tamano_medio_ha,tamano_mediano_ha,tamano_max_ha,pct_parches_grandes,fuente_calidad
+2002-2004,2002,2004,Turbo,05837,Centro,349,1010.07,2.894,1.71,84.15,3.44,shapefile_ok
+2002-2004,2002,2004,Mutatá,05480,Centro,155,489.36,3.157,1.69,34.83,3.87,shapefile_ok
+2002-2004,2002,2004,Necoclí,05490,Caribe,127,361.78,2.849,1.92,17.59,4.72,shapefile_ok
+2002-2004,2002,2004,Chigorodó,05172,Centro,110,255.18,2.32,1.735,11.51,1.82,shapefile_ok
+2002-2004,2002,2004,Carepa,05147,Centro,42,245.99,5.857,2.08,104.63,4.76,shapefile_ok
+2002-2004,2002,2004,Urrao,05847,Urrao,112,235.38,2.102,1.675,9.77,0.0,shapefile_ok
+2002-2004,2002,2004,Dabeiba,05234,Nutibara,111,209.04,1.883,1.53,8.06,0.0,shapefile_ok
+2002-2004,2002,2004,Frontino,05284,Nutibara,34,61.55,1.81,1.515,5.06,0.0,shapefile_ok
+2002-2004,2002,2004,Peque,05543,Nutibara,11,39.42,3.584,2.15,11.98,9.09,shapefile_ok
+2002-2004,2002,2004,Vigía del Fuerte,05873,Atrato,16,31.28,1.955,1.51,4.08,0.0,shapefile_ok
+2002-2004,2002,2004,Apartadó,05045,Centro,17,29.16,1.715,1.47,4.01,0.0,shapefile_ok
+2002-2004,2002,2004,Murindó,05475,Atrato,11,23.43,2.13,1.31,6.06,0.0,shapefile_ok
+2002-2004,2002,2004,Uramita,05842,Nutibara,8,15.32,1.915,1.49,4.4,0.0,shapefile_ok
+2002-2004,2002,2004,San Pedro de Urabá,05665,Caribe,5,12.06,2.412,2.33,3.42,0.0,shapefile_ok
+2002-2004,2002,2004,Cañasgordas,05138,Nutibara,5,7.07,1.414,1.52,1.72,0.0,shapefile_ok
+2002-2004,2002,2004,Abriaquí,05004,Nutibara,3,7.0,2.333,1.22,4.61,0.0,shapefile_ok
+2002-2004,2002,2004,Arboletes,05051,Caribe,2,5.99,2.995,2.995,4.59,0.0,shapefile_ok
+2002-2004,2002,2004,San Juan de Urabá,05659,Caribe,1,2.32,2.32,2.32,2.32,0.0,shapefile_ok
+2004-2006,2004,2006,Turbo,05837,Centro,241,674.11,2.797,1.83,21.88,3.73,shapefile_ok
+2004-2006,2004,2006,Necoclí,05490,Caribe,144,427.66,2.97,1.96,33.47,4.17,shapefile_ok
+2004-2006,2004,2006,Murindó,05475,Atrato,64,277.3,4.333,1.92,37.87,7.81,shapefile_ok
+2004-2006,2004,2006,Mutatá,05480,Centro,99,268.31,2.71,2.14,17.71,2.02,shapefile_ok
+2004-2006,2004,2006,Urrao,05847,Urrao,123,255.45,2.077,1.57,9.02,0.0,shapefile_ok
+2004-2006,2004,2006,Arboletes,05051,Caribe,21,149.76,7.131,5.91,20.38,23.81,shapefile_ok
+2004-2006,2004,2006,Chigorodó,05172,Centro,52,104.94,2.018,1.5,5.37,0.0,shapefile_ok
+2004-2006,2004,2006,Dabeiba,05234,Nutibara,43,92.25,2.145,1.69,6.83,0.0,shapefile_ok
+2004-2006,2004,2006,Vigía del Fuerte,05873,Atrato,27,78.31,2.9,1.57,20.17,3.7,shapefile_ok
+2004-2006,2004,2006,Carepa,05147,Centro,24,55.85,2.327,1.555,7.37,0.0,shapefile_ok
+2004-2006,2004,2006,Apartadó,05045,Centro,20,47.12,2.356,1.815,5.63,0.0,shapefile_ok
+2004-2006,2004,2006,Frontino,05284,Nutibara,21,37.87,1.803,1.42,3.69,0.0,shapefile_ok
+2004-2006,2004,2006,San Pedro de Urabá,05665,Caribe,8,23.5,2.938,2.66,5.13,0.0,shapefile_ok
+2004-2006,2004,2006,Cañasgordas,05138,Nutibara,7,17.79,2.541,2.29,5.31,0.0,shapefile_ok
+2004-2006,2004,2006,Peque,05543,Nutibara,3,8.06,2.687,2.76,3.62,0.0,shapefile_ok
+2004-2006,2004,2006,San Juan de Urabá,05659,Caribe,2,7.25,3.625,3.625,5.71,0.0,shapefile_ok
+2004-2006,2004,2006,Uramita,05842,Nutibara,3,4.29,1.43,1.39,1.59,0.0,shapefile_ok
+2006-2008,2006,2008,Turbo,05837,Centro,213,515.13,2.418,1.6,25.87,3.29,shapefile_ok
+2006-2008,2006,2008,Mutatá,05480,Centro,115,294.98,2.565,1.66,17.94,2.61,shapefile_ok
+2006-2008,2006,2008,Necoclí,05490,Caribe,128,283.45,2.214,1.65,10.89,0.78,shapefile_ok
+2006-2008,2006,2008,Apartadó,05045,Centro,62,150.96,2.435,1.645,16.65,3.23,shapefile_ok
+2006-2008,2006,2008,Dabeiba,05234,Nutibara,57,150.4,2.639,1.55,21.09,3.51,shapefile_ok
+2006-2008,2006,2008,Urrao,05847,Urrao,62,126.86,2.046,1.7,7.82,0.0,shapefile_ok
+2006-2008,2006,2008,Chigorodó,05172,Centro,62,107.38,1.732,1.455,4.3,0.0,shapefile_ok
+2006-2008,2006,2008,Carepa,05147,Centro,41,94.36,2.301,1.74,5.86,0.0,shapefile_ok
+2006-2008,2006,2008,Arboletes,05051,Caribe,7,81.0,11.571,1.46,71.24,14.29,shapefile_ok
+2006-2008,2006,2008,Murindó,05475,Atrato,24,61.45,2.56,2.175,9.47,0.0,shapefile_ok
+2006-2008,2006,2008,Frontino,05284,Nutibara,15,34.72,2.315,1.59,11.64,6.67,shapefile_ok
+2006-2008,2006,2008,Cañasgordas,05138,Nutibara,6,19.91,3.318,2.39,8.24,0.0,shapefile_ok
+2006-2008,2006,2008,Uramita,05842,Nutibara,6,12.39,2.065,2.055,2.96,0.0,shapefile_ok
+2006-2008,2006,2008,San Pedro de Urabá,05665,Caribe,4,4.98,1.245,1.265,1.43,0.0,shapefile_ok
+2006-2008,2006,2008,Vigía del Fuerte,05873,Atrato,3,4.19,1.397,1.14,2.03,0.0,shapefile_ok
+2006-2008,2006,2008,Abriaquí,05004,Nutibara,1,1.47,1.47,1.47,1.47,0.0,shapefile_ok
+2006-2008,2006,2008,Peque,05543,Nutibara,1,1.46,1.46,1.46,1.46,0.0,shapefile_ok
+2006-2008,2006,2008,San Juan de Urabá,05659,Caribe,1,1.41,1.41,1.41,1.41,0.0,shapefile_ok
+2008-2010,2008,2010,Turbo,05837,Centro,184,594.91,3.233,1.505,164.11,2.17,shapefile_ok
+2008-2010,2008,2010,Mutatá,05480,Centro,127,473.18,3.726,2.0,46.66,7.87,shapefile_ok
+2008-2010,2008,2010,Carepa,05147,Centro,93,314.01,3.376,2.07,35.09,4.3,shapefile_ok
+2008-2010,2008,2010,Urrao,05847,Urrao,86,191.3,2.224,1.56,17.91,2.33,shapefile_ok
+2008-2010,2008,2010,Necoclí,05490,Caribe,74,187.56,2.535,1.705,22.38,1.35,shapefile_ok
+2008-2010,2008,2010,Murindó,05475,Atrato,65,154.55,2.378,1.78,15.41,3.08,shapefile_ok
+2008-2010,2008,2010,Chigorodó,05172,Centro,48,111.98,2.333,1.66,8.35,0.0,shapefile_ok
+2008-2010,2008,2010,Dabeiba,05234,Nutibara,51,109.79,2.153,1.79,7.71,0.0,shapefile_ok
+2008-2010,2008,2010,Apartadó,05045,Centro,31,79.98,2.58,1.99,6.66,0.0,shapefile_ok
+2008-2010,2008,2010,Vigía del Fuerte,05873,Atrato,25,59.78,2.391,1.44,16.98,4.0,shapefile_ok
+2008-2010,2008,2010,Frontino,05284,Nutibara,28,48.08,1.717,1.49,4.1,0.0,shapefile_ok
+2008-2010,2008,2010,San Pedro de Urabá,05665,Caribe,4,23.89,5.973,4.845,12.99,25.0,shapefile_ok
+2008-2010,2008,2010,Arboletes,05051,Caribe,6,23.54,3.923,2.2,12.63,16.67,shapefile_ok
+2008-2010,2008,2010,Cañasgordas,05138,Nutibara,5,7.91,1.582,1.5,2.31,0.0,shapefile_ok
+2008-2010,2008,2010,Peque,05543,Nutibara,5,7.67,1.534,1.76,1.84,0.0,shapefile_ok
+2008-2010,2008,2010,Abriaquí,05004,Nutibara,1,2.95,2.95,2.95,2.95,0.0,shapefile_ok
+2008-2010,2008,2010,Uramita,05842,Nutibara,1,1.81,1.81,1.81,1.81,0.0,shapefile_ok
+2012-2013,2012,2013,Turbo,05837,Centro,131,499.7,3.815,1.86,71.58,4.58,raster_depto_recortado
+2012-2013,2012,2013,Dabeiba,05234,Nutibara,111,252.58,2.275,1.39,35.79,1.8,raster_depto_recortado
+2012-2013,2012,2013,Frontino,05284,Nutibara,126,232.57,1.846,1.39,8.37,0.0,raster_depto_recortado
+2012-2013,2012,2013,Cañasgordas,05138,Nutibara,100,164.26,1.643,1.39,4.55,0.0,raster_depto_recortado
+2012-2013,2012,2013,Urrao,05847,Urrao,73,151.57,2.076,1.58,8.55,0.0,raster_depto_recortado
+2012-2013,2012,2013,Chigorodó,05172,Centro,19,98.9,5.205,1.3,51.5,10.53,raster_depto_recortado
+2012-2013,2012,2013,Uramita,05842,Nutibara,52,83.6,1.608,1.39,3.53,0.0,raster_depto_recortado
+2012-2013,2012,2013,Necoclí,05490,Caribe,25,57.37,2.295,1.67,6.69,0.0,raster_depto_recortado
+2012-2013,2012,2013,Abriaquí,05004,Nutibara,28,56.69,2.025,1.58,6.69,0.0,raster_depto_recortado
+2012-2013,2012,2013,Apartadó,05045,Centro,14,41.1,2.936,1.63,11.43,7.14,raster_depto_recortado
+2012-2013,2012,2013,Peque,05543,Nutibara,21,37.93,1.806,1.58,4.28,0.0,raster_depto_recortado
+2012-2013,2012,2013,Mutatá,05480,Centro,17,35.61,2.095,1.3,6.23,0.0,raster_depto_recortado
+2012-2013,2012,2013,Arboletes,05051,Caribe,6,24.54,4.09,3.67,8.27,0.0,raster_depto_recortado
+2012-2013,2012,2013,Vigía del Fuerte,05873,Atrato,14,22.22,1.587,1.535,2.51,0.0,raster_depto_recortado
+2012-2013,2012,2013,Carepa,05147,Centro,4,11.52,2.88,1.905,6.69,0.0,raster_depto_recortado
+2012-2013,2012,2013,Giraldo,05306,Nutibara,7,11.52,1.646,1.58,2.23,0.0,raster_depto_recortado
+2012-2013,2012,2013,Murindó,05475,Atrato,4,10.14,2.535,1.77,5.58,0.0,raster_depto_recortado
+2012-2013,2012,2013,San Pedro de Urabá,05665,Caribe,2,5.02,2.51,2.51,3.81,0.0,raster_depto_recortado
+2013-2014,2013,2014,Turbo,05837,Centro,108,1115.68,10.33,1.9,738.46,5.56,shapefile_ok
+2013-2014,2013,2014,Urrao,05847,Urrao,254,624.24,2.458,1.575,33.12,1.97,shapefile_ok
+2013-2014,2013,2014,Dabeiba,05234,Nutibara,72,361.81,5.025,1.655,112.14,5.56,shapefile_ok
+2013-2014,2013,2014,Apartadó,05045,Centro,95,359.38,3.783,2.07,23.81,9.47,shapefile_ok
+2013-2014,2013,2014,Frontino,05284,Nutibara,73,190.51,2.61,2.09,10.04,1.37,shapefile_ok
+2013-2014,2013,2014,Necoclí,05490,Caribe,15,114.44,7.629,1.58,62.58,13.33,shapefile_ok
+2013-2014,2013,2014,Mutatá,05480,Centro,32,98.53,3.079,2.16,10.31,3.12,shapefile_ok
+2013-2014,2013,2014,Murindó,05475,Atrato,38,94.73,2.493,2.055,6.31,0.0,shapefile_ok
+2013-2014,2013,2014,Chigorodó,05172,Centro,29,66.11,2.28,1.84,5.53,0.0,shapefile_ok
+2013-2014,2013,2014,Vigía del Fuerte,05873,Atrato,31,56.67,1.828,1.53,7.59,0.0,shapefile_ok
+2013-2014,2013,2014,Uramita,05842,Nutibara,14,53.69,3.835,1.865,23.47,7.14,shapefile_ok
+2013-2014,2013,2014,Peque,05543,Nutibara,8,14.22,1.777,1.755,2.99,0.0,shapefile_ok
+2013-2014,2013,2014,Carepa,05147,Centro,8,13.92,1.74,1.535,2.81,0.0,shapefile_ok
+2013-2014,2013,2014,Abriaquí,05004,Nutibara,8,13.35,1.669,1.395,3.5,0.0,shapefile_ok
+2013-2014,2013,2014,Cañasgordas,05138,Nutibara,4,8.92,2.23,1.23,5.31,0.0,shapefile_ok
+2013-2014,2013,2014,San Pedro de Urabá,05665,Caribe,3,6.85,2.283,1.85,3.95,0.0,shapefile_ok
+2013-2014,2013,2014,Arboletes,05051,Caribe,1,1.53,1.53,1.53,1.53,0.0,shapefile_ok
+2013-2014,2013,2014,Giraldo,05306,Nutibara,1,1.24,1.24,1.24,1.24,0.0,shapefile_ok
+2016-2017,2016,2017,Turbo,05837,Centro,154,659.83,4.285,2.13,53.99,8.44,shapefile_ok
+2016-2017,2016,2017,Urrao,05847,Urrao,251,540.5,2.153,1.68,11.08,0.8,shapefile_ok
+2016-2017,2016,2017,Mutatá,05480,Centro,130,429.59,3.305,2.025,28.34,6.92,shapefile_ok
+2016-2017,2016,2017,Frontino,05284,Nutibara,159,332.28,2.09,1.65,7.54,0.0,shapefile_ok
+2016-2017,2016,2017,Dabeiba,05234,Nutibara,145,274.56,1.894,1.49,9.69,0.0,shapefile_ok
+2016-2017,2016,2017,Chigorodó,05172,Centro,101,214.16,2.12,1.49,11.01,0.99,shapefile_ok
+2016-2017,2016,2017,Apartadó,05045,Centro,78,213.3,2.735,2.0,10.34,1.28,shapefile_ok
+2016-2017,2016,2017,Murindó,05475,Atrato,96,205.48,2.14,1.61,8.63,0.0,shapefile_ok
+2016-2017,2016,2017,Vigía del Fuerte,05873,Atrato,42,89.0,2.119,1.675,8.72,0.0,shapefile_ok
+2016-2017,2016,2017,Carepa,05147,Centro,23,47.69,2.073,1.73,5.01,0.0,shapefile_ok
+2016-2017,2016,2017,Cañasgordas,05138,Nutibara,21,33.5,1.595,1.48,3.27,0.0,shapefile_ok
+2016-2017,2016,2017,Uramita,05842,Nutibara,17,31.83,1.872,1.62,4.63,0.0,shapefile_ok
+2016-2017,2016,2017,Necoclí,05490,Caribe,7,30.04,4.291,2.14,13.68,14.29,shapefile_ok
+2016-2017,2016,2017,Abriaquí,05004,Nutibara,12,24.54,2.045,1.53,3.87,0.0,shapefile_ok
+2016-2017,2016,2017,Peque,05543,Nutibara,10,22.94,2.294,1.93,5.82,0.0,shapefile_ok
+2016-2017,2016,2017,Arboletes,05051,Caribe,2,16.03,8.015,8.015,15.01,50.0,shapefile_ok
+2016-2017,2016,2017,Giraldo,05306,Nutibara,3,6.53,2.177,1.35,3.88,0.0,shapefile_ok
+2016-2017,2016,2017,San Pedro de Urabá,05665,Caribe,1,2.24,2.24,2.24,2.24,0.0,shapefile_ok
+2017-2018,2017,2018,Turbo,05837,Centro,43,301.9,7.021,2.92,61.94,13.95,shapefile_ok
+2017-2018,2017,2018,Carepa,05147,Centro,13,278.81,21.447,2.57,204.42,23.08,shapefile_ok
+2017-2018,2017,2018,Urrao,05847,Urrao,106,203.69,1.922,1.555,5.95,0.0,shapefile_ok
+2017-2018,2017,2018,Murindó,05475,Atrato,56,172.31,3.077,1.75,28.99,3.57,shapefile_ok
+2017-2018,2017,2018,Apartadó,05045,Centro,40,150.68,3.767,2.505,11.31,5.0,shapefile_ok
+2017-2018,2017,2018,Dabeiba,05234,Nutibara,63,140.05,2.223,1.81,7.57,0.0,shapefile_ok
+2017-2018,2017,2018,Mutatá,05480,Centro,37,124.98,3.378,2.23,12.79,2.7,shapefile_ok
+2017-2018,2017,2018,Frontino,05284,Nutibara,48,105.19,2.191,1.64,8.53,0.0,shapefile_ok
+2017-2018,2017,2018,Vigía del Fuerte,05873,Atrato,27,60.31,2.234,2.05,7.14,0.0,shapefile_ok
+2017-2018,2017,2018,Chigorodó,05172,Centro,13,28.74,2.211,1.75,5.32,0.0,shapefile_ok
+2017-2018,2017,2018,Peque,05543,Nutibara,4,14.79,3.697,2.01,9.64,0.0,shapefile_ok
+2017-2018,2017,2018,Uramita,05842,Nutibara,1,8.92,8.92,8.92,8.92,0.0,shapefile_ok
+2017-2018,2017,2018,San Pedro de Urabá,05665,Caribe,2,5.47,2.735,2.735,3.0,0.0,shapefile_ok
+2017-2018,2017,2018,Necoclí,05490,Caribe,2,4.32,2.16,2.16,2.46,0.0,shapefile_ok
+2017-2018,2017,2018,Abriaquí,05004,Nutibara,1,4.22,4.22,4.22,4.22,0.0,shapefile_ok
+2017-2018,2017,2018,San Juan de Urabá,05659,Caribe,1,2.67,2.67,2.67,2.67,0.0,shapefile_ok
+2019-2020,2019,2020,Dabeiba,05234,Nutibara,161,390.75,2.427,1.7,15.06,1.24,shapefile_ok
+2019-2020,2019,2020,Urrao,05847,Urrao,99,229.7,2.32,1.59,15.17,2.02,shapefile_ok
+2019-2020,2019,2020,Turbo,05837,Centro,54,219.7,4.069,2.085,32.97,7.41,shapefile_ok
+2019-2020,2019,2020,Mutatá,05480,Centro,61,198.94,3.261,1.72,49.8,4.92,shapefile_ok
+2019-2020,2019,2020,Frontino,05284,Nutibara,43,82.31,1.914,1.57,5.74,0.0,shapefile_ok
+2019-2020,2019,2020,Murindó,05475,Atrato,38,82.08,2.16,1.795,7.11,0.0,shapefile_ok
+2019-2020,2019,2020,Vigía del Fuerte,05873,Atrato,29,79.88,2.754,1.82,20.13,3.45,shapefile_ok
+2019-2020,2019,2020,Carepa,05147,Centro,8,47.11,5.889,2.705,26.96,12.5,shapefile_ok
+2019-2020,2019,2020,Cañasgordas,05138,Nutibara,15,38.05,2.537,2.33,6.09,0.0,shapefile_ok
+2019-2020,2019,2020,Peque,05543,Nutibara,10,36.81,3.681,3.13,8.0,0.0,shapefile_ok
+2019-2020,2019,2020,Apartadó,05045,Centro,15,36.39,2.426,2.13,3.97,0.0,shapefile_ok
+2019-2020,2019,2020,Chigorodó,05172,Centro,18,30.11,1.673,1.405,3.12,0.0,shapefile_ok
+2019-2020,2019,2020,Necoclí,05490,Caribe,7,27.46,3.923,2.88,8.97,0.0,shapefile_ok
+2019-2020,2019,2020,San Pedro de Urabá,05665,Caribe,4,18.71,4.678,3.12,11.44,25.0,shapefile_ok
+2019-2020,2019,2020,Uramita,05842,Nutibara,3,10.86,3.62,3.51,5.11,0.0,shapefile_ok
+2019-2020,2019,2020,Arboletes,05051,Caribe,1,4.92,4.92,4.92,4.92,0.0,shapefile_ok
+2019-2020,2019,2020,San Juan de Urabá,05659,Caribe,2,4.71,2.355,2.355,2.92,0.0,shapefile_ok
+2019-2020,2019,2020,Abriaquí,05004,Nutibara,1,1.12,1.12,1.12,1.12,0.0,shapefile_ok
+2020-2021,2020,2021,Dabeiba,05234,Nutibara,94,192.44,2.047,1.745,6.16,0.0,shapefile_ok
+2020-2021,2020,2021,Urrao,05847,Urrao,87,190.89,2.194,1.82,7.67,0.0,shapefile_ok
+2020-2021,2020,2021,Mutatá,05480,Centro,37,110.61,2.989,1.75,17.07,5.41,shapefile_ok
+2020-2021,2020,2021,Murindó,05475,Atrato,44,96.75,2.199,1.45,11.85,2.27,shapefile_ok
+2020-2021,2020,2021,Vigía del Fuerte,05873,Atrato,40,86.85,2.171,1.615,8.72,0.0,shapefile_ok
+2020-2021,2020,2021,Frontino,05284,Nutibara,30,71.53,2.384,1.835,7.1,0.0,shapefile_ok
+2020-2021,2020,2021,Turbo,05837,Centro,34,68.51,2.015,1.6,5.7,0.0,shapefile_ok
+2020-2021,2020,2021,Arboletes,05051,Caribe,10,39.28,3.928,2.73,11.3,10.0,shapefile_ok
+2020-2021,2020,2021,Apartadó,05045,Centro,11,31.09,2.826,2.02,10.31,9.09,shapefile_ok
+2020-2021,2020,2021,Necoclí,05490,Caribe,11,23.24,2.113,2.03,4.08,0.0,shapefile_ok
+2020-2021,2020,2021,Cañasgordas,05138,Nutibara,5,18.64,3.728,2.36,7.82,0.0,shapefile_ok
+2020-2021,2020,2021,Carepa,05147,Centro,3,17.09,5.697,5.7,7.34,0.0,shapefile_ok
+2020-2021,2020,2021,Chigorodó,05172,Centro,6,14.37,2.395,1.915,5.02,0.0,shapefile_ok
+2020-2021,2020,2021,Peque,05543,Nutibara,2,8.17,4.085,4.085,5.91,0.0,shapefile_ok
+2020-2021,2020,2021,San Pedro de Urabá,05665,Caribe,3,5.98,1.993,2.03,2.08,0.0,shapefile_ok
+2020-2021,2020,2021,Uramita,05842,Nutibara,2,3.07,1.535,1.535,1.82,0.0,shapefile_ok
+2021-2022,2021,2022,Dabeiba,05234,Nutibara,185,525.48,2.84,1.73,39.6,3.78,shapefile_ok
+2021-2022,2021,2022,Frontino,05284,Nutibara,104,323.06,3.106,1.835,65.24,1.92,shapefile_ok
+2021-2022,2021,2022,Mutatá,05480,Centro,93,250.87,2.698,1.77,15.71,4.3,shapefile_ok
+2021-2022,2021,2022,Urrao,05847,Urrao,105,243.93,2.323,1.98,8.08,0.0,shapefile_ok
+2021-2022,2021,2022,Turbo,05837,Centro,85,177.37,2.087,1.52,9.79,0.0,shapefile_ok
+2021-2022,2021,2022,Murindó,05475,Atrato,82,151.58,1.849,1.515,5.56,0.0,shapefile_ok
+2021-2022,2021,2022,Apartadó,05045,Centro,45,109.33,2.43,1.76,12.19,2.22,shapefile_ok
+2021-2022,2021,2022,Vigía del Fuerte,05873,Atrato,31,81.7,2.635,1.9,13.7,3.23,shapefile_ok
+2021-2022,2021,2022,Chigorodó,05172,Centro,39,78.74,2.019,1.88,4.9,0.0,shapefile_ok
+2021-2022,2021,2022,Carepa,05147,Centro,7,27.63,3.947,2.36,10.77,14.29,shapefile_ok
+2021-2022,2021,2022,Necoclí,05490,Caribe,10,21.42,2.142,1.885,6.01,0.0,shapefile_ok
+2021-2022,2021,2022,Arboletes,05051,Caribe,2,14.28,7.14,7.14,7.43,0.0,shapefile_ok
+2021-2022,2021,2022,San Juan de Urabá,05659,Caribe,2,13.1,6.55,6.55,11.86,50.0,shapefile_ok
+2021-2022,2021,2022,San Pedro de Urabá,05665,Caribe,4,7.53,1.882,1.93,2.67,0.0,shapefile_ok
+2021-2022,2021,2022,Giraldo,05306,Nutibara,1,7.4,7.4,7.4,7.4,0.0,shapefile_ok
+2021-2022,2021,2022,Cañasgordas,05138,Nutibara,3,5.7,1.9,1.92,2.32,0.0,shapefile_ok
+2021-2022,2021,2022,Abriaquí,05004,Nutibara,3,5.17,1.723,1.34,2.51,0.0,shapefile_ok
+2021-2022,2021,2022,Peque,05543,Nutibara,2,3.07,1.535,1.535,1.6,0.0,shapefile_ok
+2022-2023,2022,2023,Urrao,05847,Urrao,124,260.57,2.101,1.66,12.69,0.81,shapefile_ok
+2022-2023,2022,2023,Dabeiba,05234,Nutibara,62,140.27,2.262,1.725,7.17,0.0,shapefile_ok
+2022-2023,2022,2023,Turbo,05837,Centro,45,108.12,2.403,1.74,15.86,2.22,shapefile_ok
+2022-2023,2022,2023,Frontino,05284,Nutibara,37,82.04,2.217,1.5,18.59,2.7,shapefile_ok
+2022-2023,2022,2023,Mutatá,05480,Centro,30,75.97,2.532,1.8,10.13,3.33,shapefile_ok
+2022-2023,2022,2023,Arboletes,05051,Caribe,2,58.66,29.33,29.33,57.6,50.0,shapefile_ok
+2022-2023,2022,2023,Murindó,05475,Atrato,23,46.55,2.024,1.47,8.62,0.0,shapefile_ok
+2022-2023,2022,2023,Apartadó,05045,Centro,23,42.45,1.846,1.57,4.12,0.0,shapefile_ok
+2022-2023,2022,2023,Necoclí,05490,Caribe,13,29.54,2.272,2.36,5.39,0.0,shapefile_ok
+2022-2023,2022,2023,Vigía del Fuerte,05873,Atrato,12,21.11,1.759,1.52,3.9,0.0,shapefile_ok
+2022-2023,2022,2023,Chigorodó,05172,Centro,7,11.6,1.657,1.19,4.56,0.0,shapefile_ok
+2022-2023,2022,2023,San Pedro de Urabá,05665,Caribe,5,11.55,2.31,1.73,4.46,0.0,shapefile_ok
+2022-2023,2022,2023,Cañasgordas,05138,Nutibara,7,9.96,1.423,1.3,1.77,0.0,shapefile_ok
+2022-2023,2022,2023,San Juan de Urabá,05659,Caribe,1,8.52,8.52,8.52,8.52,0.0,shapefile_ok
+2022-2023,2022,2023,Abriaquí,05004,Nutibara,2,4.9,2.45,2.45,2.93,0.0,shapefile_ok
+2022-2023,2022,2023,Uramita,05842,Nutibara,2,4.27,2.135,2.135,3.08,0.0,shapefile_ok
+2022-2023,2022,2023,Peque,05543,Nutibara,1,3.24,3.24,3.24,3.24,0.0,shapefile_ok

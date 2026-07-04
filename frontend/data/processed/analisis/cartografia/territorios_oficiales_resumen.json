@@ -1,0 +1,485 @@
+{
+ "titulo": "Territorios colectivos oficiales y deforestación mapeada — CORPOURABA 2002-2023",
+ "generado_por": "etl/analisis/cartografia/territorios_colectivos.py",
+ "fuentes": {
+  "resguardos": "C:\\Users\\Desktop\\Documents\\Documentos\\PROGRAMAS\\CONSULTAS CARTOGRÁFICAS\\CARTOGRAFIA\\TERRITORIOS COLECTIVOS\\Resguardos_Indigenas.shp",
+  "comunidades_negras": "C:\\Users\\Desktop\\Documents\\Documentos\\PROGRAMAS\\CONSULTAS CARTOGRÁFICAS\\CARTOGRAFIA\\TERRITORIOS COLECTIVOS\\Comunidades_Negras.shp",
+  "crs_original": {
+   "resguardos_crs_original": "3116",
+   "comunidades_crs_original": "3116"
+  },
+  "crs_analisis": "EPSG:3115",
+  "hotspots": "data/processed/hotspots/*.geojson (12 de 18 periodos, poligonos >=1 ha; ~87% de la deforestación medida 2000-2024)"
+ },
+ "universo": {
+  "resguardos": 40,
+  "area_resguardos_ha": 308359.7,
+  "pueblos": [
+   "Embera",
+   "Embera Chamí",
+   "Embera Chamí-Zenú",
+   "Embera Katío",
+   "Senú/Zenú",
+   "Tule/Guna (Cuna)"
+  ],
+  "consejos_comunitarios": 12,
+  "area_consejos_ha": 245640.5,
+  "solape_resguardos_consejos_ha": 0.0,
+  "area_colectivos_en_jurisdiccion_ha": 547701.1,
+  "pct_jurisdiccion_bajo_territorio_colectivo": 29.4,
+  "resguardos_mayormente_fuera_jurisdiccion": [
+   "Urada Jiguamiando"
+  ],
+  "consejos_mayormente_fuera_jurisdiccion": [
+   "Turriquitadó",
+   "Los Ríos La Larga Y Tumaradó",
+   "La Grande",
+   "Río Jiguamiandó"
+  ]
+ },
+ "totales_2002_2023_mapeado": {
+  "total_mapeado_ha": 32409.6,
+  "defo_en_resguardos_ha": 3429.6,
+  "defo_en_consejos_ha": 2794.8,
+  "defo_en_colectivos_union_ha": 6224.5,
+  "doble_conteo_evitado_ha": -0.1,
+  "pct_mapeado_en_colectivos": 19.2,
+  "pct_mapeado_en_resguardos": 10.6,
+  "pct_mapeado_en_consejos": 8.6,
+  "densidad_defo_dentro_colectivos_pct_area": 1.14,
+  "densidad_defo_fuera_colectivos_pct_area": 2.0
+ },
+ "serie_por_periodo": [
+  {
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "ano_fin": 2004,
+   "total_mapeado_ha": 2917.3,
+   "defo_resguardos_ha": 129.8,
+   "defo_consejos_ha": 133.9,
+   "defo_colectivos_ha": 263.7,
+   "pct_colectivos": 9.0
+  },
+  {
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "ano_fin": 2006,
+   "total_mapeado_ha": 2447.0,
+   "defo_resguardos_ha": 369.6,
+   "defo_consejos_ha": 222.0,
+   "defo_colectivos_ha": 591.6,
+   "pct_colectivos": 24.2
+  },
+  {
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "ano_fin": 2008,
+   "total_mapeado_ha": 1846.3,
+   "defo_resguardos_ha": 143.9,
+   "defo_consejos_ha": 56.6,
+   "defo_colectivos_ha": 200.5,
+   "pct_colectivos": 10.9
+  },
+  {
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "ano_fin": 2010,
+   "total_mapeado_ha": 2300.1,
+   "defo_resguardos_ha": 164.7,
+   "defo_consejos_ha": 354.1,
+   "defo_colectivos_ha": 518.8,
+   "pct_colectivos": 22.6
+  },
+  {
+   "periodo": "2012-2013",
+   "ano_inicio": 2012,
+   "ano_fin": 2013,
+   "total_mapeado_ha": 10050.6,
+   "defo_resguardos_ha": 123.5,
+   "defo_consejos_ha": 63.8,
+   "defo_colectivos_ha": 187.3,
+   "pct_colectivos": 1.9
+  },
+  {
+   "periodo": "2013-2014",
+   "ano_inicio": 2013,
+   "ano_fin": 2014,
+   "total_mapeado_ha": 3080.6,
+   "defo_resguardos_ha": 283.5,
+   "defo_consejos_ha": 924.6,
+   "defo_colectivos_ha": 1208.1,
+   "pct_colectivos": 39.2
+  },
+  {
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "ano_fin": 2017,
+   "total_mapeado_ha": 3023.1,
+   "defo_resguardos_ha": 615.4,
+   "defo_consejos_ha": 248.7,
+   "defo_colectivos_ha": 864.1,
+   "pct_colectivos": 28.6
+  },
+  {
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "ano_fin": 2018,
+   "total_mapeado_ha": 1545.8,
+   "defo_resguardos_ha": 208.6,
+   "defo_consejos_ha": 177.0,
+   "defo_colectivos_ha": 385.6,
+   "pct_colectivos": 24.9
+  },
+  {
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "ano_fin": 2020,
+   "total_mapeado_ha": 1459.8,
+   "defo_resguardos_ha": 300.9,
+   "defo_consejos_ha": 158.8,
+   "defo_colectivos_ha": 459.7,
+   "pct_colectivos": 31.5
+  },
+  {
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "ano_fin": 2021,
+   "total_mapeado_ha": 922.9,
+   "defo_resguardos_ha": 244.6,
+   "defo_consejos_ha": 156.2,
+   "defo_colectivos_ha": 400.8,
+   "pct_colectivos": 43.4
+  },
+  {
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "ano_fin": 2022,
+   "total_mapeado_ha": 1949.0,
+   "defo_resguardos_ha": 612.1,
+   "defo_consejos_ha": 203.8,
+   "defo_colectivos_ha": 816.0,
+   "pct_colectivos": 41.9
+  },
+  {
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "ano_fin": 2023,
+   "total_mapeado_ha": 867.1,
+   "defo_resguardos_ha": 233.0,
+   "defo_consejos_ha": 95.3,
+   "defo_colectivos_ha": 328.3,
+   "pct_colectivos": 37.9
+  }
+ ],
+ "tendencia_pct_colectivos": {
+  "pct_promedio_2002_2010": 16.7,
+  "pct_promedio_2019_2023": 38.7,
+  "pct_por_periodo": {
+   "2002-2004": 9.0,
+   "2004-2006": 24.2,
+   "2006-2008": 10.9,
+   "2008-2010": 22.6,
+   "2012-2013": 1.9,
+   "2013-2014": 39.2,
+   "2016-2017": 28.6,
+   "2017-2018": 24.9,
+   "2019-2020": 31.5,
+   "2020-2021": 43.4,
+   "2021-2022": 41.9,
+   "2022-2023": 37.9
+  }
+ },
+ "top_resguardos": [
+  {
+   "nombre": "Murindo (Rio Murindo)",
+   "pueblo": "Embera Katío",
+   "municipios": "Murindó, Dabeiba",
+   "area_oficial_ha": 18381.7,
+   "deforestacion_ha_total": 468.3,
+   "pct_en_jurisdiccion": 99.9,
+   "pct_del_territorio": 2.55
+  },
+  {
+   "nombre": "Chaquenoda",
+   "pueblo": "Embera Katío",
+   "municipios": "Frontino, Dabeiba",
+   "area_oficial_ha": 15143.7,
+   "deforestacion_ha_total": 452.6,
+   "pct_en_jurisdiccion": 100.0,
+   "pct_del_territorio": 2.99
+  },
+  {
+   "nombre": "Andabu",
+   "pueblo": "Embera Katío",
+   "municipios": "Urrao",
+   "area_oficial_ha": 16505.6,
+   "deforestacion_ha_total": 361.6,
+   "pct_en_jurisdiccion": 99.9,
+   "pct_del_territorio": 2.19
+  },
+  {
+   "nombre": "Murripantanos",
+   "pueblo": "Embera Katío",
+   "municipios": "Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó",
+   "area_oficial_ha": 31730.4,
+   "deforestacion_ha_total": 256.6,
+   "pct_en_jurisdiccion": 100.0,
+   "pct_del_territorio": 0.81
+  },
+  {
+   "nombre": "Majore Ambura",
+   "pueblo": "Embera Katío",
+   "municipios": "Urrao",
+   "area_oficial_ha": 6800.2,
+   "deforestacion_ha_total": 235.9,
+   "pct_en_jurisdiccion": 100.0,
+   "pct_del_territorio": 3.47
+  },
+  {
+   "nombre": "Yaberarado (Abibe Chigorodo)",
+   "pueblo": "Embera Katío",
+   "municipios": "Chigorodó, Mutatá",
+   "area_oficial_ha": 9562.1,
+   "deforestacion_ha_total": 204.4,
+   "pct_en_jurisdiccion": 98.8,
+   "pct_del_territorio": 2.14
+  },
+  {
+   "nombre": "Caiman Nuevo O Atlantico",
+   "pueblo": "Tule/Guna (Cuna)",
+   "municipios": "Turbo, Necoclí",
+   "area_oficial_ha": 8074.9,
+   "deforestacion_ha_total": 180.8,
+   "pct_en_jurisdiccion": 99.7,
+   "pct_del_territorio": 2.24
+  },
+  {
+   "nombre": "Rio Chajerado",
+   "pueblo": "Embera",
+   "municipios": "Murindó, Dabeiba, Vigía del Fuerte, Frontino",
+   "area_oficial_ha": 41759.6,
+   "deforestacion_ha_total": 169.8,
+   "pct_en_jurisdiccion": 100.0,
+   "pct_del_territorio": 0.41
+  },
+  {
+   "nombre": "Jaikerazavi (Abibe Mutata)",
+   "pueblo": "Embera Katío",
+   "municipios": "Mutatá",
+   "area_oficial_ha": 34629.2,
+   "deforestacion_ha_total": 163.1,
+   "pct_en_jurisdiccion": 96.7,
+   "pct_del_territorio": 0.47
+  },
+  {
+   "nombre": "Pavarando Y Amparrado Medio",
+   "pueblo": "Embera",
+   "municipios": "Dabeiba, Murindó, Mutatá",
+   "area_oficial_ha": 22039.7,
+   "deforestacion_ha_total": 149.7,
+   "pct_en_jurisdiccion": 97.9,
+   "pct_del_territorio": 0.68
+  }
+ ],
+ "top_consejos": [
+  {
+   "nombre": "Mayor Del Medio Atrato - Acia",
+   "pueblo": null,
+   "municipios": "Vigía del Fuerte, Murindó, Urrao",
+   "area_oficial_ha": 177153.1,
+   "deforestacion_ha_total": 1056.5,
+   "pct_en_jurisdiccion": 99.4,
+   "pct_del_territorio": 0.6
+  },
+  {
+   "nombre": "Bocas De Atrato Y Leoncito",
+   "pueblo": null,
+   "municipios": "Turbo",
+   "area_oficial_ha": 34338.5,
+   "deforestacion_ha_total": 1022.8,
+   "pct_en_jurisdiccion": 99.5,
+   "pct_del_territorio": 2.98
+  },
+  {
+   "nombre": "Por El Desarrollo Integral",
+   "pueblo": null,
+   "municipios": "Murindó",
+   "area_oficial_ha": 11670.5,
+   "deforestacion_ha_total": 303.8,
+   "pct_en_jurisdiccion": 88.4,
+   "pct_del_territorio": 2.6
+  },
+  {
+   "nombre": "Por La Identidad Cultural (Mandé)",
+   "pueblo": null,
+   "municipios": "Urrao, Frontino",
+   "area_oficial_ha": 12581.9,
+   "deforestacion_ha_total": 220.3,
+   "pct_en_jurisdiccion": 99.9,
+   "pct_del_territorio": 1.75
+  },
+  {
+   "nombre": "Manatíes",
+   "pueblo": null,
+   "municipios": "Turbo",
+   "area_oficial_ha": 4366.4,
+   "deforestacion_ha_total": 151.8,
+   "pct_en_jurisdiccion": 100.0,
+   "pct_del_territorio": 3.48
+  },
+  {
+   "nombre": "Mayor Del Bajo Atrato",
+   "pueblo": null,
+   "municipios": "Turbo",
+   "area_oficial_ha": 3188.4,
+   "deforestacion_ha_total": 24.4,
+   "pct_en_jurisdiccion": 96.4,
+   "pct_del_territorio": 0.77
+  },
+  {
+   "nombre": "Los Ríos La Larga Y Tumaradó",
+   "pueblo": null,
+   "municipios": "Turbo",
+   "area_oficial_ha": 1802.2,
+   "deforestacion_ha_total": 13.4,
+   "pct_en_jurisdiccion": 23.5,
+   "pct_del_territorio": 0.74
+  },
+  {
+   "nombre": "Los Mangos",
+   "pueblo": null,
+   "municipios": "Turbo",
+   "area_oficial_ha": 364.6,
+   "deforestacion_ha_total": 1.9,
+   "pct_en_jurisdiccion": 100.0,
+   "pct_del_territorio": 0.52
+  },
+  {
+   "nombre": "La Grande",
+   "pueblo": null,
+   "municipios": "Fuera de la jurisdicción",
+   "area_oficial_ha": 0.1,
+   "deforestacion_ha_total": 0.0,
+   "pct_en_jurisdiccion": 0.0,
+   "pct_del_territorio": 0.0
+  },
+  {
+   "nombre": "Turriquitadó",
+   "pueblo": null,
+   "municipios": "Murindó",
+   "area_oficial_ha": 32.9,
+   "deforestacion_ha_total": 0.0,
+   "pct_en_jurisdiccion": 15.8,
+   "pct_del_territorio": 0.0
+  },
+  {
+   "nombre": "Río Jiguamiandó",
+   "pueblo": null,
+   "municipios": "Dabeiba",
+   "area_oficial_ha": 130.3,
+   "deforestacion_ha_total": 0.0,
+   "pct_en_jurisdiccion": 40.0,
+   "pct_del_territorio": 0.0
+  },
+  {
+   "nombre": "Vígia De Curvaradó Y Santa Rosa De Limón",
+   "pueblo": null,
+   "municipios": "Murindó",
+   "area_oficial_ha": 11.6,
+   "deforestacion_ha_total": 0.0,
+   "pct_en_jurisdiccion": 58.9,
+   "pct_del_territorio": 0.0
+  }
+ ],
+ "deforestacion_por_pueblo": [
+  {
+   "pueblo": "Embera Katío",
+   "defo_mapeada_ha": 2652.6
+  },
+  {
+   "pueblo": "Embera",
+   "defo_mapeada_ha": 596.2
+  },
+  {
+   "pueblo": "Tule/Guna (Cuna)",
+   "defo_mapeada_ha": 180.8
+  },
+  {
+   "pueblo": "Senú/Zenú",
+   "defo_mapeada_ha": 0.2
+  },
+  {
+   "pueblo": "Embera Chamí",
+   "defo_mapeada_ha": 0.0
+  },
+  {
+   "pueblo": "Embera Chamí-Zenú",
+   "defo_mapeada_ha": 0.0
+  }
+ ],
+ "comparacion_capas_derivadas": {
+  "resguardos": {
+   "disponible": true,
+   "n_territorios": 39,
+   "area_ha": 326057.2,
+   "defo_mapeada_ha": 3493.4
+  },
+  "consejos": {
+   "disponible": true,
+   "n_territorios": 7,
+   "area_ha": 235930.9,
+   "defo_mapeada_ha": 2730.3
+  }
+ },
+ "comparacion_series_previas": {
+  "resguardos": {
+   "disponible": false,
+   "nota": "resguardos_serie.csv no existe al momento de este análisis"
+  },
+  "consejos": {
+   "disponible": false,
+   "nota": "consejos_serie.csv no existe al momento de este análisis"
+  }
+ },
+ "advertencias": [
+  "Los hotspots cubren 12 de 18 periodos (~87% de la deforestación medida); todas las cifras son 'de la deforestación mapeada', no del total 2000-2024.",
+  "Los hotspots solo incluyen polígonos >=1 ha: la deforestación difusa (<1 ha) dentro de los territorios no está contada.",
+  "Las capas oficiales incluyen territorios parcial o totalmente fuera de la jurisdicción CORPOURABA (Chocó, Bajo Cauca); su deforestación solo se contabiliza dentro de la jurisdicción monitoreada.",
+  "Capa oficial de resguardos: 1 geometría inválida reparada con buffer(0).",
+  "Áreas calculadas en EPSG:3115 sobre geometría oficial reproyectada desde EPSG:3116; pueden diferir del área del acto administrativo (area_acto_ha)."
+ ],
+ "log": [
+  "=== Territorios colectivos oficiales × deforestación mapeada ===",
+  "[1/5] capas oficiales",
+  "  [QA] 1 geometría(s) inválida(s) reparada(s) con buffer(0)",
+  "  resguardos: 40 territorios oficiales, 308,360 ha (CRS original EPSG:3116)",
+  "  comunidades negras: 12 territorios oficiales, 245,641 ha (CRS original EPSG:3116)",
+  "[2/5] contexto jurisdiccional",
+  "  resguardos: 1 de 40 territorios con <50% del área dentro de la jurisdicción CORPOURABA",
+  "  consejos: 4 de 12 territorios con <50% del área dentro de la jurisdicción CORPOURABA",
+  "[3/5] cruce con hotspots (12 periodos)",
+  "  hotspots: 12 periodos → 2002-2004, 2004-2006, 2006-2008, 2008-2010, 2012-2013, 2013-2014, 2016-2017, 2017-2018, 2019-2020, 2020-2021, 2021-2022, 2022-2023",
+  "    2002-2004: mapeado  2,917.3 ha | colectivos   263.7 ha (9.0%)",
+  "    2004-2006: mapeado  2,447.0 ha | colectivos   591.6 ha (24.2%)",
+  "    2006-2008: mapeado  1,846.3 ha | colectivos   200.5 ha (10.9%)",
+  "    2008-2010: mapeado  2,300.1 ha | colectivos   518.8 ha (22.6%)",
+  "    2012-2013: mapeado 10,050.6 ha | colectivos   187.3 ha (1.9%)",
+  "    2013-2014: mapeado  3,080.6 ha | colectivos 1,208.1 ha (39.2%)",
+  "    2016-2017: mapeado  3,023.1 ha | colectivos   864.1 ha (28.6%)",
+  "    2017-2018: mapeado  1,545.8 ha | colectivos   385.6 ha (24.9%)",
+  "    2019-2020: mapeado  1,459.8 ha | colectivos   459.7 ha (31.5%)",
+  "    2020-2021: mapeado    922.9 ha | colectivos   400.8 ha (43.4%)",
+  "    2021-2022: mapeado  1,949.0 ha | colectivos   816.0 ha (41.9%)",
+  "    2022-2023: mapeado    867.1 ha | colectivos   328.3 ha (37.9%)",
+  "  [QA] divergencia máx. área geométrica vs propiedad 'ha' de hotspots: 6.02%",
+  "  CSV: territorios_oficiales.csv (624 filas)",
+  "[4/5] comparaciones y síntesis",
+  "[5/5] capas web",
+  "  capa web resguardos_oficial.geojson: 40 territorios, 117 KB (tolerancia 60 m)",
+  "  capa web comunidades_negras_oficial.geojson: 12 territorios, 57 KB (tolerancia 60 m)"
+ ],
+ "capas_web": [
+  "resguardos_oficial.geojson (117 KB)",
+  "comunidades_negras_oficial.geojson (57 KB)"
+ ]
+}

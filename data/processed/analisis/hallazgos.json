@@ -1,0 +1,142 @@
+[
+ {
+  "id": "etnicos-desplazamiento",
+  "tema": "territorios_etnicos",
+  "titulo": "La deforestación se desplaza hacia territorios étnicos",
+  "cifra": 40.9,
+  "unidad": "% de la deforestación mapeada",
+  "periodo_referencia": "2019-2023",
+  "descripcion": "En 2002-2010 los resguardos indígenas y consejos comunitarios concentraban el 16,4% de la deforestación mapeada; en 2019-2023 concentran el 40,9%. La presión se movió hacia los territorios colectivos mientras el resto de la jurisdicción desacelera.",
+  "relevancia": 10
+ },
+ {
+  "id": "bosque-perdido-regional",
+  "tema": "dinamica_bosque",
+  "titulo": "La jurisdicción perdió 37.809 ha de bosque estable",
+  "cifra": 37809,
+  "unidad": "ha (2000-2002 → 2022-2023)",
+  "periodo_referencia": "2000-2023",
+  "descripcion": "El bosque estable pasó de 908.114 ha a 870.305 ha entre los periodos 2000-2002 y 2022-2023: una pérdida neta del 4,2% del bosque de la jurisdicción, medida con las mismas fuentes municipales en ambos extremos.",
+  "relevancia": 10
+ },
+ {
+  "id": "frentes-persistentes",
+  "tema": "fragmentacion",
+  "titulo": "72% de la pérdida ocurre en frentes persistentes",
+  "cifra": 72.2,
+  "unidad": "% de ha en celdas recurrentes",
+  "periodo_referencia": "2002-2023",
+  "descripcion": "1.039 celdas de 2×2 km registran deforestación en 3 o más periodos y concentran el 72,2% de las hectáreas deforestadas mapeadas. No son eventos dispersos: son frentes activos y localizables, priorizables para control.",
+  "relevancia": 9
+ },
+ {
+  "id": "turbo-carepa-perdida",
+  "tema": "dinamica_bosque",
+  "titulo": "Turbo pierde más bosque; Carepa, la mayor fracción",
+  "cifra": 18424,
+  "unidad": "ha de bosque perdidas (Turbo)",
+  "periodo_referencia": "2000-2023",
+  "descripcion": "Turbo perdió 18.424 ha de bosque estable (-24,6% de su bosque de 2000). En proporción, Carepa es el caso más crítico: conserva solo el 56,8% de su bosque inicial (-43,2%). Necoclí (-23,8%) y Chigorodó (-12,6%) completan el cuadro del eje bananero.",
+  "relevancia": 9
+ },
+ {
+  "id": "areas-protegidas-defo",
+  "tema": "areas_protegidas",
+  "titulo": "3.362 ha deforestadas dentro de áreas protegidas",
+  "cifra": 3362,
+  "unidad": "ha (12,6% de lo mapeado)",
+  "periodo_referencia": "2002-2023",
+  "descripcion": "En los 10 periodos comparables, el 12,6% de la deforestación mapeada ocurrió dentro de áreas protegidas. El DRMI Serranía de Abibe concentra 1.903 ha (57% del total en AP), con pico de 585 ha en 2015-2016; le siguen la RFPN Carauta (514 ha) y el PNN Las Orquídeas (334 ha).",
+  "relevancia": 9
+ },
+ {
+  "id": "regeneracion-insuficiente",
+  "tema": "dinamica_bosque",
+  "titulo": "La regeneración solo compensa el 2% de la pérdida",
+  "cifra": 2.1,
+  "unidad": "% de la deforestación medida",
+  "periodo_referencia": "2000-2023",
+  "descripcion": "En los periodos con medición directa se regeneraron 726 ha frente a 34.542 ha deforestadas: una relación de 1 a 48. Arboletes (18,8%) y Urrao (9,6%) son los únicos municipios donde la regeneración supera el 5% de su pérdida.",
+  "relevancia": 8
+ },
+ {
+  "id": "cuenca-leon",
+  "tema": "cuencas",
+  "titulo": "La cuenca del río León es la más golpeada",
+  "cifra": 6333,
+  "unidad": "ha deforestadas",
+  "periodo_referencia": "2000-2023",
+  "descripcion": "De las 7 cuencas monitoreadas (39% de la jurisdicción), la del río León acumula 6.333 ha deforestadas (2,9% de su superficie) con tendencia a empeorar. Le sigue Turbo-Currulao con 2.604 ha. Son cuencas abastecedoras del eje bananero.",
+  "relevancia": 8
+ },
+ {
+  "id": "embera-katio",
+  "tema": "territorios_etnicos",
+  "titulo": "El pueblo Embera Katío concentra la pérdida en resguardos",
+  "cifra": 3478,
+  "unidad": "ha (77% de la pérdida en resguardos)",
+  "periodo_referencia": "2002-2023",
+  "descripcion": "De las 4.513 ha deforestadas en resguardos con medición de área, 3.478 ha corresponden a territorios del pueblo Embera Katío. Los resguardos de Murindó (583 ha), Chaquenodá (558 ha) y Andabú (421 ha) encabezan el ranking.",
+  "relevancia": 8
+ },
+ {
+  "id": "frentes-mutata-dabeiba",
+  "tema": "fragmentacion",
+  "titulo": "Frentes activos 10 de 12 periodos en Mutatá y Dabeiba",
+  "cifra": 10,
+  "unidad": "periodos con deforestación (máx. observado)",
+  "periodo_referencia": "2002-2023",
+  "descripcion": "Las celdas más recurrentes de la jurisdicción (piedemonte de Mutatá y Dabeiba, eje de la vía al mar) registran deforestación en 10 de los 12 periodos mapeados, con hasta 127 ha acumuladas por celda de 400 ha. Urrao (179), Turbo (165) y Dabeiba (152) tienen más celdas persistentes.",
+  "relevancia": 8
+ },
+ {
+  "id": "acia-atrato",
+  "tema": "territorios_etnicos",
+  "titulo": "ACIA (Medio Atrato): el territorio colectivo más afectado",
+  "cifra": 1255,
+  "unidad": "ha deforestadas",
+  "periodo_referencia": "2002-2023",
+  "descripcion": "El Consejo Comunitario Mayor del Medio Atrato acumula 1.255 ha deforestadas, el 55% de la pérdida en consejos comunitarios (2.269 ha). En proporción de su enorme territorio (174.778 ha) es un 0,7%, pero su tendencia acompaña la aceleración del Atrato.",
+  "relevancia": 7
+ },
+ {
+  "id": "atomizacion",
+  "tema": "fragmentacion",
+  "titulo": "Deforestación atomizada: 9.107 parches, mediana 1,7 ha",
+  "cifra": 9107,
+  "unidad": "parches ≥1 ha en 12 periodos",
+  "periodo_referencia": "2002-2023",
+  "descripcion": "El 92% de los parches mide menos de 5 ha (64% del área); solo el 2,5% supera 10 ha pero aporta el 22,5% del área. El tamaño de parche es estable en el tiempo (~2,8 ha): el patrón es de colonización hormiga, no de grandes praderizaciones — con la excepción de Turbo (parche máximo de 738 ha).",
+  "relevancia": 7
+ },
+ {
+  "id": "subregiones-divergen",
+  "tema": "dinamica_bosque",
+  "titulo": "Caribe y Centro desaceleran; Atrato, Nutibara y Urrao aceleran",
+  "cifra": 3,
+  "unidad": "subregiones con tasa en aumento",
+  "periodo_referencia": "2017-2023 vs 2000-2008",
+  "descripcion": "La tasa relativa de pérdida (deforestación anual sobre bosque remanente) baja en Caribe (1,0%→0,3%) y Centro (0,5%→0,3%), pero sube en Atrato, Nutibara y Urrao. La frontera de deforestación se corre hacia las subregiones más boscosas — coherente con el desplazamiento hacia territorios étnicos.",
+  "relevancia": 8
+ },
+ {
+  "id": "ap-pico-2016",
+  "tema": "areas_protegidas",
+  "titulo": "El pico dentro de áreas protegidas fue 2015-2016",
+  "cifra": 730,
+  "unidad": "ha en un solo periodo",
+  "periodo_referencia": "2015-2016",
+  "descripcion": "Durante el pico regional post-acuerdo, las áreas protegidas recibieron 730 ha de deforestación en un año (14,7% del total del periodo). La participación de las AP en la deforestación total muestra leve tendencia a la baja (-0,2 puntos porcentuales/año).",
+  "relevancia": 6
+ },
+ {
+  "id": "cuencas-cobertura",
+  "tema": "cuencas",
+  "titulo": "11.642 ha deforestadas en las cuencas monitoreadas",
+  "cifra": 11642,
+  "unidad": "ha (11 periodos confiables)",
+  "periodo_referencia": "2000-2023",
+  "descripcion": "Las 7 cuencas priorizadas (723.026 ha, 38,9% de la jurisdicción) acumulan 11.642 ha de deforestación en los periodos con área confiable. El análisis detectó y excluyó un defecto de datos: en 2021-2022 la columna de área venía sin recortar contra la cuenca (2,7 M ha reportadas).",
+  "relevancia": 6
+ }
+]

@@ -1,0 +1,325 @@
+﻿idcu,cuenca,periodo,ano_inicio,ano_fin,clase,hectareas,hectareas_anuales,n_poligonos,fuente,area_confiable,flag_calidad
+7,Canalete,2000-2002,2000,2002,Bosque Estable,163.82,81.91,42,xlsx:columna_area,True,columna_validada_ok
+7,Canalete,2000-2002,2000,2002,No Bosque Estable,7498.1,3749.05,20,xlsx:columna_area,True,columna_validada_ok
+7,Canalete,2002-2004,2002,2004,Bosque Estable,163.84,81.92,42,shp:geometria,True,geometria_metrica
+7,Canalete,2002-2004,2002,2004,No Bosque Estable,7499.03,3749.51,20,shp:geometria,True,geometria_metrica
+7,Canalete,2004-2006,2004,2006,Bosque Estable,136.45,68.22,32,shp:geometria,True,geometria_metrica
+7,Canalete,2004-2006,2004,2006,Deforestación,27.39,13.7,10,shp:geometria,True,geometria_metrica
+7,Canalete,2004-2006,2004,2006,No Bosque Estable,7499.03,3749.51,20,shp:geometria,True,geometria_metrica
+7,Canalete,2006-2008,2006,2008,Bosque Estable,135.9,67.95,33,xlsx:columna_area,True,columna_validada_ok
+7,Canalete,2006-2008,2006,2008,No Bosque Estable,7526.12,3763.06,23,xlsx:columna_area,True,columna_validada_ok
+7,Canalete,2008-2010,2008,2010,Bosque Estable,133.28,66.64,31,shp:geometria,True,geometria_metrica
+7,Canalete,2008-2010,2008,2010,Deforestación,2.84,1.42,1,shp:geometria,True,geometria_metrica
+7,Canalete,2008-2010,2008,2010,No Bosque Estable,7526.79,3763.39,18,shp:geometria,True,geometria_metrica
+7,Canalete,2015-2016,2015,2016,Bosque Estable,22.64,22.64,32,shp:geometria,True,geometria_metrica
+7,Canalete,2015-2016,2015,2016,Deforestación,1.91,1.91,2,shp:geometria,True,geometria_metrica
+7,Canalete,2015-2016,2015,2016,No Bosque Estable,7639.15,7639.15,4,shp:geometria,True,geometria_metrica
+7,Canalete,2015-2016,2015,2016,Sin Información,0.12,0.12,2,shp:geometria,True,geometria_metrica
+7,Canalete,2016-2017,2016,2017,Bosque Estable,22.71,22.71,30,shp:geometria,True,geometria_metrica
+7,Canalete,2016-2017,2016,2017,No Bosque Estable,7641.13,7641.13,3,shp:geometria,True,geometria_metrica
+7,Canalete,2017-2018,2017,2018,Bosque Estable,22.71,22.71,30,shp:geometria,True,geometria_metrica
+7,Canalete,2017-2018,2017,2018,No Bosque Estable,7641.13,7641.13,3,shp:geometria,True,geometria_metrica
+7,Canalete,2019-2020,2019,2020,Bosque Estable,216.27,216.27,93,shp:geometria,True,geometria_metrica
+7,Canalete,2019-2020,2019,2020,No Bosque Estable,7445.86,7445.86,10,shp:geometria,True,geometria_metrica
+7,Canalete,2019-2020,2019,2020,Sin Información,1.14,1.14,4,shp:geometria,True,geometria_metrica
+7,Canalete,2020-2021,2020,2021,Bosque Estable,216.27,216.27,93,shp:geometria,True,geometria_metrica
+7,Canalete,2020-2021,2020,2021,Regeneración,7446.85,7446.85,8,shp:geometria,True,geometria_metrica
+7,Canalete,2020-2021,2020,2021,Sin Información,0.12,0.12,2,shp:geometria,True,geometria_metrica
+7,Canalete,2021-2022,2021,2022,Bosque Estable,238.2,238.2,93,xlsx:columna_area,False,columna_area_preclip_no_confiable
+7,Canalete,2021-2022,2021,2022,Deforestación,11.88,11.88,1,xlsx:columna_area,False,columna_area_preclip_no_confiable
+7,Canalete,2021-2022,2021,2022,No Bosque Estable,150948.47,150948.47,11,xlsx:columna_area,False,columna_area_preclip_no_confiable
+7,Canalete,2021-2022,2021,2022,Sin Información,4.13,4.13,33,xlsx:columna_area,False,columna_area_preclip_no_confiable
+7,Canalete,2022-2023,2022,2023,Bosque Estable,194.55,194.55,103,shp:geometria,True,geometria_metrica
+7,Canalete,2022-2023,2022,2023,No Bosque Estable,7469.41,7469.41,18,shp:geometria,True,geometria_metrica
+7,Canalete,2022-2023,2022,2023,Sin Información,0.37,0.37,2,shp:geometria,True,geometria_metrica
+7,Canalete,2023-2024,2023,2024,Bosque Estable,,,105,dbf:conteo,False,solo_conteo_sin_area
+7,Canalete,2023-2024,2023,2024,Regeneración,,,21,dbf:conteo,False,solo_conteo_sin_area
+6,Cauca,2000-2002,2000,2002,Bosque Estable,9548.8,4774.4,613,xlsx:columna_area,True,columna_validada_ok
+6,Cauca,2000-2002,2000,2002,Deforestación,20.92,10.46,28,xlsx:columna_area,True,columna_validada_ok
+6,Cauca,2000-2002,2000,2002,No Bosque Estable,33148.96,16574.48,401,xlsx:columna_area,True,columna_validada_ok
+6,Cauca,2000-2002,2000,2002,Sin Información,2.85,1.43,1,xlsx:columna_area,True,columna_validada_ok
+6,Cauca,2002-2004,2002,2004,Bosque Estable,9504.05,4752.02,611,shp:geometria,True,geometria_metrica
+6,Cauca,2002-2004,2002,2004,Deforestación,29.97,14.98,34,shp:geometria,True,geometria_metrica
+6,Cauca,2002-2004,2002,2004,No Bosque Estable,33205.44,16602.72,402,shp:geometria,True,geometria_metrica
+6,Cauca,2002-2004,2002,2004,Sin Información,0.1,0.05,1,shp:geometria,True,geometria_metrica
+6,Cauca,2004-2006,2004,2006,Bosque Estable,9494.46,4747.23,615,shp:geometria,True,geometria_metrica
+6,Cauca,2004-2006,2004,2006,Deforestación,3.62,1.81,1,shp:geometria,True,geometria_metrica
+6,Cauca,2004-2006,2004,2006,No Bosque Estable,33237.47,16618.74,411,shp:geometria,True,geometria_metrica
+6,Cauca,2004-2006,2004,2006,Sin Información,4.01,2.0,2,shp:geometria,True,geometria_metrica
+6,Cauca,2006-2008,2006,2008,Bosque Estable,9484.01,4742.01,706,xlsx:columna_area,True,columna_validada_ok
+6,Cauca,2006-2008,2006,2008,Deforestación,5.07,2.54,6,xlsx:columna_area,True,columna_validada_ok
+6,Cauca,2006-2008,2006,2008,No Bosque Estable,33221.88,16610.94,499,xlsx:columna_area,True,columna_validada_ok
+6,Cauca,2006-2008,2006,2008,Sin Información,10.49,5.25,17,xlsx:columna_area,True,columna_validada_ok
+6,Cauca,2008-2010,2008,2010,Bosque Estable,9506.31,4753.15,607,shp:geometria,True,geometria_metrica
+6,Cauca,2008-2010,2008,2010,Deforestación,9.0,4.5,15,shp:geometria,True,geometria_metrica
+6,Cauca,2008-2010,2008,2010,No Bosque Estable,33186.01,16593.01,417,shp:geometria,True,geometria_metrica
+6,Cauca,2008-2010,2008,2010,Sin Información,38.24,19.12,30,shp:geometria,True,geometria_metrica
+6,Cauca,2015-2016,2015,2016,Bosque Estable,9571.54,9571.54,744,shp:geometria,True,geometria_metrica
+6,Cauca,2015-2016,2015,2016,Deforestación,5.91,5.91,6,shp:geometria,True,geometria_metrica
+6,Cauca,2015-2016,2015,2016,No Bosque Estable,33019.41,33019.41,405,shp:geometria,True,geometria_metrica
+6,Cauca,2015-2016,2015,2016,Sin Información,143.71,143.71,35,shp:geometria,True,geometria_metrica
+6,Cauca,2016-2017,2016,2017,Bosque Estable,9343.02,9343.02,703,shp:geometria,True,geometria_metrica
+6,Cauca,2016-2017,2016,2017,Deforestación,39.31,39.31,56,shp:geometria,True,geometria_metrica
+6,Cauca,2016-2017,2016,2017,No Bosque Estable,33209.99,33209.99,395,shp:geometria,True,geometria_metrica
+6,Cauca,2016-2017,2016,2017,Sin Información,148.13,148.13,37,shp:geometria,True,geometria_metrica
+6,Cauca,2017-2018,2017,2018,Bosque Estable,9343.02,9343.02,703,shp:geometria,True,geometria_metrica
+6,Cauca,2017-2018,2017,2018,Deforestación,39.31,39.31,56,shp:geometria,True,geometria_metrica
+6,Cauca,2017-2018,2017,2018,No Bosque Estable,33209.99,33209.99,395,shp:geometria,True,geometria_metrica
+6,Cauca,2017-2018,2017,2018,Sin Información,148.13,148.13,37,shp:geometria,True,geometria_metrica
+6,Cauca,2019-2020,2019,2020,Bosque Estable,9363.7,9363.7,702,shp:geometria,True,geometria_metrica
+6,Cauca,2019-2020,2019,2020,Deforestación,36.3,36.3,12,shp:geometria,True,geometria_metrica
+6,Cauca,2019-2020,2019,2020,No Bosque Estable,33340.47,33340.47,375,shp:geometria,True,geometria_metrica
+6,Cauca,2020-2021,2020,2021,Bosque Estable,9353.4,9353.4,704,shp:geometria,True,geometria_metrica
+6,Cauca,2020-2021,2020,2021,Deforestación,9.66,9.66,5,shp:geometria,True,geometria_metrica
+6,Cauca,2020-2021,2020,2021,Regeneración,33377.51,33377.51,369,shp:geometria,True,geometria_metrica
+6,Cauca,2021-2022,2021,2022,Bosque Estable,316162.93,316162.93,706,xlsx:columna_area,False,columna_area_preclip_no_confiable
+6,Cauca,2021-2022,2021,2022,Deforestación,13.49,13.49,5,xlsx:columna_area,False,columna_area_preclip_no_confiable
+6,Cauca,2021-2022,2021,2022,No Bosque Estable,128013.56,128013.56,358,xlsx:columna_area,False,columna_area_preclip_no_confiable
+6,Cauca,2022-2023,2022,2023,Bosque Estable,9309.12,9309.12,695,shp:geometria,True,geometria_metrica
+6,Cauca,2022-2023,2022,2023,Deforestación,3.91,3.91,3,shp:geometria,True,geometria_metrica
+6,Cauca,2022-2023,2022,2023,No Bosque Estable,33427.6,33427.6,348,shp:geometria,True,geometria_metrica
+6,Cauca,2023-2024,2023,2024,Bosque Estable,,,707,dbf:conteo,False,solo_conteo_sin_area
+6,Cauca,2023-2024,2023,2024,Deforestación,,,11,dbf:conteo,False,solo_conteo_sin_area
+6,Cauca,2023-2024,2023,2024,Regeneración,,,360,dbf:conteo,False,solo_conteo_sin_area
+5,León,2000-2002,2000,2002,Bosque Estable,65300.6,32650.3,4450,xlsx:columna_area,True,columna_validada_ok
+5,León,2000-2002,2000,2002,Deforestación,69.69,34.84,57,xlsx:columna_area,True,columna_validada_ok
+5,León,2000-2002,2000,2002,No Bosque Estable,150319.08,75159.54,3184,xlsx:columna_area,True,columna_validada_ok
+5,León,2000-2002,2000,2002,Sin Información,1019.23,509.62,267,xlsx:columna_area,True,columna_validada_ok
+5,León,2002-2004,2002,2004,Bosque Estable,64344.11,32172.06,4142,shp:geometria,True,geometria_metrica
+5,León,2002-2004,2002,2004,Deforestación,846.94,423.47,696,shp:geometria,True,geometria_metrica
+5,León,2002-2004,2002,2004,No Bosque Estable,150723.63,75361.82,3067,shp:geometria,True,geometria_metrica
+5,León,2002-2004,2002,2004,Sin Información,809.06,404.53,267,shp:geometria,True,geometria_metrica
+5,León,2004-2006,2004,2006,Bosque Estable,64080.32,32040.16,4033,shp:geometria,True,geometria_metrica
+5,León,2004-2006,2004,2006,Deforestación,394.5,197.25,370,shp:geometria,True,geometria_metrica
+5,León,2004-2006,2004,2006,No Bosque Estable,151798.02,75899.01,3078,shp:geometria,True,geometria_metrica
+5,León,2004-2006,2004,2006,Sin Información,450.47,225.24,162,shp:geometria,True,geometria_metrica
+5,León,2006-2008,2006,2008,Bosque Estable,62950.42,31475.21,5510,xlsx:columna_area,True,columna_validada_ok
+5,León,2006-2008,2006,2008,Deforestación,600.4,300.2,628,xlsx:columna_area,True,columna_validada_ok
+5,León,2006-2008,2006,2008,No Bosque Estable,152432.86,76216.43,4397,xlsx:columna_area,True,columna_validada_ok
+5,León,2006-2008,2006,2008,Sin Información,725.71,362.86,579,xlsx:columna_area,True,columna_validada_ok
+5,León,2008-2010,2008,2010,Bosque Estable,62065.66,31032.83,3486,shp:geometria,True,geometria_metrica
+5,León,2008-2010,2008,2010,Deforestación,789.08,394.54,663,shp:geometria,True,geometria_metrica
+5,León,2008-2010,2008,2010,No Bosque Estable,152758.38,76379.19,2926,shp:geometria,True,geometria_metrica
+5,León,2008-2010,2008,2010,Sin Información,1110.06,555.03,730,shp:geometria,True,geometria_metrica
+5,León,2015-2016,2015,2016,Bosque Estable,58997.23,58997.23,1895,shp:geometria,True,geometria_metrica
+5,León,2015-2016,2015,2016,Deforestación,1676.65,1676.65,540,shp:geometria,True,geometria_metrica
+5,León,2015-2016,2015,2016,No Bosque Estable,153519.56,153519.56,1483,shp:geometria,True,geometria_metrica
+5,León,2015-2016,2015,2016,Sin Información,2530.85,2530.85,271,shp:geometria,True,geometria_metrica
+5,León,2016-2017,2016,2017,Bosque Estable,57426.67,57426.67,1805,shp:geometria,True,geometria_metrica
+5,León,2016-2017,2016,2017,Deforestación,844.9,844.9,739,shp:geometria,True,geometria_metrica
+5,León,2016-2017,2016,2017,No Bosque Estable,155907.94,155907.94,1375,shp:geometria,True,geometria_metrica
+5,León,2016-2017,2016,2017,Regeneración,6.17,6.17,2,shp:geometria,True,geometria_metrica
+5,León,2016-2017,2016,2017,Sin Información,2538.69,2538.69,268,shp:geometria,True,geometria_metrica
+5,León,2017-2018,2017,2018,Bosque Estable,57426.67,57426.67,1805,shp:geometria,True,geometria_metrica
+5,León,2017-2018,2017,2018,Deforestación,844.9,844.9,739,shp:geometria,True,geometria_metrica
+5,León,2017-2018,2017,2018,No Bosque Estable,155907.94,155907.94,1375,shp:geometria,True,geometria_metrica
+5,León,2017-2018,2017,2018,Regeneración,6.17,6.17,2,shp:geometria,True,geometria_metrica
+5,León,2017-2018,2017,2018,Sin Información,2538.69,2538.69,268,shp:geometria,True,geometria_metrica
+5,León,2019-2020,2019,2020,Bosque Estable,56573.14,56573.14,826,shp:geometria,True,geometria_metrica
+5,León,2019-2020,2019,2020,Deforestación,137.83,137.83,82,shp:geometria,True,geometria_metrica
+5,León,2019-2020,2019,2020,No Bosque Estable,159995.08,159995.08,809,shp:geometria,True,geometria_metrica
+5,León,2019-2020,2019,2020,Sin Información,20.31,20.31,12,shp:geometria,True,geometria_metrica
+5,León,2020-2021,2020,2021,Bosque Estable,56442.39,56442.39,839,shp:geometria,True,geometria_metrica
+5,León,2020-2021,2020,2021,Deforestación,66.97,66.97,23,shp:geometria,True,geometria_metrica
+5,León,2020-2021,2020,2021,Regeneración,160134.7,160134.7,844,shp:geometria,True,geometria_metrica
+5,León,2020-2021,2020,2021,Sin Información,82.16,82.16,46,shp:geometria,True,geometria_metrica
+5,León,2021-2022,2021,2022,Bosque Estable,109591.95,109591.95,873,xlsx:columna_area,False,columna_area_preclip_no_confiable
+5,León,2021-2022,2021,2022,Deforestación,304.87,304.87,194,xlsx:columna_area,False,columna_area_preclip_no_confiable
+5,León,2021-2022,2021,2022,No Bosque Estable,387546.54,387546.54,851,xlsx:columna_area,False,columna_area_preclip_no_confiable
+5,León,2021-2022,2021,2022,Sin Información,124.66,124.66,73,xlsx:columna_area,False,columna_area_preclip_no_confiable
+5,León,2022-2023,2022,2023,Bosque Estable,55856.54,55856.54,907,shp:geometria,True,geometria_metrica
+5,León,2022-2023,2022,2023,Deforestación,61.56,61.56,39,shp:geometria,True,geometria_metrica
+5,León,2022-2023,2022,2023,No Bosque Estable,160807.26,160807.26,941,shp:geometria,True,geometria_metrica
+5,León,2023-2024,2023,2024,Bosque Estable,,,928,dbf:conteo,False,solo_conteo_sin_area
+5,León,2023-2024,2023,2024,Deforestación,,,73,dbf:conteo,False,solo_conteo_sin_area
+5,León,2023-2024,2023,2024,Regeneración,,,954,dbf:conteo,False,solo_conteo_sin_area
+4,Mulaticos,2000-2002,2000,2002,Bosque Estable,1365.48,682.74,60,xlsx:columna_area,True,columna_validada_ok
+4,Mulaticos,2000-2002,2000,2002,No Bosque Estable,12031.19,6015.6,37,xlsx:columna_area,True,columna_validada_ok
+4,Mulaticos,2002-2004,2002,2004,Bosque Estable,1347.68,673.84,62,shp:geometria,True,geometria_metrica
+4,Mulaticos,2002-2004,2002,2004,Deforestación,11.35,5.67,8,shp:geometria,True,geometria_metrica
+4,Mulaticos,2002-2004,2002,2004,No Bosque Estable,12036.55,6018.27,37,shp:geometria,True,geometria_metrica
+4,Mulaticos,2002-2004,2002,2004,Sin Información,2.13,1.06,4,shp:geometria,True,geometria_metrica
+4,Mulaticos,2004-2006,2004,2006,Bosque Estable,1331.33,665.66,61,shp:geometria,True,geometria_metrica
+4,Mulaticos,2004-2006,2004,2006,Deforestación,13.6,6.8,9,shp:geometria,True,geometria_metrica
+4,Mulaticos,2004-2006,2004,2006,No Bosque Estable,12044.98,6022.49,36,shp:geometria,True,geometria_metrica
+4,Mulaticos,2004-2006,2004,2006,Regeneración,7.78,3.89,1,shp:geometria,True,geometria_metrica
+4,Mulaticos,2006-2008,2006,2008,Bosque Estable,1318.33,659.16,72,xlsx:columna_area,True,columna_validada_ok
+4,Mulaticos,2006-2008,2006,2008,Deforestación,8.34,4.17,7,xlsx:columna_area,True,columna_validada_ok
+4,Mulaticos,2006-2008,2006,2008,No Bosque Estable,12069.99,6034.99,36,xlsx:columna_area,True,columna_validada_ok
+4,Mulaticos,2008-2010,2008,2010,Bosque Estable,1308.1,654.05,66,shp:geometria,True,geometria_metrica
+4,Mulaticos,2008-2010,2008,2010,Deforestación,2.48,1.24,2,shp:geometria,True,geometria_metrica
+4,Mulaticos,2008-2010,2008,2010,No Bosque Estable,12086.06,6043.03,36,shp:geometria,True,geometria_metrica
+4,Mulaticos,2008-2010,2008,2010,Sin Información,1.06,0.53,1,shp:geometria,True,geometria_metrica
+4,Mulaticos,2015-2016,2015,2016,Bosque Estable,1250.62,1250.62,39,shp:geometria,True,geometria_metrica
+4,Mulaticos,2015-2016,2015,2016,Deforestación,2.87,2.87,2,shp:geometria,True,geometria_metrica
+4,Mulaticos,2015-2016,2015,2016,No Bosque Estable,12144.21,12144.21,24,shp:geometria,True,geometria_metrica
+4,Mulaticos,2016-2017,2016,2017,Bosque Estable,1249.3,1249.3,38,shp:geometria,True,geometria_metrica
+4,Mulaticos,2016-2017,2016,2017,Deforestación,3.44,3.44,4,shp:geometria,True,geometria_metrica
+4,Mulaticos,2016-2017,2016,2017,No Bosque Estable,12144.96,12144.96,19,shp:geometria,True,geometria_metrica
+4,Mulaticos,2017-2018,2017,2018,Bosque Estable,1249.3,1249.3,38,shp:geometria,True,geometria_metrica
+4,Mulaticos,2017-2018,2017,2018,Deforestación,3.44,3.44,4,shp:geometria,True,geometria_metrica
+4,Mulaticos,2017-2018,2017,2018,No Bosque Estable,12144.96,12144.96,19,shp:geometria,True,geometria_metrica
+4,Mulaticos,2019-2020,2019,2020,Bosque Estable,1453.27,1453.27,94,shp:geometria,True,geometria_metrica
+4,Mulaticos,2019-2020,2019,2020,Deforestación,7.93,7.93,3,shp:geometria,True,geometria_metrica
+4,Mulaticos,2019-2020,2019,2020,No Bosque Estable,11936.5,11936.5,17,shp:geometria,True,geometria_metrica
+4,Mulaticos,2020-2021,2020,2021,Bosque Estable,1451.12,1451.12,95,shp:geometria,True,geometria_metrica
+4,Mulaticos,2020-2021,2020,2021,Deforestación,2.36,2.36,3,shp:geometria,True,geometria_metrica
+4,Mulaticos,2020-2021,2020,2021,Regeneración,11944.21,11944.21,16,shp:geometria,True,geometria_metrica
+4,Mulaticos,2021-2022,2021,2022,Bosque Estable,6051.9,6051.9,95,xlsx:columna_area,False,columna_area_preclip_no_confiable
+4,Mulaticos,2021-2022,2021,2022,No Bosque Estable,179591.41,179591.41,13,xlsx:columna_area,False,columna_area_preclip_no_confiable
+4,Mulaticos,2022-2023,2022,2023,Bosque Estable,1398.41,1398.41,85,shp:geometria,True,geometria_metrica
+4,Mulaticos,2022-2023,2022,2023,Deforestación,3.31,3.31,2,shp:geometria,True,geometria_metrica
+4,Mulaticos,2022-2023,2022,2023,No Bosque Estable,11995.98,11995.98,21,shp:geometria,True,geometria_metrica
+4,Mulaticos,2023-2024,2023,2024,Bosque Estable,,,85,dbf:conteo,False,solo_conteo_sin_area
+4,Mulaticos,2023-2024,2023,2024,Deforestación,,,2,dbf:conteo,False,solo_conteo_sin_area
+4,Mulaticos,2023-2024,2023,2024,Regeneración,,,20,dbf:conteo,False,solo_conteo_sin_area
+3,San Juan,2000-2002,2000,2002,Bosque Estable,2508.94,1254.47,277,xlsx:columna_area,True,columna_validada_ok
+3,San Juan,2000-2002,2000,2002,Deforestación,3.45,1.73,2,xlsx:columna_area,True,columna_validada_ok
+3,San Juan,2000-2002,2000,2002,No Bosque Estable,133521.82,66760.91,102,xlsx:columna_area,True,columna_validada_ok
+3,San Juan,2000-2002,2000,2002,Sin Información,11.79,5.89,4,xlsx:columna_area,True,columna_validada_ok
+3,San Juan,2002-2004,2002,2004,Bosque Estable,2482.65,1241.33,279,shp:geometria,True,geometria_metrica
+3,San Juan,2002-2004,2002,2004,Deforestación,19.75,9.88,14,shp:geometria,True,geometria_metrica
+3,San Juan,2002-2004,2002,2004,No Bosque Estable,133563.44,66781.72,103,shp:geometria,True,geometria_metrica
+3,San Juan,2004-2006,2004,2006,Bosque Estable,2332.69,1166.35,247,shp:geometria,True,geometria_metrica
+3,San Juan,2004-2006,2004,2006,Deforestación,144.95,72.47,46,shp:geometria,True,geometria_metrica
+3,San Juan,2004-2006,2004,2006,No Bosque Estable,133566.2,66783.1,106,shp:geometria,True,geometria_metrica
+3,San Juan,2004-2006,2004,2006,Regeneración,20.22,10.11,3,shp:geometria,True,geometria_metrica
+3,San Juan,2004-2006,2004,2006,Sin Información,1.79,0.9,2,shp:geometria,True,geometria_metrica
+3,San Juan,2006-2008,2006,2008,Bosque Estable,2243.22,1121.61,289,xlsx:columna_area,True,columna_validada_ok
+3,San Juan,2006-2008,2006,2008,Deforestación,89.37,44.69,24,xlsx:columna_area,True,columna_validada_ok
+3,San Juan,2006-2008,2006,2008,No Bosque Estable,133713.42,66856.71,122,xlsx:columna_area,True,columna_validada_ok
+3,San Juan,2008-2010,2008,2010,Bosque Estable,2190.92,1095.46,266,shp:geometria,True,geometria_metrica
+3,San Juan,2008-2010,2008,2010,Deforestación,44.66,22.33,10,shp:geometria,True,geometria_metrica
+3,San Juan,2008-2010,2008,2010,No Bosque Estable,133828.45,66914.23,108,shp:geometria,True,geometria_metrica
+3,San Juan,2008-2010,2008,2010,Sin Información,1.72,0.86,2,shp:geometria,True,geometria_metrica
+3,San Juan,2015-2016,2015,2016,Bosque Estable,1895.69,1895.69,188,shp:geometria,True,geometria_metrica
+3,San Juan,2015-2016,2015,2016,Deforestación,6.74,6.74,5,shp:geometria,True,geometria_metrica
+3,San Juan,2015-2016,2015,2016,No Bosque Estable,134151.1,134151.1,59,shp:geometria,True,geometria_metrica
+3,San Juan,2015-2016,2015,2016,Sin Información,12.72,12.72,6,shp:geometria,True,geometria_metrica
+3,San Juan,2016-2017,2016,2017,Bosque Estable,1908.24,1908.24,187,shp:geometria,True,geometria_metrica
+3,San Juan,2016-2017,2016,2017,Deforestación,15.73,15.73,2,shp:geometria,True,geometria_metrica
+3,San Juan,2016-2017,2016,2017,No Bosque Estable,134070.4,134070.4,64,shp:geometria,True,geometria_metrica
+3,San Juan,2016-2017,2016,2017,Regeneración,57.93,57.93,4,shp:geometria,True,geometria_metrica
+3,San Juan,2016-2017,2016,2017,Sin Información,13.86,13.86,7,shp:geometria,True,geometria_metrica
+3,San Juan,2017-2018,2017,2018,Bosque Estable,1908.24,1908.24,187,shp:geometria,True,geometria_metrica
+3,San Juan,2017-2018,2017,2018,Deforestación,15.73,15.73,2,shp:geometria,True,geometria_metrica
+3,San Juan,2017-2018,2017,2018,No Bosque Estable,134070.4,134070.4,64,shp:geometria,True,geometria_metrica
+3,San Juan,2017-2018,2017,2018,Regeneración,57.93,57.93,4,shp:geometria,True,geometria_metrica
+3,San Juan,2017-2018,2017,2018,Sin Información,13.86,13.86,7,shp:geometria,True,geometria_metrica
+3,San Juan,2019-2020,2019,2020,Bosque Estable,4231.1,4231.1,856,shp:geometria,True,geometria_metrica
+3,San Juan,2019-2020,2019,2020,Deforestación,28.36,28.36,14,shp:geometria,True,geometria_metrica
+3,San Juan,2019-2020,2019,2020,No Bosque Estable,131711.63,131711.63,127,shp:geometria,True,geometria_metrica
+3,San Juan,2019-2020,2019,2020,Sin Información,93.7,93.7,34,shp:geometria,True,geometria_metrica
+3,San Juan,2020-2021,2020,2021,Bosque Estable,4199.57,4199.57,852,shp:geometria,True,geometria_metrica
+3,San Juan,2020-2021,2020,2021,Deforestación,46.86,46.86,17,shp:geometria,True,geometria_metrica
+3,San Juan,2020-2021,2020,2021,Regeneración,131818.88,131818.88,128,shp:geometria,True,geometria_metrica
+3,San Juan,2021-2022,2021,2022,Bosque Estable,15072.75,15072.75,857,xlsx:columna_area,False,columna_area_preclip_no_confiable
+3,San Juan,2021-2022,2021,2022,Deforestación,24.32,24.32,14,xlsx:columna_area,False,columna_area_preclip_no_confiable
+3,San Juan,2021-2022,2021,2022,No Bosque Estable,482999.8,482999.8,118,xlsx:columna_area,False,columna_area_preclip_no_confiable
+3,San Juan,2022-2023,2022,2023,Bosque Estable,3874.23,3874.23,944,shp:geometria,True,geometria_metrica
+3,San Juan,2022-2023,2022,2023,Deforestación,80.83,80.83,12,shp:geometria,True,geometria_metrica
+3,San Juan,2022-2023,2022,2023,No Bosque Estable,132153.15,132153.15,177,shp:geometria,True,geometria_metrica
+3,San Juan,2023-2024,2023,2024,Bosque Estable,,,946,dbf:conteo,False,solo_conteo_sin_area
+3,San Juan,2023-2024,2023,2024,Deforestación,,,5,dbf:conteo,False,solo_conteo_sin_area
+3,San Juan,2023-2024,2023,2024,Regeneración,,,169,dbf:conteo,False,solo_conteo_sin_area
+2,Sucio Alto,2000-2002,2000,2002,Bosque Estable,90563.76,45281.88,2950,xlsx:columna_area,True,columna_validada_ok
+2,Sucio Alto,2000-2002,2000,2002,Deforestación,136.77,68.39,145,xlsx:columna_area,True,columna_validada_ok
+2,Sucio Alto,2000-2002,2000,2002,No Bosque Estable,126499.89,63249.94,1979,xlsx:columna_area,True,columna_validada_ok
+2,Sucio Alto,2000-2002,2000,2002,Sin Información,9.42,4.71,5,xlsx:columna_area,True,columna_validada_ok
+2,Sucio Alto,2002-2004,2002,2004,Bosque Estable,90253.97,45126.99,2980,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2002-2004,2002,2004,Deforestación,232.75,116.38,229,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2002-2004,2002,2004,No Bosque Estable,126770.61,63385.31,2000,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2002-2004,2002,2004,Sin Información,11.69,5.84,17,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2004-2006,2004,2006,Bosque Estable,90133.77,45066.89,3011,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2004-2006,2004,2006,Deforestación,90.95,45.48,81,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2004-2006,2004,2006,No Bosque Estable,127041.48,63520.74,2009,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2004-2006,2004,2006,Sin Información,2.81,1.41,3,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2006-2008,2006,2008,Bosque Estable,89998.01,44999.0,3505,xlsx:columna_area,True,columna_validada_ok
+2,Sucio Alto,2006-2008,2006,2008,Deforestación,94.48,47.24,80,xlsx:columna_area,True,columna_validada_ok
+2,Sucio Alto,2006-2008,2006,2008,No Bosque Estable,127093.75,63546.88,2427,xlsx:columna_area,True,columna_validada_ok
+2,Sucio Alto,2006-2008,2006,2008,Sin Información,23.46,11.73,41,xlsx:columna_area,True,columna_validada_ok
+2,Sucio Alto,2008-2010,2008,2010,Bosque Estable,90404.36,45202.18,3087,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2008-2010,2008,2010,Deforestación,53.78,26.89,49,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2008-2010,2008,2010,No Bosque Estable,126737.24,63368.62,2097,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2008-2010,2008,2010,Sin Información,73.63,36.81,42,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2015-2016,2015,2016,Bosque Estable,91135.31,91135.31,3351,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2015-2016,2015,2016,Deforestación,137.39,137.39,67,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2015-2016,2015,2016,No Bosque Estable,125726.9,125726.9,2128,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2015-2016,2015,2016,Sin Información,269.34,269.34,53,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2016-2017,2016,2017,Bosque Estable,89310.9,89310.9,3225,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2016-2017,2016,2017,Deforestación,356.81,356.81,502,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2016-2017,2016,2017,No Bosque Estable,127327.6,127327.6,1915,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2016-2017,2016,2017,Sin Información,273.65,273.65,52,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2017-2018,2017,2018,Bosque Estable,89310.9,89310.9,3225,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2017-2018,2017,2018,Deforestación,356.81,356.81,502,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2017-2018,2017,2018,No Bosque Estable,127327.6,127327.6,1915,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2017-2018,2017,2018,Sin Información,273.65,273.65,52,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2019-2020,2019,2020,Bosque Estable,88902.2,88902.2,3153,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2019-2020,2019,2020,Deforestación,252.46,252.46,146,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2019-2020,2019,2020,No Bosque Estable,128114.39,128114.39,1886,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2020-2021,2020,2021,Bosque Estable,88788.72,88788.72,3156,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2020-2021,2020,2021,Deforestación,105.53,105.53,56,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2020-2021,2020,2021,Regeneración,128374.8,128374.8,1886,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2021-2022,2021,2022,Bosque Estable,411233.08,411233.08,3164,xlsx:columna_area,False,columna_area_preclip_no_confiable
+2,Sucio Alto,2021-2022,2021,2022,Deforestación,93.8,93.8,71,xlsx:columna_area,False,columna_area_preclip_no_confiable
+2,Sucio Alto,2021-2022,2021,2022,No Bosque Estable,164137.44,164137.44,1839,xlsx:columna_area,False,columna_area_preclip_no_confiable
+2,Sucio Alto,2021-2022,2021,2022,Sin Información,8.13,8.13,5,xlsx:columna_area,False,columna_area_preclip_no_confiable
+2,Sucio Alto,2022-2023,2022,2023,Bosque Estable,87802.36,87802.36,3162,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2022-2023,2022,2023,Deforestación,95.68,95.68,72,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2022-2023,2022,2023,No Bosque Estable,129371.47,129371.47,1790,shp:geometria,True,geometria_metrica
+2,Sucio Alto,2023-2024,2023,2024,Bosque Estable,,,3121,dbf:conteo,False,solo_conteo_sin_area
+2,Sucio Alto,2023-2024,2023,2024,Deforestación,,,38,dbf:conteo,False,solo_conteo_sin_area
+2,Sucio Alto,2023-2024,2023,2024,Regeneración,,,1801,dbf:conteo,False,solo_conteo_sin_area
+1,Turbo Currulao,2000-2002,2000,2002,Bosque Estable,23357.27,11678.64,1985,xlsx:columna_area,True,columna_validada_ok
+1,Turbo Currulao,2000-2002,2000,2002,Deforestación,128.22,64.11,129,xlsx:columna_area,True,columna_validada_ok
+1,Turbo Currulao,2000-2002,2000,2002,No Bosque Estable,65515.31,32757.65,1456,xlsx:columna_area,True,columna_validada_ok
+1,Turbo Currulao,2000-2002,2000,2002,Sin Información,112.64,56.32,61,xlsx:columna_area,True,columna_validada_ok
+1,Turbo Currulao,2002-2004,2002,2004,Bosque Estable,22196.3,11098.15,2232,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2002-2004,2002,2004,Deforestación,578.24,289.12,439,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2002-2004,2002,2004,No Bosque Estable,65885.2,32942.6,1427,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2002-2004,2002,2004,Sin Información,459.12,229.56,254,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2004-2006,2004,2006,Bosque Estable,21595.62,10797.81,2265,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2004-2006,2004,2006,Deforestación,473.66,236.83,356,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2004-2006,2004,2006,No Bosque Estable,66875.04,33437.52,1356,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2004-2006,2004,2006,Sin Información,174.26,87.13,86,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2006-2008,2006,2008,Bosque Estable,20940.34,10470.17,3085,xlsx:columna_area,True,columna_validada_ok
+1,Turbo Currulao,2006-2008,2006,2008,Deforestación,381.79,190.9,380,xlsx:columna_area,True,columna_validada_ok
+1,Turbo Currulao,2006-2008,2006,2008,No Bosque Estable,67658.47,33829.24,1568,xlsx:columna_area,True,columna_validada_ok
+1,Turbo Currulao,2006-2008,2006,2008,Sin Información,132.67,66.33,95,xlsx:columna_area,True,columna_validada_ok
+1,Turbo Currulao,2008-2010,2008,2010,Bosque Estable,20539.66,10269.83,2322,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2008-2010,2008,2010,Deforestación,186.66,93.33,167,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2008-2010,2008,2010,No Bosque Estable,67743.67,33871.83,1358,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2008-2010,2008,2010,Sin Información,649.22,324.61,438,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2015-2016,2015,2016,Bosque Estable,17916.82,17916.82,1660,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2015-2016,2015,2016,Deforestación,416.33,416.33,159,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2015-2016,2015,2016,No Bosque Estable,70483.71,70483.71,1046,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2015-2016,2015,2016,Sin Información,301.86,301.86,82,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2016-2017,2016,2017,Bosque Estable,17946.2,17946.2,1582,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2016-2017,2016,2017,Deforestación,106.29,106.29,59,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2016-2017,2016,2017,No Bosque Estable,70502.92,70502.92,954,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2016-2017,2016,2017,Regeneración,30.62,30.62,10,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2016-2017,2016,2017,Sin Información,532.76,532.76,115,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2017-2018,2017,2018,Bosque Estable,17946.2,17946.2,1582,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2017-2018,2017,2018,Deforestación,106.29,106.29,59,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2017-2018,2017,2018,No Bosque Estable,70502.92,70502.92,954,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2017-2018,2017,2018,Regeneración,30.62,30.62,10,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2017-2018,2017,2018,Sin Información,532.76,532.76,115,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2019-2020,2019,2020,Bosque Estable,17118.48,17118.48,1336,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2019-2020,2019,2020,Deforestación,72.52,72.52,52,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2019-2020,2019,2020,No Bosque Estable,71926.07,71926.07,490,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2019-2020,2019,2020,Sin Información,2.31,2.31,3,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2020-2021,2020,2021,Bosque Estable,17044.65,17044.65,1338,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2020-2021,2020,2021,Deforestación,74.18,74.18,37,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2020-2021,2020,2021,Regeneración,72000.49,72000.49,494,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2020-2021,2020,2021,Sin Información,0.06,0.06,1,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2021-2022,2021,2022,Bosque Estable,26513.07,26513.07,1390,xlsx:columna_area,False,columna_area_preclip_no_confiable
+1,Turbo Currulao,2021-2022,2021,2022,Deforestación,101.94,101.94,64,xlsx:columna_area,False,columna_area_preclip_no_confiable
+1,Turbo Currulao,2021-2022,2021,2022,No Bosque Estable,370274.19,370274.19,499,xlsx:columna_area,False,columna_area_preclip_no_confiable
+1,Turbo Currulao,2021-2022,2021,2022,Sin Información,4.21,4.21,16,xlsx:columna_area,False,columna_area_preclip_no_confiable
+1,Turbo Currulao,2022-2023,2022,2023,Bosque Estable,16004.38,16004.38,1647,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2022-2023,2022,2023,Deforestación,80.46,80.46,67,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2022-2023,2022,2023,No Bosque Estable,73034.83,73034.83,651,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2022-2023,2022,2023,Sin Información,0.23,0.23,3,shp:geometria,True,geometria_metrica
+1,Turbo Currulao,2023-2024,2023,2024,Bosque Estable,,,1644,dbf:conteo,False,solo_conteo_sin_area
+1,Turbo Currulao,2023-2024,2023,2024,Deforestación,,,30,dbf:conteo,False,solo_conteo_sin_area
+1,Turbo Currulao,2023-2024,2023,2024,Regeneración,,,663,dbf:conteo,False,solo_conteo_sin_area

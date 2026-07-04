@@ -1,0 +1,1195 @@
+{
+ "titulo": "Mineria vs bosque — titulos y solicitudes mineras vs deforestacion mapeada, CORPOURABA",
+ "fecha_corte_capa_minera": "2025-01-29",
+ "fuente_capa": "Cartografia oficial CORPOURABA / catastro minero (Titulos Mineros.shp, Solicitudes Vigentes Mineria.shp), CRS origen EPSG:3116",
+ "unidad": "hectareas (area geometrica EPSG:3115)",
+ "capas": {
+  "titulos": {
+   "n": 197,
+   "por_estado": {
+    "Activo": 182,
+    "Suspendido": 11,
+    "Archivado": 4
+   },
+   "por_etapa": {
+    "Explotación": 119,
+    "Exploración": 71,
+    "Sin dato": 6,
+    "Construcción y montaje": 1
+   },
+   "por_mineral_grupo": {
+    "Metálicos (oro y asociados)": 123,
+    "Materiales de construcción": 57,
+    "Carbón": 17
+   },
+   "area_total_ha": 280037.0,
+   "area_dentro_jurisdiccion_ha": 250264.0,
+   "pct_jurisdiccion_titulada": 13.45,
+   "rango_otorgamiento": [
+    1990,
+    2022
+   ]
+  },
+  "solicitudes": {
+   "n": 340,
+   "por_estado": {
+    "Solicitud en evaluación": 335,
+    "Radicación documentos": 3,
+    "Solicitud archivada": 1,
+    "Solicitud Suspendida": 1
+   },
+   "por_mineral_grupo": {
+    "Metálicos (oro y asociados)": 277,
+    "Materiales de construcción": 60,
+    "Carbón": 3
+   },
+   "area_total_ha": 547378.0,
+   "area_dentro_jurisdiccion_ha": 449219.0,
+   "pct_jurisdiccion_solicitada": 24.15,
+   "rango_radicacion": [
+    2005,
+    2022
+   ]
+  },
+  "jurisdiccion_ha": 1860113.0
+ },
+ "totales_12_periodos_mapeados": {
+  "deforestacion_mapeada_ha": 32409.5,
+  "dentro_titulos_ha": 3575.2,
+  "pct_dentro_titulos": 11.03,
+  "dentro_solicitudes_ha": 6211.3,
+  "pct_dentro_solicitudes": 19.17,
+  "dentro_titulo_o_solicitud_ha": 9786.5,
+  "pct_dentro_titulo_o_solicitud": 30.2,
+  "solape_titulo_y_solicitud_ha": 0.0,
+  "fuera_ha": 22623.0
+ },
+ "contexto_cobertura": {
+  "periodos_con_hotspots": [
+   "2002-2004",
+   "2004-2006",
+   "2006-2008",
+   "2008-2010",
+   "2012-2013",
+   "2013-2014",
+   "2016-2017",
+   "2017-2018",
+   "2019-2020",
+   "2020-2021",
+   "2021-2022",
+   "2022-2023"
+  ],
+  "deforestacion_serie_12_periodos_ha": 30064.8,
+  "deforestacion_serie_18_periodos_ha": 46044.3,
+  "pct_serie_cubierta_por_hotspots": 65.3,
+  "nota": "Los hotspots cubren 12 de 18 periodos; todos los porcentajes son \"de la deforestacion MAPEADA\" (poligonos >=1 ha), no del total 2000-2024."
+ },
+ "serie_por_periodo": [
+  {
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "ano_fin": 2004,
+   "categoria": "solo_titulo",
+   "hectareas": 261.19,
+   "hectareas_anuales": 130.59,
+   "pct_periodo": 8.95,
+   "deforestacion_mapeada_periodo_ha": 2917.27
+  },
+  {
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "ano_fin": 2004,
+   "categoria": "solo_solicitud",
+   "hectareas": 675.59,
+   "hectareas_anuales": 337.8,
+   "pct_periodo": 23.16,
+   "deforestacion_mapeada_periodo_ha": 2917.27
+  },
+  {
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "ano_fin": 2004,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 2917.27
+  },
+  {
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "ano_fin": 2004,
+   "categoria": "fuera",
+   "hectareas": 1980.49,
+   "hectareas_anuales": 990.25,
+   "pct_periodo": 67.89,
+   "deforestacion_mapeada_periodo_ha": 2917.27
+  },
+  {
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "ano_fin": 2006,
+   "categoria": "solo_titulo",
+   "hectareas": 356.48,
+   "hectareas_anuales": 178.24,
+   "pct_periodo": 14.57,
+   "deforestacion_mapeada_periodo_ha": 2447.01
+  },
+  {
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "ano_fin": 2006,
+   "categoria": "solo_solicitud",
+   "hectareas": 559.15,
+   "hectareas_anuales": 279.58,
+   "pct_periodo": 22.85,
+   "deforestacion_mapeada_periodo_ha": 2447.01
+  },
+  {
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "ano_fin": 2006,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 2447.01
+  },
+  {
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "ano_fin": 2006,
+   "categoria": "fuera",
+   "hectareas": 1531.38,
+   "hectareas_anuales": 765.69,
+   "pct_periodo": 62.58,
+   "deforestacion_mapeada_periodo_ha": 2447.01
+  },
+  {
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "ano_fin": 2008,
+   "categoria": "solo_titulo",
+   "hectareas": 196.68,
+   "hectareas_anuales": 98.34,
+   "pct_periodo": 10.65,
+   "deforestacion_mapeada_periodo_ha": 1846.25
+  },
+  {
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "ano_fin": 2008,
+   "categoria": "solo_solicitud",
+   "hectareas": 358.59,
+   "hectareas_anuales": 179.29,
+   "pct_periodo": 19.42,
+   "deforestacion_mapeada_periodo_ha": 1846.25
+  },
+  {
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "ano_fin": 2008,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 1846.25
+  },
+  {
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "ano_fin": 2008,
+   "categoria": "fuera",
+   "hectareas": 1290.99,
+   "hectareas_anuales": 645.49,
+   "pct_periodo": 69.92,
+   "deforestacion_mapeada_periodo_ha": 1846.25
+  },
+  {
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "ano_fin": 2010,
+   "categoria": "solo_titulo",
+   "hectareas": 333.65,
+   "hectareas_anuales": 166.82,
+   "pct_periodo": 14.51,
+   "deforestacion_mapeada_periodo_ha": 2300.14
+  },
+  {
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "ano_fin": 2010,
+   "categoria": "solo_solicitud",
+   "hectareas": 460.75,
+   "hectareas_anuales": 230.37,
+   "pct_periodo": 20.03,
+   "deforestacion_mapeada_periodo_ha": 2300.14
+  },
+  {
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "ano_fin": 2010,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 2300.14
+  },
+  {
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "ano_fin": 2010,
+   "categoria": "fuera",
+   "hectareas": 1505.75,
+   "hectareas_anuales": 752.87,
+   "pct_periodo": 65.46,
+   "deforestacion_mapeada_periodo_ha": 2300.14
+  },
+  {
+   "periodo": "2012-2013",
+   "ano_inicio": 2012,
+   "ano_fin": 2013,
+   "categoria": "solo_titulo",
+   "hectareas": 238.41,
+   "hectareas_anuales": 238.41,
+   "pct_periodo": 2.37,
+   "deforestacion_mapeada_periodo_ha": 10050.64
+  },
+  {
+   "periodo": "2012-2013",
+   "ano_inicio": 2012,
+   "ano_fin": 2013,
+   "categoria": "solo_solicitud",
+   "hectareas": 645.16,
+   "hectareas_anuales": 645.16,
+   "pct_periodo": 6.42,
+   "deforestacion_mapeada_periodo_ha": 10050.64
+  },
+  {
+   "periodo": "2012-2013",
+   "ano_inicio": 2012,
+   "ano_fin": 2013,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 10050.64
+  },
+  {
+   "periodo": "2012-2013",
+   "ano_inicio": 2012,
+   "ano_fin": 2013,
+   "categoria": "fuera",
+   "hectareas": 9167.08,
+   "hectareas_anuales": 9167.08,
+   "pct_periodo": 91.21,
+   "deforestacion_mapeada_periodo_ha": 10050.64
+  },
+  {
+   "periodo": "2013-2014",
+   "ano_inicio": 2013,
+   "ano_fin": 2014,
+   "categoria": "solo_titulo",
+   "hectareas": 431.26,
+   "hectareas_anuales": 431.26,
+   "pct_periodo": 14.0,
+   "deforestacion_mapeada_periodo_ha": 3080.59
+  },
+  {
+   "periodo": "2013-2014",
+   "ano_inicio": 2013,
+   "ano_fin": 2014,
+   "categoria": "solo_solicitud",
+   "hectareas": 684.39,
+   "hectareas_anuales": 684.39,
+   "pct_periodo": 22.22,
+   "deforestacion_mapeada_periodo_ha": 3080.59
+  },
+  {
+   "periodo": "2013-2014",
+   "ano_inicio": 2013,
+   "ano_fin": 2014,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 3080.59
+  },
+  {
+   "periodo": "2013-2014",
+   "ano_inicio": 2013,
+   "ano_fin": 2014,
+   "categoria": "fuera",
+   "hectareas": 1964.94,
+   "hectareas_anuales": 1964.94,
+   "pct_periodo": 63.78,
+   "deforestacion_mapeada_periodo_ha": 3080.59
+  },
+  {
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "ano_fin": 2017,
+   "categoria": "solo_titulo",
+   "hectareas": 489.74,
+   "hectareas_anuales": 489.74,
+   "pct_periodo": 16.2,
+   "deforestacion_mapeada_periodo_ha": 3023.08
+  },
+  {
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "ano_fin": 2017,
+   "categoria": "solo_solicitud",
+   "hectareas": 839.83,
+   "hectareas_anuales": 839.83,
+   "pct_periodo": 27.78,
+   "deforestacion_mapeada_periodo_ha": 3023.08
+  },
+  {
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "ano_fin": 2017,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 3023.08
+  },
+  {
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "ano_fin": 2017,
+   "categoria": "fuera",
+   "hectareas": 1693.51,
+   "hectareas_anuales": 1693.51,
+   "pct_periodo": 56.02,
+   "deforestacion_mapeada_periodo_ha": 3023.08
+  },
+  {
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "ano_fin": 2018,
+   "categoria": "solo_titulo",
+   "hectareas": 184.04,
+   "hectareas_anuales": 184.04,
+   "pct_periodo": 11.91,
+   "deforestacion_mapeada_periodo_ha": 1545.81
+  },
+  {
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "ano_fin": 2018,
+   "categoria": "solo_solicitud",
+   "hectareas": 342.21,
+   "hectareas_anuales": 342.21,
+   "pct_periodo": 22.14,
+   "deforestacion_mapeada_periodo_ha": 1545.81
+  },
+  {
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "ano_fin": 2018,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 1545.81
+  },
+  {
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "ano_fin": 2018,
+   "categoria": "fuera",
+   "hectareas": 1019.56,
+   "hectareas_anuales": 1019.56,
+   "pct_periodo": 65.96,
+   "deforestacion_mapeada_periodo_ha": 1545.81
+  },
+  {
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "ano_fin": 2020,
+   "categoria": "solo_titulo",
+   "hectareas": 205.73,
+   "hectareas_anuales": 205.73,
+   "pct_periodo": 14.09,
+   "deforestacion_mapeada_periodo_ha": 1459.76
+  },
+  {
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "ano_fin": 2020,
+   "categoria": "solo_solicitud",
+   "hectareas": 571.15,
+   "hectareas_anuales": 571.15,
+   "pct_periodo": 39.13,
+   "deforestacion_mapeada_periodo_ha": 1459.76
+  },
+  {
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "ano_fin": 2020,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 1459.76
+  },
+  {
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "ano_fin": 2020,
+   "categoria": "fuera",
+   "hectareas": 682.88,
+   "hectareas_anuales": 682.88,
+   "pct_periodo": 46.78,
+   "deforestacion_mapeada_periodo_ha": 1459.76
+  },
+  {
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "ano_fin": 2021,
+   "categoria": "solo_titulo",
+   "hectareas": 204.98,
+   "hectareas_anuales": 204.98,
+   "pct_periodo": 22.21,
+   "deforestacion_mapeada_periodo_ha": 922.92
+  },
+  {
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "ano_fin": 2021,
+   "categoria": "solo_solicitud",
+   "hectareas": 297.54,
+   "hectareas_anuales": 297.54,
+   "pct_periodo": 32.24,
+   "deforestacion_mapeada_periodo_ha": 922.92
+  },
+  {
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "ano_fin": 2021,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 922.92
+  },
+  {
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "ano_fin": 2021,
+   "categoria": "fuera",
+   "hectareas": 420.4,
+   "hectareas_anuales": 420.4,
+   "pct_periodo": 45.55,
+   "deforestacion_mapeada_periodo_ha": 922.92
+  },
+  {
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "ano_fin": 2022,
+   "categoria": "solo_titulo",
+   "hectareas": 487.33,
+   "hectareas_anuales": 487.33,
+   "pct_periodo": 25.0,
+   "deforestacion_mapeada_periodo_ha": 1948.96
+  },
+  {
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "ano_fin": 2022,
+   "categoria": "solo_solicitud",
+   "hectareas": 564.12,
+   "hectareas_anuales": 564.12,
+   "pct_periodo": 28.94,
+   "deforestacion_mapeada_periodo_ha": 1948.96
+  },
+  {
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "ano_fin": 2022,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 1948.96
+  },
+  {
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "ano_fin": 2022,
+   "categoria": "fuera",
+   "hectareas": 897.51,
+   "hectareas_anuales": 897.51,
+   "pct_periodo": 46.05,
+   "deforestacion_mapeada_periodo_ha": 1948.96
+  },
+  {
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "ano_fin": 2023,
+   "categoria": "solo_titulo",
+   "hectareas": 185.74,
+   "hectareas_anuales": 185.74,
+   "pct_periodo": 21.42,
+   "deforestacion_mapeada_periodo_ha": 867.12
+  },
+  {
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "ano_fin": 2023,
+   "categoria": "solo_solicitud",
+   "hectareas": 212.83,
+   "hectareas_anuales": 212.83,
+   "pct_periodo": 24.54,
+   "deforestacion_mapeada_periodo_ha": 867.12
+  },
+  {
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "ano_fin": 2023,
+   "categoria": "titulo_y_solicitud",
+   "hectareas": 0.0,
+   "hectareas_anuales": 0.0,
+   "pct_periodo": 0.0,
+   "deforestacion_mapeada_periodo_ha": 867.12
+  },
+  {
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "ano_fin": 2023,
+   "categoria": "fuera",
+   "hectareas": 468.54,
+   "hectareas_anuales": 468.54,
+   "pct_periodo": 54.03,
+   "deforestacion_mapeada_periodo_ha": 867.12
+  }
+ ],
+ "tendencia_por_bloques": {
+  "2002_2010": {
+   "anos_cubiertos": 8,
+   "defo_mapeada_ha": 9510.7,
+   "dentro_titulos_ha": 1148.0,
+   "dentro_titulos_ha_anual": 143.5,
+   "pct_dentro_titulos": 12.07,
+   "dentro_solicitudes_ha": 2054.1,
+   "dentro_solicitudes_ha_anual": 256.8,
+   "pct_dentro_solicitudes": 21.6
+  },
+  "2012_2018": {
+   "anos_cubiertos": 4,
+   "defo_mapeada_ha": 17700.1,
+   "dentro_titulos_ha": 1343.4,
+   "dentro_titulos_ha_anual": 335.9,
+   "pct_dentro_titulos": 7.59,
+   "dentro_solicitudes_ha": 2511.6,
+   "dentro_solicitudes_ha_anual": 627.9,
+   "pct_dentro_solicitudes": 14.19
+  },
+  "2019_2023": {
+   "anos_cubiertos": 4,
+   "defo_mapeada_ha": 5198.8,
+   "dentro_titulos_ha": 1083.8,
+   "dentro_titulos_ha_anual": 270.9,
+   "pct_dentro_titulos": 20.85,
+   "dentro_solicitudes_ha": 1645.6,
+   "dentro_solicitudes_ha_anual": 411.4,
+   "pct_dentro_solicitudes": 31.65
+  }
+ },
+ "sensibilidad_vigencia_titulos": [
+  {
+   "periodo": "2002-2004",
+   "ano_inicio": 2002,
+   "ano_fin": 2004,
+   "n_titulos_otorgados": 22,
+   "ha_dentro_titulos_capa_actual": 261.19,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 7.26,
+   "pct_periodo_otorgados": 0.25
+  },
+  {
+   "periodo": "2004-2006",
+   "ano_inicio": 2004,
+   "ano_fin": 2006,
+   "n_titulos_otorgados": 33,
+   "ha_dentro_titulos_capa_actual": 356.48,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 27.41,
+   "pct_periodo_otorgados": 1.12
+  },
+  {
+   "periodo": "2006-2008",
+   "ano_inicio": 2006,
+   "ano_fin": 2008,
+   "n_titulos_otorgados": 64,
+   "ha_dentro_titulos_capa_actual": 196.68,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 97.84,
+   "pct_periodo_otorgados": 5.3
+  },
+  {
+   "periodo": "2008-2010",
+   "ano_inicio": 2008,
+   "ano_fin": 2010,
+   "n_titulos_otorgados": 93,
+   "ha_dentro_titulos_capa_actual": 333.65,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 288.1,
+   "pct_periodo_otorgados": 12.53
+  },
+  {
+   "periodo": "2012-2013",
+   "ano_inicio": 2012,
+   "ano_fin": 2013,
+   "n_titulos_otorgados": 133,
+   "ha_dentro_titulos_capa_actual": 238.41,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 175.99,
+   "pct_periodo_otorgados": 1.75
+  },
+  {
+   "periodo": "2013-2014",
+   "ano_inicio": 2013,
+   "ano_fin": 2014,
+   "n_titulos_otorgados": 135,
+   "ha_dentro_titulos_capa_actual": 431.26,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 428.68,
+   "pct_periodo_otorgados": 13.92
+  },
+  {
+   "periodo": "2016-2017",
+   "ano_inicio": 2016,
+   "ano_fin": 2017,
+   "n_titulos_otorgados": 131,
+   "ha_dentro_titulos_capa_actual": 489.74,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 476.16,
+   "pct_periodo_otorgados": 15.75
+  },
+  {
+   "periodo": "2017-2018",
+   "ano_inicio": 2017,
+   "ano_fin": 2018,
+   "n_titulos_otorgados": 131,
+   "ha_dentro_titulos_capa_actual": 184.04,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 176.16,
+   "pct_periodo_otorgados": 11.4
+  },
+  {
+   "periodo": "2019-2020",
+   "ano_inicio": 2019,
+   "ano_fin": 2020,
+   "n_titulos_otorgados": 145,
+   "ha_dentro_titulos_capa_actual": 205.73,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 192.19,
+   "pct_periodo_otorgados": 13.17
+  },
+  {
+   "periodo": "2020-2021",
+   "ano_inicio": 2020,
+   "ano_fin": 2021,
+   "n_titulos_otorgados": 151,
+   "ha_dentro_titulos_capa_actual": 204.98,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 191.56,
+   "pct_periodo_otorgados": 20.76
+  },
+  {
+   "periodo": "2021-2022",
+   "ano_inicio": 2021,
+   "ano_fin": 2022,
+   "n_titulos_otorgados": 173,
+   "ha_dentro_titulos_capa_actual": 487.33,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 470.01,
+   "pct_periodo_otorgados": 24.12
+  },
+  {
+   "periodo": "2022-2023",
+   "ano_inicio": 2022,
+   "ano_fin": 2023,
+   "n_titulos_otorgados": 170,
+   "ha_dentro_titulos_capa_actual": 185.74,
+   "ha_dentro_titulos_otorgados_en_el_periodo": 181.5,
+   "pct_periodo_otorgados": 20.93
+  }
+ ],
+ "doble_conteo_por_solape_entre_titulos_ha": 0.01,
+ "top_municipios_dentro_titulos": [
+  {
+   "municipio": "Urrao",
+   "deforestacion_ha": 752.0
+  },
+  {
+   "municipio": "Mutatá",
+   "deforestacion_ha": 671.7
+  },
+  {
+   "municipio": "Dabeiba",
+   "deforestacion_ha": 567.9
+  },
+  {
+   "municipio": "Frontino",
+   "deforestacion_ha": 439.9
+  },
+  {
+   "municipio": "Murindó",
+   "deforestacion_ha": 385.0
+  },
+  {
+   "municipio": "Turbo",
+   "deforestacion_ha": 360.4
+  },
+  {
+   "municipio": "Apartadó",
+   "deforestacion_ha": 184.7
+  },
+  {
+   "municipio": "Cañasgordas",
+   "deforestacion_ha": 65.4
+  },
+  {
+   "municipio": "Carepa",
+   "deforestacion_ha": 49.4
+  },
+  {
+   "municipio": "Abriaquí",
+   "deforestacion_ha": 37.8
+  },
+  {
+   "municipio": "Chigorodó",
+   "deforestacion_ha": 27.1
+  },
+  {
+   "municipio": "Giraldo",
+   "deforestacion_ha": 13.3
+  }
+ ],
+ "top_municipios_dentro_solicitudes": [
+  {
+   "municipio": "Urrao",
+   "deforestacion_ha": 1659.9
+  },
+  {
+   "municipio": "Mutatá",
+   "deforestacion_ha": 1635.3
+  },
+  {
+   "municipio": "Dabeiba",
+   "deforestacion_ha": 1360.4
+  },
+  {
+   "municipio": "Cañasgordas",
+   "deforestacion_ha": 205.2
+  },
+  {
+   "municipio": "Turbo",
+   "deforestacion_ha": 204.6
+  },
+  {
+   "municipio": "Uramita",
+   "deforestacion_ha": 194.0
+  },
+  {
+   "municipio": "Murindó",
+   "deforestacion_ha": 188.3
+  },
+  {
+   "municipio": "Frontino",
+   "deforestacion_ha": 176.1
+  },
+  {
+   "municipio": "Vigía del Fuerte",
+   "deforestacion_ha": 175.5
+  },
+  {
+   "municipio": "Chigorodó",
+   "deforestacion_ha": 158.5
+  },
+  {
+   "municipio": "Necoclí",
+   "deforestacion_ha": 88.8
+  },
+  {
+   "municipio": "Peque",
+   "deforestacion_ha": 66.0
+  }
+ ],
+ "top_titulares_por_deforestacion": [
+  {
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "deforestacion_ha": 1634.4
+  },
+  {
+   "titular": "MINERA GOLD LIMITADA",
+   "deforestacion_ha": 343.8
+  },
+  {
+   "titular": "CARBONES DEL GOLFO S.A",
+   "deforestacion_ha": 291.3
+  },
+  {
+   "titular": "MINERA COBRE DE COLOMBIA S.A.S.",
+   "deforestacion_ha": 149.3
+  },
+  {
+   "titular": "BOCAS DEL MATA S.A.S",
+   "deforestacion_ha": 113.3
+  },
+  {
+   "titular": "MINERA PRIMECAP RESOURCES S.A.S.",
+   "deforestacion_ha": 95.1
+  },
+  {
+   "titular": "JUAN MANUEL RUISECO V. & CIA. S.C.A.",
+   "deforestacion_ha": 91.4
+  },
+  {
+   "titular": "ESQUIMAL S.O.M.",
+   "deforestacion_ha": 84.5
+  },
+  {
+   "titular": "JAIRO ERNESTO TONCON MENDIVELSO",
+   "deforestacion_ha": 79.7
+  },
+  {
+   "titular": "WEST ROCK RESOURCES SUCURSAL COLOMBIA",
+   "deforestacion_ha": 76.5
+  },
+  {
+   "titular": "EQUITORIAL EXPLORATION COLOMBIA S.A.S., (17286) JAVIER DE JESUS PATIÑO GUTIERREZ",
+   "deforestacion_ha": 58.2
+  },
+  {
+   "titular": "CONTINENTAL DE CARBONES S.A.S.",
+   "deforestacion_ha": 56.9
+  }
+ ],
+ "top_titulos_por_deforestacion": [
+  {
+   "codigo": "HGSI-02",
+   "titular": "MINERA GOLD LIMITADA",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Activo",
+   "etapa": "Explotación",
+   "deforestacion_ha": 343.8
+  },
+  {
+   "codigo": "ED4-152",
+   "titular": "CARBONES DEL GOLFO S.A",
+   "mineral_grupo": "Carbón",
+   "estado": "Activo",
+   "etapa": "Explotación",
+   "deforestacion_ha": 291.3
+  },
+  {
+   "codigo": "HIBJ-11",
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Activo",
+   "etapa": "Exploración",
+   "deforestacion_ha": 155.0
+  },
+  {
+   "codigo": "HCA-144",
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Activo",
+   "etapa": "Exploración",
+   "deforestacion_ha": 152.7
+  },
+  {
+   "codigo": "HIBJ-06",
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Activo",
+   "etapa": "Explotación",
+   "deforestacion_ha": 150.5
+  },
+  {
+   "codigo": "B6027005",
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Activo",
+   "etapa": "Explotación",
+   "deforestacion_ha": 146.8
+  },
+  {
+   "codigo": "LGJ-09171",
+   "titular": "BOCAS DEL MATA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Activo",
+   "etapa": "Explotación",
+   "deforestacion_ha": 113.3
+  },
+  {
+   "codigo": "B7526005",
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Activo",
+   "etapa": "Explotación",
+   "deforestacion_ha": 100.8
+  },
+  {
+   "codigo": "H6197005",
+   "titular": "MINERA COBRE DE COLOMBIA S.A.S.",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Activo",
+   "etapa": "Explotación",
+   "deforestacion_ha": 95.6
+  },
+  {
+   "codigo": "B7474005",
+   "titular": "MINERA PRIMECAP RESOURCES S.A.S.",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Activo",
+   "etapa": "Explotación",
+   "deforestacion_ha": 95.1
+  },
+  {
+   "codigo": "H6787005",
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Activo",
+   "etapa": "Explotación",
+   "deforestacion_ha": 86.6
+  },
+  {
+   "codigo": "B7524005",
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Activo",
+   "etapa": "Explotación",
+   "deforestacion_ha": 85.6
+  }
+ ],
+ "top_solicitudes_por_deforestacion": [
+  {
+   "codigo": "B7466005",
+   "titular": "CESAR AUGUSTO ZAMORANO GOMEZ",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 360.4
+  },
+  {
+   "codigo": "505814",
+   "titular": "PROYECTO ANDINO SAS",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 342.3
+  },
+  {
+   "codigo": "504731",
+   "titular": "PROYECTO ANDINO SAS",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 323.8
+  },
+  {
+   "codigo": "500952",
+   "titular": "ANDINA DE EXPLORACIONES MINERAS S.A.S.",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 186.1
+  },
+  {
+   "codigo": "SLD-08011",
+   "titular": "PROYECTO ANDINO SAS",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 168.9
+  },
+  {
+   "codigo": "TEH-09441",
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 163.3
+  },
+  {
+   "codigo": "500197",
+   "titular": "PROYECTO ANDINO SAS",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 150.1
+  },
+  {
+   "codigo": "506260",
+   "titular": "GREEN ROCK GEOLOGICAL SERVICES SAS",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 146.1
+  },
+  {
+   "codigo": "SLC-10531",
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 145.7
+  },
+  {
+   "codigo": "503276",
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 131.3
+  },
+  {
+   "codigo": "SLC-10311",
+   "titular": "EXPLORACIONES CHOCO COLOMBIA S.A.S",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 118.9
+  },
+  {
+   "codigo": "505698",
+   "titular": "TRIDIMITA SAS",
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "estado": "Solicitud en evaluación",
+   "deforestacion_ha": 116.2
+  }
+ ],
+ "deforestacion_por_mineral_titulos": [
+  {
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "deforestacion_ha": 2862.4
+  },
+  {
+   "mineral_grupo": "Carbón",
+   "deforestacion_ha": 626.8
+  },
+  {
+   "mineral_grupo": "Materiales de construcción",
+   "deforestacion_ha": 86.0
+  }
+ ],
+ "deforestacion_por_mineral_solicitudes": [
+  {
+   "mineral_grupo": "Metálicos (oro y asociados)",
+   "deforestacion_ha": 5988.4
+  },
+  {
+   "mineral_grupo": "Materiales de construcción",
+   "deforestacion_ha": 132.7
+  },
+  {
+   "mineral_grupo": "Carbón",
+   "deforestacion_ha": 92.0
+  }
+ ],
+ "deforestacion_por_etapa_titulos": [
+  {
+   "etapa": "Explotación",
+   "deforestacion_ha": 2908.3
+  },
+  {
+   "etapa": "Exploración",
+   "deforestacion_ha": 581.2
+  },
+  {
+   "etapa": "Sin dato",
+   "deforestacion_ha": 82.3
+  },
+  {
+   "etapa": "Construcción y montaje",
+   "deforestacion_ha": 3.3
+  }
+ ],
+ "deforestacion_por_estado_titulos": [
+  {
+   "estado": "Activo",
+   "deforestacion_ha": 3466.4
+  },
+  {
+   "estado": "Archivado",
+   "deforestacion_ha": 82.2
+  },
+  {
+   "estado": "Suspendido",
+   "deforestacion_ha": 26.7
+  }
+ ],
+ "capa_web": {
+  "ruta": "E:\\drive-download-20260703T192518Z-3-001\\observatorio-deforestacion\\data\\processed\\capas\\titulos_mineros.geojson",
+  "n_features": 537,
+  "tolerancia_simplificacion_m": 100,
+  "tamano_kb": 413.0
+ },
+ "qa_por_periodo": [
+  {
+   "periodo": "2002-2004",
+   "n_hotspots": 1119,
+   "ha_geometrica": 2917.3,
+   "ha_propiedad": 3041.4
+  },
+  {
+   "periodo": "2004-2006",
+   "n_hotspots": 902,
+   "ha_geometrica": 2447.0,
+   "ha_propiedad": 2529.8
+  },
+  {
+   "periodo": "2006-2008",
+   "n_hotspots": 808,
+   "ha_geometrica": 1846.3,
+   "ha_propiedad": 1946.5
+  },
+  {
+   "periodo": "2008-2010",
+   "n_hotspots": 834,
+   "ha_geometrica": 2300.1,
+   "ha_propiedad": 2392.9
+  },
+  {
+   "periodo": "2012-2013",
+   "n_hotspots": 4160,
+   "ha_geometrica": 10050.6,
+   "ha_propiedad": 10319.4
+  },
+  {
+   "periodo": "2013-2014",
+   "n_hotspots": 794,
+   "ha_geometrica": 3080.6,
+   "ha_propiedad": 3195.8
+  },
+  {
+   "periodo": "2016-2017",
+   "n_hotspots": 1252,
+   "ha_geometrica": 3023.1,
+   "ha_propiedad": 3174.0
+  },
+  {
+   "periodo": "2017-2018",
+   "n_hotspots": 457,
+   "ha_geometrica": 1545.8,
+   "ha_propiedad": 1607.0
+  },
+  {
+   "periodo": "2019-2020",
+   "n_hotspots": 569,
+   "ha_geometrica": 1459.8,
+   "ha_propiedad": 1539.6
+  },
+  {
+   "periodo": "2020-2021",
+   "n_hotspots": 419,
+   "ha_geometrica": 922.9,
+   "ha_propiedad": 978.5
+  },
+  {
+   "periodo": "2021-2022",
+   "n_hotspots": 803,
+   "ha_geometrica": 1949.0,
+   "ha_propiedad": 2047.4
+  },
+  {
+   "periodo": "2022-2023",
+   "n_hotspots": 396,
+   "ha_geometrica": 867.1,
+   "ha_propiedad": 919.3
+  }
+ ],
+ "notas": [
+  "La capa minera es una foto del catastro al 2025-01-29: cruzarla con deforestacion historica es retrospectivo. La serie sensibilidad_vigencia_titulos recalcula cada periodo usando SOLO titulos ya otorgados (FECHA_DE_A) y no vencidos.",
+  "Categorias del CSV mutuamente excluyentes (solo_titulo, solo_solicitud, titulo_y_solicitud, fuera); suman la deforestacion mapeada del periodo.",
+  "Los hotspots cubren 12 de 18 periodos (~87% de la deforestacion medida en la serie); ademas son poligonos >=1 ha simplificados, por eso su area geometrica difiere levemente de serie_regional.csv.",
+  "La capa incluye titulos/solicitudes que se extienden fuera de la jurisdiccion (Choco, Cordoba): area_titulo_ha es el poligono completo, pero los cruces solo ocurren dentro de la jurisdiccion porque los hotspots estan dentro.",
+  "Grupo mineral asignado por prioridad metalicos > carbon > materiales de construccion > otros sobre los campos MINERALES/MINERALES_ (un titulo mixto cuenta como metalico).",
+  "En las tablas por titulo/titular puede haber leve doble conteo donde dos titulos se solapan entre si (cuantificado en doble_conteo_por_solape_entre_titulos_ha); los totales dentro/fuera usan uniones disueltas y NO tienen doble conteo.",
+  "Coincidencia espacial no es atribucion causal: deforestacion dentro de un titulo no implica que el titular la causo."
+ ]
+}
