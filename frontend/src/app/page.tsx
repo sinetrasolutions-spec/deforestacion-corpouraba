@@ -217,7 +217,7 @@ export default function PaginaInicio() {
             transition={{ duration: 0.55, ease: 'easeOut', delay: reducirMovimiento ? 0 : 0.08 }}
             className="mt-4 max-w-3xl font-display text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl"
           >
-            Observatorio de Deforestación de Urabá
+            Observatorio de Deforestación CORPOURABA
           </motion.h1>
 
           <motion.p
