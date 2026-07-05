@@ -1,10 +1,11 @@
 'use client';
 
 /**
- * Hero del Observatorio: escena 3D "dosel vivo de Urabá" que se deforesta al
- * hacer scroll, con coreografía de entrada (GSAP) y scroll suave (Lenis).
- * El texto y los CTA se conservan íntegros; toda la fuerza visual va a la
- * escena. Respeta prefers-reduced-motion y se adapta a móvil.
+ * Hero del Observatorio: escena 3D ambiental "dosel vivo de Urabá" con
+ * coreografía de entrada (GSAP): el titular se revela palabra a palabra y las
+ * cifras —incluido "Bosque perdido → 46.846 ha"— cuentan solas al cargar.
+ * El scroll es nativo (sin pin): bajar por la página es inmediato.
+ * Texto y CTA íntegros. Respeta prefers-reduced-motion y se adapta a móvil.
  */
 import { useEffect, useRef, useState } from 'react';
 import dynamic from 'next/dynamic';
@@ -53,139 +54,79 @@ export default function HeroDosel() {
     setEntorno({ reduced, movil, listo: true });
   }, []);
 
-  // Coreografía: entrada + scroll (GSAP/Lenis). Se rearma según el entorno.
+  // Coreografía de entrada (GSAP), robusta ante el doble-montaje de dev.
   useEffect(() => {
     if (!entorno.listo) return;
     const { reduced, movil } = entorno;
-    let lenis: import('lenis').default | null = null;
+
+    const palabras = tituloRef.current?.querySelectorAll<HTMLElement>('.palabra-titulo') ?? [];
+    const cifras = [...(contenidoRef.current?.querySelectorAll<HTMLElement>('[data-objetivo]') ?? [])];
+    const contadores = contadorRef.current ? [...cifras, contadorRef.current] : cifras;
+    const objetivo = (el: HTMLElement) => (el.dataset.objetivo ? Number(el.dataset.objetivo) : TOTAL_DEFORESTADO);
+    const escribir = (el: HTMLElement, v: number) => {
+      const dec = Number(el.dataset.decimales || 0);
+      el.textContent = dec
+        ? v.toLocaleString('es-CO', { minimumFractionDigits: dec, maximumFractionDigits: dec })
+        : fmt(v);
+    };
+
+    // prefers-reduced-motion: valores finales, sin animación.
+    if (reduced) {
+      contadores.forEach((el) => escribir(el, objetivo(el)));
+      return;
+    }
+
+    let cancelado = false;
     const cleanup: Array<() => void> = [];
-    let cancelado = false; // evita la carrera async del doble-montaje (Strict Mode)
 
-    (async () => {
-      const gsapMod = await import('gsap');
-      const stMod = await import('gsap/ScrollTrigger');
-      if (cancelado) return;
-      const gsap = gsapMod.default;
-      const ScrollTrigger = stMod.ScrollTrigger;
-      gsap.registerPlugin(ScrollTrigger);
-
-      const palabras = tituloRef.current?.querySelectorAll<HTMLElement>('.palabra-titulo') ?? [];
-      const cifras = contenidoRef.current?.querySelectorAll<HTMLElement>('[data-objetivo]') ?? [];
-
-      // ── prefers-reduced-motion: estado final, sin animación ──────────────
-      if (reduced) {
-        gsap.set(palabras, { opacity: 1, filter: 'blur(0px)', y: 0 });
-        gsap.set(escenaRef.current, { opacity: 1, scale: 1 });
-        cifras.forEach((el) => {
-          const obj = Number(el.dataset.objetivo);
-          const dec = Number(el.dataset.decimales || 0);
-          el.textContent = dec ? obj.toLocaleString('es-CO', { minimumFractionDigits: dec }) : fmt(obj);
-        });
-        if (contadorRef.current) contadorRef.current.textContent = fmt(TOTAL_DEFORESTADO);
-        return;
-      }
-
-      // ── Entrada: dosel + titular palabra a palabra + conteo de cifras ────
-      gsap.set(palabras, { opacity: 0, filter: 'blur(12px)', yPercent: 40 });
-      gsap.set(escenaRef.current, { opacity: 0, scale: 1.08 });
-
-      const tl = gsap.timeline({ delay: 0.15 });
-      tl.to(escenaRef.current, { opacity: 1, scale: 1, duration: 1.6, ease: 'power2.out' }, 0)
-        .to(
-          palabras,
-          { opacity: 1, filter: 'blur(0px)', yPercent: 0, duration: 0.9, ease: 'power3.out', stagger: 0.06 },
-          0.35,
-        );
-      cifras.forEach((el) => {
-        const obj = Number(el.dataset.objetivo);
-        const dec = Number(el.dataset.decimales || 0);
-        const contador = { v: 0 };
-        tl.to(
-          contador,
-          {
-            v: obj,
-            duration: 1.4,
-            ease: 'power1.out',
-            onUpdate: () => {
-              el.textContent = dec
-                ? contador.v.toLocaleString('es-CO', { minimumFractionDigits: dec, maximumFractionDigits: dec })
-                : fmt(contador.v);
-            },
-          },
-          0.6,
-        );
+    // Red de seguridad: si la animación no llega a correr, fija los valores
+    // finales para que ninguna cifra se quede en 0.
+    const red = window.setTimeout(() => {
+      contadores.forEach((el) => {
+        if (el.textContent === '0') escribir(el, objetivo(el));
       });
-      cleanup.push(() => tl.kill());
+    }, 2600);
+    cleanup.push(() => window.clearTimeout(red));
 
-      // ── Scroll suave (Lenis) + integración con ScrollTrigger ─────────────
-      if (!movil) {
-        const Lenis = (await import('lenis')).default;
-        if (cancelado) return;
-        lenis = new Lenis({ duration: 0.85, smoothWheel: true });
-        lenis.on('scroll', ScrollTrigger.update);
-        const raf = (t: number) => lenis!.raf(t * 1000);
-        gsap.ticker.add(raf);
-        gsap.ticker.lagSmoothing(0);
-        cleanup.push(() => {
-          gsap.ticker.remove(raf);
-          lenis?.destroy();
+    // Realce de entrada (si gsap carga): título palabra a palabra + reconteo.
+    import('gsap').then(({ default: gsap }) => {
+      if (cancelado) return;
+      // gsap.from: aunque no corriera, el contenido queda visible por defecto.
+      gsap.from(palabras, {
+        opacity: 0, filter: 'blur(12px)', yPercent: 40,
+        duration: 0.9, ease: 'power3.out', stagger: 0.06, delay: 0.15,
+      });
+      gsap.from(escenaRef.current, { opacity: 0, scale: 1.08, duration: 1.6, ease: 'power2.out' });
+      contadores.forEach((el) => {
+        const obj = objetivo(el);
+        const o = { v: 0 };
+        const tw = gsap.to(o, {
+          v: obj, duration: 1.6, ease: 'power1.out', delay: 0.5,
+          onUpdate: () => escribir(el, o.v),
         });
-      }
+        cleanup.push(() => tw.kill());
+      });
+    });
 
-      // ── Pin + deforestación al hacer scroll (solo desktop) ───────────────
-      if (!movil) {
-        const st = ScrollTrigger.create({
-          trigger: seccionRef.current,
-          start: 'top top',
-          end: '+=85%',
-          pin: true,
-          scrub: 0.6,
-          onUpdate: (self) => {
-            progresoRef.current = self.progress;
-            if (contadorRef.current) {
-              contadorRef.current.textContent = fmt(self.progress * TOTAL_DEFORESTADO);
-            }
-            // el contenido de texto cede protagonismo al bosque que cae
-            if (contenidoRef.current) {
-              contenidoRef.current.style.opacity = String(1 - Math.max(0, (self.progress - 0.5) / 0.5));
-            }
-            // los marcadores del bosque intacto se apagan al empezar a talar
-            if (marcasRef.current) {
-              marcasRef.current.style.opacity = String(Math.max(0, 1 - self.progress / 0.3));
-            }
-          },
-        });
-        cleanup.push(() => st.kill());
-        ScrollTrigger.refresh();
-      }
-
-      // ── Parallax de cursor + cursor custom + botón magnético (desktop) ───
-      if (!movil) {
-        const onMove = (e: MouseEvent) => {
-          punteroRef.current.x = (e.clientX / window.innerWidth) * 2 - 1;
-          punteroRef.current.y = -((e.clientY / window.innerHeight) * 2 - 1);
-          if (cursorRef.current) {
-            cursorRef.current.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-          }
-          const cta = ctaRef.current;
-          if (cta) {
-            const r = cta.getBoundingClientRect();
-            const cx = r.left + r.width / 2;
-            const cy = r.top + r.height / 2;
-            const dx = e.clientX - cx;
-            const dy = e.clientY - cy;
-            const dist = Math.hypot(dx, dy);
-            if (dist < 90) {
-              cta.style.transform = `translate(${dx * 0.28}px, ${dy * 0.28}px)`;
-            } else {
-              cta.style.transform = '';
-            }
-          }
-        };
-        window.addEventListener('mousemove', onMove);
-        cleanup.push(() => window.removeEventListener('mousemove', onMove));
-      }
-    })();
+    // Parallax de cursor + cursor custom + botón magnético (desktop).
+    if (!movil) {
+      const onMove = (e: MouseEvent) => {
+        punteroRef.current.x = (e.clientX / window.innerWidth) * 2 - 1;
+        punteroRef.current.y = -((e.clientY / window.innerHeight) * 2 - 1);
+        if (cursorRef.current) {
+          cursorRef.current.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+        }
+        const cta = ctaRef.current;
+        if (cta) {
+          const r = cta.getBoundingClientRect();
+          const dx = e.clientX - (r.left + r.width / 2);
+          const dy = e.clientY - (r.top + r.height / 2);
+          cta.style.transform = Math.hypot(dx, dy) < 90 ? `translate(${dx * 0.28}px, ${dy * 0.28}px)` : '';
+        }
+      };
+      window.addEventListener('mousemove', onMove);
+      cleanup.push(() => window.removeEventListener('mousemove', onMove));
+    }
 
     return () => {
       cancelado = true;
