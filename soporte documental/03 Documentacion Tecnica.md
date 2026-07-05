@@ -129,7 +129,7 @@ observatorio-deforestacion/
 │   ├── metadata.json              Diccionario de datos, fuentes por periodo, QA, log
 │   ├── municipios.geojson         Límites de los 19 municipios (WGS84)
 │   ├── subregiones.geojson        5 subregiones CORPOURABA
-│   ├── hotspots/<periodo>.geojson Polígonos de deforestación ≥1 ha por periodo
+│   ├── hotspots/<periodo>.geojson Polígonos de deforestación de deforestación (incluidos los de menos de 1 ha) por periodo
 │   ├── capas/*.geojson            Capas de contexto y cartografía oficial
 │   └── analisis/                  Salidas del análisis temático (series, resúmenes,
 │                                  hallazgos.json, recurrencia.geojson, cartografia/)
@@ -183,7 +183,7 @@ Todas las rutas cuelgan de `frontend/src/app/api/v1/`. Son handlers `GET` con `r
 | --- | --- |
 | `GET /api/v1/capas` | Índice de capas de contexto/cartografía oficial disponibles |
 | `GET /api/v1/capas/[id]` | GeoJSON de una capa concreta (áreas protegidas, resguardos, consejos, cuencas, POMCAS, Ley 2ª, títulos mineros) |
-| `GET /api/v1/hotspots/[periodo]` | Polígonos de deforestación (≥1 ha) del periodo |
+| `GET /api/v1/hotspots/[periodo]` | Polígonos de deforestación (incluidos los de menos de 1 ha) del periodo |
 | `GET /api/v1/parches` | Parches de deforestación para el explorador |
 | `GET /api/v1/parches/resumen` | Resumen agregado de parches |
 

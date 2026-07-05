@@ -147,6 +147,10 @@ RASTER_MPIOS = {
 # Periodos sin fuente municipal → estimación marcada
 ESTIMADOS = ["2010-2012", "2018-2019", "2023-2024"]
 
+# Área mínima (ha) de un polígono para aparecer en el visor de hotspots.
+# 0.09 ha = 1 píxel del ráster (30 m); incluye los focos de menos de 1 ha.
+MIN_HA_HOTSPOT = 0.09
+
 # Capa de referencia para límites municipales (la más reciente completa con CRS)
 SHP_LIMITES = "2021-2022/Defor2021_2022_Mpios_Proj.shp"
 
@@ -353,8 +357,8 @@ def hotspots_from_raster(raw: Path, out_dir: Path, periodo: str,
         crs = src.crs
     gdf = gpd.GeoDataFrame(geometry=geoms, crs=crs)
     gdf["ha"] = (gdf.geometry.area / 10_000).round(2)
-    gdf = gdf[gdf["ha"] >= 1.0]
-    gdf["geometry"] = gdf.geometry.simplify(40, preserve_topology=True)
+    gdf = gdf[gdf["ha"] >= MIN_HA_HOTSPOT]
+    gdf["geometry"] = gdf.geometry.simplify(25, preserve_topology=True)
     mpios = municipios.to_crs(crs)[["municipio_key", "geometry"]]
     cent = gdf.copy()
     cent["geometry"] = cent.geometry.representative_point()
@@ -370,7 +374,7 @@ def hotspots_from_raster(raw: Path, out_dir: Path, periodo: str,
     gdf = gdf.to_crs(WGS84)[["municipio", "ha", "geometry"]]
     path = out_dir / f"{periodo}.geojson"
     gdf.to_file(path, driver="GeoJSON", COORDINATE_PRECISION=5)
-    log(f"  {periodo}: {len(gdf)} polígonos ≥1 ha desde ráster "
+    log(f"  {periodo}: {len(gdf)} polígonos (≥{MIN_HA_HOTSPOT} ha) desde ráster "
         f"({path.stat().st_size/1024:.0f} KB)")
     return len(gdf)
 
@@ -652,15 +656,16 @@ def build_hotspots(raw: Path, out: Path,
         if not defo.crs.is_projected:
             defo = defo.to_crs(METRIC_FALLBACK)
         defo["ha"] = (defo.geometry.area / 10_000).round(2)
-        defo = defo[defo["ha"] >= 1.0]  # descarta fragmentos < 1 ha para peso web
+        defo = defo[defo["ha"] >= MIN_HA_HOTSPOT]  # incluye focos < 1 ha
         defo["municipio"] = defo["NOM_MUNICI"].map(
             lambda x: MUNICIPIOS.get(match_municipio(x), (None,))[0])
-        defo["geometry"] = defo.geometry.simplify(40, preserve_topology=True)
+        defo["geometry"] = defo.geometry.simplify(25, preserve_topology=True)
         defo = defo.to_crs(WGS84)[["municipio", "ha", "geometry"]]
         path = hotdir / f"{pid}.geojson"
         defo.to_file(path, driver="GeoJSON", COORDINATE_PRECISION=5)
         resumen[pid] = len(defo)
-        log(f"  {pid}: {len(defo)} polígonos ≥1 ha ({path.stat().st_size/1024:.0f} KB)")
+        log(f"  {pid}: {len(defo)} polígonos (≥{MIN_HA_HOTSPOT} ha) "
+            f"({path.stat().st_size/1024:.0f} KB)")
     return resumen
 
 

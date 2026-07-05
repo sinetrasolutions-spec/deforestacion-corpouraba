@@ -97,14 +97,14 @@ Polígonos de las 5 subregiones (disolución de municipios).
 
 ## 4. Hotspots de deforestación: `hotspots/<periodo>.geojson`
 
-Un archivo por periodo con polígonos individuales de deforestación de ≥1 ha (parches). Existen 12 archivos: `2002-2004`, `2004-2006`, `2006-2008`, `2008-2010`, `2012-2013`, `2013-2014`, `2016-2017`, `2017-2018`, `2019-2020`, `2020-2021`, `2021-2022`, `2022-2023`.
+Un archivo por periodo con polígonos individuales de deforestación (parches, incluidos los de menos de 1 ha). Existen 12 archivos: `2002-2004`, `2004-2006`, `2006-2008`, `2008-2010`, `2012-2013`, `2013-2014`, `2016-2017`, `2017-2018`, `2019-2020`, `2020-2021`, `2021-2022`, `2022-2023`.
 
 | Campo | Tipo | Descripción | Valores/Unidad |
 |---|---|---|---|
 | `municipio` | texto | Municipio donde cae el parche | Ej. `Arboletes` |
 | `ha` | decimal | Área del parche de deforestación | hectáreas (ha) |
 
-Geometría: `Polygon`. Nota: el identificador del periodo (`periodo`, `ano_inicio`) está implícito en el nombre del archivo; los parches por debajo de 1 ha y los ubicados fuera de la jurisdicción se descartan en el ETL.
+Geometría: `Polygon`. Nota: el identificador del periodo (`periodo`, `ano_inicio`) está implícito en el nombre del archivo; los parches por debajo de 0,09 ha (ruido sub-píxel) y los ubicados fuera de la jurisdicción se descartan en el ETL.
 
 ---
 

@@ -132,7 +132,7 @@ El **Mapa** colorea los 19 municipios según su deforestación (mapa de coroplet
 
 En el panel de **Capas** puede encender:
 
-- **Deforestación (hotspots):** los polígonos de deforestación ≥1 ha del periodo activo (avisa cuando un periodo no tiene datos de polígonos).
+- **Deforestación (hotspots):** los polígonos de deforestación de deforestación (incluidos los de menos de 1 ha) del periodo activo (avisa cuando un periodo no tiene datos de polígonos).
 - **Frentes persistentes (≥3 periodos):** zonas donde la deforestación se repite en varios periodos.
 - Capas oficiales de contexto (áreas protegidas, resguardos, consejos, cuencas y demás), que se descargan al activarlas. Toque una unidad para ver su información.
 
@@ -140,7 +140,7 @@ En el panel de **Capas** puede encender:
 
 ## Visor de deforestación
 
-El **Visor** muestra directamente los **polígonos de deforestación** (focos ≥1 ha) sobre el mapa, con una nueva línea de tiempo visual y las capas de la cartografía oficial.
+El **Visor** muestra directamente los **polígonos de deforestación** (incluidos los focos de menos de 1 ha) sobre el mapa, con una nueva línea de tiempo visual y las capas de la cartografía oficial.
 
 ### Dos modos de visualización
 
@@ -167,7 +167,7 @@ Junto al año seleccionado se muestra su número de focos y sus hectáreas.
 - **Datos:** el botón «Datos» abre el panel de estadísticas de fragmentación: número de polígonos, área total, tamaño medio, mayor polígono y distribución por tamaño. En modo «Ver todo» incluye también los polígonos por periodo (clicables).
 - **Descargar GeoJSON:** en modo «Un año a la vez», el panel de datos ofrece **«Descargar GeoJSON del periodo»** para llevar los polígonos a otro programa (por ejemplo, un SIG).
 
-> **Nota importante del visor:** el visor contiene los polígonos ≥1 ha de **12 de los 18 periodos** (aproximadamente el 65 % de la deforestación total). No incluye el pico de **2015-2016** ni otros cinco periodos, porque no se conservó su geometría. Por eso el visor no debe leerse como el total: para las cifras completas use el Dashboard.
+> **Nota importante del visor:** el visor contiene los polígonos de deforestación (incluidos los de menos de 1 ha) de **12 de los 18 periodos** (cerca del 64 % de la deforestación total). No incluye el pico de **2015-2016** ni otros cinco periodos, porque no se conservó su geometría. Por eso el visor no debe leerse como el total: para las cifras completas use el Dashboard.
 
 ---
 
@@ -209,7 +209,7 @@ El módulo **Datos** reúne todo lo descargable, con su metodología.
 | **Serie municipal** | CSV, Excel | Municipio × periodo × clase (1.123 filas) |
 | **Serie regional** | CSV | Agregado de la jurisdicción por periodo y clase |
 | **Límites municipales** | GeoJSON | Los 19 municipios (WGS84), con DANE y subregión |
-| **Hotspots por periodo** | GeoJSON | Polígonos de deforestación ≥1 ha (12 periodos) |
+| **Hotspots por periodo** | GeoJSON | Polígonos de deforestación de deforestación (incluidos los de menos de 1 ha) (12 periodos) |
 | **Capas de contexto** | GeoJSON | Áreas protegidas, resguardos, consejos, cuencas y capas oficiales |
 | **Paquete completo** | ZIP | Todos los datos procesados en un solo archivo |
 
@@ -248,7 +248,7 @@ Antes de sacar conclusiones, tenga presentes estas cuatro claves.
 ### 3. Por qué las cifras del Dashboard y del Visor pueden diferir
 
 - El **Dashboard** trabaja con la **serie completa** de los 18 periodos (incluidos los estimados y 2015-2016). Sus cifras representan el total.
-- El **Visor** solo dibuja los **polígonos ≥1 ha de 12 periodos** con geometría disponible (~65 % del total); **no incluye 2015-2016 ni otros cinco periodos**. Por eso el área que suma el Visor es **menor** que el total del Dashboard.
+- El **Visor** solo dibuja los **polígonos de deforestación (incluidos los de menos de 1 ha) de 12 periodos** con geometría disponible (cerca del 64 % del total); **no incluye 2015-2016 ni otros cinco periodos**. Por eso el área que suma el Visor es **menor** que el total del Dashboard.
 - **Regla práctica:** para cifras oficiales y totales, consulte el **Dashboard** o el **Centro de descargas**; use el **Visor** para ver *dónde* ocurrió la deforestación, no *cuánta* en total.
 
 ### 4. Cifra de referencia del observatorio

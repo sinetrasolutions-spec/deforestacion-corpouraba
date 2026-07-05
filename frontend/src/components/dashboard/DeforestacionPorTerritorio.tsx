@@ -209,11 +209,11 @@ export default function DeforestacionPorTerritorio() {
             </div>
 
             <p className="mt-4 text-xs text-[color:var(--tinta-suave)]">
-              «Deforestación mapeada»: polígonos ≥1 ha de los 12 periodos con detección espacial
-              (≈25.169 ha, cerca del 54 % del total; los otros 6 periodos —incluido el pico
-              2015-2016— no tienen geometría). El total real de deforestación (46.846 ha) está en
-              los indicadores y la serie de arriba. El % es sobre el área de cada unidad cuando se
-              conoce. Fuentes y método en el centro de datos.
+              «Deforestación mapeada»: polígonos de los 12 periodos con detección espacial,
+              incluidos los focos menores de 1 ha (≈29.918 ha, cerca del 64 % del total; los otros
+              6 periodos —incluido el pico 2015-2016— no tienen geometría). El total real de
+              deforestación (46.846 ha) está en los indicadores y la serie de arriba. El % es sobre
+              el área de cada unidad cuando se conoce. Fuentes y método en el centro de datos.
             </p>
           </>
         )}

@@ -232,7 +232,8 @@ export default function LienzoParches() {
     const mediana = n ? has[Math.floor(n / 2)] : 0;
     const max = n ? has[n - 1] : 0;
     const clases = [
-      { etiqueta: '1–2 ha', n: has.filter((h) => h < 2).length },
+      { etiqueta: '< 1 ha', n: has.filter((h) => h < 1).length },
+      { etiqueta: '1–2 ha', n: has.filter((h) => h >= 1 && h < 2).length },
       { etiqueta: '2–5 ha', n: has.filter((h) => h >= 2 && h < 5).length },
       { etiqueta: '5–10 ha', n: has.filter((h) => h >= 5 && h < 10).length },
       { etiqueta: '10–20 ha', n: has.filter((h) => h >= 10 && h < 20).length },
@@ -629,11 +630,10 @@ export default function LienzoParches() {
             Descargar GeoJSON del periodo
           </a>
           <p className="mt-3 text-[10px] leading-snug text-[color:var(--tinta-suave)]">
-            Aquí se dibujan solo los polígonos ≥1 ha de los 12 periodos que tienen
-            geometría: ≈25.169 ha, cerca del 54 % del total. Los otros 6 periodos
-            —incluido el pico 2015-2016— solo tienen cifras, no forma en el mapa, y los
-            focos menores de 1 ha no se dibujan. El total real (46.846 ha) está en el
-            dashboard.
+            Aquí se dibujan los polígonos de deforestación de los 12 periodos que tienen
+            geometría, incluidos los focos de menos de 1 ha: ≈29.918 ha, cerca del 64 %
+            del total. Los otros 6 periodos —incluido el pico 2015-2016— solo tienen
+            cifras, no forma en el mapa. El total real (46.846 ha) está en el dashboard.
           </p>
         </aside>
       )}
