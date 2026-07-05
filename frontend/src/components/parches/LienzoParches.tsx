@@ -49,6 +49,7 @@ const ESTILO_CAPAS: Record<string, L.PathOptions> = {
   consejos: { color: '#B45309', weight: 1, fillColor: '#F59E0B', fillOpacity: 0.16 },
   comunidades_negras_oficial: { color: '#B45309', weight: 1.2, fillColor: '#F59E0B', fillOpacity: 0.14 },
   cuencas: { color: '#1D4ED8', weight: 1, fillColor: '#60A5FA', fillOpacity: 0.12 },
+  pomcas: { color: '#1E40AF', weight: 1, fillColor: '#3B82F6', fillOpacity: 0.12 },
   titulos_mineros: { color: '#78350F', weight: 1, fillColor: '#B45309', fillOpacity: 0.18 },
   pdet: { color: '#9333EA', weight: 1, fillColor: '#C084FC', fillOpacity: 0.1 },
 };
@@ -137,10 +138,11 @@ export default function LienzoParches() {
         const [ps, mun, cat] = await Promise.all([getPeriodos(), getMunicipios(), getCapas()]);
         setPeriodos(ps);
         setMunicipiosFc(mun);
-        // Se muestran solo las capas oficiales de resguardos y consejos; se
-        // ocultan las derivadas del paquete de monitoreo ('resguardos',
-        // 'consejos') por ser redundantes con las de la cartografía oficial.
-        const OCULTAS = new Set(['resguardos', 'consejos']);
+        // Se muestran solo las capas oficiales de áreas protegidas, resguardos
+        // y consejos; se ocultan las derivadas del paquete de monitoreo
+        // ('areas_protegidas', 'resguardos', 'consejos') por ser redundantes
+        // con las de la cartografía oficial.
+        const OCULTAS = new Set(['areas_protegidas', 'resguardos', 'consejos']);
         setCapasCatalogo(cat.capas.filter((c) => !OCULTAS.has(c.id)));
         setMunicipios(
           (mun.features ?? [])

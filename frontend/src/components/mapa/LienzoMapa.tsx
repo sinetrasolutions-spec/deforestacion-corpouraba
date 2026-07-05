@@ -56,6 +56,7 @@ const CENTRO_URABA: [number, number] = [7.5, -76.4];
 const ESTILO_CAPAS: Record<string, PathOptions> = {
   areas_protegidas: { color: '#15803D', weight: 1, fillColor: '#22C55E', fillOpacity: 0.18 },
   areas_protegidas_oficial: { color: '#15803D', weight: 1.2, fillColor: '#22C55E', fillOpacity: 0.14 },
+  pomcas: { color: '#1E40AF', weight: 1, fillColor: '#3B82F6', fillOpacity: 0.12 },
   ley_segunda: { color: '#0F766E', weight: 1, fillColor: '#14B8A6', fillOpacity: 0.14 },
   ecosistemas_estrategicos: { color: '#0891B2', weight: 1, fillColor: '#22D3EE', fillOpacity: 0.16 },
   resguardos: { color: '#7C3AED', weight: 1, fillColor: '#A78BFA', fillOpacity: 0.16 },
@@ -149,7 +150,10 @@ export default function LienzoMapa() {
         if (!vivo) return;
         setPeriodos(ps);
         setMunicipios(mun);
-        setCapasCatalogo(cat.capas);
+        // Solo capas oficiales: se ocultan las derivadas del paquete de
+        // monitoreo, redundantes con la cartografía oficial.
+        const OCULTAS = new Set(['areas_protegidas', 'resguardos', 'consejos']);
+        setCapasCatalogo(cat.capas.filter((c) => !OCULTAS.has(c.id)));
       } catch (e) {
         console.error('Error cargando datos base del mapa', e);
       } finally {
