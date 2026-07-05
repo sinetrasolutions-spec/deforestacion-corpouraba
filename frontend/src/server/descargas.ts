@@ -13,8 +13,9 @@ const TITULO = 'Observatorio de Deforestación CORPOURABA (2000–2024)';
 const ATRIBUCION =
   'Fuente: CORPOURABA — monitoreo de bosque de la jurisdicción; datos procesados por el ETL del Observatorio.';
 const NOTA_ESTIMADOS =
-  'Los periodos 2010-2012, 2015-2016, 2018-2019 y 2023-2024 contienen valores estimados ' +
-  '(columna estimado=True); úselos solo como referencia.';
+  'Los periodos 2010-2012, 2018-2019 y 2023-2024 contienen valores estimados ' +
+  '(columna estimado=True); úselos solo como referencia. 2015-2016 es dato REAL, ' +
+  'calculado desde la tabla municipal oficial (dbf).';
 
 function describirFiltros(filtros: Record<string, unknown>): string {
   const partes = Object.entries(filtros)

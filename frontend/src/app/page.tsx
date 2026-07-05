@@ -97,7 +97,7 @@ const PUNTOS_HONESTIDAD = [
     Icono: AlertTriangle,
     titulo: 'Hay datos estimados',
     texto:
-      'Para 2010-2012, 2015-2016, 2018-2019 y 2023-2024 no existe medición directa completa: los valores fueron estimados o calibrados con fuentes auxiliares. Se marcan SIEMPRE con un distintivo visual.',
+      'Para 2010-2012, 2018-2019 y 2023-2024 no existe medición municipal directa: los valores fueron estimados o calibrados con fuentes auxiliares. Se marcan SIEMPRE con un distintivo visual. (2015-2016 sí se recuperó como dato real desde la tabla municipal oficial.)',
   },
   {
     Icono: Layers,

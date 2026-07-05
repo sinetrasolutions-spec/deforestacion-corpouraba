@@ -1,6 +1,6 @@
 {
  "titulo": "Observatorio de Deforestación CORPOURABA 2000–2024",
- "generado": "2026-07-03T20:05:09.947778+00:00",
+ "generado": "2026-07-04T23:53:06.758691+00:00",
  "crs_salida": "EPSG:4326",
  "crs_origen": "EPSG:3115 / MAGNA-SIRGAS Bogotá (métricos)",
  "clases": {
@@ -86,7 +86,7 @@
    "ano_inicio": 2015,
    "ano_fin": 2016,
    "anos": 1,
-   "fuente": "cuencas (parcial)"
+   "fuente": "tabla municipal (dbf)"
   },
   {
    "id": "2016-2017",
@@ -267,9 +267,9 @@
   "2023-2024"
  ],
  "nota_estimados": "2010-2012, 2018-2019 y 2023-2024 carecen de datos municipales en el paquete original; se estiman por interpolación/tendencia de la tasa anual y se marcan con estimado=true. 2010-2012 se calibra además con el total departamental real del RAT del ráster (× participación histórica de la jurisdicción ~18%). Usar solo como referencia, no como cifra oficial.",
- "nota_2015_2016": "2015-2016 proviene del cruce con cuencas (cobertura parcial). Se calibra con factores municipio×clase derivados de 2016-2017 (único periodo con ambas fuentes) y se marca estimado=true. Murindó y Vigía del Fuerte se interpolan.",
+ "nota_2015_2016": "2015-2016 se calcula con la tabla de atributos municipal oficial (Defor2015_2016_Mpios_Proj_Correg.dbf): área real por municipio y clase de los 19 municipios (San Juan de Urabá con 0 ha de deforestación). Es dato MEDIDO (estimado=false), no una estimación. La geometría (.shp) de este periodo no se conservó, por lo que no aparece en el visor de polígonos, pero las cifras del dashboard y la serie son reales.",
  "hotspots_features": {
-  "2012-2013": 4160,
+  "2012-2013": 754,
   "2002-2004": 1119,
   "2004-2006": 902,
   "2006-2008": 808,
@@ -383,22 +383,21 @@
   "  2013-2014: shapefile (Corregida14.shp) → 1,863,458 ha",
   "  [WARN] 2014-2015: sin match municipio/clase: 46769/'Total' (1860191.4 ha descartadas)",
   "  2014-2015: excel (Defor2014_2015_Mpios.shp) → 1,860,191 ha",
-  "  2015-2016: excel de cuencas → 17/19 municipios (cobertura parcial)",
+  "  2015-2016: tabla municipal dbf (Defor2015_2016_Mpios_Proj_Correg.dbf) → 1,864,034 ha, 19/19 municipios (dato REAL)",
   "  2016-2017: shapefile (Defor2016_2017_Mpios_Proj_Correg.shp) → 1,860,433 ha",
   "  2017-2018: shapefile (Defor2017_2018_Mpios_Proj_Correg.shp) → 1,860,434 ha",
   "  2019-2020: shapefile (Defor2019_2020_Mpios_Proj_Correg.shp) → 1,860,435 ha",
   "  2020-2021: shapefile (Defor2020_2021_Mpios_Proj_Correg.shp) → 1,860,436 ha",
   "  2021-2022: shapefile (Defor2021_2022_Mpios_Proj_Correg.shp) → 1,860,434 ha",
   "  2022-2023: shapefile (Defor2022_2023_Mpios_Proj_Correg.shp) → 1,860,446 ha",
-  "  2015-2016: calibración por cuencas 2,248 ha -> 4,751 ha (factores municipio×clase desde 2016-2017)",
-  "  2015-2016: 2 municipios sin cobertura de cuencas estimados por interpolación: ['Murindó', 'Vigía del Fuerte']",
   "[3/6] Estimación de vacíos (solo clase Deforestación, flag estimado) ...",
   "  2010-2012: estimado para 19 municipios",
   "  2018-2019: estimado para 19 municipios",
   "  2023-2024: estimado para 19 municipios",
   "  2010-2012: defo. dptal real 17,546 ha × participación jurisdicción 17.9% = objetivo 3,135 ha (factor 0.839)",
   "[4/6] Hotspots de deforestación por periodo ...",
-  "  2012-2013: 4160 polígonos ≥1 ha desde ráster (1189 KB)",
+  "  2012-2013: 3406 parches fuera de la jurisdicción descartados",
+  "  2012-2013: 754 polígonos ≥1 ha desde ráster (217 KB)",
   "  2002-2004: 1119 polígonos ≥1 ha (320 KB)",
   "  2004-2006: 902 polígonos ≥1 ha (260 KB)",
   "  2006-2008: 808 polígonos ≥1 ha (227 KB)",

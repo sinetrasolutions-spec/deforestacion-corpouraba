@@ -216,7 +216,7 @@ def main() -> int:
                 ws.cell(row=rr, column=cc).fill = FILL_KPI
         lb = ws[f"{L}7"]
         lb.value, lb.font = lbl, F_KPI_LBL
-    ws["B8"] = "Nota: los periodos marcados con * son estimados/calibrados (2010-2012, 2015-2016, 2018-2019, 2023-2024)."
+    ws["B8"] = "Nota: los periodos marcados con * son estimados/calibrados (2010-2012, 2018-2019, 2023-2024). 2015-2016 es dato real recuperado de la tabla municipal oficial."
     ws["B8"].font = F_NOTA
 
     lc = LineChart()
@@ -348,8 +348,8 @@ def main() -> int:
         end_type="max", end_color="B91C1C"))
     ws.freeze_panes = "B4"
     ws.cell(row=rt + 2, column=1,
-            value="Periodos 2010-2012, 2015-2016, 2018-2019 y 2023-2024: valores "
-                  "estimados/calibrados. Escala de color blanco→rojo por intensidad."
+            value="Periodos 2010-2012, 2018-2019 y 2023-2024: valores "
+                  "estimados/calibrados (2015-2016 es dato real). Escala de color blanco→rojo por intensidad."
             ).font = F_NOTA
 
     # ═════════════ HOJAS OPCIONALES (si la investigación ya corrió) ═════════
@@ -451,11 +451,11 @@ def main() -> int:
         ("Clases", "Bosque Estable (1) · Deforestación (2) · Sin Información (3) · Regeneración (4) · No Bosque Estable (5) — número = gridcode del paquete original."),
         ("hectareas", "Suma de hectáreas de la clase en el municipio y periodo (área geométrica en CRS métrico cuando hay shapefile)."),
         ("hectareas_anuales", "hectareas / años del periodo (los 5 primeros periodos duran 2 años) — usar SIEMPRE para comparar periodos."),
-        ("fuente", "shapefile · excel · cuencas-calibrado · raster · estimado · estimado-calibrado-rat (mejor→peor)."),
+        ("fuente", "shapefile · excel · dbf-municipal · raster · estimado · estimado-calibrado-rat (mejor→peor)."),
         ("estimado", "Sí = el dato no proviene de una medición municipal directa y debe tratarse como referencia, no como cifra oficial."),
         ("", ""),
-        ("Vacíos del paquete", "2010-2012: sin datos municipales (solo total departamental del ráster) · 2018-2019: carpeta inexistente · 2023-2024: shapefile municipal perdido · 2015-2016: solo cruce con cuencas (parcial)."),
-        ("Calibraciones", "2010-2012 = total departamental real del RAT × participación histórica de la jurisdicción (~18%), repartido por interpolación municipal. 2015-2016 = datos de cuencas × factores municipio-clase derivados de 2016-2017 (único periodo con ambas fuentes)."),
+        ("Vacíos del paquete", "2010-2012: sin datos municipales (solo total departamental del ráster) · 2018-2019: carpeta inexistente · 2023-2024: shapefile municipal perdido. 2015-2016: la geometría (.shp) se perdió pero SÍ sobrevive la tabla de atributos municipal (.dbf) con área real, por lo que su cifra es dato medido."),
+        ("Calibraciones", "2010-2012 = total departamental real del RAT × participación histórica de la jurisdicción (~18%), repartido por interpolación municipal. 2015-2016 = medición real desde Defor2015_2016_Mpios_Proj_Correg.dbf (área por municipio y clase de los 19 municipios; San Juan de Urabá con 0 ha)."),
         ("Control de calidad", "La serie consolidada difiere ≤0,3% de las hojas 'Cálculos' de los Excel institucionales originales en los 10 periodos comparables."),
         ("", ""),
         ("Fuentes por periodo", " · ".join(f"{p['id']}: {p['fuente']}" for p in meta["periodos"])),

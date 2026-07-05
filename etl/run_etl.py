@@ -132,6 +132,12 @@ EXCEL_MPIOS = {
     "2000-2002": "2000-2002/Defor2000_2002_Mpios_Dat.xls",
     "2014-2015": "2014-2015/Defor2014_2015_Mpios_Dat.xls",
 }
+# Tabla de atributos municipal (.dbf del shapefile cuya geometría se perdió,
+# pero conserva NOM_MUNICI + Tipo_Cober + AREA_ha reales por polígono).
+DBF_MPIOS = {
+    "2015-2016": "2015-2016/Defor2015_2016_Mpios_Proj_Correg.dbf",
+}
+# Solo se usa como respaldo si el .dbf municipal del periodo no existiera.
 EXCEL_CUENCAS = {
     "2015-2016": "2015-2016/Defor2015-2016_Cuenc_Dat.xlsx",
 }
@@ -432,6 +438,14 @@ def build_serie(raw: Path, municipios: gpd.GeoDataFrame) -> pd.DataFrame:
             hoja = xl.sheet_names[0]
             df = stats_from_table(xl.parse(hoja), pid, "excel")
             log(f"  {pid}: excel ({hoja}) → {df['hectareas'].sum():,.0f} ha")
+        elif pid in DBF_MPIOS and (raw / DBF_MPIOS[pid]).exists():
+            from pyogrio import read_dataframe
+            dbf = raw / DBF_MPIOS[pid]
+            df = stats_from_table(read_dataframe(dbf, read_geometry=False), pid,
+                                  "dbf-municipal")
+            n = df["municipio_key"].nunique()
+            log(f"  {pid}: tabla municipal dbf ({dbf.name}) → "
+                f"{df['hectareas'].sum():,.0f} ha, {n}/19 municipios (dato REAL)")
         elif pid in EXCEL_CUENCAS:
             xl = pd.ExcelFile(raw / EXCEL_CUENCAS[pid])
             df = stats_from_table(xl.parse(xl.sheet_names[0]), pid, "cuencas",
@@ -460,6 +474,10 @@ def calibrar_cuencas_2015_2016(raw: Path, serie: pd.DataFrame) -> pd.DataFrame:
     sesgo de cobertura. Resultado marcado estimado=True por transparencia."""
     ruta = raw / "2016-2017" / "Defor2016-2017_Cuenc_Dat.xlsx"
     if "2015-2016" not in set(serie["periodo"]) or not ruta.exists():
+        return serie
+    # Si 2015-2016 ya salió de una fuente real (tabla municipal .dbf), no se
+    # calibra ni se estima: el cruce con cuencas solo era el plan B.
+    if not ((serie["periodo"] == "2015-2016") & (serie["fuente"] == "cuencas")).any():
         return serie
     xl = pd.ExcelFile(ruta)
     cu17 = stats_from_table(xl.parse(xl.sheet_names[0]), "2016-2017", "cuencas",
@@ -785,6 +803,7 @@ def main() -> int:
         "periodos": [{"id": p, "ano_inicio": i, "ano_fin": f, "anos": f - i,
                       "fuente": ("shapefile" if p in SHP_MPIOS else
                                  "excel" if p in EXCEL_MPIOS else
+                                 "tabla municipal (dbf)" if p in DBF_MPIOS else
                                  "cuencas (parcial)" if p in EXCEL_CUENCAS else
                                  "raster (zonal stats)" if p in RASTER_MPIOS else
                                  "estimado")}
@@ -798,10 +817,13 @@ def main() -> int:
                            "calibra además con el total departamental real del RAT del "
                            "ráster (× participación histórica de la jurisdicción ~18%). "
                            "Usar solo como referencia, no como cifra oficial."),
-        "nota_2015_2016": ("2015-2016 proviene del cruce con cuencas (cobertura parcial). "
-                           "Se calibra con factores municipio×clase derivados de 2016-2017 "
-                           "(único periodo con ambas fuentes) y se marca estimado=true. "
-                           "Murindó y Vigía del Fuerte se interpolan."),
+        "nota_2015_2016": ("2015-2016 se calcula con la tabla de atributos municipal "
+                           "oficial (Defor2015_2016_Mpios_Proj_Correg.dbf): área real por "
+                           "municipio y clase de los 19 municipios (San Juan de Urabá con "
+                           "0 ha de deforestación). Es dato MEDIDO (estimado=false), no una "
+                           "estimación. La geometría (.shp) de este periodo no se conservó, "
+                           "por lo que no aparece en el visor de polígonos, pero las cifras "
+                           "del dashboard y la serie son reales."),
         "hotspots_features": hot,
         "overlays_unidades": over,
         "qa_calculos": checks,

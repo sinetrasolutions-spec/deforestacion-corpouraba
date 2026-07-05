@@ -26,9 +26,9 @@ export const SECCIONES: Seccion[] = [
       explorador:
         'La deforestación es cuando desaparecen los árboles de un bosque. Es como borrar la casa de muchos animales. En Urabá, entre 2000 y 2024 se perdió bosque equivalente a más de 60.000 canchas de fútbol.',
       guardian:
-        'La deforestación es la pérdida permanente de bosque para convertir el terreno en potreros, cultivos o construcciones. En la jurisdicción de CORPOURABA se han perdido cerca de 46.041 hectáreas de bosque en 24 años. Una hectárea equivale a una cancha y media de fútbol.',
+        'La deforestación es la pérdida permanente de bosque para convertir el terreno en potreros, cultivos o construcciones. En la jurisdicción de CORPOURABA se han perdido cerca de 46.845 hectáreas de bosque en 24 años. Una hectárea equivale a una cancha y media de fútbol.',
       cientifico:
-        'La deforestación es la conversión de coberturas boscosas a otros usos del suelo, medida aquí como el cambio de «Bosque Estable» a otras clases entre periodos consecutivos. En CORPOURABA suman ≈46.041 ha (2000–2024); el bosque estable pasó de 908.114 ha a 870.305 ha, una pérdida neta del 4,2 %.',
+        'La deforestación es la conversión de coberturas boscosas a otros usos del suelo, medida aquí como el cambio de «Bosque Estable» a otras clases entre periodos consecutivos. En CORPOURABA suman ≈46.845 ha (2000–2024); el bosque estable pasó de 908.114 ha a 870.305 ha, una pérdida neta del 4,2 %.',
     },
   },
   {
@@ -100,8 +100,8 @@ export const QUIZ: Record<Nivel, Pregunta[]> = {
     { pregunta: '¿Quién pierde su casa cuando se tumba el bosque?', opciones: ['Los animales', 'Los carros', 'Los teléfonos'], correcta: 0, explicacion: 'Muchos animales se quedan sin hogar.' },
   ],
   guardian: [
-    { pregunta: '¿Cuántas hectáreas se deforestaron en CORPOURABA (2000–2024)?', opciones: ['≈4.600', '≈46.041', '≈460.000'], correcta: 1, explicacion: 'La cifra consolidada es ≈46.041 ha.' },
-    { pregunta: '¿Cuál fue el periodo más crítico?', opciones: ['2000-2002', '2015-2016', '2020-2021'], correcta: 1, explicacion: '2015-2016 registró el pico (~4.970 ha).' },
+    { pregunta: '¿Cuántas hectáreas se deforestaron en CORPOURABA (2000–2024)?', opciones: ['≈4.600', '≈46.845', '≈460.000'], correcta: 1, explicacion: 'La cifra consolidada es ≈46.845 ha.' },
+    { pregunta: '¿Cuál fue el periodo más crítico?', opciones: ['2000-2002', '2015-2016', '2020-2021'], correcta: 1, explicacion: '2015-2016 registró el pico histórico (~5.771 ha), hoy confirmado con la tabla municipal oficial.' },
     { pregunta: 'La mayor causa directa suele ser…', opciones: ['Ganadería y cultivos', 'Turismo', 'Pesca'], correcta: 0, explicacion: 'La praderización para ganadería y la frontera agrícola dominan.' },
     { pregunta: '¿Qué cuenca perdió más bosque?', opciones: ['Río León', 'Río Sinú', 'Río Magdalena'], correcta: 0, explicacion: 'La cuenca del río León acumula 6.333 ha.' },
     { pregunta: '¿Qué porcentaje del bosque perdió la región (neto)?', opciones: ['4,2 %', '25 %', '50 %'], correcta: 0, explicacion: 'El bosque estable cayó 4,2 % (37.809 ha).' },
@@ -110,7 +110,7 @@ export const QUIZ: Record<Nivel, Pregunta[]> = {
     { pregunta: 'La mayoría de los parches de deforestación son…', opciones: ['Enormes (>100 ha)', 'Pequeños (<5 ha)', 'Todos iguales'], correcta: 1, explicacion: 'El 92 % mide menos de 5 ha: colonización gradual.' },
   ],
   cientifico: [
-    { pregunta: '¿Cuánto bosque estable quedaba en 2022-2023?', opciones: ['≈870.305 ha', '≈46.041 ha', '≈1,86 M ha'], correcta: 0, explicacion: 'Bosque estable 2022-2023 ≈ 870.305 ha (era 908.114 en 2000-2002).' },
+    { pregunta: '¿Cuánto bosque estable quedaba en 2022-2023?', opciones: ['≈870.305 ha', '≈46.845 ha', '≈1,86 M ha'], correcta: 0, explicacion: 'Bosque estable 2022-2023 ≈ 870.305 ha (era 908.114 en 2000-2002).' },
     { pregunta: '¿Qué municipio perdió más bosque en hectáreas?', opciones: ['Turbo (18.424 ha)', 'Apartadó', 'Arboletes'], correcta: 0, explicacion: 'Turbo lidera en pérdida absoluta (-24,6 % de su bosque).' },
     { pregunta: '¿Qué municipio perdió la MAYOR fracción de su bosque?', opciones: ['Carepa (-43,2 %)', 'Murindó', 'Vigía del Fuerte'], correcta: 0, explicacion: 'Carepa conserva solo el 56,8 % de su bosque de 2000.' },
     { pregunta: 'Los frentes persistentes (≥3 periodos) concentran…', opciones: ['El 72 % de la pérdida', 'El 10 %', 'El 100 %'], correcta: 0, explicacion: '1.039 celdas de 2×2 km concentran el 72,2 % de las ha.' },

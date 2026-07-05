@@ -591,70 +591,78 @@
 05873,Vigía del Fuerte,Atrato,2014-2015,2014,2015,Deforestación,14.86,14.86,excel,False
 05873,Vigía del Fuerte,Atrato,2014-2015,2014,2015,No Bosque Estable,20899.07,20899.07,excel,False
 05873,Vigía del Fuerte,Atrato,2014-2015,2014,2015,Sin Información,6126.77,6126.77,excel,False
-05004,Abriaquí,Nutibara,2015-2016,2015,2016,Bosque Estable,13863.51,13863.51,cuencas-calibrado,True
-05004,Abriaquí,Nutibara,2015-2016,2015,2016,Deforestación,25.09,25.09,cuencas-calibrado,True
-05004,Abriaquí,Nutibara,2015-2016,2015,2016,No Bosque Estable,15774.87,15774.87,cuencas-calibrado,True
-05045,Apartadó,Centro,2015-2016,2015,2016,Bosque Estable,17952.69,17952.69,cuencas-calibrado,True
-05045,Apartadó,Centro,2015-2016,2015,2016,Deforestación,367.41,367.41,cuencas-calibrado,True
-05045,Apartadó,Centro,2015-2016,2015,2016,No Bosque Estable,34778.4,34778.4,cuencas-calibrado,True
-05045,Apartadó,Centro,2015-2016,2015,2016,Sin Información,351.46,351.46,cuencas-calibrado,True
-05051,Arboletes,Caribe,2015-2016,2015,2016,Bosque Estable,673.57,673.57,cuencas-calibrado,True
-05051,Arboletes,Caribe,2015-2016,2015,2016,Deforestación,4.03,4.03,cuencas-calibrado,True
-05051,Arboletes,Caribe,2015-2016,2015,2016,No Bosque Estable,73389.17,73389.17,cuencas-calibrado,True
-05051,Arboletes,Caribe,2015-2016,2015,2016,Sin Información,0.06,0.06,cuencas-calibrado,True
-05147,Carepa,Centro,2015-2016,2015,2016,Bosque Estable,4849.67,4849.67,cuencas-calibrado,True
-05147,Carepa,Centro,2015-2016,2015,2016,Deforestación,292.14,292.14,cuencas-calibrado,True
-05147,Carepa,Centro,2015-2016,2015,2016,No Bosque Estable,32879.09,32879.09,cuencas-calibrado,True
-05147,Carepa,Centro,2015-2016,2015,2016,Sin Información,345.98,345.98,cuencas-calibrado,True
-05138,Cañasgordas,Nutibara,2015-2016,2015,2016,Bosque Estable,12825.56,12825.56,cuencas-calibrado,True
-05138,Cañasgordas,Nutibara,2015-2016,2015,2016,Deforestación,22.7,22.7,cuencas-calibrado,True
-05138,Cañasgordas,Nutibara,2015-2016,2015,2016,No Bosque Estable,23560.45,23560.45,cuencas-calibrado,True
-05138,Cañasgordas,Nutibara,2015-2016,2015,2016,Sin Información,35.78,35.78,cuencas-calibrado,True
-05172,Chigorodó,Centro,2015-2016,2015,2016,Bosque Estable,19107.1,19107.1,cuencas-calibrado,True
-05172,Chigorodó,Centro,2015-2016,2015,2016,Deforestación,392.41,392.41,cuencas-calibrado,True
-05172,Chigorodó,Centro,2015-2016,2015,2016,No Bosque Estable,49761.65,49761.65,cuencas-calibrado,True
-05172,Chigorodó,Centro,2015-2016,2015,2016,Sin Información,1200.99,1200.99,cuencas-calibrado,True
-05234,Dabeiba,Nutibara,2015-2016,2015,2016,Bosque Estable,121809.36,121809.36,cuencas-calibrado,True
-05234,Dabeiba,Nutibara,2015-2016,2015,2016,Deforestación,176.04,176.04,cuencas-calibrado,True
-05234,Dabeiba,Nutibara,2015-2016,2015,2016,No Bosque Estable,50844.36,50844.36,cuencas-calibrado,True
-05234,Dabeiba,Nutibara,2015-2016,2015,2016,Sin Información,2775.02,2775.02,cuencas-calibrado,True
-05284,Frontino,Nutibara,2015-2016,2015,2016,Bosque Estable,89090.36,89090.36,cuencas-calibrado,True
-05284,Frontino,Nutibara,2015-2016,2015,2016,Deforestación,14.83,14.83,cuencas-calibrado,True
-05284,Frontino,Nutibara,2015-2016,2015,2016,No Bosque Estable,44139.08,44139.08,cuencas-calibrado,True
-05284,Frontino,Nutibara,2015-2016,2015,2016,Sin Información,18.49,18.49,cuencas-calibrado,True
-05306,Giraldo,Nutibara,2015-2016,2015,2016,Bosque Estable,1592.19,1592.19,cuencas-calibrado,True
-05306,Giraldo,Nutibara,2015-2016,2015,2016,Deforestación,2.77,2.77,cuencas-calibrado,True
-05306,Giraldo,Nutibara,2015-2016,2015,2016,No Bosque Estable,7737.04,7737.04,cuencas-calibrado,True
-05475,Murindó,Atrato,2015-2016,2015,2016,Deforestación,156.08,156.08,estimado,True
-05480,Mutatá,Centro,2015-2016,2015,2016,Bosque Estable,63055.07,63055.07,cuencas-calibrado,True
-05480,Mutatá,Centro,2015-2016,2015,2016,Deforestación,559.0,559.0,cuencas-calibrado,True
-05480,Mutatá,Centro,2015-2016,2015,2016,No Bosque Estable,36630.4,36630.4,cuencas-calibrado,True
-05480,Mutatá,Centro,2015-2016,2015,2016,Sin Información,6015.1,6015.1,cuencas-calibrado,True
-05490,Necoclí,Caribe,2015-2016,2015,2016,Bosque Estable,14120.21,14120.21,cuencas-calibrado,True
-05490,Necoclí,Caribe,2015-2016,2015,2016,Deforestación,110.11,110.11,cuencas-calibrado,True
-05490,Necoclí,Caribe,2015-2016,2015,2016,No Bosque Estable,110779.19,110779.19,cuencas-calibrado,True
-05490,Necoclí,Caribe,2015-2016,2015,2016,Sin Información,0.06,0.06,cuencas-calibrado,True
-05543,Peque,Nutibara,2015-2016,2015,2016,Bosque Estable,14171.63,14171.63,cuencas-calibrado,True
-05543,Peque,Nutibara,2015-2016,2015,2016,Deforestación,4.74,4.74,cuencas-calibrado,True
-05543,Peque,Nutibara,2015-2016,2015,2016,No Bosque Estable,29127.87,29127.87,cuencas-calibrado,True
-05543,Peque,Nutibara,2015-2016,2015,2016,Sin Información,144.36,144.36,cuencas-calibrado,True
-05659,San Juan de Urabá,Caribe,2015-2016,2015,2016,Bosque Estable,66.71,66.71,cuencas-calibrado,True
-05659,San Juan de Urabá,Caribe,2015-2016,2015,2016,No Bosque Estable,25016.38,25016.38,cuencas-calibrado,True
-05659,San Juan de Urabá,Caribe,2015-2016,2015,2016,Sin Información,0.06,0.06,cuencas-calibrado,True
-05665,San Pedro de Urabá,Caribe,2015-2016,2015,2016,Bosque Estable,1396.32,1396.32,cuencas-calibrado,True
-05665,San Pedro de Urabá,Caribe,2015-2016,2015,2016,Deforestación,27.65,27.65,cuencas-calibrado,True
-05665,San Pedro de Urabá,Caribe,2015-2016,2015,2016,No Bosque Estable,55097.25,55097.25,cuencas-calibrado,True
-05665,San Pedro de Urabá,Caribe,2015-2016,2015,2016,Sin Información,12.72,12.72,cuencas-calibrado,True
-05837,Turbo,Centro,2015-2016,2015,2016,Bosque Estable,61726.4,61726.4,cuencas-calibrado,True
-05837,Turbo,Centro,2015-2016,2015,2016,Deforestación,2744.46,2744.46,cuencas-calibrado,True
-05837,Turbo,Centro,2015-2016,2015,2016,No Bosque Estable,224285.8,224285.8,cuencas-calibrado,True
-05837,Turbo,Centro,2015-2016,2015,2016,Sin Información,337.0,337.0,cuencas-calibrado,True
-05842,Uramita,Nutibara,2015-2016,2015,2016,Bosque Estable,4619.01,4619.01,cuencas-calibrado,True
-05842,Uramita,Nutibara,2015-2016,2015,2016,Deforestación,7.56,7.56,cuencas-calibrado,True
-05842,Uramita,Nutibara,2015-2016,2015,2016,No Bosque Estable,21937.57,21937.57,cuencas-calibrado,True
-05847,Urrao,Urrao,2015-2016,2015,2016,Bosque Estable,863.83,863.83,cuencas-calibrado,True
-05847,Urrao,Urrao,2015-2016,2015,2016,No Bosque Estable,446.09,446.09,cuencas-calibrado,True
-05873,Vigía del Fuerte,Atrato,2015-2016,2015,2016,Deforestación,62.82,62.82,estimado,True
+05004,Abriaquí,Nutibara,2015-2016,2015,2016,Bosque Estable,13877.01,13877.01,dbf-municipal,False
+05004,Abriaquí,Nutibara,2015-2016,2015,2016,Deforestación,25.12,25.12,dbf-municipal,False
+05004,Abriaquí,Nutibara,2015-2016,2015,2016,No Bosque Estable,15790.14,15790.14,dbf-municipal,False
+05045,Apartadó,Centro,2015-2016,2015,2016,Bosque Estable,17913.93,17913.93,dbf-municipal,False
+05045,Apartadó,Centro,2015-2016,2015,2016,Deforestación,426.9,426.9,dbf-municipal,False
+05045,Apartadó,Centro,2015-2016,2015,2016,No Bosque Estable,34734.24,34734.24,dbf-municipal,False
+05045,Apartadó,Centro,2015-2016,2015,2016,Sin Información,320.33,320.33,dbf-municipal,False
+05051,Arboletes,Caribe,2015-2016,2015,2016,Bosque Estable,676.41,676.41,dbf-municipal,False
+05051,Arboletes,Caribe,2015-2016,2015,2016,Deforestación,3.76,3.76,dbf-municipal,False
+05051,Arboletes,Caribe,2015-2016,2015,2016,No Bosque Estable,73516.44,73516.44,dbf-municipal,False
+05051,Arboletes,Caribe,2015-2016,2015,2016,Sin Información,0.06,0.06,dbf-municipal,False
+05147,Carepa,Centro,2015-2016,2015,2016,Bosque Estable,4863.1,4863.1,dbf-municipal,False
+05147,Carepa,Centro,2015-2016,2015,2016,Deforestación,291.46,291.46,dbf-municipal,False
+05147,Carepa,Centro,2015-2016,2015,2016,No Bosque Estable,32957.29,32957.29,dbf-municipal,False
+05147,Carepa,Centro,2015-2016,2015,2016,Sin Información,343.97,343.97,dbf-municipal,False
+05138,Cañasgordas,Nutibara,2015-2016,2015,2016,Bosque Estable,12836.35,12836.35,dbf-municipal,False
+05138,Cañasgordas,Nutibara,2015-2016,2015,2016,Deforestación,22.72,22.72,dbf-municipal,False
+05138,Cañasgordas,Nutibara,2015-2016,2015,2016,No Bosque Estable,23580.77,23580.77,dbf-municipal,False
+05138,Cañasgordas,Nutibara,2015-2016,2015,2016,Sin Información,35.81,35.81,dbf-municipal,False
+05172,Chigorodó,Centro,2015-2016,2015,2016,Bosque Estable,19148.51,19148.51,dbf-municipal,False
+05172,Chigorodó,Centro,2015-2016,2015,2016,Deforestación,393.27,393.27,dbf-municipal,False
+05172,Chigorodó,Centro,2015-2016,2015,2016,No Bosque Estable,49882.09,49882.09,dbf-municipal,False
+05172,Chigorodó,Centro,2015-2016,2015,2016,Sin Información,1203.54,1203.54,dbf-municipal,False
+05234,Dabeiba,Nutibara,2015-2016,2015,2016,Bosque Estable,121485.74,121485.74,dbf-municipal,False
+05234,Dabeiba,Nutibara,2015-2016,2015,2016,Deforestación,250.37,250.37,dbf-municipal,False
+05234,Dabeiba,Nutibara,2015-2016,2015,2016,No Bosque Estable,50699.43,50699.43,dbf-municipal,False
+05234,Dabeiba,Nutibara,2015-2016,2015,2016,Sin Información,22787.22,22787.22,dbf-municipal,False
+05284,Frontino,Nutibara,2015-2016,2015,2016,Bosque Estable,87856.91,87856.91,dbf-municipal,False
+05284,Frontino,Nutibara,2015-2016,2015,2016,Deforestación,188.87,188.87,dbf-municipal,False
+05284,Frontino,Nutibara,2015-2016,2015,2016,No Bosque Estable,43790.43,43790.43,dbf-municipal,False
+05284,Frontino,Nutibara,2015-2016,2015,2016,Sin Información,6609.38,6609.38,dbf-municipal,False
+05306,Giraldo,Nutibara,2015-2016,2015,2016,Bosque Estable,1593.41,1593.41,dbf-municipal,False
+05306,Giraldo,Nutibara,2015-2016,2015,2016,Deforestación,2.77,2.77,dbf-municipal,False
+05306,Giraldo,Nutibara,2015-2016,2015,2016,No Bosque Estable,7742.03,7742.03,dbf-municipal,False
+05475,Murindó,Atrato,2015-2016,2015,2016,Bosque Estable,69564.38,69564.38,dbf-municipal,False
+05475,Murindó,Atrato,2015-2016,2015,2016,Deforestación,122.77,122.77,dbf-municipal,False
+05475,Murindó,Atrato,2015-2016,2015,2016,No Bosque Estable,22605.74,22605.74,dbf-municipal,False
+05475,Murindó,Atrato,2015-2016,2015,2016,Sin Información,32915.67,32915.67,dbf-municipal,False
+05480,Mutatá,Centro,2015-2016,2015,2016,Bosque Estable,63004.64,63004.64,dbf-municipal,False
+05480,Mutatá,Centro,2015-2016,2015,2016,Deforestación,360.19,360.19,dbf-municipal,False
+05480,Mutatá,Centro,2015-2016,2015,2016,No Bosque Estable,36702.86,36702.86,dbf-municipal,False
+05480,Mutatá,Centro,2015-2016,2015,2016,Sin Información,6022.22,6022.22,dbf-municipal,False
+05490,Necoclí,Caribe,2015-2016,2015,2016,Bosque Estable,14223.82,14223.82,dbf-municipal,False
+05490,Necoclí,Caribe,2015-2016,2015,2016,Deforestación,56.97,56.97,dbf-municipal,False
+05490,Necoclí,Caribe,2015-2016,2015,2016,No Bosque Estable,111033.96,111033.96,dbf-municipal,False
+05490,Necoclí,Caribe,2015-2016,2015,2016,Sin Información,0.21,0.21,dbf-municipal,False
+05543,Peque,Nutibara,2015-2016,2015,2016,Bosque Estable,14118.55,14118.55,dbf-municipal,False
+05543,Peque,Nutibara,2015-2016,2015,2016,Deforestación,4.54,4.54,dbf-municipal,False
+05543,Peque,Nutibara,2015-2016,2015,2016,No Bosque Estable,29110.06,29110.06,dbf-municipal,False
+05543,Peque,Nutibara,2015-2016,2015,2016,Sin Información,144.44,144.44,dbf-municipal,False
+05659,San Juan de Urabá,Caribe,2015-2016,2015,2016,Bosque Estable,66.62,66.62,dbf-municipal,False
+05659,San Juan de Urabá,Caribe,2015-2016,2015,2016,No Bosque Estable,25068.11,25068.11,dbf-municipal,False
+05659,San Juan de Urabá,Caribe,2015-2016,2015,2016,Sin Información,0.15,0.15,dbf-municipal,False
+05665,San Pedro de Urabá,Caribe,2015-2016,2015,2016,Bosque Estable,1398.28,1398.28,dbf-municipal,False
+05665,San Pedro de Urabá,Caribe,2015-2016,2015,2016,Deforestación,6.75,6.75,dbf-municipal,False
+05665,San Pedro de Urabá,Caribe,2015-2016,2015,2016,No Bosque Estable,55185.19,55185.19,dbf-municipal,False
+05665,San Pedro de Urabá,Caribe,2015-2016,2015,2016,Sin Información,12.74,12.74,dbf-municipal,False
+05837,Turbo,Centro,2015-2016,2015,2016,Bosque Estable,61877.74,61877.74,dbf-municipal,False
+05837,Turbo,Centro,2015-2016,2015,2016,Deforestación,3222.95,3222.95,dbf-municipal,False
+05837,Turbo,Centro,2015-2016,2015,2016,No Bosque Estable,223881.59,223881.59,dbf-municipal,False
+05837,Turbo,Centro,2015-2016,2015,2016,Sin Información,399.44,399.44,dbf-municipal,False
+05842,Uramita,Nutibara,2015-2016,2015,2016,Bosque Estable,4624.02,4624.02,dbf-municipal,False
+05842,Uramita,Nutibara,2015-2016,2015,2016,Deforestación,7.57,7.57,dbf-municipal,False
+05842,Uramita,Nutibara,2015-2016,2015,2016,No Bosque Estable,21962.11,21962.11,dbf-municipal,False
+05847,Urrao,Urrao,2015-2016,2015,2016,Bosque Estable,165075.7,165075.7,dbf-municipal,False
+05847,Urrao,Urrao,2015-2016,2015,2016,Deforestación,328.1,328.1,dbf-municipal,False
+05847,Urrao,Urrao,2015-2016,2015,2016,No Bosque Estable,76152.26,76152.26,dbf-municipal,False
+05847,Urrao,Urrao,2015-2016,2015,2016,Sin Información,13066.98,13066.98,dbf-municipal,False
+05873,Vigía del Fuerte,Atrato,2015-2016,2015,2016,Bosque Estable,112615.37,112615.37,dbf-municipal,False
+05873,Vigía del Fuerte,Atrato,2015-2016,2015,2016,Deforestación,55.96,55.96,dbf-municipal,False
+05873,Vigía del Fuerte,Atrato,2015-2016,2015,2016,No Bosque Estable,19728.06,19728.06,dbf-municipal,False
+05873,Vigía del Fuerte,Atrato,2015-2016,2015,2016,Sin Información,33457.54,33457.54,dbf-municipal,False
 05004,Abriaquí,Nutibara,2016-2017,2016,2017,Bosque Estable,13665.0,13665.0,shapefile,False
 05004,Abriaquí,Nutibara,2016-2017,2016,2017,Deforestación,35.66,35.66,shapefile,False
 05004,Abriaquí,Nutibara,2016-2017,2016,2017,No Bosque Estable,15962.38,15962.38,shapefile,False

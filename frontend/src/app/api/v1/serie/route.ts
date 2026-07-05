@@ -4,7 +4,7 @@ export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 const NOTA_EXCLUIDOS =
-  'Se excluyeron los periodos estimados (2010-2012, 2015-2016, 2018-2019 y 2023-2024) del resultado.';
+  'Se excluyeron los periodos estimados (2010-2012, 2018-2019 y 2023-2024) del resultado.';
 
 function nota(df: FilaSerie[], incluir: boolean): string | null {
   if (!incluir) return NOTA_EXCLUIDOS;

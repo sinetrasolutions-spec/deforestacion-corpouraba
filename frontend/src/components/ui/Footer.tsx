@@ -86,7 +86,7 @@ export default function Footer() {
             de gestión ambiental y educación.
           </p>
           <p className="mt-2">
-            Nota de honestidad: los periodos 2010-2012, 2015-2016, 2018-2019 y 2023-2024
+            Nota de honestidad: los periodos 2010-2012, 2018-2019 y 2023-2024
             contienen valores estimados o calibrados y se señalan siempre con un distintivo visual.
           </p>
           <p className="mt-2 text-[11px] text-bosque-300/70">

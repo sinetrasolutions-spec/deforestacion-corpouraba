@@ -544,7 +544,8 @@ export default function PanelDashboard() {
         <p className="font-semibold text-[color:var(--tinta)]">Fuentes y calidad de los datos</p>
         <p className="mt-1">
           {fmtPct(pctEstimado)} de los registros de deforestación son estimados o calibrados
-          (2010-2012, 2015-2016, 2018-2019, 2023-2024) y se señalan con distintivo visual.
+          (2010-2012, 2018-2019, 2023-2024) y se señalan con distintivo visual. 2015-2016 es
+          dato real, recuperado de la tabla municipal oficial (dbf).
         </p>
         {fuentes.length > 0 && (
           <p className="mt-2 text-xs">

@@ -175,10 +175,10 @@ cuerpo.push(tabla(['Periodo', 'Deforestación (ha)', 'Ha/año', 'Fuente'],
     r.periodo + (r.estimado ? ' *' : ''), nf(r.hectareas, 1), nf(r.hectareas_anuales, 1),
     r.estimado ? 'estimado' : 'medido']),
   [2340, 2340, 2340, 2340]));
-cuerpo.push(P([run('* Periodos estimados/calibrados: 2010-2012, 2015-2016, 2018-2019 y 2023-2024. Véase la sección 12.')], { justify: false }));
+cuerpo.push(P([run('* Periodos estimados/calibrados: 2010-2012, 2018-2019 y 2023-2024. Véase la sección 12. El pico de 2015-2016 es dato medido, recuperado de la tabla de atributos municipal oficial.')], { justify: false }));
 cuerpo.push(P([
   B('Tendencia general. '),
-  run(`Tras un máximo histórico en 2002-2004 y un repunte marcado en 2015-2016 (${ha(D.pico.ha)}, coincidiendo con el periodo posterior a los acuerdos de paz), la deforestación anual muestra una tendencia general a la baja en los años más recientes, con el mínimo en 2020-2021. No obstante, la presión no desaparece: se desplaza hacia nuevas zonas (véanse las secciones 8 a 11).`),
+  run(`Tras un primer repunte en 2002-2004, el máximo histórico de la serie se registró en 2015-2016 (${ha(D.pico.ha)}, coincidiendo con el periodo posterior a los acuerdos de paz). A partir de ahí la deforestación anual muestra una tendencia general a la baja en los años más recientes, con el mínimo en 2020-2021. No obstante, la presión no desaparece: se desplaza hacia nuevas zonas (véanse las secciones 8 a 11).`),
 ]));
 
 // ── 5. ANÁLISIS MUNICIPAL ──
@@ -313,15 +313,14 @@ cuerpo.push(P([
 
 // ── 12. LIMITACIONES Y DATOS ESTIMADOS ──
 cuerpo.push(H1('12. Limitaciones y datos estimados'));
-cuerpo.push(P('El análisis es transparente respecto a sus límites. Cuatro periodos no cuentan con medición municipal directa en el paquete recibido y sus cifras son estimadas o calibradas:'));
+cuerpo.push(P('El análisis es transparente respecto a sus límites. Tras una revisión archivo por archivo, el periodo pico 2015-2016 se recuperó como dato medido: aunque su geometría (.shp) se perdió, sobrevivió la tabla de atributos municipal oficial (Defor2015_2016_Mpios_Proj_Correg.dbf) con el área real por municipio y clase de los 19 municipios, de modo que su cifra dejó de ser una estimación. Solo tres periodos siguen sin medición municipal directa y sus cifras son estimadas o calibradas:'));
 [['2010-2012', 'No hay shapefile ni tabla municipal en el paquete; solo sobrevive la tabla de atributos del ráster departamental. Se estima por interpolación municipal calibrada contra el total departamental real y la participación histórica de la jurisdicción (~18 %).'],
- ['2015-2016', 'Solo existe el cruce con cuencas (cobertura parcial de la jurisdicción). Se calibra con factores municipio-clase derivados de 2016-2017, único periodo con ambas fuentes.'],
  ['2018-2019', 'La carpeta del periodo no existe en el paquete. Se estima por interpolación de la tasa anual entre periodos vecinos.'],
- ['2023-2024', 'El shapefile municipal se perdió (solo sobreviven tablas de atributos sin geometría ni columna de área). Se estima por tendencia.']].forEach(([p, d]) =>
+ ['2023-2024', 'El shapefile municipal se perdió y las tablas de atributos que sobreviven (cuencas, áreas protegidas, consejos) no traen columna de área municipal. Se estima por tendencia.']].forEach(([p, d]) =>
   cuerpo.push(bullet([B(`${p}: `), run(d)])));
 cuerpo.push(H2('12.1. Cómo obtener los datos reales'));
-cuerpo.push(P('Estos periodos NO son recuperables a partir del paquete actual (se verificó archivo por archivo). Para reemplazar las estimaciones por cifras oficiales existen tres vías:'));
-cuerpo.push(bullet([B('CORPOURABA (recomendada). '), run('Solicitar a la Corporación los shapefiles municipales completos de 2010-2012, 2018-2019 y 2023-2024, y el shapefile municipal de 2015-2016. La Corporación los generó en su momento; simplemente no quedaron en esta descarga o llegaron corruptos.')]));
+cuerpo.push(P('Los tres periodos restantes NO son recuperables a partir del paquete actual (se verificó archivo por archivo). Para reemplazar las estimaciones por cifras oficiales existen tres vías:'));
+cuerpo.push(bullet([B('CORPOURABA (recomendada). '), run('Solicitar a la Corporación los shapefiles municipales completos de 2010-2012, 2018-2019 y 2023-2024. La Corporación los generó en su momento; simplemente no quedaron en esta descarga o llegaron corruptos.')]));
 cuerpo.push(bullet([B('IDEAM — SMByC. '), run('El Sistema de Monitoreo de Bosques y Carbono publica la deforestación anual nacional a nivel municipal (portal smbyc.ideam.gov.co y datos abiertos). Es la fuente autoritativa nacional de la que se deriva el monitoreo regional; permite reconstruir todos los años faltantes.')]));
 cuerpo.push(bullet([B('Reconstrucción parcial 2023-2024. '), run('Las tablas de atributos que sobrevivieron (cuencas, áreas protegidas y consejos) permiten un conteo parcial por municipio, aunque sin hectáreas fiables; serviría solo como referencia mínima.')]));
 cuerpo.push(P([
@@ -342,7 +341,7 @@ D.hallazgos.forEach((h) => cuerpo.push(bullet([
 cuerpo.push(H1('14. Recomendaciones y mejoras de la plataforma'));
 cuerpo.push(P('El Observatorio es una base sólida y ampliable. Se proponen las siguientes mejoras, ordenadas por prioridad e impacto:'));
 cuerpo.push(H2('14.1. Datos y análisis'));
-[['Completar los periodos estimados', 'Incorporar los datos reales de 2010-2012, 2018-2019, 2023-2024 y 2015-2016 (sección 12) para eliminar las estimaciones.'],
+[['Completar los periodos estimados', 'Incorporar los datos reales de 2010-2012, 2018-2019 y 2023-2024 (sección 12) para eliminar las estimaciones restantes; 2015-2016 ya se recuperó como dato medido.'],
  ['Cerrar los cruces cartográficos pendientes', 'Finalizar los cruces con ecosistemas estratégicos (acuíferos, humedales, manglares) y con la zonificación de conflicto de uso (aptitud forestal vs. realidad), pendientes por el peso de los shapefiles.'],
  ['Modelo predictivo mejorado', 'Sustituir la regresión lineal actual por un modelo que incorpore variables explicativas (cercanía a vías, frentes persistentes, presión previa) para pronósticos por municipio más robustos.'],
  ['Alertas tempranas', 'Integrar las alertas trimestrales de deforestación del IDEAM para pasar de un monitoreo bienal a un seguimiento casi en tiempo real.']].forEach(([t, d]) => cuerpo.push(bullet([B(`${t}. `), run(d)])));
