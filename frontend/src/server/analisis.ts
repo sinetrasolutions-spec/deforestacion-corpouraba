@@ -131,6 +131,42 @@ export function parches(periodo: string | null, minHa: number, municipio: string
   };
 }
 
+/**
+ * Resumen ligero (sin geometría) de los polígonos de deforestación por periodo,
+ * para dibujar la línea de tiempo del visor. Devuelve conteo y área de cada
+ * periodo con hotspots, opcionalmente acotado a un municipio.
+ */
+export function parchesResumen(municipio: string | null): {
+  por_periodo: { periodo: string; ano_inicio: number | undefined; n: number; ha: number }[];
+} {
+  const meta = (datos.metadata().periodos as { id: string; ano_inicio?: number }[]) ?? [];
+  const anoPor = new Map(meta.map((p) => [p.id, p.ano_inicio]));
+  let objetivoMun: string | null = null;
+  if (municipio) {
+    try { objetivoMun = normalizar(datos.nombreMunicipio(datos.resolverMunicipio(municipio))); }
+    catch { objetivoMun = normalizar(municipio); }
+  }
+  const filas: { periodo: string; ano_inicio: number | undefined; n: number; ha: number }[] = [];
+  for (const pid of datos.hotspotsDisponibles()) {
+    const fc = datos.hotspots(pid);
+    if (!fc) continue;
+    let n = 0;
+    let ha = 0;
+    for (const feat of fc.features as { properties?: Record<string, unknown> }[]) {
+      const props = feat.properties ?? {};
+      if (objetivoMun != null) {
+        const mun = props.municipio ?? null;
+        if (mun == null || normalizar(String(mun)) !== objetivoMun) continue;
+      }
+      n += 1;
+      ha += Number(props.ha) || 0;
+    }
+    filas.push({ periodo: pid, ano_inicio: anoPor.get(pid), n, ha: Math.round(ha * 10) / 10 });
+  }
+  filas.sort((a, b) => (a.ano_inicio ?? 0) - (b.ano_inicio ?? 0));
+  return { por_periodo: filas };
+}
+
 // ── territorios (réplica de /analisis/territorios) ──────────────────────────
 interface CfgTerritorio {
   titulo: string; archivo: string; col_nombre: string; col_sec?: string | null;

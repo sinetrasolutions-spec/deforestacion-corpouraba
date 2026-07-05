@@ -187,6 +187,16 @@ export async function getParches(params?: {
   return pedir('/parches', q);
 }
 
+/** Resumen ligero (sin geometría) de polígonos por periodo, para la línea de tiempo. */
+export interface ResumenPeriodo { periodo: string; ano_inicio: number; n: number; ha: number }
+export async function getParchesResumen(
+  municipio?: string,
+): Promise<{ por_periodo: ResumenPeriodo[] }> {
+  const q = new URLSearchParams();
+  if (municipio) q.set('municipio', municipio);
+  return pedir('/parches/resumen', q);
+}
+
 /** Catálogo de capas de contexto disponibles (id, nombre, unidades). */
 export async function getCapas(): Promise<{
   capas: { id: string; nombre: string; unidades: number }[];

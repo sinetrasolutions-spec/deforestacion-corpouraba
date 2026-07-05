@@ -5,8 +5,9 @@
  * la jurisdicción CORPOURABA. Componente cliente puro (ssr:false).
  *
  *  - Vista ACUMULADA (todos los periodos) o POR PERIODO (uno, con línea de tiempo).
- *  - Coloreado por PERIODO (gradiente temporal) o por TAMAÑO (ha).
- *  - Filtros: tamaño mínimo del parche y municipio.
+ *  - Línea de tiempo visual: mini-gráfica de barras por año (altura = deforestación),
+ *    barras clicables + barra deslizante + reproducción automática (timelapse).
+ *  - Filtro por municipio y capas de contexto de la cartografía oficial.
  *  - Panel de estadísticas de fragmentación (conteo, área, tamaños, por periodo).
  *  - Renderizado en canvas para manejar con fluidez miles de polígonos.
  */
@@ -21,9 +22,11 @@ import {
   getCapas,
   getMunicipios,
   getParches,
+  getParchesResumen,
   getPeriodos,
   urlDescarga,
   type ParchesMeta,
+  type ResumenPeriodo,
 } from '@/lib/api';
 import type { Periodo } from '@/lib/types';
 import { fmtHa, fmtNum } from '@/lib/format';
@@ -98,8 +101,9 @@ export default function LienzoParches() {
 
   const [vista, setVista] = useState<Vista>('periodo');
   const [periodoSel, setPeriodoSel] = useState('2002-2004');
-  const [minHa, setMinHa] = useState(1);
   const [municipioSel, setMunicipioSel] = useState('');
+  // Resumen ligero (conteo y ha por periodo) para la línea de tiempo visual.
+  const [resumenPeriodos, setResumenPeriodos] = useState<ResumenPeriodo[]>([]);
   const [reproduciendo, setReproduciendo] = useState(false);
   const [panelStats, setPanelStats] = useState(true);
   const [ajusteSenal, setAjusteSenal] = useState(0);
@@ -169,7 +173,6 @@ export default function LienzoParches() {
     setCargando(true);
     getParches({
       periodo: vista === 'periodo' ? periodoSel : undefined,
-      minHa: minHa > 1 ? minHa : undefined,
       municipio: municipioSel || undefined,
     })
       .then((fc) => {
@@ -180,7 +183,18 @@ export default function LienzoParches() {
     return () => {
       vivo = false;
     };
-  }, [vista, periodoSel, minHa, municipioSel]);
+  }, [vista, periodoSel, municipioSel]);
+
+  // Resumen por periodo para la línea de tiempo (se reajusta al municipio).
+  useEffect(() => {
+    let vivo = true;
+    getParchesResumen(municipioSel || undefined)
+      .then((r) => vivo && setResumenPeriodos(r.por_periodo))
+      .catch((e) => console.error('Error /parches/resumen', e));
+    return () => {
+      vivo = false;
+    };
+  }, [municipioSel]);
 
   // Timelapse en vista por periodo
   useEffect(() => {
@@ -224,9 +238,23 @@ export default function LienzoParches() {
     return { n, total, media: n ? total / n : 0, mediana, max, clases };
   }, [parches]);
 
-  const claveParches = `${vista}-${periodoSel}-${minHa}-${municipioSel}`;
+  const claveParches = `${vista}-${periodoSel}-${municipioSel}`;
 
   const periodosConHotspots = periodos.filter((p) => p.tiene_hotspots);
+
+  // Derivados para la línea de tiempo visual (barras por año).
+  const haPorPeriodo = useMemo(
+    () => new Map(resumenPeriodos.map((p) => [p.periodo, p.ha])),
+    [resumenPeriodos],
+  );
+  const nPorPeriodo = useMemo(
+    () => new Map(resumenPeriodos.map((p) => [p.periodo, p.n])),
+    [resumenPeriodos],
+  );
+  const maxHaLinea = useMemo(
+    () => Math.max(...resumenPeriodos.map((p) => p.ha), 1),
+    [resumenPeriodos],
+  );
 
   return (
     <div className="relative h-[calc(100vh-4rem)] w-full overflow-hidden">
@@ -316,7 +344,7 @@ export default function LienzoParches() {
           </div>
           <p className="mt-1.5 text-[11px] leading-snug text-[color:var(--tinta-suave)]">
             {vista === 'periodo'
-              ? 'Mueve la barra de abajo para avanzar en el tiempo.'
+              ? 'Desliza la línea de tiempo de abajo o toca una barra para ver ese año.'
               : 'Todos los años a la vez, coloreados según la fecha.'}
           </p>
 
@@ -335,19 +363,6 @@ export default function LienzoParches() {
               </option>
             ))}
           </select>
-
-          <label className="mt-2 block text-[11px] font-semibold uppercase tracking-wider text-[color:var(--tinta-suave)]">
-            Tamaño mínimo del polígono: {minHa} ha
-          </label>
-          <input
-            type="range"
-            min={1}
-            max={50}
-            value={minHa}
-            onChange={(e) => setMinHa(Number(e.target.value))}
-            className="mt-1 w-full accent-bosque-600"
-            aria-label="Tamaño mínimo del polígono en hectáreas"
-          />
         </div>
 
         <div className="pointer-events-auto flex gap-2">
@@ -455,20 +470,60 @@ export default function LienzoParches() {
         )}
       </div>
 
-      {/* ── Línea de tiempo (solo vista por periodo) ────────────────────── */}
+      {/* ── Línea de tiempo visual (solo vista por periodo) ─────────────── */}
       {vista === 'periodo' && (
-        <div className="pointer-events-auto absolute inset-x-3 bottom-3 z-[500] rounded-xl border border-[color:var(--borde)] bg-[color:var(--superficie)]/92 px-3 py-2.5 shadow-lg backdrop-blur">
+        <div className="pointer-events-auto absolute inset-x-3 bottom-3 z-[500] rounded-xl border border-[color:var(--borde)] bg-[color:var(--superficie)]/95 px-3 py-2.5 shadow-lg backdrop-blur">
           <div className="flex items-center gap-3">
             <button
               type="button"
               onClick={() => setReproduciendo((v) => !v)}
-              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-bosque-600 text-white hover:bg-bosque-700"
-              aria-label={reproduciendo ? 'Pausar' : 'Reproducir'}
+              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-bosque-600 text-white hover:bg-bosque-700"
+              aria-label={reproduciendo ? 'Pausar' : 'Reproducir la evolución año a año'}
+              title={reproduciendo ? 'Pausar' : 'Reproducir'}
             >
-              {reproduciendo ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
+              {reproduciendo ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5" />}
             </button>
             <div className="min-w-0 flex-1">
-              <span className="font-display text-lg font-semibold">{periodoSel}</span>
+              {/* Año seleccionado + su cifra */}
+              <div className="flex items-baseline justify-between gap-2">
+                <span className="font-display text-lg font-semibold leading-none">{periodoSel}</span>
+                <span className="text-[11px] tabular-nums text-[color:var(--tinta-suave)]">
+                  {nPorPeriodo.has(periodoSel)
+                    ? `${fmtNum(nPorPeriodo.get(periodoSel) ?? 0)} focos · ${fmtHa(haPorPeriodo.get(periodoSel) ?? 0)}`
+                    : '—'}
+                </span>
+              </div>
+              {/* Mini-gráfica de barras por año: altura = deforestación; toca para saltar */}
+              <div className="mt-1.5 flex h-9 items-end gap-[3px]">
+                {periodosConHotspots.map((p) => {
+                  const activo = p.id === periodoSel;
+                  const ha = haPorPeriodo.get(p.id) ?? 0;
+                  const alto = Math.max((ha / maxHaLinea) * 100, 8);
+                  return (
+                    <button
+                      key={p.id}
+                      type="button"
+                      onClick={() => setPeriodoSel(p.id)}
+                      title={`${p.id}: ${fmtNum(nPorPeriodo.get(p.id) ?? 0)} focos, ${fmtHa(ha)}`}
+                      aria-label={`Ver ${p.id}`}
+                      className="flex h-full flex-1 items-end"
+                    >
+                      <span
+                        className="w-full rounded-t-sm transition-all"
+                        style={{
+                          height: `${alto}%`,
+                          backgroundColor: activo
+                            ? COLOR_DEFORESTACION
+                            : oscuro
+                              ? '#4B5563'
+                              : '#D1D5DB',
+                        }}
+                      />
+                    </button>
+                  );
+                })}
+              </div>
+              {/* Barra deslizante por año + extremos temporales */}
               <input
                 type="range"
                 min={0}
@@ -479,8 +534,12 @@ export default function LienzoParches() {
                   if (p) setPeriodoSel(p.id);
                 }}
                 className="mt-1 w-full accent-bosque-600"
-                aria-label="Periodo"
+                aria-label="Año de la deforestación"
               />
+              <div className="flex justify-between text-[10px] text-[color:var(--tinta-suave)]">
+                <span>{periodosConHotspots[0]?.ano_inicio ?? ''}</span>
+                <span>{periodosConHotspots[periodosConHotspots.length - 1]?.ano_inicio ?? ''}</span>
+              </div>
             </div>
           </div>
         </div>
