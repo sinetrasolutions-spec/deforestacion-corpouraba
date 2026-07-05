@@ -184,3 +184,94 @@ body {
   border-color: #102019;
   background: #7bc796;
 }
+
+/* ==========================================================================
+   Hero "dosel vivo de Urabá" — puntos de alerta (drei Html en portal),
+   cursor custom de desktop y brillo del CTA. Respetan reduced-motion.
+   ========================================================================== */
+.grupo-alerta {
+  position: relative;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.punto-alerta {
+  display: block;
+  width: 11px;
+  height: 11px;
+  border-radius: 9999px;
+  background: #f97316;
+  box-shadow: 0 0 8px rgba(249, 115, 22, 0.7);
+  animation: pulso-alerta 2.6s ease-out infinite;
+}
+@keyframes pulso-alerta {
+  0%   { box-shadow: 0 0 8px rgba(249, 115, 22, 0.7), 0 0 0 0 rgba(249, 115, 22, 0.5); }
+  70%  { box-shadow: 0 0 8px rgba(249, 115, 22, 0.4), 0 0 0 13px rgba(249, 115, 22, 0); }
+  100% { box-shadow: 0 0 8px rgba(249, 115, 22, 0.4), 0 0 0 0 rgba(249, 115, 22, 0); }
+}
+.tooltip-alerta {
+  position: absolute;
+  bottom: 160%;
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  white-space: nowrap;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: rgba(6, 40, 24, 0.94);
+  color: #d2eedc;
+  font-size: 11.5px;
+  line-height: 1.35;
+  border: 1px solid rgba(249, 115, 22, 0.45);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+.tooltip-alerta strong {
+  display: block;
+  color: #ffffff;
+  font-weight: 600;
+}
+.grupo-alerta:hover .tooltip-alerta,
+.grupo-alerta:focus-within .tooltip-alerta {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.cursor-observatorio {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 26px;
+  height: 26px;
+  margin: -13px 0 0 -13px;
+  border: 1.5px solid rgba(249, 115, 22, 0.75);
+  border-radius: 9999px;
+  pointer-events: none;
+  z-index: 60;
+  mix-blend-mode: screen;
+  will-change: transform;
+}
+
+.brillo-cta::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 38%;
+  height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.38), transparent);
+  transform: skewX(-18deg);
+  animation: brillo-barrido 4s ease-in-out infinite;
+}
+@keyframes brillo-barrido {
+  0%, 55% { left: -60%; }
+  100%    { left: 135%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brillo-cta::after,
+  .cursor-observatorio { display: none; }
+  .punto-alerta { animation: none; }
+}
