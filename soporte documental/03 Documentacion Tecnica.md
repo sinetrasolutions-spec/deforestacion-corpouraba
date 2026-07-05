@@ -128,7 +128,7 @@ observatorio-deforestacion/
 │   ├── serie_regional.csv         Agregado regional por periodo × clase
 │   ├── metadata.json              Diccionario de datos, fuentes por periodo, QA, log
 │   ├── municipios.geojson         Límites de los 19 municipios (WGS84)
-│   ├── subregiones.geojson        5 subregiones CORPOURABA
+│   ├── subregiones.geojson        5 territoriales CORPOURABA
 │   ├── hotspots/<periodo>.geojson Polígonos de deforestación de deforestación (incluidos los de menos de 1 ha) por periodo
 │   ├── capas/*.geojson            Capas de contexto y cartografía oficial
 │   └── analisis/                  Salidas del análisis temático (series, resúmenes,
@@ -162,15 +162,15 @@ Todas las rutas cuelgan de `frontend/src/app/api/v1/`. Son handlers `GET` con `r
 | `GET /api/v1/salud` | Estado del servicio: `{ estado: 'ok', version, modo_datos: 'archivos' }` |
 | `GET /api/v1/metadata` | Diccionario de datos completo (`metadata.json`): clases, gridcode, periodos y fuentes, municipios, notas de estimados, QA |
 | `GET /api/v1/periodos` | Lista de periodos con la bandera `tiene_hotspots` |
-| `GET /api/v1/municipios` | Catálogo de los 19 municipios (código DANE, nombre, subregión) |
-| `GET /api/v1/subregiones` | Las 5 subregiones territoriales |
+| `GET /api/v1/municipios` | Catálogo de los 19 municipios (código DANE, nombre, territorial) |
+| `GET /api/v1/subregiones` | Las 5 territoriales |
 
 ### Series y KPIs
 
 | Ruta | Devuelve |
 | --- | --- |
 | `GET /api/v1/kpis` | Indicadores agregados de deforestación (acepta `?incluir_estimados=false`) |
-| `GET /api/v1/serie` | Serie municipal filtrable (municipios, subregión, clase, `desde`/`hasta`, estimados) |
+| `GET /api/v1/serie` | Serie municipal filtrable (municipios, territorial, clase, `desde`/`hasta`, estimados) |
 | `GET /api/v1/serie/regional` | Serie regional agregada por periodo |
 | `GET /api/v1/ranking` | Ranking de municipios por deforestación |
 | `GET /api/v1/comparacion` | Comparación entre municipios/subregiones |

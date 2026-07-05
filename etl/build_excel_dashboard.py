@@ -90,7 +90,7 @@ def main() -> int:
     ws.title = "Serie municipal"
     cols = ["codigo_dane", "municipio", "subregion", "periodo", "ano_inicio",
             "ano_fin", "clase", "hectareas", "hectareas_anuales", "fuente", "estimado"]
-    head(ws, 1, ["Código DANE", "Municipio", "Subregión", "Periodo", "Año inicio",
+    head(ws, 1, ["Código DANE", "Municipio", "Territorial", "Periodo", "Año inicio",
                  "Año fin", "Clase", "Hectáreas", "Ha/año", "Fuente", "Estimado"],
          [12, 20, 12, 12, 10, 10, 18, 12, 12, 22, 10])
     for r, row in enumerate(serie[cols].itertuples(index=False), start=2):
@@ -154,7 +154,7 @@ def main() -> int:
     ws.sheet_properties.tabColor = "9CA3AF"
     ws["A1"] = "Hoja auxiliar de cálculos (totales por municipio y ranking)"
     ws["A1"].font = F_H1
-    head(ws, 3, ["Municipio", "Subregión", "Total 2000-2024 (ha)", "Ha/año prom.",
+    head(ws, 3, ["Municipio", "Territorial", "Total 2000-2024 (ha)", "Ha/año prom.",
                  "", "Pos.", "Ranking municipio", "Total (ha)"],
          [22, 12, 20, 12, 3, 6, 22, 14])
     for i, m in enumerate(municipios):
@@ -176,7 +176,7 @@ def main() -> int:
                 value=f"=INDEX($A${fm}:$A${lm},MATCH(H{r},$C${fm}:$C${lm},0))")
     # subregiones
     head(ws, 16, [], None)
-    ws.cell(row=16, column=10, value="Subregión").font = F_HEAD
+    ws.cell(row=16, column=10, value="Territorial").font = F_HEAD
     ws.cell(row=16, column=10).fill = FILL_HEAD
     ws.cell(row=16, column=11, value="Total (ha)").font = F_HEAD
     ws.cell(row=16, column=11).fill = FILL_HEAD
@@ -239,7 +239,7 @@ def main() -> int:
     ws.add_chart(bc, "B30")
 
     pc = PieChart()
-    pc.title = "Distribución por subregión (ha)"
+    pc.title = "Distribución por territorial (ha)"
     pc.height, pc.width = 9, 12
     pc.add_data(Reference(wb["Aux"], min_col=11, min_row=16, max_row=21),
                 titles_from_data=True)
@@ -269,7 +269,7 @@ def main() -> int:
         ("Total 2000-2024 (ha)", 'SUMIFS({ha},{mun},$E$4,{clase},"Deforestación")', NUM_HA1),
         ("% del total regional", "B7/'Serie regional'!$E$20", NUM_PCT),
         ("Periodo más crítico", None, "@"),
-        ("Subregión", "INDEX(Aux!$B$4:$B$22,MATCH($E$4,Aux!$A$4:$A$22,0))", "@"),
+        ("Territorial", "INDEX(Aux!$B$4:$B$22,MATCH($E$4,Aux!$A$4:$A$22,0))", "@"),
     ]
     for i, (lbl, f, fmt) in enumerate(kpis_m):
         col = 2 + i * 3
@@ -440,6 +440,50 @@ def main() -> int:
         extra.append("Territorios")
 
     # ═════════════════════════════ DICCIONARIO ══════════════════════════════
+    # ═════════════════════════ TERRITORIALES CORPOURABA ═════════════════════
+    ws = wb.create_sheet("Territoriales")
+    ws.sheet_properties.tabColor = "1F7347"
+    ws.sheet_view.showGridLines = False
+    ws["B2"] = "DEFORESTACIÓN POR TERRITORIAL — CORPOURABA 2000-2024"
+    ws["B2"].font = F_TITULO
+    ws["B3"] = ("Las 5 territoriales de la jurisdicción. Fórmulas auditables sobre la "
+                "hoja «Serie municipal».")
+    ws["B3"].font = F_SUB
+    head(ws, 5, ["Territorial", "Deforestación total (ha)", "Ha/año",
+                 "% del total", "Nº municipios"], [16, 22, 12, 12, 14])
+    terr = ["Caribe", "Centro", "Atrato", "Nutibara", "Urrao"]
+    f0, f1 = 6, 5 + len(terr)
+    for i, t in enumerate(terr):
+        r = 6 + i
+        ws.cell(row=r, column=1, value=t).font = Font(bold=True)
+        ws.cell(row=r, column=2,
+                value=sumifs([("sub", f"$A{r}"), ("clase", '"Deforestación"')])
+                ).number_format = NUM_HA1
+        ws.cell(row=r, column=3, value=f"=B{r}/24").number_format = NUM_HA1
+        ws.cell(row=r, column=4,
+                value=f"=B{r}/SUM($B${f0}:$B${f1})").number_format = NUM_PCT
+        ws.cell(row=r, column=5,
+                value=f"=COUNTIF(Aux!$B$4:$B$22,$A{r})").number_format = "0"
+        for c in range(1, 6):
+            ws.cell(row=r, column=c).border = BORDE
+    rt = f1 + 1
+    ws.cell(row=rt, column=1, value="TOTAL").font = Font(bold=True)
+    tot = ws.cell(row=rt, column=2, value=f"=SUM(B{f0}:B{f1})")
+    tot.number_format, tot.font = NUM_HA1, Font(bold=True)
+    ws.cell(row=rt, column=3, value=f"=B{rt}/24").number_format = NUM_HA1
+
+    bc = BarChart()
+    bc.type, bc.title = "bar", "Deforestación por territorial (ha)"
+    bc.height, bc.width, bc.style = 8, 16, 11
+    bc.add_data(Reference(ws, min_col=2, min_row=5, max_row=f1), titles_from_data=True)
+    bc.set_categories(Reference(ws, min_col=1, min_row=f0, max_row=f1))
+    bc.legend = None
+    ws.add_chart(bc, "B14")
+    ws.cell(row=rt + 2, column=1,
+            value=("«Territorial» es la agrupación administrativa de CORPOURABA "
+                   "(campo «subregion» en los datos). El % es sobre el total "
+                   "deforestado de la jurisdicción (2000-2024).")).font = F_NOTA
+
     ws = wb.create_sheet("Diccionario")
     ws["A1"] = "Diccionario de datos y metodología"
     ws["A1"].font = F_H1
@@ -489,12 +533,13 @@ def main() -> int:
         ws[rango] = texto
         ws[rango].font = fuente
     hojas = [
-        ("Dashboard", "KPIs, serie regional anualizada, top-10 municipios y distribución por subregión"),
+        ("Dashboard", "KPIs, serie regional anualizada, top-10 municipios y distribución por territorial"),
+        ("Territoriales", "Deforestación por cada una de las 5 territoriales de CORPOURABA (tabla + gráfico)"),
         ("Consulta municipio", "Ficha dinámica por municipio (lista desplegable en la celda amarilla)"),
         ("Matriz", "Municipio × periodo con escala de color y totales"),
         ("Serie regional", "Serie agregada por periodo (fórmulas sobre los datos)"),
         ("Serie municipal", f"Datos fuente completos ({n_datos} filas) con autofiltro"),
-        ("Aux", "Cálculos auxiliares (totales por municipio, ranking, subregiones)"),
+        ("Aux", "Cálculos auxiliares (totales por municipio, ranking, territoriales)"),
     ] + [(e, "Resultados de la investigación temática") for e in extra] + [
         ("Diccionario", "Definiciones, vacíos, calibraciones y control de calidad"),
     ]

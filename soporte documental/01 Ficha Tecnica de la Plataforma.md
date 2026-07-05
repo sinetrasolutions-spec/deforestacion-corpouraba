@@ -23,9 +23,9 @@
 ## 3. Cobertura temporal y territorial
 
 - **Cobertura temporal:** 2000–2024, organizada en **18 periodos** de comparación de cobertura de bosque.
-- **Cobertura territorial:** **19 municipios** de la jurisdicción, agrupados por subregión:
+- **Cobertura territorial:** **19 municipios** de la jurisdicción, agrupados por territorial:
 
-| Municipio | Código DANE | Subregión |
+| Municipio | Código DANE | Territorial |
 | --- | --- | --- |
 | Abriaquí | 05004 | Nutibara |
 | Apartadó | 05045 | Centro |
@@ -66,7 +66,7 @@
 | Módulo | Descripción |
 | --- | --- |
 | **Inicio** | Portada con resumen, cifras destacadas y acceso a los demás módulos. |
-| **Dashboard** | Indicadores, series temporales y gráficas de deforestación por municipio, subregión y unidad territorial. |
+| **Dashboard** | Indicadores, series temporales y gráficas de deforestación por municipio, territorial y unidad de gestión. |
 | **Mapa** | Mapa interactivo (react-leaflet) de los 19 municipios con las capas de contexto. |
 | **Visor de deforestación** | Explorador de parches con línea de tiempo visual (barras clicables por año, barra deslizante y reproducción) y capas oficiales de la cartografía. |
 | **Aprende (PRAES)** | Contenido educativo orientado a los Proyectos Ambientales Escolares. |

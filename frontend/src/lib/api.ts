@@ -61,7 +61,7 @@ export async function getMunicipios(): Promise<GeoJSON.FeatureCollection> {
   return pedir<GeoJSON.FeatureCollection>('/municipios');
 }
 
-/** Límites de las 5 subregiones (FeatureCollection). */
+/** Límites de las 5 territoriales (FeatureCollection). */
 export async function getSubregiones(): Promise<GeoJSON.FeatureCollection> {
   return pedir<GeoJSON.FeatureCollection>('/subregiones');
 }

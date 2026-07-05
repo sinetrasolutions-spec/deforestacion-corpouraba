@@ -246,7 +246,7 @@ export default function PanelDashboard() {
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <label className="mb-1 block text-xs font-semibold uppercase tracking-wider text-[color:var(--tinta-suave)]">
-              Subregión
+              Territorial
             </label>
             <select
               value={subregion}

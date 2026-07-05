@@ -64,7 +64,7 @@ Al final de cada página encontrará los accesos a los módulos y recursos, la a
 
 La página de **Inicio** ofrece una visión de conjunto en cuatro partes:
 
-1. **Portada (hero):** presenta el observatorio con dos botones de entrada rápida, «Explorar el mapa» y «Aprende con tu colegio», y tres datos de referencia: 19 municipios y 5 subregiones, 18 periodos de medición y ≈ 1,86 millones de hectáreas de jurisdicción.
+1. **Portada (hero):** presenta el observatorio con dos botones de entrada rápida, «Explorar el mapa» y «Aprende con tu colegio», y tres datos de referencia: 19 municipios y 5 territoriales, 18 periodos de medición y ≈ 1,86 millones de hectáreas de jurisdicción.
 2. **Franja de indicadores (KPIs):** cuatro tarjetas con contadores que se calculan en vivo sobre la serie completa:
    - **Total deforestado** (acumulado 2000–2024 en la jurisdicción).
    - **Promedio anual** (hectáreas perdidas por año, en promedio).
@@ -86,7 +86,7 @@ El **Dashboard** es la sección de análisis de cifras. Trabaja sobre la clase *
 
 En la parte superior, una barra fija (que le sigue al desplazarse) le permite acotar lo que ve:
 
-- **Subregión:** elija una de las cinco (Caribe, Centro, Atrato, Nutibara, Urrao) o «Todas».
+- **Territorial:** elija una de las cinco (Caribe, Centro, Atrato, Nutibara, Urrao) o «Todas».
 - **Rango de años:** una barra con dos manijas para fijar el año inicial y el año final (entre 2000 y 2024). El rango elegido se muestra sobre el control.
 - **Incluir estimados:** casilla marcada por defecto. Desmárquela para excluir los periodos estimados del análisis.
 - **Limpiar filtros:** devuelve todo a su estado inicial.
@@ -208,7 +208,7 @@ El módulo **Datos** reúne todo lo descargable, con su metodología.
 | --- | --- | --- |
 | **Serie municipal** | CSV, Excel | Municipio × periodo × clase (1.123 filas) |
 | **Serie regional** | CSV | Agregado de la jurisdicción por periodo y clase |
-| **Límites municipales** | GeoJSON | Los 19 municipios (WGS84), con DANE y subregión |
+| **Límites municipales** | GeoJSON | Los 19 municipios (WGS84), con DANE y territorial |
 | **Hotspots por periodo** | GeoJSON | Polígonos de deforestación de deforestación (incluidos los de menos de 1 ha) (12 periodos) |
 | **Capas de contexto** | GeoJSON | Áreas protegidas, resguardos, consejos, cuencas y capas oficiales |
 | **Paquete completo** | ZIP | Todos los datos procesados en un solo archivo |

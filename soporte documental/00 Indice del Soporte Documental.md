@@ -12,7 +12,7 @@ El soporte reúne, en una sola carpeta, la documentación necesaria para **usar,
 | 02 | **Manual de Usuario** | Usuarios no técnicos | Cómo usar cada módulo paso a paso y cómo interpretar las cifras. |
 | 03 | **Documentación Técnica (Manual del Sistema)** | Ingeniero / desarrollador | Arquitectura, estructura, ejecución local, regeneración de datos y despliegue. |
 | 04 | **Metodología y Fuentes de Datos** | Técnico / auditoría | Fuentes, pipeline ETL, calibraciones, control de calidad y limitaciones. |
-| 05 | **Diccionario de Datos** | Técnico / analista | Cada dataset y campo, con tablas de códigos (clases, subregiones, municipios). |
+| 05 | **Diccionario de Datos** | Técnico / analista | Cada dataset y campo, con tablas de códigos (clases, territoriales, municipios). |
 
 Cada documento existe en dos formatos: **`.docx`** (Word, para lectura e impresión) y **`.md`** (Markdown, fuente editable y versionable).
 

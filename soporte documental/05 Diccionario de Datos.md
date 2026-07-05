@@ -20,7 +20,7 @@ Serie principal de la plataforma: área por municipio, periodo y clase de cobert
 |---|---|---|---|
 | `codigo_dane` | texto | Código DANE del municipio (5 dígitos, con cero a la izquierda) | Ej. `05004`. Ver tabla de municipios (§8) |
 | `municipio` | texto | Nombre del municipio | Ej. `Abriaquí` |
-| `subregion` | texto | Subregión de la jurisdicción a la que pertenece el municipio | Atrato, Caribe, Centro, Nutibara, Urrao (§7) |
+| `subregion` | texto | Territorial de la jurisdicción a la que pertenece el municipio | Atrato, Caribe, Centro, Nutibara, Urrao (§7) |
 | `periodo` | texto | Identificador del periodo de análisis | Ej. `2000-2002` (§6) |
 | `ano_inicio` | entero | Año inicial del periodo | 2000–2023 |
 | `ano_fin` | entero | Año final del periodo | 2002–2024 |
@@ -81,17 +81,17 @@ Polígonos de los 19 municipios de la jurisdicción.
 | `municipio_key` | texto | Clave interna del municipio en mayúsculas sin tildes | Ej. `ABRIAQUI` |
 | `codigo_dane` | texto | Código DANE (5 dígitos) | Ej. `05004` |
 | `nombre` | texto | Nombre del municipio | Ej. `Abriaquí` |
-| `subregion` | texto | Subregión (§7) | Atrato, Caribe, Centro, Nutibara, Urrao |
+| `subregion` | texto | Territorial (§7) | Atrato, Caribe, Centro, Nutibara, Urrao |
 | `area_municipio_ha` | decimal | Área del municipio | hectáreas (ha) |
 | `centroide` | lista [lon, lat] | Coordenadas del centroide | grados decimales (WGS84) |
 
 ### 3.2 `subregiones.geojson` (properties)
 
-Polígonos de las 5 subregiones (disolución de municipios).
+Polígonos de las 5 territoriales (disolución de municipios).
 
 | Campo | Tipo | Descripción | Valores/Unidad |
 |---|---|---|---|
-| `subregion` | texto | Nombre de la subregión | Atrato, Caribe, Centro, Nutibara, Urrao |
+| `subregion` | texto | Nombre de la territorial | Atrato, Caribe, Centro, Nutibara, Urrao |
 
 ---
 
@@ -149,11 +149,11 @@ Los 18 periodos de análisis, con sus años y el origen del dato (campo `fuente`
 
 ---
 
-## 7. Subregiones
+## 7. Territoriales
 
-Las cinco subregiones en que se agrupan los 19 municipios de la jurisdicción.
+Las cinco territoriales en que se agrupan los 19 municipios de la jurisdicción.
 
-| Subregión | Descripción |
+| Territorial | Descripción |
 |---|---|
 | Atrato | Municipios ribereños del Atrato (Murindó, Vigía del Fuerte) |
 | Caribe | Franja costera del Urabá antioqueño norte |
@@ -167,7 +167,7 @@ Las cinco subregiones en que se agrupan los 19 municipios de la jurisdicción.
 
 Los 19 municipios de la jurisdicción CORPOURABA (extraídos de `metadata.json`).
 
-| Código DANE | Municipio | Subregión |
+| Código DANE | Municipio | Territorial |
 |---|---|---|
 | 05004 | Abriaquí | Nutibara |
 | 05045 | Apartadó | Centro |
@@ -378,7 +378,7 @@ Malla de celdas donde recurre la deforestación a lo largo de los periodos.
 | `ha_acumuladas` | decimal | Deforestación acumulada en la celda | ha |
 | `tamano_max_parche_ha` | decimal | Parche mayor registrado | ha |
 | `municipio` | texto | Municipio de la celda | §8 |
-| `subregion` | texto | Subregión | §7 |
+| `subregion` | texto | Territorial | §7 |
 | `periodos` | texto | Lista de periodos con deforestación (separados por coma) | Ej. `2002-2004,2004-2006,...` |
 | `area_celda_ha` | decimal | Área total de la celda | ha |
 

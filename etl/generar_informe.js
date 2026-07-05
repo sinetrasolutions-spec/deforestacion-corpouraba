@@ -127,7 +127,7 @@ cuerpo.push(P([
 cuerpo.push(P([
   run('El periodo más crítico fue '), B(D.pico.periodo), run(`, con ${ha(D.pico.ha)} deforestadas (${nf(Math.round(D.pico.ha_anual))} ha/año), mientras que el menor registro correspondió a `),
   B(D.minimo.periodo), run(`. El municipio más afectado es `), B(D.ranking_municipios[0].municipio),
-  run(` (${ha(D.ranking_municipios[0].hectareas)} acumuladas), y la subregión más golpeada es `),
+  run(` (${ha(D.ranking_municipios[0].hectareas)} acumuladas), y la territorial más golpeada es `),
   B(D.por_subregion[0].subregion), run(` (${ha(D.por_subregion[0].hectareas)}).`),
 ]));
 cuerpo.push(P('Los hallazgos más relevantes del análisis son:'));
@@ -137,7 +137,7 @@ D.hallazgos.slice(0, 6).forEach((h) => cuerpo.push(bullet([B(`${h.titulo}: `), r
 cuerpo.push(H1('2. Introducción y contexto'));
 cuerpo.push(P([
   run('El Observatorio de Deforestación de Urabá consolida y analiza el monitoreo de cambio de bosque de la jurisdicción de CORPOURABA durante 24 años (2000–2024). La jurisdicción abarca cerca de '),
-  B('1,86 millones de hectáreas'), run(' distribuidas en 19 municipios y cinco subregiones (Caribe, Centro, Atrato, Nutibara y Urrao), un territorio que combina el bosque húmedo del Darién y el Atrato con la frontera agropecuaria del eje bananero.'),
+  B('1,86 millones de hectáreas'), run(' distribuidas en 19 municipios y cinco territoriales (Caribe, Centro, Atrato, Nutibara y Urrao), un territorio que combina el bosque húmedo del Darién y el Atrato con la frontera agropecuaria del eje bananero.'),
 ]));
 cuerpo.push(P('Este informe documenta la magnitud, la distribución espacial y las tendencias de la deforestación, así como su relación con áreas protegidas, territorios étnicos, cuencas hidrográficas, figuras de ordenamiento y presiones extractivas. Acompaña a la plataforma web interactiva del Observatorio (mapa, visor de deforestación, tablero analítico, módulo educativo y centro de descargas).'));
 
@@ -185,7 +185,7 @@ cuerpo.push(P([
 cuerpo.push(H1('5. Análisis por municipio'));
 cuerpo.push(P('La deforestación se concentra fuertemente en pocos municipios. La tabla 3 presenta el ranking por deforestación acumulada 2000–2024.'));
 cuerpo.push(P('Tabla 3. Ranking municipal de deforestación acumulada.', { justify: false, spacing: { after: 80 } }));
-cuerpo.push(tabla(['#', 'Municipio', 'Subregión', 'Deforestación (ha)'],
+cuerpo.push(tabla(['#', 'Municipio', 'Territorial', 'Deforestación (ha)'],
   D.ranking_municipios.map((r, i) => [String(i + 1), r.municipio, r.subregion, nf(r.hectareas, 1)]),
   [720, 3540, 2460, 2640]));
 const top5 = D.ranking_municipios.slice(0, 5).reduce((s, r) => s + r.hectareas, 0);
@@ -197,10 +197,10 @@ cuerpo.push(P([
   run(' de toda la deforestación de la jurisdicción.'),
 ]));
 
-// ── 6. SUBREGIONES ──
-cuerpo.push(H1('6. Análisis por subregión'));
-cuerpo.push(P('Tabla 4. Deforestación acumulada por subregión.', { justify: false, spacing: { after: 80 } }));
-cuerpo.push(tabla(['Subregión', 'Deforestación (ha)', '% del total'],
+// ── 6. TERRITORIALES ──
+cuerpo.push(H1('6. Análisis por territorial'));
+cuerpo.push(P('Tabla 4. Deforestación acumulada por territorial.', { justify: false, spacing: { after: 80 } }));
+cuerpo.push(tabla(['Territorial', 'Deforestación (ha)', '% del total'],
   D.por_subregion.map((r) => [r.subregion, nf(r.hectareas, 1), `${nf(100 * r.hectareas / D.total_deforestacion_ha, 1)} %`]),
   [3120, 3120, 3120]));
 const tsub = D.dinamica.tasa_por_subregion_tendencia || {};

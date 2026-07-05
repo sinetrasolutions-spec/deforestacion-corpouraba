@@ -158,7 +158,7 @@ export default function CentroDatos() {
         <TarjetaDataset
           icono={MapIcon}
           titulo="Límites municipales"
-          descripcion="Los 19 municipios en GeoJSON (WGS84) con códigos DANE y subregión."
+          descripcion="Los 19 municipios en GeoJSON (WGS84) con códigos DANE y territorial."
           acciones={[{ etiqueta: 'GeoJSON', href: urlDescarga('municipios.geojson') }]}
         />
         <TarjetaDataset
@@ -309,7 +309,7 @@ export default function CentroDatos() {
             <table className="min-w-full text-xs">
               <thead className="sticky top-0 bg-bosque-600 text-white">
                 <tr>
-                  {['Municipio', 'Subregión', 'Periodo', 'Clase', 'Ha', 'Ha/año', 'Fuente', 'Est.'].map((h) => (
+                  {['Municipio', 'Territorial', 'Periodo', 'Clase', 'Ha', 'Ha/año', 'Fuente', 'Est.'].map((h) => (
                     <th key={h} className="px-2 py-1.5 text-left font-semibold">
                       {h}
                     </th>
@@ -350,7 +350,7 @@ export default function CentroDatos() {
               {[
                 ['codigo_dane', 'Código DANE del municipio (5 dígitos, con cero inicial).'],
                 ['municipio', 'Nombre oficial del municipio.'],
-                ['subregion', 'Subregión CORPOURABA: Caribe, Centro, Atrato, Nutibara, Urrao.'],
+                ['subregion', 'Territorial CORPOURABA: Caribe, Centro, Atrato, Nutibara, Urrao (campo interno «subregion»).'],
                 ['periodo', 'Periodo de monitoreo (p. ej. 2016-2017).'],
                 ['ano_inicio / ano_fin', 'Años extremos del periodo (los 5 primeros duran 2 años).'],
                 ['clase', 'Bosque Estable · Deforestación · No Bosque Estable · Regeneración · Sin Información.'],

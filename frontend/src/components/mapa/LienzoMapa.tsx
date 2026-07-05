@@ -683,7 +683,7 @@ function PanelMunicipio({
           </p>
           <h2 className="font-display text-xl font-semibold">{ficha?.municipio ?? codigo}</h2>
           {ficha && (
-            <p className="text-sm text-[color:var(--tinta-suave)]">Subregión {ficha.subregion}</p>
+            <p className="text-sm text-[color:var(--tinta-suave)]">Territorial {ficha.subregion}</p>
           )}
         </div>
         <button

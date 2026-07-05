@@ -106,7 +106,7 @@ export const QUIZ: Record<Nivel, Pregunta[]> = {
     { pregunta: '¿Qué cuenca perdió más bosque?', opciones: ['Río León', 'Río Sinú', 'Río Magdalena'], correcta: 0, explicacion: 'La cuenca del río León acumula 6.333 ha.' },
     { pregunta: '¿Qué porcentaje del bosque perdió la región (neto)?', opciones: ['4,2 %', '25 %', '50 %'], correcta: 0, explicacion: 'El bosque estable cayó 4,2 % (37.809 ha).' },
     { pregunta: 'La regeneración compensa aproximadamente…', opciones: ['El 2 % de la pérdida', 'La mitad', 'Todo'], correcta: 0, explicacion: 'Solo ~726 ha regeneradas frente a 34.542 deforestadas.' },
-    { pregunta: '¿Dónde se concentra hoy más la deforestación?', opciones: ['En las ciudades', 'En territorios colectivos y subregiones boscosas', 'En el mar'], correcta: 1, explicacion: 'La frontera se corrió hacia resguardos, consejos y subregiones boscosas.' },
+    { pregunta: '¿Dónde se concentra hoy más la deforestación?', opciones: ['En las ciudades', 'En territorios colectivos y territoriales boscosas', 'En el mar'], correcta: 1, explicacion: 'La frontera se corrió hacia resguardos, consejos y territoriales boscosas.' },
     { pregunta: 'La mayoría de los parches de deforestación son…', opciones: ['Enormes (>100 ha)', 'Pequeños (<5 ha)', 'Todos iguales'], correcta: 1, explicacion: 'El 92 % mide menos de 5 ha: colonización gradual.' },
   ],
   cientifico: [
@@ -117,7 +117,7 @@ export const QUIZ: Record<Nivel, Pregunta[]> = {
     { pregunta: 'Fracción étnica de la deforestación 2019–2023:', opciones: ['40,9 %', '5 %', '16,4 %'], correcta: 0, explicacion: 'Subió del 16,4 % (2002–2010) al 40,9 % (2019–2023).' },
     { pregunta: '¿Qué pueblo concentra la pérdida en resguardos?', opciones: ['Embera Katío (77 %)', 'Tule/Guna', 'Senú'], correcta: 0, explicacion: '3.478 de 4.513 ha en resguardos son de territorios Embera Katío.' },
     { pregunta: '% de deforestación mapeada dentro de áreas protegidas:', opciones: ['≈12,6 %', '≈50 %', '≈1 %'], correcta: 0, explicacion: '3.362 ha (12,6 %) en 10 periodos comparables; lidera el DRMI Serranía de Abibe.' },
-    { pregunta: '¿Qué subregiones aceleran su tasa relativa de pérdida?', opciones: ['Atrato, Nutibara y Urrao', 'Caribe y Centro', 'Ninguna'], correcta: 0, explicacion: 'Caribe y Centro desaceleran; Atrato, Nutibara y Urrao aceleran.' },
+    { pregunta: '¿Qué territoriales aceleran su tasa relativa de pérdida?', opciones: ['Atrato, Nutibara y Urrao', 'Caribe y Centro', 'Ninguna'], correcta: 0, explicacion: 'Caribe y Centro desaceleran; Atrato, Nutibara y Urrao aceleran.' },
   ],
 };
 
@@ -150,7 +150,7 @@ export const HISTORIAS: {
     municipio: 'Urrao',
     titulo: 'Urrao y el páramo',
     texto:
-      'Urrao guarda páramo y bosque andino en el PNN Las Orquídeas. Aunque históricamente conservado, su subregión acelera la tasa de pérdida en los años recientes, señal del avance de la frontera hacia zonas antes intactas.',
+      'Urrao guarda páramo y bosque andino en el PNN Las Orquídeas. Aunque históricamente conservado, su territorial acelera la tasa de pérdida en los años recientes, señal del avance de la frontera hacia zonas antes intactas.',
     serie: [60, 140, 130, 90, 120, 130, 180, 150, 130, 110, 150, 120],
   },
   {

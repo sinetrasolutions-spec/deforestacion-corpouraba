@@ -203,7 +203,7 @@ export const datos = {
   },
   validarSubregion(sub: string): string {
     const canon = SUBREGIONES_VALIDAS.find((s) => normalizar(s) === normalizar(sub));
-    if (!canon) throw new ErrorDatos(`Subregión desconocida: '${sub}'.`, 422);
+    if (!canon) throw new ErrorDatos(`Territorial desconocida: '${sub}'.`, 422);
     return canon;
   },
   validarPeriodo(periodo: string): string {

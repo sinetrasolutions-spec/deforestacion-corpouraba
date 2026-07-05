@@ -233,7 +233,7 @@ export default function HeroDosel() {
             <span className="font-display text-base font-semibold tabular-nums text-white" data-objetivo="19">
               0
             </span>{' '}
-            municipios · 5 subregiones
+            municipios · 5 territoriales
           </li>
           <li className="flex items-center gap-2">
             <CalendarRange className="h-4 w-4" aria-hidden="true" />
