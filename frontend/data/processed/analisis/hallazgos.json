@@ -3,10 +3,10 @@
   "id": "etnicos-desplazamiento",
   "tema": "territorios_etnicos",
   "titulo": "La deforestación se desplaza hacia territorios étnicos",
-  "cifra": 40.9,
+  "cifra": 40.6,
   "unidad": "% de la deforestación mapeada",
   "periodo_referencia": "2019-2023",
-  "descripcion": "En 2002-2010 los resguardos indígenas y consejos comunitarios concentraban el 16,4% de la deforestación mapeada; en 2019-2023 concentran el 40,9%. La presión se movió hacia los territorios colectivos mientras el resto de la jurisdicción desacelera.",
+  "descripcion": "En 2002-2010 los resguardos indígenas y consejos comunitarios concentraban el 16,6% de la deforestación mapeada; en 2019-2023 concentran el 40,6%. La presión se movió hacia los territorios colectivos mientras el resto de la jurisdicción desacelera.",
   "relevancia": 10
  },
  {
@@ -22,11 +22,11 @@
  {
   "id": "frentes-persistentes",
   "tema": "fragmentacion",
-  "titulo": "72% de la pérdida ocurre en frentes persistentes",
-  "cifra": 72.2,
+  "titulo": "79% de la pérdida ocurre en frentes persistentes",
+  "cifra": 78.9,
   "unidad": "% de ha en celdas recurrentes",
   "periodo_referencia": "2002-2023",
-  "descripcion": "1.039 celdas de 2×2 km registran deforestación en 3 o más periodos y concentran el 72,2% de las hectáreas deforestadas mapeadas. No son eventos dispersos: son frentes activos y localizables, priorizables para control.",
+  "descripcion": "1.411 celdas de 2×2 km registran deforestación en 3 o más periodos y concentran el 78,9% de las hectáreas deforestadas mapeadas. No son eventos dispersos: son frentes activos y localizables, priorizables para control.",
   "relevancia": 9
  },
  {
@@ -82,11 +82,11 @@
  {
   "id": "frentes-mutata-dabeiba",
   "tema": "fragmentacion",
-  "titulo": "Frentes activos 10 de 12 periodos en Mutatá y Dabeiba",
-  "cifra": 10,
+  "titulo": "Frentes activos 11 de 12 periodos en Mutatá y Dabeiba",
+  "cifra": 11,
   "unidad": "periodos con deforestación (máx. observado)",
   "periodo_referencia": "2002-2023",
-  "descripcion": "Las celdas más recurrentes de la jurisdicción (piedemonte de Mutatá y Dabeiba, eje de la vía al mar) registran deforestación en 10 de los 12 periodos mapeados, con hasta 127 ha acumuladas por celda de 400 ha. Urrao (179), Turbo (165) y Dabeiba (152) tienen más celdas persistentes.",
+  "descripcion": "Las celdas más recurrentes de la jurisdicción (piedemonte de Mutatá y Dabeiba, eje de la vía al mar) registran deforestación en 11 de los 12 periodos mapeados, con hasta 136 ha acumuladas por celda de 400 ha. Urrao (249), Turbo (221) y Dabeiba (203) tienen más celdas persistentes.",
   "relevancia": 8
  },
  {
@@ -102,11 +102,11 @@
  {
   "id": "atomizacion",
   "tema": "fragmentacion",
-  "titulo": "Deforestación atomizada: 9.107 parches, mediana 1,7 ha",
-  "cifra": 9107,
-  "unidad": "parches ≥1 ha en 12 periodos",
+  "titulo": "Deforestación atomizada: 19.023 parches, mediana 1 ha",
+  "cifra": 19023,
+  "unidad": "parches en 12 periodos (incluye < 1 ha)",
   "periodo_referencia": "2002-2023",
-  "descripcion": "El 92% de los parches mide menos de 5 ha (64% del área); solo el 2,5% supera 10 ha pero aporta el 22,5% del área. El tamaño de parche es estable en el tiempo (~2,8 ha): el patrón es de colonización hormiga, no de grandes praderizaciones — con la excepción de Turbo (parche máximo de 738 ha).",
+  "descripcion": "El 96% de los parches mide menos de 5 ha (70% del área); solo el 1,2% supera 10 ha pero aporta el 19% del área. El tamaño medio de parche es pequeño (~1,6 ha; mediana 0,95 ha) e incluye ahora los focos de menos de 1 ha: el patrón es de colonización hormiga, no de grandes praderizaciones — con la excepción de Turbo (parche máximo de 738 ha).",
   "relevancia": 7
  },
  {

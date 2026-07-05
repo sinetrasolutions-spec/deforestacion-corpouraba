@@ -57,13 +57,13 @@
   }
  },
  "totales_12_periodos_mapeados": {
-  "deforestacion_mapeada_dentro_jurisdiccion_ha": 24086.6,
-  "dentro_ley2a_ha": 8309.5,
-  "pct_dentro_ley2a": 34.5,
-  "dentro_areas_protegidas_ha": 3174.1,
-  "pct_dentro_areas_protegidas": 13.18,
-  "dentro_aeia_importancia_alta_ha": 12031.4,
-  "pct_dentro_aeia_importancia_alta": 49.95
+  "deforestacion_mapeada_dentro_jurisdiccion_ha": 29357.6,
+  "dentro_ley2a_ha": 10500.2,
+  "pct_dentro_ley2a": 35.77,
+  "dentro_areas_protegidas_ha": 3922.9,
+  "pct_dentro_areas_protegidas": 13.36,
+  "dentro_aeia_importancia_alta_ha": 14284.1,
+  "pct_dentro_aeia_importancia_alta": 48.66
  },
  "contexto_cobertura": {
   "periodos_con_hotspots": [
@@ -82,8 +82,8 @@
   ],
   "n_periodos": 12,
   "deforestacion_serie_12_periodos_ha": 30064.8,
-  "deforestacion_serie_18_periodos_ha": 46044.3,
-  "pct_serie_cubierta_por_periodos_mapeados": 65.3,
+  "deforestacion_serie_18_periodos_ha": 46845.5,
+  "pct_serie_cubierta_por_periodos_mapeados": 64.18,
   "nota": "Todos los porcentajes son de la deforestacion MAPEADA (hotspots >=1 ha) dentro de la jurisdiccion, no del total 2000-2024."
  },
  "invariante_subset_no_supera_total": "OK",
@@ -93,507 +93,512 @@
    "periodo": "2002-2004",
    "ano_inicio": 2002,
    "ano_fin": 2004,
-   "hectareas_dentro": 466.27,
-   "hectareas_anuales": 233.14,
-   "pct_mapeado_periodo": 15.99,
-   "deforestacion_mapeada_periodo_ha": 2915.71
+   "hectareas_dentro": 610.02,
+   "hectareas_anuales": 305.01,
+   "pct_mapeado_periodo": 16.85,
+   "deforestacion_mapeada_periodo_ha": 3620.34
   },
   {
    "figura": "Area protegida",
    "periodo": "2002-2004",
    "ano_inicio": 2002,
    "ano_fin": 2004,
-   "hectareas_dentro": 308.75,
-   "hectareas_anuales": 154.37,
-   "pct_mapeado_periodo": 10.59,
-   "deforestacion_mapeada_periodo_ha": 2915.71
+   "hectareas_dentro": 385.93,
+   "hectareas_anuales": 192.96,
+   "pct_mapeado_periodo": 10.66,
+   "deforestacion_mapeada_periodo_ha": 3620.34
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2002-2004",
    "ano_inicio": 2002,
    "ano_fin": 2004,
-   "hectareas_dentro": 1314.41,
-   "hectareas_anuales": 657.21,
-   "pct_mapeado_periodo": 45.08,
-   "deforestacion_mapeada_periodo_ha": 2915.71
+   "hectareas_dentro": 1651.93,
+   "hectareas_anuales": 825.96,
+   "pct_mapeado_periodo": 45.63,
+   "deforestacion_mapeada_periodo_ha": 3620.34
   },
   {
    "figura": "Ley 2a de 1959",
    "periodo": "2004-2006",
    "ano_inicio": 2004,
    "ano_fin": 2006,
-   "hectareas_dentro": 689.36,
-   "hectareas_anuales": 344.68,
-   "pct_mapeado_periodo": 28.19,
-   "deforestacion_mapeada_periodo_ha": 2445.11
+   "hectareas_dentro": 831.65,
+   "hectareas_anuales": 415.83,
+   "pct_mapeado_periodo": 28.21,
+   "deforestacion_mapeada_periodo_ha": 2947.62
   },
   {
    "figura": "Area protegida",
    "periodo": "2004-2006",
    "ano_inicio": 2004,
    "ano_fin": 2006,
-   "hectareas_dentro": 259.81,
-   "hectareas_anuales": 129.9,
-   "pct_mapeado_periodo": 10.63,
-   "deforestacion_mapeada_periodo_ha": 2445.11
+   "hectareas_dentro": 311.79,
+   "hectareas_anuales": 155.89,
+   "pct_mapeado_periodo": 10.58,
+   "deforestacion_mapeada_periodo_ha": 2947.62
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2004-2006",
    "ano_inicio": 2004,
    "ano_fin": 2006,
-   "hectareas_dentro": 978.82,
-   "hectareas_anuales": 489.41,
-   "pct_mapeado_periodo": 40.03,
-   "deforestacion_mapeada_periodo_ha": 2445.11
+   "hectareas_dentro": 1193.96,
+   "hectareas_anuales": 596.98,
+   "pct_mapeado_periodo": 40.51,
+   "deforestacion_mapeada_periodo_ha": 2947.62
   },
   {
    "figura": "Ley 2a de 1959",
    "periodo": "2006-2008",
    "ano_inicio": 2006,
    "ano_fin": 2008,
-   "hectareas_dentro": 307.17,
-   "hectareas_anuales": 153.59,
-   "pct_mapeado_periodo": 16.64,
-   "deforestacion_mapeada_periodo_ha": 1845.89
+   "hectareas_dentro": 407.28,
+   "hectareas_anuales": 203.64,
+   "pct_mapeado_periodo": 16.57,
+   "deforestacion_mapeada_periodo_ha": 2458.36
   },
   {
    "figura": "Area protegida",
    "periodo": "2006-2008",
    "ano_inicio": 2006,
    "ano_fin": 2008,
-   "hectareas_dentro": 333.83,
-   "hectareas_anuales": 166.92,
-   "pct_mapeado_periodo": 18.09,
-   "deforestacion_mapeada_periodo_ha": 1845.89
+   "hectareas_dentro": 457.37,
+   "hectareas_anuales": 228.69,
+   "pct_mapeado_periodo": 18.6,
+   "deforestacion_mapeada_periodo_ha": 2458.36
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2006-2008",
    "ano_inicio": 2006,
    "ano_fin": 2008,
-   "hectareas_dentro": 767.73,
-   "hectareas_anuales": 383.87,
-   "pct_mapeado_periodo": 41.59,
-   "deforestacion_mapeada_periodo_ha": 1845.89
+   "hectareas_dentro": 1034.81,
+   "hectareas_anuales": 517.41,
+   "pct_mapeado_periodo": 42.09,
+   "deforestacion_mapeada_periodo_ha": 2458.36
   },
   {
    "figura": "Ley 2a de 1959",
    "periodo": "2008-2010",
    "ano_inicio": 2008,
    "ano_fin": 2010,
-   "hectareas_dentro": 489.3,
-   "hectareas_anuales": 244.65,
-   "pct_mapeado_periodo": 21.31,
-   "deforestacion_mapeada_periodo_ha": 2296.53
+   "hectareas_dentro": 657.83,
+   "hectareas_anuales": 328.92,
+   "pct_mapeado_periodo": 23.11,
+   "deforestacion_mapeada_periodo_ha": 2846.82
   },
   {
    "figura": "Area protegida",
    "periodo": "2008-2010",
    "ano_inicio": 2008,
    "ano_fin": 2010,
-   "hectareas_dentro": 335.49,
-   "hectareas_anuales": 167.75,
-   "pct_mapeado_periodo": 14.61,
-   "deforestacion_mapeada_periodo_ha": 2296.53
+   "hectareas_dentro": 429.53,
+   "hectareas_anuales": 214.76,
+   "pct_mapeado_periodo": 15.09,
+   "deforestacion_mapeada_periodo_ha": 2846.82
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2008-2010",
    "ano_inicio": 2008,
    "ano_fin": 2010,
-   "hectareas_dentro": 1229.47,
-   "hectareas_anuales": 614.73,
-   "pct_mapeado_periodo": 53.54,
-   "deforestacion_mapeada_periodo_ha": 2296.53
+   "hectareas_dentro": 1497.4,
+   "hectareas_anuales": 748.7,
+   "pct_mapeado_periodo": 52.6,
+   "deforestacion_mapeada_periodo_ha": 2846.82
   },
   {
    "figura": "Ley 2a de 1959",
    "periodo": "2012-2013",
    "ano_inicio": 2012,
    "ano_fin": 2013,
-   "hectareas_dentro": 685.07,
-   "hectareas_anuales": 685.07,
-   "pct_mapeado_periodo": 39.37,
-   "deforestacion_mapeada_periodo_ha": 1739.95
+   "hectareas_dentro": 956.16,
+   "hectareas_anuales": 956.16,
+   "pct_mapeado_periodo": 42.79,
+   "deforestacion_mapeada_periodo_ha": 2234.57
   },
   {
    "figura": "Area protegida",
    "periodo": "2012-2013",
    "ano_inicio": 2012,
    "ano_fin": 2013,
-   "hectareas_dentro": 206.95,
-   "hectareas_anuales": 206.95,
-   "pct_mapeado_periodo": 11.89,
-   "deforestacion_mapeada_periodo_ha": 1739.95
+   "hectareas_dentro": 279.85,
+   "hectareas_anuales": 279.85,
+   "pct_mapeado_periodo": 12.52,
+   "deforestacion_mapeada_periodo_ha": 2234.57
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2012-2013",
    "ano_inicio": 2012,
    "ano_fin": 2013,
-   "hectareas_dentro": 761.71,
-   "hectareas_anuales": 761.71,
-   "pct_mapeado_periodo": 43.78,
-   "deforestacion_mapeada_periodo_ha": 1739.95
+   "hectareas_dentro": 899.71,
+   "hectareas_anuales": 899.71,
+   "pct_mapeado_periodo": 40.26,
+   "deforestacion_mapeada_periodo_ha": 2234.57
   },
   {
    "figura": "Ley 2a de 1959",
    "periodo": "2013-2014",
    "ano_inicio": 2013,
    "ano_fin": 2014,
-   "hectareas_dentro": 1033.72,
-   "hectareas_anuales": 1033.72,
-   "pct_mapeado_periodo": 33.57,
-   "deforestacion_mapeada_periodo_ha": 3079.41
+   "hectareas_dentro": 1295.94,
+   "hectareas_anuales": 1295.94,
+   "pct_mapeado_periodo": 37.0,
+   "deforestacion_mapeada_periodo_ha": 3502.55
   },
   {
    "figura": "Area protegida",
    "periodo": "2013-2014",
    "ano_inicio": 2013,
    "ano_fin": 2014,
-   "hectareas_dentro": 617.29,
-   "hectareas_anuales": 617.29,
-   "pct_mapeado_periodo": 20.05,
-   "deforestacion_mapeada_periodo_ha": 3079.41
+   "hectareas_dentro": 711.56,
+   "hectareas_anuales": 711.56,
+   "pct_mapeado_periodo": 20.32,
+   "deforestacion_mapeada_periodo_ha": 3502.55
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2013-2014",
    "ano_inicio": 2013,
    "ano_fin": 2014,
-   "hectareas_dentro": 1794.35,
-   "hectareas_anuales": 1794.35,
-   "pct_mapeado_periodo": 58.27,
-   "deforestacion_mapeada_periodo_ha": 3079.41
+   "hectareas_dentro": 1960.77,
+   "hectareas_anuales": 1960.77,
+   "pct_mapeado_periodo": 55.98,
+   "deforestacion_mapeada_periodo_ha": 3502.55
   },
   {
    "figura": "Ley 2a de 1959",
    "periodo": "2016-2017",
    "ano_inicio": 2016,
    "ano_fin": 2017,
-   "hectareas_dentro": 1357.62,
-   "hectareas_anuales": 1357.62,
-   "pct_mapeado_periodo": 44.91,
-   "deforestacion_mapeada_periodo_ha": 3023.08
+   "hectareas_dentro": 1793.4,
+   "hectareas_anuales": 1793.4,
+   "pct_mapeado_periodo": 47.04,
+   "deforestacion_mapeada_periodo_ha": 3812.59
   },
   {
    "figura": "Area protegida",
    "periodo": "2016-2017",
    "ano_inicio": 2016,
    "ano_fin": 2017,
-   "hectareas_dentro": 443.22,
-   "hectareas_anuales": 443.22,
-   "pct_mapeado_periodo": 14.66,
-   "deforestacion_mapeada_periodo_ha": 3023.08
+   "hectareas_dentro": 576.47,
+   "hectareas_anuales": 576.47,
+   "pct_mapeado_periodo": 15.12,
+   "deforestacion_mapeada_periodo_ha": 3812.59
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2016-2017",
    "ano_inicio": 2016,
    "ano_fin": 2017,
-   "hectareas_dentro": 1593.88,
-   "hectareas_anuales": 1593.88,
-   "pct_mapeado_periodo": 52.72,
-   "deforestacion_mapeada_periodo_ha": 3023.08
+   "hectareas_dentro": 1910.72,
+   "hectareas_anuales": 1910.72,
+   "pct_mapeado_periodo": 50.12,
+   "deforestacion_mapeada_periodo_ha": 3812.59
   },
   {
    "figura": "Ley 2a de 1959",
    "periodo": "2017-2018",
    "ano_inicio": 2017,
    "ano_fin": 2018,
-   "hectareas_dentro": 595.75,
-   "hectareas_anuales": 595.75,
-   "pct_mapeado_periodo": 38.59,
-   "deforestacion_mapeada_periodo_ha": 1543.96
+   "hectareas_dentro": 704.12,
+   "hectareas_anuales": 704.12,
+   "pct_mapeado_periodo": 40.38,
+   "deforestacion_mapeada_periodo_ha": 1743.77
   },
   {
    "figura": "Area protegida",
    "periodo": "2017-2018",
    "ano_inicio": 2017,
    "ano_fin": 2018,
-   "hectareas_dentro": 204.3,
-   "hectareas_anuales": 204.3,
-   "pct_mapeado_periodo": 13.23,
-   "deforestacion_mapeada_periodo_ha": 1543.96
+   "hectareas_dentro": 228.33,
+   "hectareas_anuales": 228.33,
+   "pct_mapeado_periodo": 13.09,
+   "deforestacion_mapeada_periodo_ha": 1743.77
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2017-2018",
    "ano_inicio": 2017,
    "ano_fin": 2018,
-   "hectareas_dentro": 1034.46,
-   "hectareas_anuales": 1034.46,
-   "pct_mapeado_periodo": 67.0,
-   "deforestacion_mapeada_periodo_ha": 1543.96
+   "hectareas_dentro": 1125.32,
+   "hectareas_anuales": 1125.32,
+   "pct_mapeado_periodo": 64.53,
+   "deforestacion_mapeada_periodo_ha": 1743.77
   },
   {
    "figura": "Ley 2a de 1959",
    "periodo": "2019-2020",
    "ano_inicio": 2019,
    "ano_fin": 2020,
-   "hectareas_dentro": 657.41,
-   "hectareas_anuales": 657.41,
-   "pct_mapeado_periodo": 45.04,
-   "deforestacion_mapeada_periodo_ha": 1459.68
+   "hectareas_dentro": 773.78,
+   "hectareas_anuales": 773.78,
+   "pct_mapeado_periodo": 45.46,
+   "deforestacion_mapeada_periodo_ha": 1702.02
   },
   {
    "figura": "Area protegida",
    "periodo": "2019-2020",
    "ano_inicio": 2019,
    "ano_fin": 2020,
-   "hectareas_dentro": 104.64,
-   "hectareas_anuales": 104.64,
-   "pct_mapeado_periodo": 7.17,
-   "deforestacion_mapeada_periodo_ha": 1459.68
+   "hectareas_dentro": 123.32,
+   "hectareas_anuales": 123.32,
+   "pct_mapeado_periodo": 7.25,
+   "deforestacion_mapeada_periodo_ha": 1702.02
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2019-2020",
    "ano_inicio": 2019,
    "ano_fin": 2020,
-   "hectareas_dentro": 737.89,
-   "hectareas_anuales": 737.89,
-   "pct_mapeado_periodo": 50.55,
-   "deforestacion_mapeada_periodo_ha": 1459.68
+   "hectareas_dentro": 843.98,
+   "hectareas_anuales": 843.98,
+   "pct_mapeado_periodo": 49.59,
+   "deforestacion_mapeada_periodo_ha": 1702.02
   },
   {
    "figura": "Ley 2a de 1959",
    "periodo": "2020-2021",
    "ano_inicio": 2020,
    "ano_fin": 2021,
-   "hectareas_dentro": 550.46,
-   "hectareas_anuales": 550.46,
-   "pct_mapeado_periodo": 59.64,
-   "deforestacion_mapeada_periodo_ha": 922.92
+   "hectareas_dentro": 635.86,
+   "hectareas_anuales": 635.86,
+   "pct_mapeado_periodo": 59.45,
+   "deforestacion_mapeada_periodo_ha": 1069.57
   },
   {
    "figura": "Area protegida",
    "periodo": "2020-2021",
    "ano_inicio": 2020,
    "ano_fin": 2021,
-   "hectareas_dentro": 65.38,
-   "hectareas_anuales": 65.38,
-   "pct_mapeado_periodo": 7.08,
-   "deforestacion_mapeada_periodo_ha": 922.92
+   "hectareas_dentro": 77.25,
+   "hectareas_anuales": 77.25,
+   "pct_mapeado_periodo": 7.22,
+   "deforestacion_mapeada_periodo_ha": 1069.57
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2020-2021",
    "ano_inicio": 2020,
    "ano_fin": 2021,
-   "hectareas_dentro": 456.6,
-   "hectareas_anuales": 456.6,
-   "pct_mapeado_periodo": 49.47,
-   "deforestacion_mapeada_periodo_ha": 922.92
+   "hectareas_dentro": 523.97,
+   "hectareas_anuales": 523.97,
+   "pct_mapeado_periodo": 48.99,
+   "deforestacion_mapeada_periodo_ha": 1069.57
   },
   {
    "figura": "Ley 2a de 1959",
    "periodo": "2021-2022",
    "ano_inicio": 2021,
    "ano_fin": 2022,
-   "hectareas_dentro": 950.49,
-   "hectareas_anuales": 950.49,
-   "pct_mapeado_periodo": 48.81,
-   "deforestacion_mapeada_periodo_ha": 1947.21
+   "hectareas_dentro": 1129.12,
+   "hectareas_anuales": 1129.12,
+   "pct_mapeado_periodo": 49.38,
+   "deforestacion_mapeada_periodo_ha": 2286.75
   },
   {
    "figura": "Area protegida",
    "periodo": "2021-2022",
    "ano_inicio": 2021,
    "ano_fin": 2022,
-   "hectareas_dentro": 203.36,
-   "hectareas_anuales": 203.36,
-   "pct_mapeado_periodo": 10.44,
-   "deforestacion_mapeada_periodo_ha": 1947.21
+   "hectareas_dentro": 231.53,
+   "hectareas_anuales": 231.53,
+   "pct_mapeado_periodo": 10.13,
+   "deforestacion_mapeada_periodo_ha": 2286.75
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2021-2022",
    "ano_inicio": 2021,
    "ano_fin": 2022,
-   "hectareas_dentro": 954.42,
-   "hectareas_anuales": 954.42,
-   "pct_mapeado_periodo": 49.01,
-   "deforestacion_mapeada_periodo_ha": 1947.21
+   "hectareas_dentro": 1122.01,
+   "hectareas_anuales": 1122.01,
+   "pct_mapeado_periodo": 49.07,
+   "deforestacion_mapeada_periodo_ha": 2286.75
   },
   {
    "figura": "Ley 2a de 1959",
    "periodo": "2022-2023",
    "ano_inicio": 2022,
    "ano_fin": 2023,
-   "hectareas_dentro": 526.83,
-   "hectareas_anuales": 526.83,
-   "pct_mapeado_periodo": 60.76,
-   "deforestacion_mapeada_periodo_ha": 867.12
+   "hectareas_dentro": 705.02,
+   "hectareas_anuales": 705.02,
+   "pct_mapeado_periodo": 62.24,
+   "deforestacion_mapeada_periodo_ha": 1132.65
   },
   {
    "figura": "Area protegida",
    "periodo": "2022-2023",
    "ano_inicio": 2022,
    "ano_fin": 2023,
-   "hectareas_dentro": 91.03,
-   "hectareas_anuales": 91.03,
-   "pct_mapeado_periodo": 10.5,
-   "deforestacion_mapeada_periodo_ha": 867.12
+   "hectareas_dentro": 109.93,
+   "hectareas_anuales": 109.93,
+   "pct_mapeado_periodo": 9.71,
+   "deforestacion_mapeada_periodo_ha": 1132.65
   },
   {
    "figura": "AEIA importancia alta",
    "periodo": "2022-2023",
    "ano_inicio": 2022,
    "ano_fin": 2023,
-   "hectareas_dentro": 407.63,
-   "hectareas_anuales": 407.63,
-   "pct_mapeado_periodo": 47.01,
-   "deforestacion_mapeada_periodo_ha": 867.12
+   "hectareas_dentro": 519.55,
+   "hectareas_anuales": 519.55,
+   "pct_mapeado_periodo": 45.87,
+   "deforestacion_mapeada_periodo_ha": 1132.65
   }
  ],
  "tendencia_por_bloques": {
   "2002_2010": {
    "anos_cubiertos": 8,
-   "defo_mapeada_ha": 9503.2,
+   "defo_mapeada_ha": 11873.1,
    "ley2a": {
-    "ha": 1952.1,
-    "ha_anual": 244.0,
-    "pct": 20.54
+    "ha": 2506.8,
+    "ha_anual": 313.3,
+    "pct": 21.11
    },
    "ap": {
-    "ha": 1237.9,
-    "ha_anual": 154.7,
-    "pct": 13.03
+    "ha": 1584.6,
+    "ha_anual": 198.1,
+    "pct": 13.35
    },
    "aeia_alta": {
-    "ha": 4290.4,
-    "ha_anual": 536.3,
-    "pct": 45.15
+    "ha": 5378.1,
+    "ha_anual": 672.3,
+    "pct": 45.3
    }
   },
   "2012_2018": {
    "anos_cubiertos": 4,
-   "defo_mapeada_ha": 9386.4,
+   "defo_mapeada_ha": 11293.5,
    "ley2a": {
-    "ha": 3672.2,
-    "ha_anual": 918.0,
-    "pct": 39.12
+    "ha": 4749.6,
+    "ha_anual": 1187.4,
+    "pct": 42.06
    },
    "ap": {
-    "ha": 1471.8,
-    "ha_anual": 367.9,
-    "pct": 15.68
+    "ha": 1796.2,
+    "ha_anual": 449.1,
+    "pct": 15.9
    },
    "aeia_alta": {
-    "ha": 5184.4,
-    "ha_anual": 1296.1,
-    "pct": 55.23
+    "ha": 5896.5,
+    "ha_anual": 1474.1,
+    "pct": 52.21
    }
   },
   "2019_2023": {
    "anos_cubiertos": 4,
-   "defo_mapeada_ha": 5196.9,
+   "defo_mapeada_ha": 6191.0,
    "ley2a": {
-    "ha": 2685.2,
-    "ha_anual": 671.3,
-    "pct": 51.67
+    "ha": 3243.8,
+    "ha_anual": 810.9,
+    "pct": 52.4
    },
    "ap": {
-    "ha": 464.4,
-    "ha_anual": 116.1,
-    "pct": 8.94
+    "ha": 542.0,
+    "ha_anual": 135.5,
+    "pct": 8.76
    },
    "aeia_alta": {
-    "ha": 2556.5,
-    "ha_anual": 639.1,
-    "pct": 49.19
+    "ha": 3009.5,
+    "ha_anual": 752.4,
+    "pct": 48.61
    }
   }
  },
  "ranking_zonas_ley2a": [
   {
    "unidad": "Áreas con previa desición de Ordenamiento Territorial",
-   "deforestacion_ha": 4520.1
+   "deforestacion_ha": 5691.9
   },
   {
    "unidad": "Tipo A",
-   "deforestacion_ha": 3642.2
+   "deforestacion_ha": 4617.5
   },
   {
    "unidad": "Tipo B",
-   "deforestacion_ha": 105.7
+   "deforestacion_ha": 137.7
   },
   {
    "unidad": "Tipo C",
-   "deforestacion_ha": 41.4
+   "deforestacion_ha": 53.0
   }
  ],
  "ranking_areas_protegidas": [
   {
    "unidad": "Serranía de Abibe",
    "categoria": "Distrito Regional de Manejo Integrado",
-   "deforestacion_ha": 1584.4
+   "deforestacion_ha": 1896.6
   },
   {
    "unidad": "Carauta",
    "categoria": "Reserva Forestal Protectora Nacional",
-   "deforestacion_ha": 438.7
+   "deforestacion_ha": 587.8
   },
   {
    "unidad": "Las Orquideas",
    "categoria": "Parque Nacional Natural",
-   "deforestacion_ha": 344.0
+   "deforestacion_ha": 421.8
   },
   {
    "unidad": "Ensenada de Rionegro, los Bajos Aledanos",
    "categoria": "Distrito Regional de Manejo Integrado",
-   "deforestacion_ha": 309.3
+   "deforestacion_ha": 386.2
   },
   {
    "unidad": "Río León",
    "categoria": "Reserva Forestal Protectora Nacional",
-   "deforestacion_ha": 182.5
+   "deforestacion_ha": 204.1
   },
   {
    "unidad": "De Urrao",
    "categoria": "Reserva Forestal Protectora Nacional",
-   "deforestacion_ha": 113.1
+   "deforestacion_ha": 162.7
   },
   {
    "unidad": "Peque",
    "categoria": "Distrito de Conservación de Suelos",
-   "deforestacion_ha": 90.4
+   "deforestacion_ha": 112.2
   },
   {
    "unidad": "Humedales entre los Rios Leon y Suriqui",
    "categoria": "Parque Regional Natural",
-   "deforestacion_ha": 49.4
+   "deforestacion_ha": 55.5
   },
   {
    "unidad": "Alto de Insor",
    "categoria": "Distrito Regional de Manejo Integrado",
-   "deforestacion_ha": 29.7
+   "deforestacion_ha": 43.8
   },
   {
    "unidad": "Los Katío",
    "categoria": "Parque Nacional Natural",
-   "deforestacion_ha": 14.3
+   "deforestacion_ha": 25.3
   },
   {
    "unidad": "Paramillo",
    "categoria": "Parque Nacional Natural",
-   "deforestacion_ha": 12.9
+   "deforestacion_ha": 17.9
   },
   {
    "unidad": "De Las Aves Colibrí del Sol",
    "categoria": "Reserva Natural de la Sociedad Civil",
-   "deforestacion_ha": 5.3
-  },
-  {
-   "unidad": "Los Horizontales",
-   "categoria": "Reserva Natural de la Sociedad Civil",
-   "deforestacion_ha": 0.0
+   "deforestacion_ha": 6.6
   },
   {
    "unidad": "Musinga",
+   "categoria": "Reserva Natural de la Sociedad Civil",
+   "deforestacion_ha": 1.3
+  },
+  {
+   "unidad": "Buenos Aires",
+   "categoria": "Reserva Natural de la Sociedad Civil",
+   "deforestacion_ha": 0.8
+  },
+  {
+   "unidad": "La Rivera",
    "categoria": "Reserva Natural de la Sociedad Civil",
    "deforestacion_ha": 0.0
   }
@@ -601,56 +606,56 @@
  "ranking_categorias_ap": [
   {
    "categoria": "Distrito Regional de Manejo Integrado",
-   "deforestacion_ha": 1923.5
+   "deforestacion_ha": 2326.6
   },
   {
    "categoria": "Reserva Forestal Protectora Nacional",
-   "deforestacion_ha": 734.2
+   "deforestacion_ha": 954.6
   },
   {
    "categoria": "Parque Nacional Natural",
-   "deforestacion_ha": 371.2
+   "deforestacion_ha": 465.0
   },
   {
    "categoria": "Distrito de Conservación de Suelos",
-   "deforestacion_ha": 90.4
+   "deforestacion_ha": 112.2
   },
   {
    "categoria": "Parque Regional Natural",
-   "deforestacion_ha": 49.4
+   "deforestacion_ha": 55.5
   },
   {
    "categoria": "Reserva Natural de la Sociedad Civil",
-   "deforestacion_ha": 5.3
+   "deforestacion_ha": 8.9
   }
  ],
  "deforestacion_por_clase_aeia_ha": {
-  "Importante": 7059.6,
-  "Moderadamente importante": 8548.5,
-  "Muy importante": 4971.8,
-  "Poca importancia": 3296.1,
-  "Sin importancia": 208.9
+  "Importante": 8494.6,
+  "Moderadamente importante": 10635.7,
+  "Muy importante": 5789.5,
+  "Poca importancia": 4174.7,
+  "Sin importancia": 261.2
  },
  "ranking_clase_aeia": [
   {
    "unidad": "Moderadamente importante",
-   "deforestacion_ha": 8548.5
+   "deforestacion_ha": 10635.7
   },
   {
    "unidad": "Importante",
-   "deforestacion_ha": 7059.6
+   "deforestacion_ha": 8494.6
   },
   {
    "unidad": "Muy importante",
-   "deforestacion_ha": 4971.8
+   "deforestacion_ha": 5789.5
   },
   {
    "unidad": "Poca importancia",
-   "deforestacion_ha": 3296.1
+   "deforestacion_ha": 4174.7
   },
   {
    "unidad": "Sin importancia",
-   "deforestacion_ha": 208.9
+   "deforestacion_ha": 261.2
   }
  ],
  "comparacion_analisis_ap_previo": {
@@ -696,9 +701,9 @@
   ],
   "defo_ap_previo_total_ha": 3362.2,
   "defo_ap_previo_periodos_comunes_ha": 2631.7,
-  "defo_ap_actual_periodos_comunes_ha": 2016.0,
-  "diferencia_ha": -615.7,
-  "diferencia_pct": -23.4
+  "defo_ap_actual_periodos_comunes_ha": 2474.1,
+  "diferencia_ha": -157.6,
+  "diferencia_pct": -6.0
  },
  "capas_web": {
   "ley_segunda": {
@@ -716,127 +721,127 @@
  "qa_por_periodo": [
   {
    "periodo": "2002-2004",
-   "n_hotspots": 1119,
-   "ha_mapeada_bruta": 2917.3,
-   "ha_mapeada_dentro_jur": 2915.7,
+   "n_hotspots": 2546,
+   "ha_mapeada_bruta": 3623.0,
+   "ha_mapeada_dentro_jur": 3620.3,
    "pct_dentro_jur": 99.9,
-   "ha_dentro_ley2a": 466.3,
-   "ha_dentro_ap": 308.7,
-   "ha_dentro_aeia_alta": 1314.4
+   "ha_dentro_ley2a": 610.0,
+   "ha_dentro_ap": 385.9,
+   "ha_dentro_aeia_alta": 1651.9
   },
   {
    "periodo": "2004-2006",
-   "n_hotspots": 902,
-   "ha_mapeada_bruta": 2447.0,
-   "ha_mapeada_dentro_jur": 2445.1,
+   "n_hotspots": 1905,
+   "ha_mapeada_bruta": 2949.9,
+   "ha_mapeada_dentro_jur": 2947.6,
    "pct_dentro_jur": 99.9,
-   "ha_dentro_ley2a": 689.4,
-   "ha_dentro_ap": 259.8,
-   "ha_dentro_aeia_alta": 978.8
+   "ha_dentro_ley2a": 831.7,
+   "ha_dentro_ap": 311.8,
+   "ha_dentro_aeia_alta": 1194.0
   },
   {
    "periodo": "2006-2008",
-   "n_hotspots": 808,
-   "ha_mapeada_bruta": 1846.3,
-   "ha_mapeada_dentro_jur": 1845.9,
+   "n_hotspots": 2097,
+   "ha_mapeada_bruta": 2459.0,
+   "ha_mapeada_dentro_jur": 2458.4,
    "pct_dentro_jur": 100.0,
-   "ha_dentro_ley2a": 307.2,
-   "ha_dentro_ap": 333.8,
-   "ha_dentro_aeia_alta": 767.7
+   "ha_dentro_ley2a": 407.3,
+   "ha_dentro_ap": 457.4,
+   "ha_dentro_aeia_alta": 1034.8
   },
   {
    "periodo": "2008-2010",
-   "n_hotspots": 834,
-   "ha_mapeada_bruta": 2300.1,
-   "ha_mapeada_dentro_jur": 2296.5,
+   "n_hotspots": 1882,
+   "ha_mapeada_bruta": 2851.8,
+   "ha_mapeada_dentro_jur": 2846.8,
    "pct_dentro_jur": 99.8,
-   "ha_dentro_ley2a": 489.3,
-   "ha_dentro_ap": 335.5,
-   "ha_dentro_aeia_alta": 1229.5
+   "ha_dentro_ley2a": 657.8,
+   "ha_dentro_ap": 429.5,
+   "ha_dentro_aeia_alta": 1497.4
   },
   {
    "periodo": "2012-2013",
-   "n_hotspots": 754,
-   "ha_mapeada_bruta": 10050.6,
-   "ha_mapeada_dentro_jur": 1740.0,
-   "pct_dentro_jur": 17.3,
-   "ha_dentro_ley2a": 685.1,
-   "ha_dentro_ap": 206.9,
-   "ha_dentro_aeia_alta": 761.7
+   "n_hotspots": 1972,
+   "ha_mapeada_bruta": 2234.9,
+   "ha_mapeada_dentro_jur": 2234.6,
+   "pct_dentro_jur": 100.0,
+   "ha_dentro_ley2a": 956.2,
+   "ha_dentro_ap": 279.9,
+   "ha_dentro_aeia_alta": 899.7
   },
   {
    "periodo": "2013-2014",
-   "n_hotspots": 794,
-   "ha_mapeada_bruta": 3080.6,
-   "ha_mapeada_dentro_jur": 3079.4,
-   "pct_dentro_jur": 100.0,
-   "ha_dentro_ley2a": 1033.7,
-   "ha_dentro_ap": 617.3,
-   "ha_dentro_aeia_alta": 1794.3
+   "n_hotspots": 1572,
+   "ha_mapeada_bruta": 3504.7,
+   "ha_mapeada_dentro_jur": 3502.5,
+   "pct_dentro_jur": 99.9,
+   "ha_dentro_ley2a": 1295.9,
+   "ha_dentro_ap": 711.6,
+   "ha_dentro_aeia_alta": 1960.8
   },
   {
    "periodo": "2016-2017",
-   "n_hotspots": 1252,
-   "ha_mapeada_bruta": 3023.1,
-   "ha_mapeada_dentro_jur": 3023.1,
+   "n_hotspots": 2909,
+   "ha_mapeada_bruta": 3813.8,
+   "ha_mapeada_dentro_jur": 3812.6,
    "pct_dentro_jur": 100.0,
-   "ha_dentro_ley2a": 1357.6,
-   "ha_dentro_ap": 443.2,
-   "ha_dentro_aeia_alta": 1593.9
+   "ha_dentro_ley2a": 1793.4,
+   "ha_dentro_ap": 576.5,
+   "ha_dentro_aeia_alta": 1910.7
   },
   {
    "periodo": "2017-2018",
-   "n_hotspots": 457,
-   "ha_mapeada_bruta": 1545.8,
-   "ha_mapeada_dentro_jur": 1544.0,
+   "n_hotspots": 701,
+   "ha_mapeada_bruta": 1745.9,
+   "ha_mapeada_dentro_jur": 1743.8,
    "pct_dentro_jur": 99.9,
-   "ha_dentro_ley2a": 595.7,
-   "ha_dentro_ap": 204.3,
-   "ha_dentro_aeia_alta": 1034.5
+   "ha_dentro_ley2a": 704.1,
+   "ha_dentro_ap": 228.3,
+   "ha_dentro_aeia_alta": 1125.3
   },
   {
    "periodo": "2019-2020",
-   "n_hotspots": 569,
-   "ha_mapeada_bruta": 1459.8,
-   "ha_mapeada_dentro_jur": 1459.7,
+   "n_hotspots": 869,
+   "ha_mapeada_bruta": 1702.2,
+   "ha_mapeada_dentro_jur": 1702.0,
    "pct_dentro_jur": 100.0,
-   "ha_dentro_ley2a": 657.4,
-   "ha_dentro_ap": 104.6,
-   "ha_dentro_aeia_alta": 737.9
+   "ha_dentro_ley2a": 773.8,
+   "ha_dentro_ap": 123.3,
+   "ha_dentro_aeia_alta": 844.0
   },
   {
    "periodo": "2020-2021",
-   "n_hotspots": 419,
-   "ha_mapeada_bruta": 922.9,
-   "ha_mapeada_dentro_jur": 922.9,
+   "n_hotspots": 577,
+   "ha_mapeada_bruta": 1069.7,
+   "ha_mapeada_dentro_jur": 1069.6,
    "pct_dentro_jur": 100.0,
-   "ha_dentro_ley2a": 550.5,
-   "ha_dentro_ap": 65.4,
-   "ha_dentro_aeia_alta": 456.6
+   "ha_dentro_ley2a": 635.9,
+   "ha_dentro_ap": 77.2,
+   "ha_dentro_aeia_alta": 524.0
   },
   {
    "periodo": "2021-2022",
-   "n_hotspots": 803,
-   "ha_mapeada_bruta": 1949.0,
-   "ha_mapeada_dentro_jur": 1947.2,
+   "n_hotspots": 1237,
+   "ha_mapeada_bruta": 2289.0,
+   "ha_mapeada_dentro_jur": 2286.7,
    "pct_dentro_jur": 99.9,
-   "ha_dentro_ley2a": 950.5,
-   "ha_dentro_ap": 203.4,
-   "ha_dentro_aeia_alta": 954.4
+   "ha_dentro_ley2a": 1129.1,
+   "ha_dentro_ap": 231.5,
+   "ha_dentro_aeia_alta": 1122.0
   },
   {
    "periodo": "2022-2023",
-   "n_hotspots": 396,
-   "ha_mapeada_bruta": 867.1,
-   "ha_mapeada_dentro_jur": 867.1,
+   "n_hotspots": 755,
+   "ha_mapeada_bruta": 1132.9,
+   "ha_mapeada_dentro_jur": 1132.7,
    "pct_dentro_jur": 100.0,
-   "ha_dentro_ley2a": 526.8,
-   "ha_dentro_ap": 91.0,
-   "ha_dentro_aeia_alta": 407.6
+   "ha_dentro_ley2a": 705.0,
+   "ha_dentro_ap": 109.9,
+   "ha_dentro_aeia_alta": 519.5
   }
  ],
  "notas": [
-  "Deforestacion mapeada = hotspots >=1 ha, cubren 12 de 18 periodos (~65.0% de la serie 2000-2024).",
+  "Deforestacion mapeada = hotspots >=1 ha, cubren 12 de 18 periodos (~64.0% de la serie 2000-2024).",
   "Hotspots recortados a la jurisdiccion (union municipios.geojson). El hotspot 2012-2013 proviene del raster DEPTO_ANTIOQUIA que cubre todo Antioquia: solo ~17% de su geometria cae en la jurisdiccion; sin recorte, Ley 2a (que se extiende al Choco) se inflaria con deforestacion externa.",
   "Ley 2a de 1959 y varias AP (Paramillo, Los Katio) se extienden fuera de la jurisdiccion; el area de la capa web y area_dentro_jurisdiccion_ha se limitan a la jurisdiccion; los cruces solo ocurren donde hay hotspots.",
   "AEIA (AEIAa.shp) es una zonificacion que cubre toda la jurisdiccion en clases de importancia; por eso NO se reporta \"dentro de AEIA\" (seria ~100%) sino el subconjunto de mayor valor ecologico (Muy importante + Importante) y el desglose por clase en deforestacion_por_clase_aeia_ha.",

@@ -61,7 +61,7 @@ El proceso de transformación está implementado en `etl/run_etl.py` y ejecuta s
 1. **[1/6] Límites municipales.** Se leen los límites municipales, se normalizan los nombres contra la tabla oficial de 19 municipios, se disuelven por municipio, se rellenan huecos, se simplifica la geometría (tolerancia de 80 m) y se reproyecta a WGS84. Resultado: 19 municipios.
 2. **[2/6] Serie municipal por periodo.** Para cada uno de los 18 periodos se elige la mejor fuente disponible (ver sección 6) y se calcula el área por municipio y clase.
 3. **[3/6] Estimación de vacíos.** Solo para la clase Deforestación, se rellenan los periodos sin fuente municipal (2010-2012, 2018-2019, 2023-2024), marcándolos con el indicador `estimado=true` (ver sección 7).
-4. **[4/6] Hotspots de deforestación.** Se generan los polígonos de deforestación (parches de deforestación (incluidos los de menos de 1 ha)) por periodo, recortados a la jurisdicción y simplificados, para el visor y los cruces temáticos.
+4. **[4/6] Hotspots de deforestación.** Se generan los polígonos de deforestación (parches, incluidos los de menos de 1 ha) por periodo, recortados a la jurisdicción y simplificados, para el visor y los cruces temáticos.
 5. **[5/6] Capas de contexto (overlays).** Se procesan y publican las capas de áreas protegidas (21 unidades), resguardos (39), consejos comunitarios (7) y cuencas (7), junto con las demás capas de cartografía oficial.
 6. **[6/6] Control de calidad.** Se compara la serie derivada contra las hojas "Cálculos" de los Excel originales (ver sección 9).
 
@@ -144,23 +144,23 @@ Estas diferencias milimétricas provienen de la disolución geométrica y la sim
 
 ## 10. Cruces temáticos con la cartografía oficial
 
-Los cruces temáticos se realizan **intersecando geométricamente los hotspots de deforestación (parches de deforestación (incluidos los de menos de 1 ha)) con las capas de cartografía oficial**, en el sistema proyectado métrico y repartiendo el área sin doble conteo. Se computan sobre los 12 periodos que cuentan con geometría de hotspots. Principales resultados verificados:
+Los cruces temáticos se realizan **intersecando geométricamente los hotspots de deforestación (parches, incluidos los de menos de 1 ha) con las capas de cartografía oficial**, en el sistema proyectado métrico y repartiendo el área sin doble conteo. Se computan sobre los 12 periodos que cuentan con geometría de hotspots. Principales resultados verificados:
 
-- **Minería.** Sobre 32.409,5 ha de deforestación mapeada, el **30,2 %** (9.786,5 ha) cae dentro de un título minero o una solicitud minera vigente: 11,0 % dentro de títulos otorgados y 19,2 % dentro de solicitudes en evaluación.
+- **Minería.** Sobre 29.376,9 ha de deforestación mapeada, el **40,8 %** (11.988,4 ha) cae dentro de un título minero o una solicitud minera vigente: 14,9 % dentro de títulos otorgados y 25,9 % dentro de solicitudes en evaluación.
 - **Áreas protegidas.** El **12,6 %** de la deforestación mapeada (3.362 ha en los 10 periodos comparables) ocurrió dentro de áreas protegidas; el DRMI Serranía de Abibe concentra 1.903 ha (57 % del total en AP).
-- **Reserva Forestal Ley 2ª de 1959.** El 34,5 % de la deforestación mapeada intersecta la reserva (recortada previamente a la jurisdicción para no inflar el dato con deforestación externa del Chocó).
-- **POMCAS y cuencas.** Las 7 cuencas monitoreadas acumulan deforestación mapeada; el POMCA del Río León encabeza con 3.860,1 ha.
-- **Resguardos y consejos comunitarios.** La deforestación mapeada se cruza con los 39 resguardos y 7 consejos; el análisis muestra un desplazamiento de la presión hacia territorios étnicos (del 16,4 % de lo mapeado en 2002-2010 al 40,9 % en 2019-2023).
+- **Reserva Forestal Ley 2ª de 1959.** El 35,8 % de la deforestación mapeada intersecta la reserva (recortada previamente a la jurisdicción para no inflar el dato con deforestación externa del Chocó).
+- **POMCAS y cuencas.** Las 7 cuencas monitoreadas acumulan deforestación mapeada; el POMCA del Río León encabeza con 4.738,5 ha.
+- **Resguardos y consejos comunitarios.** La deforestación mapeada se cruza con los 39 resguardos y 7 consejos; el análisis muestra un desplazamiento de la presión hacia territorios étnicos (del 16,6 % de lo mapeado en 2002-2010 al 40,6 % en 2019-2023).
 
 Todas estas cifras corresponden a **deforestación mapeada** (basada en la geometría de hotspots), no al total de la serie municipal, y así se declaran en la plataforma.
 
 ## 11. Limitaciones y nota de honestidad del dato
 
-- **Cobertura de geometría.** Solo **12 de los 18 periodos** disponen de geometría de hotspots (parches de deforestación (incluidos los de menos de 1 ha)). Los cruces temáticos y el visor de parches se limitan por tanto a esos periodos.
-- **Fracción mapeada.** La geometría de hotspots representa aproximadamente el **65 % de la deforestación** de la jurisdicción; el resto se conoce a nivel de agregado municipal (serie municipal) pero sin polígono asociado. Por eso los porcentajes de los cruces temáticos se calculan siempre sobre el subconjunto mapeado y no sobre el total de la serie.
+- **Cobertura de geometría.** Solo **12 de los 18 periodos** disponen de geometría de hotspots (parches, incluidos los de menos de 1 ha). Los cruces temáticos y el visor de parches se limitan por tanto a esos periodos.
+- **Fracción mapeada.** La geometría de hotspots representa aproximadamente el **64 % de la deforestación** de la jurisdicción (≈29.918 ha de las 46.846 ha totales); el resto se conoce a nivel de agregado municipal (serie municipal) pero sin polígono asociado. Por eso los porcentajes de los cruces temáticos se calculan siempre sobre el subconjunto mapeado y no sobre el total de la serie.
 - **Periodos estimados.** 2010-2012, 2018-2019 y 2023-2024 no son cifra oficial; son referencias de tendencia calculadas por interpolación, extrapolación o calibración, y están marcados con `estimado=true`.
 - **2015-2016 sin geometría.** Es dato medido en cifras (tabla municipal `.dbf`), pero no tiene polígonos, por lo que no aparece en el visor de parches.
-- **Umbral de parche.** Los hotspots aplican un umbral mínimo de 0,09 ha (un píxel de 30 m del ráster), por lo que incluye los focos de menos de 1 ha; solo se descarta el ruido por debajo de ese tamaño, aunque sí se contabiliza en la serie municipal cuando la fuente lo permite.
+- **Umbral de parche.** Los hotspots aplican un umbral mínimo de 0,09 ha (un píxel de 30 m del ráster), por lo que incluyen los focos de menos de 1 ha; solo se descarta el ruido por debajo de ese tamaño. La deforestación no representada como polígono (los 6 periodos sin geometría) sí se contabiliza en la serie municipal cuando la fuente lo permite.
 
 Estas limitaciones se comunican de forma transparente en la propia plataforma, de modo que ningún usuario confunda un dato estimado con una medición directa ni un porcentaje sobre lo mapeado con un porcentaje sobre el total de la jurisdicción.
 
@@ -169,5 +169,5 @@ Estas limitaciones se comunican de forma transparente en la propia plataforma, d
 Documento verificado contra archivos reales en `E:\drive-download-20260703T192518Z-3-001\observatorio-deforestacion`:
 - `data/processed/metadata.json` (fuentes por periodo, log del ETL, QA, overlays, nota 2015-2016 y estimados)
 - `data/processed/serie_regional.csv` (pico 2015-2016 = 5.771,04 ha; total deforestación = 46.845,5 ha ≈ 46.846)
-- `data/processed/analisis/cartografia/mineria_resumen.json` (30,2 % en minería), `figuras_resumen.json` (34,5 % Ley 2ª), `pomcas_resumen.json`, `hallazgos.json` (12,6 % en áreas protegidas)
+- `data/processed/analisis/cartografia/mineria_resumen.json` (40,8 % en minería), `figuras_resumen.json` (35,8 % Ley 2ª), `pomcas_resumen.json`, `hallazgos.json` (12,6 % en áreas protegidas)
 - `etl/run_etl.py` (6 pasos, priorización de fuentes, calibración RAT participación 17,9 %, estimación por interpolación/tendencia, recuperación de 2015-2016 desde `.dbf`)

@@ -38,155 +38,155 @@
   ]
  },
  "totales_2002_2023_mapeado": {
-  "total_mapeado_ha": 32409.6,
-  "defo_en_resguardos_ha": 3429.6,
-  "defo_en_consejos_ha": 2794.8,
-  "defo_en_colectivos_union_ha": 6224.5,
-  "doble_conteo_evitado_ha": -0.1,
-  "pct_mapeado_en_colectivos": 19.2,
-  "pct_mapeado_en_resguardos": 10.6,
-  "pct_mapeado_en_consejos": 8.6,
-  "densidad_defo_dentro_colectivos_pct_area": 1.14,
-  "densidad_defo_fuera_colectivos_pct_area": 2.0
+  "total_mapeado_ha": 29376.8,
+  "defo_en_resguardos_ha": 4347.9,
+  "defo_en_consejos_ha": 3230.8,
+  "defo_en_colectivos_union_ha": 7578.6,
+  "doble_conteo_evitado_ha": 0.1,
+  "pct_mapeado_en_colectivos": 25.8,
+  "pct_mapeado_en_resguardos": 14.8,
+  "pct_mapeado_en_consejos": 11.0,
+  "densidad_defo_dentro_colectivos_pct_area": 1.38,
+  "densidad_defo_fuera_colectivos_pct_area": 1.66
  },
  "serie_por_periodo": [
   {
    "periodo": "2002-2004",
    "ano_inicio": 2002,
    "ano_fin": 2004,
-   "total_mapeado_ha": 2917.3,
-   "defo_resguardos_ha": 129.8,
-   "defo_consejos_ha": 133.9,
-   "defo_colectivos_ha": 263.7,
-   "pct_colectivos": 9.0
+   "total_mapeado_ha": 3623.0,
+   "defo_resguardos_ha": 181.2,
+   "defo_consejos_ha": 176.7,
+   "defo_colectivos_ha": 357.9,
+   "pct_colectivos": 9.9
   },
   {
    "periodo": "2004-2006",
    "ano_inicio": 2004,
    "ano_fin": 2006,
-   "total_mapeado_ha": 2447.0,
-   "defo_resguardos_ha": 369.6,
-   "defo_consejos_ha": 222.0,
-   "defo_colectivos_ha": 591.6,
-   "pct_colectivos": 24.2
+   "total_mapeado_ha": 2949.9,
+   "defo_resguardos_ha": 443.0,
+   "defo_consejos_ha": 260.3,
+   "defo_colectivos_ha": 703.3,
+   "pct_colectivos": 23.8
   },
   {
    "periodo": "2006-2008",
    "ano_inicio": 2006,
    "ano_fin": 2008,
-   "total_mapeado_ha": 1846.3,
-   "defo_resguardos_ha": 143.9,
-   "defo_consejos_ha": 56.6,
-   "defo_colectivos_ha": 200.5,
+   "total_mapeado_ha": 2459.0,
+   "defo_resguardos_ha": 195.0,
+   "defo_consejos_ha": 73.9,
+   "defo_colectivos_ha": 268.9,
    "pct_colectivos": 10.9
   },
   {
    "periodo": "2008-2010",
    "ano_inicio": 2008,
    "ano_fin": 2010,
-   "total_mapeado_ha": 2300.1,
-   "defo_resguardos_ha": 164.7,
-   "defo_consejos_ha": 354.1,
-   "defo_colectivos_ha": 518.8,
-   "pct_colectivos": 22.6
+   "total_mapeado_ha": 2851.8,
+   "defo_resguardos_ha": 237.0,
+   "defo_consejos_ha": 391.0,
+   "defo_colectivos_ha": 628.0,
+   "pct_colectivos": 22.0
   },
   {
    "periodo": "2012-2013",
    "ano_inicio": 2012,
    "ano_fin": 2013,
-   "total_mapeado_ha": 10050.6,
-   "defo_resguardos_ha": 123.5,
-   "defo_consejos_ha": 63.8,
-   "defo_colectivos_ha": 187.3,
-   "pct_colectivos": 1.9
+   "total_mapeado_ha": 2234.9,
+   "defo_resguardos_ha": 155.3,
+   "defo_consejos_ha": 74.7,
+   "defo_colectivos_ha": 230.0,
+   "pct_colectivos": 10.3
   },
   {
    "periodo": "2013-2014",
    "ano_inicio": 2013,
    "ano_fin": 2014,
-   "total_mapeado_ha": 3080.6,
-   "defo_resguardos_ha": 283.5,
-   "defo_consejos_ha": 924.6,
-   "defo_colectivos_ha": 1208.1,
-   "pct_colectivos": 39.2
+   "total_mapeado_ha": 3504.7,
+   "defo_resguardos_ha": 338.3,
+   "defo_consejos_ha": 967.3,
+   "defo_colectivos_ha": 1305.6,
+   "pct_colectivos": 37.3
   },
   {
    "periodo": "2016-2017",
    "ano_inicio": 2016,
    "ano_fin": 2017,
-   "total_mapeado_ha": 3023.1,
-   "defo_resguardos_ha": 615.4,
-   "defo_consejos_ha": 248.7,
-   "defo_colectivos_ha": 864.1,
-   "pct_colectivos": 28.6
+   "total_mapeado_ha": 3813.8,
+   "defo_resguardos_ha": 800.1,
+   "defo_consejos_ha": 309.0,
+   "defo_colectivos_ha": 1109.1,
+   "pct_colectivos": 29.1
   },
   {
    "periodo": "2017-2018",
    "ano_inicio": 2017,
    "ano_fin": 2018,
-   "total_mapeado_ha": 1545.8,
-   "defo_resguardos_ha": 208.6,
-   "defo_consejos_ha": 177.0,
-   "defo_colectivos_ha": 385.6,
-   "pct_colectivos": 24.9
+   "total_mapeado_ha": 1745.9,
+   "defo_resguardos_ha": 267.4,
+   "defo_consejos_ha": 210.5,
+   "defo_colectivos_ha": 477.9,
+   "pct_colectivos": 27.4
   },
   {
    "periodo": "2019-2020",
    "ano_inicio": 2019,
    "ano_fin": 2020,
-   "total_mapeado_ha": 1459.8,
-   "defo_resguardos_ha": 300.9,
-   "defo_consejos_ha": 158.8,
-   "defo_colectivos_ha": 459.7,
-   "pct_colectivos": 31.5
+   "total_mapeado_ha": 1702.2,
+   "defo_resguardos_ha": 379.1,
+   "defo_consejos_ha": 183.9,
+   "defo_colectivos_ha": 563.0,
+   "pct_colectivos": 33.1
   },
   {
    "periodo": "2020-2021",
    "ano_inicio": 2020,
    "ano_fin": 2021,
-   "total_mapeado_ha": 922.9,
-   "defo_resguardos_ha": 244.6,
-   "defo_consejos_ha": 156.2,
-   "defo_colectivos_ha": 400.8,
-   "pct_colectivos": 43.4
+   "total_mapeado_ha": 1069.7,
+   "defo_resguardos_ha": 294.9,
+   "defo_consejos_ha": 183.4,
+   "defo_colectivos_ha": 478.2,
+   "pct_colectivos": 44.7
   },
   {
    "periodo": "2021-2022",
    "ano_inicio": 2021,
    "ano_fin": 2022,
-   "total_mapeado_ha": 1949.0,
-   "defo_resguardos_ha": 612.1,
-   "defo_consejos_ha": 203.8,
-   "defo_colectivos_ha": 816.0,
-   "pct_colectivos": 41.9
+   "total_mapeado_ha": 2289.0,
+   "defo_resguardos_ha": 722.8,
+   "defo_consejos_ha": 260.1,
+   "defo_colectivos_ha": 982.9,
+   "pct_colectivos": 42.9
   },
   {
    "periodo": "2022-2023",
    "ano_inicio": 2022,
    "ano_fin": 2023,
-   "total_mapeado_ha": 867.1,
-   "defo_resguardos_ha": 233.0,
-   "defo_consejos_ha": 95.3,
-   "defo_colectivos_ha": 328.3,
-   "pct_colectivos": 37.9
+   "total_mapeado_ha": 1132.9,
+   "defo_resguardos_ha": 333.8,
+   "defo_consejos_ha": 140.0,
+   "defo_colectivos_ha": 473.8,
+   "pct_colectivos": 41.8
   }
  ],
  "tendencia_pct_colectivos": {
-  "pct_promedio_2002_2010": 16.7,
-  "pct_promedio_2019_2023": 38.7,
+  "pct_promedio_2002_2010": 16.6,
+  "pct_promedio_2019_2023": 40.6,
   "pct_por_periodo": {
-   "2002-2004": 9.0,
-   "2004-2006": 24.2,
+   "2002-2004": 9.9,
+   "2004-2006": 23.8,
    "2006-2008": 10.9,
-   "2008-2010": 22.6,
-   "2012-2013": 1.9,
-   "2013-2014": 39.2,
-   "2016-2017": 28.6,
-   "2017-2018": 24.9,
-   "2019-2020": 31.5,
-   "2020-2021": 43.4,
-   "2021-2022": 41.9,
-   "2022-2023": 37.9
+   "2008-2010": 22.0,
+   "2012-2013": 10.3,
+   "2013-2014": 37.3,
+   "2016-2017": 29.1,
+   "2017-2018": 27.4,
+   "2019-2020": 33.1,
+   "2020-2021": 44.7,
+   "2021-2022": 42.9,
+   "2022-2023": 41.8
   }
  },
  "top_resguardos": [
@@ -195,90 +195,90 @@
    "pueblo": "Embera Katío",
    "municipios": "Murindó, Dabeiba",
    "area_oficial_ha": 18381.7,
-   "deforestacion_ha_total": 468.3,
+   "deforestacion_ha_total": 576.6,
    "pct_en_jurisdiccion": 99.9,
-   "pct_del_territorio": 2.55
+   "pct_del_territorio": 3.14
   },
   {
    "nombre": "Chaquenoda",
    "pueblo": "Embera Katío",
    "municipios": "Frontino, Dabeiba",
    "area_oficial_ha": 15143.7,
-   "deforestacion_ha_total": 452.6,
+   "deforestacion_ha_total": 557.8,
    "pct_en_jurisdiccion": 100.0,
-   "pct_del_territorio": 2.99
+   "pct_del_territorio": 3.68
   },
   {
    "nombre": "Andabu",
    "pueblo": "Embera Katío",
    "municipios": "Urrao",
    "area_oficial_ha": 16505.6,
-   "deforestacion_ha_total": 361.6,
+   "deforestacion_ha_total": 461.6,
    "pct_en_jurisdiccion": 99.9,
-   "pct_del_territorio": 2.19
+   "pct_del_territorio": 2.8
   },
   {
    "nombre": "Murripantanos",
    "pueblo": "Embera Katío",
    "municipios": "Frontino, Vigía del Fuerte, Urrao, Dabeiba, Murindó",
    "area_oficial_ha": 31730.4,
-   "deforestacion_ha_total": 256.6,
+   "deforestacion_ha_total": 312.2,
    "pct_en_jurisdiccion": 100.0,
-   "pct_del_territorio": 0.81
+   "pct_del_territorio": 0.98
   },
   {
    "nombre": "Majore Ambura",
    "pueblo": "Embera Katío",
    "municipios": "Urrao",
    "area_oficial_ha": 6800.2,
-   "deforestacion_ha_total": 235.9,
+   "deforestacion_ha_total": 285.2,
    "pct_en_jurisdiccion": 100.0,
-   "pct_del_territorio": 3.47
+   "pct_del_territorio": 4.19
   },
   {
    "nombre": "Yaberarado (Abibe Chigorodo)",
    "pueblo": "Embera Katío",
    "municipios": "Chigorodó, Mutatá",
    "area_oficial_ha": 9562.1,
-   "deforestacion_ha_total": 204.4,
+   "deforestacion_ha_total": 282.6,
    "pct_en_jurisdiccion": 98.8,
-   "pct_del_territorio": 2.14
+   "pct_del_territorio": 2.96
   },
   {
    "nombre": "Caiman Nuevo O Atlantico",
    "pueblo": "Tule/Guna (Cuna)",
    "municipios": "Turbo, Necoclí",
    "area_oficial_ha": 8074.9,
-   "deforestacion_ha_total": 180.8,
+   "deforestacion_ha_total": 262.1,
    "pct_en_jurisdiccion": 99.7,
-   "pct_del_territorio": 2.24
-  },
-  {
-   "nombre": "Rio Chajerado",
-   "pueblo": "Embera",
-   "municipios": "Murindó, Dabeiba, Vigía del Fuerte, Frontino",
-   "area_oficial_ha": 41759.6,
-   "deforestacion_ha_total": 169.8,
-   "pct_en_jurisdiccion": 100.0,
-   "pct_del_territorio": 0.41
+   "pct_del_territorio": 3.25
   },
   {
    "nombre": "Jaikerazavi (Abibe Mutata)",
    "pueblo": "Embera Katío",
    "municipios": "Mutatá",
    "area_oficial_ha": 34629.2,
-   "deforestacion_ha_total": 163.1,
+   "deforestacion_ha_total": 216.2,
    "pct_en_jurisdiccion": 96.7,
-   "pct_del_territorio": 0.47
+   "pct_del_territorio": 0.62
+  },
+  {
+   "nombre": "Rio Chajerado",
+   "pueblo": "Embera",
+   "municipios": "Murindó, Dabeiba, Vigía del Fuerte, Frontino",
+   "area_oficial_ha": 41759.6,
+   "deforestacion_ha_total": 203.8,
+   "pct_en_jurisdiccion": 100.0,
+   "pct_del_territorio": 0.49
   },
   {
    "nombre": "Pavarando Y Amparrado Medio",
    "pueblo": "Embera",
    "municipios": "Dabeiba, Murindó, Mutatá",
    "area_oficial_ha": 22039.7,
-   "deforestacion_ha_total": 149.7,
+   "deforestacion_ha_total": 184.1,
    "pct_en_jurisdiccion": 97.9,
-   "pct_del_territorio": 0.68
+   "pct_del_territorio": 0.84
   }
  ],
  "top_consejos": [
@@ -287,72 +287,72 @@
    "pueblo": null,
    "municipios": "Vigía del Fuerte, Murindó, Urrao",
    "area_oficial_ha": 177153.1,
-   "deforestacion_ha_total": 1056.5,
+   "deforestacion_ha_total": 1334.8,
    "pct_en_jurisdiccion": 99.4,
-   "pct_del_territorio": 0.6
+   "pct_del_territorio": 0.75
   },
   {
    "nombre": "Bocas De Atrato Y Leoncito",
    "pueblo": null,
    "municipios": "Turbo",
    "area_oficial_ha": 34338.5,
-   "deforestacion_ha_total": 1022.8,
+   "deforestacion_ha_total": 1057.2,
    "pct_en_jurisdiccion": 99.5,
-   "pct_del_territorio": 2.98
+   "pct_del_territorio": 3.08
   },
   {
    "nombre": "Por El Desarrollo Integral",
    "pueblo": null,
    "municipios": "Murindó",
    "area_oficial_ha": 11670.5,
-   "deforestacion_ha_total": 303.8,
+   "deforestacion_ha_total": 360.8,
    "pct_en_jurisdiccion": 88.4,
-   "pct_del_territorio": 2.6
+   "pct_del_territorio": 3.09
   },
   {
    "nombre": "Por La Identidad Cultural (Mandé)",
    "pueblo": null,
    "municipios": "Urrao, Frontino",
    "area_oficial_ha": 12581.9,
-   "deforestacion_ha_total": 220.3,
+   "deforestacion_ha_total": 266.5,
    "pct_en_jurisdiccion": 99.9,
-   "pct_del_territorio": 1.75
+   "pct_del_territorio": 2.12
   },
   {
    "nombre": "Manatíes",
    "pueblo": null,
    "municipios": "Turbo",
    "area_oficial_ha": 4366.4,
-   "deforestacion_ha_total": 151.8,
+   "deforestacion_ha_total": 164.8,
    "pct_en_jurisdiccion": 100.0,
-   "pct_del_territorio": 3.48
+   "pct_del_territorio": 3.77
   },
   {
    "nombre": "Mayor Del Bajo Atrato",
    "pueblo": null,
    "municipios": "Turbo",
    "area_oficial_ha": 3188.4,
-   "deforestacion_ha_total": 24.4,
+   "deforestacion_ha_total": 30.2,
    "pct_en_jurisdiccion": 96.4,
-   "pct_del_territorio": 0.77
+   "pct_del_territorio": 0.95
   },
   {
    "nombre": "Los Ríos La Larga Y Tumaradó",
    "pueblo": null,
    "municipios": "Turbo",
    "area_oficial_ha": 1802.2,
-   "deforestacion_ha_total": 13.4,
+   "deforestacion_ha_total": 13.2,
    "pct_en_jurisdiccion": 23.5,
-   "pct_del_territorio": 0.74
+   "pct_del_territorio": 0.73
   },
   {
    "nombre": "Los Mangos",
    "pueblo": null,
    "municipios": "Turbo",
    "area_oficial_ha": 364.6,
-   "deforestacion_ha_total": 1.9,
+   "deforestacion_ha_total": 3.2,
    "pct_en_jurisdiccion": 100.0,
-   "pct_del_territorio": 0.52
+   "pct_del_territorio": 0.88
   },
   {
    "nombre": "La Grande",
@@ -394,19 +394,19 @@
  "deforestacion_por_pueblo": [
   {
    "pueblo": "Embera Katío",
-   "defo_mapeada_ha": 2652.6
+   "defo_mapeada_ha": 3341.8
   },
   {
    "pueblo": "Embera",
-   "defo_mapeada_ha": 596.2
+   "defo_mapeada_ha": 743.8
   },
   {
    "pueblo": "Tule/Guna (Cuna)",
-   "defo_mapeada_ha": 180.8
+   "defo_mapeada_ha": 262.1
   },
   {
    "pueblo": "Senú/Zenú",
-   "defo_mapeada_ha": 0.2
+   "defo_mapeada_ha": 0.1
   },
   {
    "pueblo": "Embera Chamí",
@@ -422,23 +422,155 @@
    "disponible": true,
    "n_territorios": 39,
    "area_ha": 326057.2,
-   "defo_mapeada_ha": 3493.4
+   "defo_mapeada_ha": 4445.2
   },
   "consejos": {
    "disponible": true,
    "n_territorios": 7,
    "area_ha": 235930.9,
-   "defo_mapeada_ha": 2730.3
+   "defo_mapeada_ha": 3157.0
   }
  },
  "comparacion_series_previas": {
   "resguardos": {
-   "disponible": false,
-   "nota": "resguardos_serie.csv no existe al momento de este análisis"
+   "disponible": true,
+   "periodos_comunes": [
+    "2002-2004",
+    "2004-2006",
+    "2006-2008",
+    "2008-2010",
+    "2016-2017",
+    "2017-2018",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2023"
+   ],
+   "suma_previo_monitoreo_ha": 4038.6,
+   "suma_oficial_hotspots_ha": 3854.3,
+   "razon_oficial_vs_previo": 0.954,
+   "detalle_por_periodo": [
+    {
+     "periodo": "2002-2004",
+     "previo_monitoreo_ha": 209.7,
+     "oficial_hotspots_ha": 181.2
+    },
+    {
+     "periodo": "2004-2006",
+     "previo_monitoreo_ha": 458.3,
+     "oficial_hotspots_ha": 443.0
+    },
+    {
+     "periodo": "2006-2008",
+     "previo_monitoreo_ha": 196.1,
+     "oficial_hotspots_ha": 195.0
+    },
+    {
+     "periodo": "2008-2010",
+     "previo_monitoreo_ha": 243.9,
+     "oficial_hotspots_ha": 237.0
+    },
+    {
+     "periodo": "2016-2017",
+     "previo_monitoreo_ha": 852.9,
+     "oficial_hotspots_ha": 800.1
+    },
+    {
+     "periodo": "2017-2018",
+     "previo_monitoreo_ha": 273.7,
+     "oficial_hotspots_ha": 267.4
+    },
+    {
+     "periodo": "2019-2020",
+     "previo_monitoreo_ha": 412.8,
+     "oficial_hotspots_ha": 379.1
+    },
+    {
+     "periodo": "2020-2021",
+     "previo_monitoreo_ha": 290.5,
+     "oficial_hotspots_ha": 294.9
+    },
+    {
+     "periodo": "2021-2022",
+     "previo_monitoreo_ha": 754.6,
+     "oficial_hotspots_ha": 722.8
+    },
+    {
+     "periodo": "2022-2023",
+     "previo_monitoreo_ha": 346.1,
+     "oficial_hotspots_ha": 333.8
+    }
+   ]
   },
   "consejos": {
-   "disponible": false,
-   "nota": "consejos_serie.csv no existe al momento de este análisis"
+   "disponible": true,
+   "periodos_comunes": [
+    "2002-2004",
+    "2004-2006",
+    "2006-2008",
+    "2008-2010",
+    "2016-2017",
+    "2017-2018",
+    "2019-2020",
+    "2020-2021",
+    "2021-2022",
+    "2022-2023"
+   ],
+   "suma_previo_monitoreo_ha": 2157.6,
+   "suma_oficial_hotspots_ha": 2188.8,
+   "razon_oficial_vs_previo": 1.014,
+   "detalle_por_periodo": [
+    {
+     "periodo": "2002-2004",
+     "previo_monitoreo_ha": 185.4,
+     "oficial_hotspots_ha": 176.7
+    },
+    {
+     "periodo": "2004-2006",
+     "previo_monitoreo_ha": 246.7,
+     "oficial_hotspots_ha": 260.3
+    },
+    {
+     "periodo": "2006-2008",
+     "previo_monitoreo_ha": 76.1,
+     "oficial_hotspots_ha": 73.9
+    },
+    {
+     "periodo": "2008-2010",
+     "previo_monitoreo_ha": 368.7,
+     "oficial_hotspots_ha": 391.0
+    },
+    {
+     "periodo": "2016-2017",
+     "previo_monitoreo_ha": 308.2,
+     "oficial_hotspots_ha": 309.0
+    },
+    {
+     "periodo": "2017-2018",
+     "previo_monitoreo_ha": 202.6,
+     "oficial_hotspots_ha": 210.5
+    },
+    {
+     "periodo": "2019-2020",
+     "previo_monitoreo_ha": 183.0,
+     "oficial_hotspots_ha": 183.9
+    },
+    {
+     "periodo": "2020-2021",
+     "previo_monitoreo_ha": 183.7,
+     "oficial_hotspots_ha": 183.4
+    },
+    {
+     "periodo": "2021-2022",
+     "previo_monitoreo_ha": 262.8,
+     "oficial_hotspots_ha": 260.1
+    },
+    {
+     "periodo": "2022-2023",
+     "previo_monitoreo_ha": 140.4,
+     "oficial_hotspots_ha": 140.0
+    }
+   ]
   }
  },
  "advertencias": [
@@ -459,19 +591,19 @@
   "  consejos: 4 de 12 territorios con <50% del área dentro de la jurisdicción CORPOURABA",
   "[3/5] cruce con hotspots (12 periodos)",
   "  hotspots: 12 periodos → 2002-2004, 2004-2006, 2006-2008, 2008-2010, 2012-2013, 2013-2014, 2016-2017, 2017-2018, 2019-2020, 2020-2021, 2021-2022, 2022-2023",
-  "    2002-2004: mapeado  2,917.3 ha | colectivos   263.7 ha (9.0%)",
-  "    2004-2006: mapeado  2,447.0 ha | colectivos   591.6 ha (24.2%)",
-  "    2006-2008: mapeado  1,846.3 ha | colectivos   200.5 ha (10.9%)",
-  "    2008-2010: mapeado  2,300.1 ha | colectivos   518.8 ha (22.6%)",
-  "    2012-2013: mapeado 10,050.6 ha | colectivos   187.3 ha (1.9%)",
-  "    2013-2014: mapeado  3,080.6 ha | colectivos 1,208.1 ha (39.2%)",
-  "    2016-2017: mapeado  3,023.1 ha | colectivos   864.1 ha (28.6%)",
-  "    2017-2018: mapeado  1,545.8 ha | colectivos   385.6 ha (24.9%)",
-  "    2019-2020: mapeado  1,459.8 ha | colectivos   459.7 ha (31.5%)",
-  "    2020-2021: mapeado    922.9 ha | colectivos   400.8 ha (43.4%)",
-  "    2021-2022: mapeado  1,949.0 ha | colectivos   816.0 ha (41.9%)",
-  "    2022-2023: mapeado    867.1 ha | colectivos   328.3 ha (37.9%)",
-  "  [QA] divergencia máx. área geométrica vs propiedad 'ha' de hotspots: 6.02%",
+  "    2002-2004: mapeado  3,623.0 ha | colectivos   357.9 ha (9.9%)",
+  "    2004-2006: mapeado  2,949.9 ha | colectivos   703.3 ha (23.8%)",
+  "    2006-2008: mapeado  2,459.0 ha | colectivos   268.9 ha (10.9%)",
+  "    2008-2010: mapeado  2,851.8 ha | colectivos   628.0 ha (22.0%)",
+  "    2012-2013: mapeado  2,234.9 ha | colectivos   230.0 ha (10.3%)",
+  "    2013-2014: mapeado  3,504.7 ha | colectivos 1,305.6 ha (37.3%)",
+  "    2016-2017: mapeado  3,813.8 ha | colectivos 1,109.1 ha (29.1%)",
+  "    2017-2018: mapeado  1,745.9 ha | colectivos   477.9 ha (27.4%)",
+  "    2019-2020: mapeado  1,702.2 ha | colectivos   563.0 ha (33.1%)",
+  "    2020-2021: mapeado  1,069.7 ha | colectivos   478.2 ha (44.7%)",
+  "    2021-2022: mapeado  2,289.0 ha | colectivos   982.9 ha (42.9%)",
+  "    2022-2023: mapeado  1,132.9 ha | colectivos   473.8 ha (41.8%)",
+  "  [QA] divergencia máx. área geométrica vs propiedad 'ha' de hotspots: 2.39%",
   "  CSV: territorios_oficiales.csv (624 filas)",
   "[4/5] comparaciones y síntesis",
   "[5/5] capas web",

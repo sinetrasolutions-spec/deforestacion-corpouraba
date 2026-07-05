@@ -40,7 +40,7 @@ export const SECCIONES: Seccion[] = [
       guardian:
         'Las principales causas son la ganadería extensiva, la expansión de cultivos, la tala y la apertura de vías. La deforestación en Urabá suele avanzar en pequeños parches: el 92 % de ellos mide menos de 5 hectáreas, señal de colonización gradual.',
       cientifico:
-        'Los motores directos son la praderización para ganadería, la frontera agrícola, la extracción de madera y la infraestructura vial. El patrón espacial es de atomización (mediana de parche 1,7 ha; tamaño medio estable ~2,8 ha), con frentes recurrentes en el piedemonte de la vía al mar (Mutatá–Dabeiba) activos en 10 de 12 periodos.',
+        'Los motores directos son la praderización para ganadería, la frontera agrícola, la extracción de madera y la infraestructura vial. El patrón espacial es de atomización (mediana de parche cerca de 1 ha; tamaño medio ~1,6 ha), con frentes recurrentes en el piedemonte de la vía al mar (Mutatá–Dabeiba) activos en 11 de 12 periodos.',
     },
   },
   {
@@ -52,7 +52,7 @@ export const SECCIONES: Seccion[] = [
       guardian:
         'La pérdida de bosque fragmenta el hábitat de especies como el jaguar y el tití gris, altera el ciclo del agua en cuencas abastecedoras y aumenta la erosión. La cuenca del río León, clave para el eje bananero, ha perdido 6.333 ha de bosque.',
       cientifico:
-        'Los impactos incluyen pérdida de conectividad ecológica y biodiversidad, alteración de servicios hídricos (la cuenca del río León acumula 6.333 ha deforestadas, 2,9 % de su área), aumento de emisiones de carbono y presión sobre territorios colectivos, que pasaron de concentrar el 16,4 % de la deforestación (2002–2010) al 40,9 % (2019–2023).',
+        'Los impactos incluyen pérdida de conectividad ecológica y biodiversidad, alteración de servicios hídricos (la cuenca del río León acumula 6.333 ha deforestadas, 2,9 % de su área), aumento de emisiones de carbono y presión sobre territorios colectivos, que pasaron de concentrar el 16,6 % de la deforestación (2002–2010) al 40,6 % (2019–2023).',
     },
   },
   {
@@ -76,7 +76,7 @@ export const SECCIONES: Seccion[] = [
       guardian:
         'La restauración de áreas degradadas, los sistemas agroforestales, los acuerdos de conservación y la educación ambiental (PRAES) ayudan a frenar la pérdida. Un colegio puede monitorear un bosque cercano, sembrar especies nativas y difundir estos datos.',
       cientifico:
-        'Las soluciones basadas en la naturaleza incluyen restauración pasiva y activa, sistemas agroforestales y silvopastoriles, esquemas de pago por servicios ambientales y acuerdos de conservación con comunidades. Priorizar los frentes persistentes (1.039 celdas concentran el 72 % de la pérdida) maximiza el impacto del control territorial.',
+        'Las soluciones basadas en la naturaleza incluyen restauración pasiva y activa, sistemas agroforestales y silvopastoriles, esquemas de pago por servicios ambientales y acuerdos de conservación con comunidades. Priorizar los frentes persistentes (1.411 celdas concentran el 79 % de la pérdida) maximiza el impacto del control territorial.',
     },
   },
 ];
@@ -113,7 +113,7 @@ export const QUIZ: Record<Nivel, Pregunta[]> = {
     { pregunta: '¿Cuánto bosque estable quedaba en 2022-2023?', opciones: ['≈870.305 ha', '≈46.845 ha', '≈1,86 M ha'], correcta: 0, explicacion: 'Bosque estable 2022-2023 ≈ 870.305 ha (era 908.114 en 2000-2002).' },
     { pregunta: '¿Qué municipio perdió más bosque en hectáreas?', opciones: ['Turbo (18.424 ha)', 'Apartadó', 'Arboletes'], correcta: 0, explicacion: 'Turbo lidera en pérdida absoluta (-24,6 % de su bosque).' },
     { pregunta: '¿Qué municipio perdió la MAYOR fracción de su bosque?', opciones: ['Carepa (-43,2 %)', 'Murindó', 'Vigía del Fuerte'], correcta: 0, explicacion: 'Carepa conserva solo el 56,8 % de su bosque de 2000.' },
-    { pregunta: 'Los frentes persistentes (≥3 periodos) concentran…', opciones: ['El 72 % de la pérdida', 'El 10 %', 'El 100 %'], correcta: 0, explicacion: '1.039 celdas de 2×2 km concentran el 72,2 % de las ha.' },
+    { pregunta: 'Los frentes persistentes (≥3 periodos) concentran…', opciones: ['El 79 % de la pérdida', 'El 10 %', 'El 100 %'], correcta: 0, explicacion: '1.411 celdas de 2×2 km concentran el 78,9 % de las ha.' },
     { pregunta: 'Fracción étnica de la deforestación 2019–2023:', opciones: ['40,9 %', '5 %', '16,4 %'], correcta: 0, explicacion: 'Subió del 16,4 % (2002–2010) al 40,9 % (2019–2023).' },
     { pregunta: '¿Qué pueblo concentra la pérdida en resguardos?', opciones: ['Embera Katío (77 %)', 'Tule/Guna', 'Senú'], correcta: 0, explicacion: '3.478 de 4.513 ha en resguardos son de territorios Embera Katío.' },
     { pregunta: '% de deforestación mapeada dentro de áreas protegidas:', opciones: ['≈12,6 %', '≈50 %', '≈1 %'], correcta: 0, explicacion: '3.362 ha (12,6 %) en 10 periodos comparables; lidera el DRMI Serranía de Abibe.' },
@@ -142,7 +142,7 @@ export const HISTORIAS: {
     municipio: 'Mutatá',
     titulo: 'Mutatá y la serranía de Abibe',
     texto:
-      'En Mutatá se encuentran los frentes de deforestación más persistentes: celdas activas en 10 de los 12 periodos mapeados, sobre la vía al mar. El DRMI Serranía de Abibe es el área protegida más afectada de la región.',
+      'En Mutatá se encuentran los frentes de deforestación más persistentes: celdas activas en 11 de los 12 periodos mapeados, sobre la vía al mar. El DRMI Serranía de Abibe es el área protegida más afectada de la región.',
     serie: [95, 160, 140, 120, 150, 160, 220, 190, 150, 140, 160, 130],
   },
   {
