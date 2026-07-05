@@ -151,8 +151,9 @@ export default function LienzoMapa() {
         setPeriodos(ps);
         setMunicipios(mun);
         // Solo capas oficiales: se ocultan las derivadas del paquete de
-        // monitoreo, redundantes con la cartografía oficial.
-        const OCULTAS = new Set(['areas_protegidas', 'resguardos', 'consejos']);
+        // monitoreo, redundantes con la cartografía oficial. 'cuencas' se
+        // oculta por ser redundante con POMCAS.
+        const OCULTAS = new Set(['areas_protegidas', 'resguardos', 'consejos', 'cuencas']);
         setCapasCatalogo(cat.capas.filter((c) => !OCULTAS.has(c.id)));
       } catch (e) {
         console.error('Error cargando datos base del mapa', e);

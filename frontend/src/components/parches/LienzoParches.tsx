@@ -141,8 +141,9 @@ export default function LienzoParches() {
         // Se muestran solo las capas oficiales de áreas protegidas, resguardos
         // y consejos; se ocultan las derivadas del paquete de monitoreo
         // ('areas_protegidas', 'resguardos', 'consejos') por ser redundantes
-        // con las de la cartografía oficial.
-        const OCULTAS = new Set(['areas_protegidas', 'resguardos', 'consejos']);
+        // con las de la cartografía oficial. 'cuencas' también se oculta por
+        // ser redundante con POMCAS (que ordenan esas mismas cuencas).
+        const OCULTAS = new Set(['areas_protegidas', 'resguardos', 'consejos', 'cuencas']);
         setCapasCatalogo(cat.capas.filter((c) => !OCULTAS.has(c.id)));
         setMunicipios(
           (mun.features ?? [])
@@ -628,7 +629,11 @@ export default function LienzoParches() {
             Descargar GeoJSON del periodo
           </a>
           <p className="mt-3 text-[10px] leading-snug text-[color:var(--tinta-suave)]">
-            Polígonos ≥1 ha de 12 de los 18 periodos (aprox. 65 % de la deforestación total; faltan el pico 2015-2016 y otros 5 periodos sin geometría).
+            Aquí se dibujan solo los polígonos ≥1 ha de los 12 periodos que tienen
+            geometría: ≈25.169 ha, cerca del 54 % del total. Los otros 6 periodos
+            —incluido el pico 2015-2016— solo tienen cifras, no forma en el mapa, y los
+            focos menores de 1 ha no se dibujan. El total real (46.846 ha) está en el
+            dashboard.
           </p>
         </aside>
       )}
