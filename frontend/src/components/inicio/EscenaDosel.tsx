@@ -12,24 +12,13 @@
  */
 import { MutableRefObject, useEffect, useMemo, useRef } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { Html } from '@react-three/drei';
 import * as THREE from 'three';
 
-// ── Paleta (tomada del tema Tailwind del proyecto) ──────────────────────────
-const VERDES = ['#2E8B57', '#257A49', '#1B5E3A', '#175E3A', '#3AA06A'];
+// ── Paleta (verdes más claros para contrastar con el fondo profundo) ────────
+const VERDES = ['#46B87A', '#5FCB90', '#37A566', '#2E8B57', '#7BC796'];
 const COLOR_FONDO = '#062818'; // bosque-950
 const COLOR_TRONCO = '#3B2A1B';
-const COLOR_SUELO = '#123024'; // suelo bajo el dosel (verde muy profundo)
-const AMBAR = '#F97316'; // alerta-500
-
-// Municipios reales con su deforestación 2000–2024 (para los puntos de alerta).
-const ALERTAS: { nombre: string; ha: string; pos: [number, number, number] }[] = [
-  { nombre: 'Turbo', ha: '13.309 ha', pos: [-6.5, 3.4, 1.5] },
-  { nombre: 'Dabeiba', ha: '5.003 ha', pos: [5.8, 3.0, -3.5] },
-  { nombre: 'Mutatá', ha: '4.720 ha', pos: [1.2, 3.2, 4.2] },
-  { nombre: 'Necoclí', ha: '2.351 ha', pos: [-3.0, 2.9, -5.5] },
-  { nombre: 'Chigorodó', ha: '2.111 ha', pos: [8.0, 3.1, 2.0] },
-];
+const COLOR_SUELO = '#3A2C1A'; // tierra desnuda que se revela al talar
 
 // Ruido de valor barato y determinista (suma de senos): colinas suaves y
 // distribución del bosque sin dependencias externas.
@@ -213,34 +202,6 @@ function BarridoSatelital({ reduced }: { reduced: boolean }) {
   );
 }
 
-// ── Puntos de alerta (drei Html: pulsan y muestran tooltip al pasar) ─────────
-function PuntosAlerta({ interactivo }: { interactivo: boolean }) {
-  return (
-    <>
-      {ALERTAS.map((a) => (
-        <Html
-          key={a.nombre}
-          position={a.pos}
-          center
-          distanceFactor={16}
-          zIndexRange={[20, 0]}
-          style={{ pointerEvents: interactivo ? 'auto' : 'none' }}
-        >
-          <div className="grupo-alerta">
-            <span className="punto-alerta" aria-hidden="true" />
-            {interactivo && (
-              <span className="tooltip-alerta" role="tooltip">
-                <strong>{a.nombre}</strong>
-                {a.ha}
-              </span>
-            )}
-          </div>
-        </Html>
-      ))}
-    </>
-  );
-}
-
 // ── Cámara: desciende e inclina con el scroll + parallax de cursor ──────────
 function Camara({
   progresoRef,
@@ -278,13 +239,11 @@ export default function EscenaDosel({
   punteroRef,
   reduced,
   treeCount,
-  interactivo,
 }: {
   progresoRef: MutableRefObject<number>;
   punteroRef: MutableRefObject<{ x: number; y: number }>;
   reduced: boolean;
   treeCount: number;
-  interactivo: boolean;
 }) {
   return (
     <Canvas
@@ -294,14 +253,15 @@ export default function EscenaDosel({
       camera={{ position: [0, 7.5, 15], fov: 42, near: 0.1, far: 120 }}
       onCreated={({ gl }) => gl.setClearColor(new THREE.Color(COLOR_FONDO), 0)}
     >
-      <fog attach="fog" args={[COLOR_FONDO, 16, 44]} />
-      <ambientLight intensity={0.55} color="#8Fe0b0" />
-      <hemisphereLight intensity={0.4} color="#bff3d0" groundColor="#0a2018" />
-      <directionalLight position={[-8, 12, 6]} intensity={1.15} color="#ffd9a0" />
+      <fog attach="fog" args={[COLOR_FONDO, 24, 62]} />
+      <ambientLight intensity={0.75} color="#c9f3d8" />
+      <hemisphereLight intensity={0.6} color="#e0fce9" groundColor="#0a2018" />
+      <directionalLight position={[-8, 12, 6]} intensity={1.6} color="#ffe6b0" />
+      {/* Luz de contra (rim) para separar las siluetas del fondo */}
+      <directionalLight position={[7, 5, -9]} intensity={0.9} color="#5fd6a6" />
       <Terreno />
       <Bosque progresoRef={progresoRef} reduced={reduced} treeCount={treeCount} />
       <BarridoSatelital reduced={reduced} />
-      <PuntosAlerta interactivo={interactivo} />
       <Camara progresoRef={progresoRef} punteroRef={punteroRef} reduced={reduced} />
     </Canvas>
   );

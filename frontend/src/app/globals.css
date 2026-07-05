@@ -189,11 +189,23 @@ body {
    Hero "dosel vivo de Urabá" — puntos de alerta (drei Html en portal),
    cursor custom de desktop y brillo del CTA. Respetan reduced-motion.
    ========================================================================== */
-.grupo-alerta {
-  position: relative;
+.capa-alertas {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.marca-alerta {
+  position: absolute;
+  transform: translate(-50%, -50%);
   display: grid;
   place-items: center;
+  padding: 12px; /* área de acierto generosa */
+  background: none;
+  border: 0;
   cursor: pointer;
+  pointer-events: auto;
 }
 .punto-alerta {
   display: block;
@@ -233,8 +245,8 @@ body {
   color: #ffffff;
   font-weight: 600;
 }
-.grupo-alerta:hover .tooltip-alerta,
-.grupo-alerta:focus-within .tooltip-alerta {
+.marca-alerta:hover .tooltip-alerta,
+.marca-alerta:focus-visible .tooltip-alerta {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }

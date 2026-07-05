@@ -16,6 +16,15 @@ const EscenaDosel = dynamic(() => import('./EscenaDosel'), { ssr: false });
 const TOTAL_DEFORESTADO = 46846; // ha reales deforestadas 2000–2024 (serie municipal)
 const TITULO = ['Observatorio', 'de', 'Deforestación', 'CORPOURABA'];
 
+// Municipios reales (deforestación 2000–2024) como puntos de alerta sobre el dosel.
+const ALERTAS = [
+  { nombre: 'Turbo', ha: '13.309 ha', left: '64%', top: '37%' },
+  { nombre: 'Necoclí', ha: '2.351 ha', left: '80%', top: '29%' },
+  { nombre: 'Mutatá', ha: '4.720 ha', left: '58%', top: '56%' },
+  { nombre: 'Dabeiba', ha: '5.003 ha', left: '88%', top: '50%' },
+  { nombre: 'Chigorodó', ha: '2.111 ha', left: '73%', top: '66%' },
+];
+
 const fmt = (n: number) => Math.round(n).toLocaleString('es-CO');
 
 export default function HeroDosel() {
@@ -29,6 +38,7 @@ export default function HeroDosel() {
   const contenidoRef = useRef<HTMLDivElement>(null);
   const ctaRef = useRef<HTMLAnchorElement>(null);
   const cursorRef = useRef<HTMLDivElement>(null);
+  const marcasRef = useRef<HTMLDivElement>(null);
 
   const [entorno, setEntorno] = useState<{ reduced: boolean; movil: boolean; listo: boolean }>({
     reduced: false,
@@ -111,7 +121,7 @@ export default function HeroDosel() {
       if (!movil) {
         const Lenis = (await import('lenis')).default;
         if (cancelado) return;
-        lenis = new Lenis({ duration: 1.1, smoothWheel: true });
+        lenis = new Lenis({ duration: 0.85, smoothWheel: true });
         lenis.on('scroll', ScrollTrigger.update);
         const raf = (t: number) => lenis!.raf(t * 1000);
         gsap.ticker.add(raf);
@@ -127,9 +137,9 @@ export default function HeroDosel() {
         const st = ScrollTrigger.create({
           trigger: seccionRef.current,
           start: 'top top',
-          end: '+=150%',
+          end: '+=85%',
           pin: true,
-          scrub: 1,
+          scrub: 0.6,
           onUpdate: (self) => {
             progresoRef.current = self.progress;
             if (contadorRef.current) {
@@ -137,7 +147,11 @@ export default function HeroDosel() {
             }
             // el contenido de texto cede protagonismo al bosque que cae
             if (contenidoRef.current) {
-              contenidoRef.current.style.opacity = String(1 - Math.max(0, (self.progress - 0.55) / 0.45));
+              contenidoRef.current.style.opacity = String(1 - Math.max(0, (self.progress - 0.5) / 0.5));
+            }
+            // los marcadores del bosque intacto se apagan al empezar a talar
+            if (marcasRef.current) {
+              marcasRef.current.style.opacity = String(Math.max(0, 1 - self.progress / 0.3));
             }
           },
         });
@@ -195,7 +209,6 @@ export default function HeroDosel() {
             punteroRef={punteroRef}
             reduced={entorno.reduced}
             treeCount={treeCount}
-            interactivo={!entorno.movil && !entorno.reduced}
           />
         )}
       </div>
@@ -209,6 +222,27 @@ export default function HeroDosel() {
         className="pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-40 bg-gradient-to-t from-bosque-950 to-transparent"
         aria-hidden="true"
       />
+
+      {/* Puntos de alerta sobre el dosel (municipios reales) — DOM fiable */}
+      {entorno.listo && !entorno.movil && !entorno.reduced && (
+        <div ref={marcasRef} className="capa-alertas">
+          {ALERTAS.map((a) => (
+            <button
+              key={a.nombre}
+              type="button"
+              className="marca-alerta"
+              style={{ left: a.left, top: a.top }}
+              aria-label={`${a.nombre}: ${a.ha} deforestadas entre 2000 y 2024`}
+            >
+              <span className="punto-alerta" aria-hidden="true" />
+              <span className="tooltip-alerta" role="tooltip">
+                <strong>{a.nombre}</strong>
+                {a.ha}
+              </span>
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Contenido (texto y CTA intactos) */}
       <div ref={contenidoRef} className="relative z-10 mx-auto w-full max-w-6xl px-4 py-24 sm:px-6">
